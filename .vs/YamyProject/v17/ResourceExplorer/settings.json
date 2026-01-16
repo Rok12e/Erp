@@ -1,0 +1,37 @@
+{
+  "ShowEmptyProjects": false,
+  "SelectedGroups": [],
+  "ExpandedProjects": [],
+  "EnableSpellChecker": false,
+  "ColumnOrder": [
+    "name",
+    "file-path",
+    "file-name",
+    "type",
+    "neutral-value",
+    "neutral-comment",
+    "ar",
+    "es",
+    "fil",
+    "fr",
+    "hi",
+    "ja",
+    "ko",
+    "ur",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "VisibleColumnKeys": [
+    "name",
+    "zh-CN",
+    "zh-TW",
+    "es",
+    "hi",
+    "fil",
+    "fr",
+    "ar",
+    "ur",
+    "ja",
+    "ko"
+  ]
+}

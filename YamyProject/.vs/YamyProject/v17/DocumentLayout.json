@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\sales\\invoice\\frmaddsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\sales\\invoice\\frmaddsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\sales\\invoice\\frmaddsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\sales\\invoice\\frmaddsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\accountant\\journalentries\\mastertransactionjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\accountant\\journalentries\\mastertransactionjournal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\sales\\qutation\\frmaddqutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\sales\\qutation\\frmaddqutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\vat\\frmvatcorparet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\vat\\frmvatcorparet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\vat\\frmvatcorparet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\vat\\frmvatcorparet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\accountant\\chartofaccount\\frmaddaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\accountant\\chartofaccount\\frmaddaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\accountant\\chartofaccount\\frmeditlevel4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\accountant\\chartofaccount\\frmeditlevel4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\inventory\\inventorymanagement\\frmviewitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\inventory\\inventorymanagement\\frmviewitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\inventory\\inventorymanagement\\frmviewitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\inventory\\inventorymanagement\\frmviewitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\purchases\\invoice\\frmpurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\purchases\\invoice\\frmpurchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\default\\frmsingup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\default\\frmsingup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\default\\frmsingup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\default\\frmsingup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\default\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\default\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|d:\\last update\\yamyproject - olive\\yamyproject\\ui\\default\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3BEE116-F264-414E-BF34-0649F1CD517A}|YamyProject.csproj|solutionrelative:ui\\default\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterTransactionJournal.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Accountant\\JournalEntries\\MasterTransactionJournal.cs",
+              "RelativeDocumentMoniker": "UI\\Accountant\\JournalEntries\\MasterTransactionJournal.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Accountant\\JournalEntries\\MasterTransactionJournal.cs [Design]",
+              "RelativeToolTip": "UI\\Accountant\\JournalEntries\\MasterTransactionJournal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:57:39.038Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddSales.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Sales\\Invoice\\frmAddSales.cs",
+              "RelativeDocumentMoniker": "UI\\Sales\\Invoice\\frmAddSales.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Sales\\Invoice\\frmAddSales.cs",
+              "RelativeToolTip": "UI\\Sales\\Invoice\\frmAddSales.cs",
+              "ViewState": "AgIAAB4DAAAAAAAAAAAcwCYDAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:51:18.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAddSales.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Sales\\Invoice\\frmAddSales.cs",
+              "RelativeDocumentMoniker": "UI\\Sales\\Invoice\\frmAddSales.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Sales\\Invoice\\frmAddSales.cs [Design]",
+              "RelativeToolTip": "UI\\Sales\\Invoice\\frmAddSales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:51:16.686Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAddQutation.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Sales\\Qutation\\frmAddQutation.cs",
+              "RelativeDocumentMoniker": "UI\\Sales\\Qutation\\frmAddQutation.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Sales\\Qutation\\frmAddQutation.cs",
+              "RelativeToolTip": "UI\\Sales\\Qutation\\frmAddQutation.cs",
+              "ViewState": "AgIAAPACAAAAAAAAAAAIwAEDAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:00:04.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmAddAccount.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Accountant\\ChartOfAccount\\frmAddAccount.cs",
+              "RelativeDocumentMoniker": "UI\\Accountant\\ChartOfAccount\\frmAddAccount.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Accountant\\ChartOfAccount\\frmAddAccount.cs [Design]",
+              "RelativeToolTip": "UI\\Accountant\\ChartOfAccount\\frmAddAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:02:05.314Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmEditLevel4.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Accountant\\ChartOfAccount\\frmEditLevel4.cs",
+              "RelativeDocumentMoniker": "UI\\Accountant\\ChartOfAccount\\frmEditLevel4.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Accountant\\ChartOfAccount\\frmEditLevel4.cs [Design]",
+              "RelativeToolTip": "UI\\Accountant\\ChartOfAccount\\frmEditLevel4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:02:01.962Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmViewItem.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Inventory\\InventoryManagement\\frmViewItem.cs",
+              "RelativeDocumentMoniker": "UI\\Inventory\\InventoryManagement\\frmViewItem.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Inventory\\InventoryManagement\\frmViewItem.cs",
+              "RelativeToolTip": "UI\\Inventory\\InventoryManagement\\frmViewItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:44:55.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmViewItem.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Inventory\\InventoryManagement\\frmViewItem.cs",
+              "RelativeDocumentMoniker": "UI\\Inventory\\InventoryManagement\\frmViewItem.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Inventory\\InventoryManagement\\frmViewItem.cs [Design]",
+              "RelativeToolTip": "UI\\Inventory\\InventoryManagement\\frmViewItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:44:47.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmPurchase.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Purchases\\Invoice\\frmPurchase.cs",
+              "RelativeDocumentMoniker": "UI\\Purchases\\Invoice\\frmPurchase.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Purchases\\Invoice\\frmPurchase.cs",
+              "RelativeToolTip": "UI\\Purchases\\Invoice\\frmPurchase.cs",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAiwAICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:39:08.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmSINGuP.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\frmSINGuP.cs",
+              "RelativeDocumentMoniker": "UI\\Default\\frmSINGuP.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\frmSINGuP.cs",
+              "RelativeToolTip": "UI\\Default\\frmSINGuP.cs",
+              "ViewState": "AgIAAGELAAAAAAAAAAAWwH0LAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:38:15.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmSINGuP.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\frmSINGuP.cs",
+              "RelativeDocumentMoniker": "UI\\Default\\frmSINGuP.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\frmSINGuP.cs [Design]",
+              "RelativeToolTip": "UI\\Default\\frmSINGuP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:38:09.974Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\Default\\MainForm.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\MainForm.cs",
+              "RelativeToolTip": "UI\\Default\\MainForm.cs",
+              "ViewState": "AgIAADIFAAAAAAAAAAAtwEkFAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:14:54.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\MainForm.cs",
+              "RelativeDocumentMoniker": "UI\\Default\\MainForm.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\Default\\MainForm.cs [Design]",
+              "RelativeToolTip": "UI\\Default\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:14:36.156Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmVATCorparet.cs",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\VAT\\frmVATCorparet.cs",
+              "RelativeDocumentMoniker": "UI\\VAT\\frmVATCorparet.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\VAT\\frmVATCorparet.cs",
+              "RelativeToolTip": "UI\\VAT\\frmVATCorparet.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:59:19.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmVATCorparet.cs [Design]",
+              "DocumentMoniker": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\VAT\\frmVATCorparet.cs",
+              "RelativeDocumentMoniker": "UI\\VAT\\frmVATCorparet.cs",
+              "ToolTip": "D:\\Last Update\\YamyProject - Olive\\YamyProject\\UI\\VAT\\frmVATCorparet.cs [Design]",
+              "RelativeToolTip": "UI\\VAT\\frmVATCorparet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:17:38.443Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close" xml:space="preserve">
+    <value>닫다</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>구하다</value>
+  </data>
+  <data name="Add_New" xml:space="preserve">
+    <value>새로 추가</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>신용 거래</value>
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>직불</value>
+  </data>
+  <data name="Edit_Name" xml:space="preserve">
+    <value>이름 편집</value>
+  </data>
+  <data name="Enter_Level_4" xml:space="preserve">
+    <value>레벨 4에 진입하세요</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>로 인한</value>
+  </data>
+  <data name="LEVEL_4" xml:space="preserve">
+    <value>레벨 4</value>
+  </data>
+  <data name="LEVEL_3" xml:space="preserve">
+    <value>레벨 3</value>
+  </data>
+  <data name="LEVEL_2" xml:space="preserve">
+    <value>레벨 2</value>
+  </data>
+  <data name="LEVEL_1" xml:space="preserve">
+    <value>레벨 1</value>
+  </data>
+  <data name="Delete_Name" xml:space="preserve">
+    <value>이름 삭제</value>
+  </data>
+  <data name="Customers_/_New_Customer" xml:space="preserve">
+    <value>고객 / 신규 고객</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>에게</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>결제 유형</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Uri</value>
+  </data>
+  <data name="It_was_set_to_null,_so_empty_string" xml:space="preserve">
+    <value>null로 설정되었으므로 빈 문자열입니다.</value>
+  </data>
+  <data name="Enter_Level_1_Name" xml:space="preserve">
+    <value>레벨 1 이름을 입력하세요</value>
+  </data>
+  <data name="Enter_Level_2_Name" xml:space="preserve">
+    <value>레벨 2 이름을 입력하세요</value>
+  </data>
+  <data name="Payment_Method" xml:space="preserve">
+    <value>결제 방법</value>
+  </data>
+  <data name="Add_Level_2" xml:space="preserve">
+    <value>레벨 2 추가</value>
+  </data>
+  <data name="Add_New_Level_3" xml:space="preserve">
+    <value>새로운 레벨 3 추가</value>
+  </data>
+  <data name="Customer_-_Add_New_Category" xml:space="preserve">
+    <value>고객 - 새 카테고리 추가</value>
+  </data>
+  <data name="Edit_Receipt" xml:space="preserve">
+    <value>영수증 편집</value>
+  </data>
+  <data name="New_Receipt" xml:space="preserve">
+    <value>새로운 영수증</value>
+  </data>
+  <data name="Cost_Center" xml:space="preserve">
+    <value>비용 센터</value>
+  </data>
+  <data name="Request_Date" xml:space="preserve">
+    <value>요청 날짜</value>
+  </data>
+  <data name="Sub" xml:space="preserve">
+    <value>보결</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>기본</value>
+  </data>
+  <data name="Main_Account" xml:space="preserve">
+    <value>메인 계정</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>이동하는</value>
+  </data>
+  <data name="Sub_Cost_Center" xml:space="preserve">
+    <value>하위 비용 센터</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Make_Journal" xml:space="preserve">
+    <value>일기를 쓰세요</value>
+  </data>
+  <data name="Journal_Voucher" xml:space="preserve">
+    <value>저널 바우처</value>
+  </data>
+  <data name="Fixed_Assets_Account" xml:space="preserve">
+    <value>고정 자산 계정</value>
+  </data>
+  <data name="Total_Days" xml:space="preserve">
+    <value>총 일수</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>종료일</value>
+  </data>
+  <data name="Amount_In_Word" xml:space="preserve">
+    <value>Word의 금액</value>
+  </data>
+  <data name="Account_Code" xml:space="preserve">
+    <value>계정 코드</value>
+  </data>
+  <data name="Petty_Cash_Name" xml:space="preserve">
+    <value>소액 현금 이름</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Total_Vat" xml:space="preserve">
+    <value>총 부가가치세</value>
+  </data>
+  <data name="Check_No" xml:space="preserve">
+    <value>체크 안함</value>
+  </data>
+  <data name="Agreement_Total" xml:space="preserve">
+    <value>계약 총액</value>
+  </data>
+  <data name="Total_Invoice" xml:space="preserve">
+    <value>총 송장</value>
+  </data>
+  <data name="Check_Date" xml:space="preserve">
+    <value>날짜 확인</value>
+  </data>
+  <data name="Depreciation_Expence" xml:space="preserve">
+    <value>감가상각비</value>
+  </data>
+  <data name="Enter_supplier_name" xml:space="preserve">
+    <value>공급업체 이름을 입력하세요</value>
+  </data>
+  <data name="Enter_purchase_price" xml:space="preserve">
+    <value>구매 가격을 입력하세요</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>새로운</value>
+  </data>
+  <data name="Not_Manufacture_Assets" xml:space="preserve">
+    <value>제조 자산이 아님</value>
+  </data>
+  <data name="Manufacture_Assets" xml:space="preserve">
+    <value>제조 자산</value>
+  </data>
+  <data name="Bank_&amp;_Cash/_New_Prepaid_Expense" xml:space="preserve">
+    <value>은행 및 현금/신규 선불 비용</value>
+  </data>
+  <data name="P.C_Request_REF" xml:space="preserve">
+    <value>P.C 요청 REF</value>
+  </data>
+  <data name="Accumulated_Depreciation" xml:space="preserve">
+    <value>감가상각누계액</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>구성</value>
+  </data>
+  <data name="New_Fixed_Assets" xml:space="preserve">
+    <value>신규 고정 자산</value>
+  </data>
+  <data name="Edit__Fixed_Assets" xml:space="preserve">
+    <value>고정 자산 편집</value>
+  </data>
+  <data name="Delete_Fixed_Assets" xml:space="preserve">
+    <value>고정 자산 삭제</value>
+  </data>
+  <data name="New_Fixed_Assets_Category" xml:space="preserve">
+    <value>새로운 고정 자산 범주</value>
+  </data>
+  <data name="Fixed_Assets_Center" xml:space="preserve">
+    <value>고정 자산 센터</value>
+  </data>
+  <data name="Cr_Amount" xml:space="preserve">
+    <value>크레딧 금액</value>
+  </data>
+  <data name="Dr_Amount" xml:space="preserve">
+    <value>박사 금액</value>
+  </data>
+  <data name="JV_No" xml:space="preserve">
+    <value>합작회사 번호</value>
+  </data>
+  <data name="AC_Code" xml:space="preserve">
+    <value>AC 코드</value>
+  </data>
+  <data name="Account_Name" xml:space="preserve">
+    <value>계정 이름</value>
+  </data>
+  <data name="AC_Name" xml:space="preserve">
+    <value>AC 이름</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>델</value>
+  </data>
+  <data name="General_Journal" xml:space="preserve">
+    <value>일반 저널</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>파트너</value>
+  </data>
+  <data name="Create_a_Copy" xml:space="preserve">
+    <value>사본 만들기</value>
+  </data>
+  <data name="Email_Later" xml:space="preserve">
+    <value>나중에 이메일로 보내기</value>
+  </data>
+  <data name="Print_Later" xml:space="preserve">
+    <value>나중에 인쇄</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>이메일</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>보고서</value>
+  </data>
+  <data name="Average_Days_To_Pay_Summary" xml:space="preserve">
+    <value>평균 지불일 요약</value>
+  </data>
+  <data name="Sales_By_Customer_Details" xml:space="preserve">
+    <value>고객 세부정보별 판매</value>
+  </data>
+  <data name="View_Open_Invoice" xml:space="preserve">
+    <value>미결제 송장 보기</value>
+  </data>
+  <data name="Transaction_Journal" xml:space="preserve">
+    <value>거래 일지</value>
+  </data>
+  <data name="Transaction_History" xml:space="preserve">
+    <value>거래 내역</value>
+  </data>
+  <data name="Quick_Report" xml:space="preserve">
+    <value>빠른 보고서</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>모두</value>
+  </data>
+  <data name="Journal_Voucher_Operations___▼" xml:space="preserve">
+    <value>저널 바우처 운영 ▼</value>
+  </data>
+  <data name="New_Journal_Voucher" xml:space="preserve">
+    <value>새로운 저널 바우처</value>
+  </data>
+  <data name="Edit_Journal_Voucher" xml:space="preserve">
+    <value>저널 바우처 편집</value>
+  </data>
+  <data name="Delete_Journal_Voucher" xml:space="preserve">
+    <value>저널 바우처 삭제</value>
+  </data>
+  <data name="Restore_Journal_Voucher" xml:space="preserve">
+    <value>저널 바우처 복원</value>
+  </data>
+  <data name="Payment_Voucher_Center" xml:space="preserve">
+    <value>결제 바우처 센터</value>
+  </data>
+  <data name="Transactions_Journal" xml:space="preserve">
+    <value>거래 일지</value>
+  </data>
+  <data name="Save_&amp;&amp;_Close" xml:space="preserve">
+    <value>저장 &amp;&amp; 닫기</value>
+  </data>
+  <data name="Customer_Code" xml:space="preserve">
+    <value>고객 코드</value>
+  </data>
+  <data name="Customer_Name" xml:space="preserve">
+    <value>고객 이름</value>
+  </data>
+  <data name="Transfer_Date" xml:space="preserve">
+    <value>이전 날짜</value>
+  </data>
+  <data name="Vendor_Code" xml:space="preserve">
+    <value>공급업체 코드</value>
+  </data>
+  <data name="TRNS_/_Name" xml:space="preserve">
+    <value>TRNS / 이름</value>
+  </data>
+  <data name="TRNS_/_REF" xml:space="preserve">
+    <value>거래/참조</value>
+  </data>
+  <data name="Bank_Code" xml:space="preserve">
+    <value>은행 코드</value>
+  </data>
+  <data name="Agreement_Start_Date" xml:space="preserve">
+    <value>계약 시작일</value>
+  </data>
+  <data name="Invoice_Details" xml:space="preserve">
+    <value>송장 세부 정보</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>범주</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>은행 이름</value>
+  </data>
+  <data name="Book_NO" xml:space="preserve">
+    <value>책 번호</value>
+  </data>
+  <data name="Bank_Account_Name" xml:space="preserve">
+    <value>은행 계좌 이름</value>
+  </data>
+  <data name="Check_Name" xml:space="preserve">
+    <value>이름 확인</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="INV_NO" xml:space="preserve">
+    <value>송장 번호</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>양</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>지불하다</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>지불</value>
+  </data>
+  <data name="voucherType" xml:space="preserve">
+    <value>바우처 유형</value>
+  </data>
+  <data name="Add_Time_/_Costs" xml:space="preserve">
+    <value>시간/비용 추가</value>
+  </data>
+  <data name="Attach_File" xml:space="preserve">
+    <value>파일 첨부</value>
+  </data>
+  <data name="Memorize" xml:space="preserve">
+    <value>암기하다</value>
+  </data>
+  <data name="Print_After_Save" xml:space="preserve">
+    <value>저장 후 인쇄</value>
+  </data>
+  <data name="Payment_Voucher" xml:space="preserve">
+    <value>결제 바우처</value>
+  </data>
+  <data name="Basic_Data" xml:space="preserve">
+    <value>기본 데이터</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>공급업체</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>고객</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>현금</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>확인하다</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>옮기다</value>
+  </data>
+  <data name="Pay_From_-_Credit" xml:space="preserve">
+    <value>결제 수단 - 신용</value>
+  </data>
+  <data name="x" xml:space="preserve">
+    <value>엑스</value>
+  </data>
+  <data name="Trans_Date" xml:space="preserve">
+    <value>거래 날짜</value>
+  </data>
+  <data name="Print__After_Save" xml:space="preserve">
+    <value>저장 후 인쇄</value>
+  </data>
+  <data name="Advance_Payment_Voucher" xml:space="preserve">
+    <value>선불 바우처</value>
+  </data>
+  <data name="Recycle" xml:space="preserve">
+    <value>재활용</value>
+  </data>
+  <data name="Advance_Payment_Voucher_Center" xml:space="preserve">
+    <value>선불 바우처 센터</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>일반적인</value>
+  </data>
+  <data name="Add_New_Category" xml:space="preserve">
+    <value>새로운 카테고리 추가</value>
+  </data>
+  <data name="Save_&amp;_New" xml:space="preserve">
+    <value>저장하고 새로 만들기</value>
+  </data>
+  <data name="Petty_Cash_Request" xml:space="preserve">
+    <value>소액 현금 요청</value>
+  </data>
+  <data name="Total_Before_Vat" xml:space="preserve">
+    <value>부가가치세 제외 총액</value>
+  </data>
+  <data name="Net_Amount" xml:space="preserve">
+    <value>정</value>
+  </data>
+  <data name="SN#" xml:space="preserve">
+    <value>일련번호</value>
+  </data>
+  <data name="AC.Name" xml:space="preserve">
+    <value>AC.이름</value>
+  </data>
+  <data name="C.C_Name" xml:space="preserve">
+    <value>C.C 이름</value>
+  </data>
+  <data name="VAT_5%" xml:space="preserve">
+    <value>부가가치세 5%</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>총</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>노트</value>
+  </data>
+  <data name="P.C_A/C" xml:space="preserve">
+    <value>PC 에어컨</value>
+  </data>
+  <data name="P.C_Categoryies" xml:space="preserve">
+    <value>P.C 카테고리</value>
+  </data>
+  <data name="P.C_Request" xml:space="preserve">
+    <value>P.C 요청</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>작업</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>승인</value>
+  </data>
+  <data name="Submition" xml:space="preserve">
+    <value>제출</value>
+  </data>
+  <data name="Print__▼" xml:space="preserve">
+    <value>인쇄 ▼</value>
+  </data>
+  <data name="Vendor_List" xml:space="preserve">
+    <value>공급업체 목록</value>
+  </data>
+  <data name="Transaction_List" xml:space="preserve">
+    <value>거래 목록</value>
+  </data>
+  <data name="Credit_&amp;_Payment" xml:space="preserve">
+    <value>신용 및 결제</value>
+  </data>
+  <data name="Excel__▼" xml:space="preserve">
+    <value>엑셀 ▼</value>
+  </data>
+  <data name="Word_▼" xml:space="preserve">
+    <value>단어 ▼</value>
+  </data>
+  <data name="Add_Account" xml:space="preserve">
+    <value>계정 추가</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>카테고리 추가</value>
+  </data>
+  <data name="Add_Request" xml:space="preserve">
+    <value>Magdagdag ng Kahilingan</value>
+  </data>
+  <data name="Search_By_Name,_Code" xml:space="preserve">
+    <value>이름 또는 코드로 검색</value>
+  </data>
+  <data name="Approval_Submition" xml:space="preserve">
+    <value>승인 제출</value>
+  </data>
+  <data name="Customer_Center" xml:space="preserve">
+    <value>고객센터</value>
+  </data>
+  <data name="Declined" xml:space="preserve">
+    <value>거절됨</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>승인됨</value>
+  </data>
+  <data name="Petty_Cash_Approval" xml:space="preserve">
+    <value>소액 현금 승인</value>
+  </data>
+  <data name="Petty_Cash_Submition_Approval" xml:space="preserve">
+    <value>소액 현금 제출 승인</value>
+  </data>
+  <data name="Petty_Cash_Categories" xml:space="preserve">
+    <value>소액 현금 카테고리</value>
+  </data>
+  <data name="Prepaid_Expense_Center" xml:space="preserve">
+    <value>선불 경비 센터</value>
+  </data>
+  <data name="Received_From_-_Credit" xml:space="preserve">
+    <value>수신 - 신용</value>
+  </data>
+  <data name="Received_To_-_Debit" xml:space="preserve">
+    <value>수신 - 직불</value>
+  </data>
+  <data name="Receipt_Voucher" xml:space="preserve">
+    <value>영수증 바우처</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Receipt_Voucher_Center" xml:space="preserve">
+    <value>영수증 바우처 센터</value>
+  </data>
+  <data name="Open_Company" xml:space="preserve">
+    <value>오픈 컴퍼니</value>
+  </data>
+  <data name="Create_Company" xml:space="preserve">
+    <value>회사 만들기</value>
+  </data>
+  <data name="Company_List" xml:space="preserve">
+    <value>회사 목록</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>암호</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>가입하기</value>
+  </data>
+  <data name="Sign_In" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>비밀번호</value>
+  </data>
+  <data name="Don't_have_an_account?" xml:space="preserve">
+    <value>계정이 없으신가요?</value>
+  </data>
+  <data name="Forgot_your_password?_Click_here" xml:space="preserve">
+    <value>비밀번호를 잊으셨나요? 여기를 클릭하세요</value>
+  </data>
+  <data name="Learn_More" xml:space="preserve">
+    <value>자세히 알아보기</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>회사</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>핸드폰</value>
+  </data>
+  <data name="Balance_not_matching" xml:space="preserve">
+    <value>잔액이 일치하지 않습니다</value>
+  </data>
+  <data name="Balance_is_matching" xml:space="preserve">
+    <value>균형은 일치합니다</value>
+  </data>
+  <data name="Transactions_appear_on_the_bank_statement_but_are_not_recorded_in_our_books" xml:space="preserve">
+    <value>거래는 은행 명세서에 나타나지만 우리의 장부에는 기록되지 않았습니다.</value>
+  </data>
+  <data name="Transactions_appear_in_our_books_but_do_not_showing_on_the_bank_statement" xml:space="preserve">
+    <value>Transaktionen erscheinen in unseren Büchern</value>
+  </data>
+  <data name="Balance_as_per_our_books_on " xml:space="preserve">
+    <value>우리 책에 따른 균형</value>
+  </data>
+  <data name="Bank_statement_balance_as_of" xml:space="preserve">
+    <value>은행 거래 내역 잔액</value>
+  </data>
+  <data name="Bank_Statement_Balance_Amount" xml:space="preserve">
+    <value>은행 거래 내역 잔액</value>
+  </data>
+  <data name="BR_NO" xml:space="preserve">
+    <value>브 번호</value>
+  </data>
+  <data name="Bank_Card_Code" xml:space="preserve">
+    <value>은행 카드 코드</value>
+  </data>
+  <data name="Total_Debit" xml:space="preserve">
+    <value>총 차변</value>
+  </data>
+  <data name="Total_Credit" xml:space="preserve">
+    <value>총 학점</value>
+  </data>
+  <data name="Total_Balance" xml:space="preserve">
+    <value>총 잔액</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>참조</value>
+  </data>
+  <data name="AC_ID" xml:space="preserve">
+    <value>산</value>
+  </data>
+  <data name="Amount_Debit" xml:space="preserve">
+    <value>금액 차변</value>
+  </data>
+  <data name="Amount_Credit" xml:space="preserve">
+    <value>금액 크레딧</value>
+  </data>
+  <data name="Reconciliation" xml:space="preserve">
+    <value>화해</value>
+  </data>
+  <data name="BankReconciliation" xml:space="preserve">
+    <value>은행 조정</value>
+  </data>
+  <data name="Empty_by_default" xml:space="preserve">
+    <value>기본적으로 비어 있음</value>
+  </data>
+  <data name="Make_This_Company_Main_Account" xml:space="preserve">
+    <value>이 회사를 주요 계정으로 만드세요</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimieren</value>
+  </data>
+  <data name="Please_fill_in_all_required_fields_correctly." xml:space="preserve">
+    <value>모든 필수 항목을 올바르게 입력해 주세요.</value>
+  </data>
+  <data name="Manufacture_System" xml:space="preserve">
+    <value>제조 시스템</value>
+  </data>
+  <data name="Resturen_System" xml:space="preserve">
+    <value>레슈렌 시스템</value>
+  </data>
+  <data name="CRM" xml:space="preserve">
+    <value>고객 관계 관리(CRM)</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>보고서</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>목록</value>
+  </data>
+  <data name="Banking" xml:space="preserve">
+    <value>은행업</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>인사부</value>
+  </data>
+  <data name="Vendors" xml:space="preserve">
+    <value>공급업체</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>고객</value>
+  </data>
+  <data name="My_Company" xml:space="preserve">
+    <value>내 회사</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>집</value>
+  </data>
+  <data name="Accountant" xml:space="preserve">
+    <value>회계사</value>
+  </data>
+  <data name="Route_No." xml:space="preserve">
+    <value>노선번호</value>
+  </data>
+  <data name="Abbreviation_Name" xml:space="preserve">
+    <value>약어 이름</value>
+  </data>
+  <data name="Ent_Id" xml:space="preserve">
+    <value>엔트 아이디</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>국가</value>
+  </data>
+  <data name="CHQ_Book_Register" xml:space="preserve">
+    <value>CHQ 도서 등록부</value>
+  </data>
+  <data name="Starting_From" xml:space="preserve">
+    <value>시작부터</value>
+  </data>
+  <data name="CHQ_Book_QTY" xml:space="preserve">
+    <value>CHQ 책 수량</value>
+  </data>
+  <data name="CHQ_Book_NO" xml:space="preserve">
+    <value>CHQ 책 번호</value>
+  </data>
+  <data name="CHQ_/_New_CHQ_Register" xml:space="preserve">
+    <value>CHQ / 새로운 CHQ 등록부</value>
+  </data>
+  <data name="Account_Signature_Authority_Name" xml:space="preserve">
+    <value>계정 서명 권한 이름</value>
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>지점 이름</value>
+  </data>
+  <data name="IBAN_No" xml:space="preserve">
+    <value>이반 번호</value>
+  </data>
+  <data name="Account_Relationship_Manager_MOB" xml:space="preserve">
+    <value>계정 관계 관리자 MOB</value>
+  </data>
+  <data name="Account_No" xml:space="preserve">
+    <value>계좌번호</value>
+  </data>
+  <data name="AC_No" xml:space="preserve">
+    <value>AC 번호</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>통화</value>
+  </data>
+  <data name="Account_Type" xml:space="preserve">
+    <value>계정 유형</value>
+  </data>
+  <data name="AC_Type" xml:space="preserve">
+    <value>AC 유형</value>
+  </data>
+  <data name="Account_Relationship_Manager" xml:space="preserve">
+    <value>계정 관계 관리자</value>
+  </data>
+  <data name="Account_Name_-_Chart_Of_Account" xml:space="preserve">
+    <value>계정명 - 계정 차트</value>
+  </data>
+  <data name="Register_Bank" xml:space="preserve">
+    <value>은행 등록</value>
+  </data>
+  <data name="Edit_Bank" xml:space="preserve">
+    <value>은행 편집</value>
+  </data>
+  <data name="Unregister_Bank" xml:space="preserve">
+    <value>은행 등록 취소</value>
+  </data>
+  <data name="New_Check_Book" xml:space="preserve">
+    <value>새로운 수표책</value>
+  </data>
+  <data name="Bank_Card_Center" xml:space="preserve">
+    <value>은행 카드 센터</value>
+  </data>
+  <data name="Receivable" xml:space="preserve">
+    <value>받을 수 있는</value>
+  </data>
+  <data name="Payable" xml:space="preserve">
+    <value>지불 가능</value>
+  </data>
+  <data name="Assuming_PDC_stands_for_Post-Dated_Cheques" xml:space="preserve">
+    <value>PDC는 연기된 수표를 의미한다고 가정합니다.</value>
+  </data>
+  <data name="Account_Settings_&amp;_Other" xml:space="preserve">
+    <value>계정 설정 및 기타</value>
+  </data>
+  <data name="MasterCustomer" xml:space="preserve">
+    <value>마스터고객</value>
+  </data>
+  <data name="AccountantCenter" xml:space="preserve">
+    <value>회계센터</value>
+  </data>
+  <data name="Customer_Operations__▼" xml:space="preserve">
+    <value>고객 운영 ▼</value>
+  </data>
+  <data name="New_Customer" xml:space="preserve">
+    <value>신규 고객</value>
+  </data>
+  <data name="Edit_Customer" xml:space="preserve">
+    <value>고객 편집</value>
+  </data>
+  <data name="Delete_Customer" xml:space="preserve">
+    <value>고객 삭제</value>
+  </data>
+  <data name="New_Transactions__▼" xml:space="preserve">
+    <value>새로운 거래 ▼</value>
+  </data>
+  <data name="Customer_List" xml:space="preserve">
+    <value>고객 목록</value>
+  </data>
+  <data name="Export_&amp;_Import" xml:space="preserve">
+    <value>수출 및 수입</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>사용자 정의</value>
+  </data>
+  <data name="Active_Customer" xml:space="preserve">
+    <value>활성 고객</value>
+  </data>
+  <data name="Inactive_Customer" xml:space="preserve">
+    <value>비활성 고객</value>
+  </data>
+  <data name="Memorized_Reports" xml:space="preserve">
+    <value>암기된 보고서</value>
+  </data>
+  <data name="Statement_of_Functional_Expenses_(990)" xml:space="preserve">
+    <value>기능 비용 명세서(990)</value>
+  </data>
+  <data name="Statement_of_Financial_Position" xml:space="preserve">
+    <value>재무상태표</value>
+  </data>
+  <data name="Statement_of_Financial_Income_and_Expense" xml:space="preserve">
+    <value>재무 수입 및 지출 명세서</value>
+  </data>
+  <data name="Programs/Projects_Report" xml:space="preserve">
+    <value>프로그램/프로젝트 보고서</value>
+  </data>
+  <data name="Donors/Grants_Report" xml:space="preserve">
+    <value>기부자/보조금 보고서</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Program/Projects" xml:space="preserve">
+    <value>프로그램/프로젝트별 예산 대 실제 예산</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Donors/Grants" xml:space="preserve">
+    <value>기부자/보조금별 예산 대비 실제 예산</value>
+  </data>
+  <data name="Biggest_Donors/Grants" xml:space="preserve">
+    <value>가장 큰 기부자/보조금</value>
+  </data>
+  <data name="Profit_Loss" xml:space="preserve">
+    <value>이익 손실</value>
+  </data>
+  <data name="Journal_Entries_Entered/Modified_Today" xml:space="preserve">
+    <value>오늘 입력/수정된 일지 항목</value>
+  </data>
+  <data name="Balance_Sheet" xml:space="preserve">
+    <value>대차대조표</value>
+  </data>
+  <data name="Adjusted_Trial_Balance" xml:space="preserve">
+    <value>조정된 시범 결산서</value>
+  </data>
+  <data name="Adjusting_Journal_Entries" xml:space="preserve">
+    <value>분개 항목 조정</value>
+  </data>
+  <data name="Select_Group" xml:space="preserve">
+    <value>그룹 선택</value>
+  </data>
+  <data name="Vendor_Balance_Detail" xml:space="preserve">
+    <value>공급업체 잔액 세부 정보</value>
+  </data>
+  <data name="Unpaid_Bills_Detail" xml:space="preserve">
+    <value>미납 청구서 세부 정보</value>
+  </data>
+  <data name="A/P_Aging_Summary" xml:space="preserve">
+    <value>A/P 노화 요약</value>
+  </data>
+  <data name="Open_Invoices" xml:space="preserve">
+    <value>미결제 송장</value>
+  </data>
+  <data name="Statement_of_Cash_Flow" xml:space="preserve">
+    <value>현금흐름표</value>
+  </data>
+  <data name="Deposit_Detail" xml:space="preserve">
+    <value>입금 세부 정보</value>
+  </data>
+  <data name="Check_Detail" xml:space="preserve">
+    <value>세부 정보 확인</value>
+  </data>
+  <data name="Customer_Snapshot" xml:space="preserve">
+    <value>고객 스냅샷</value>
+  </data>
+  <data name="Customer_Information" xml:space="preserve">
+    <value>고객 정보</value>
+  </data>
+  <data name="Customer_Category" xml:space="preserve">
+    <value>고객 카테고리</value>
+  </data>
+  <data name="LAST_RECONCILED" xml:space="preserve">
+    <value>마지막 화해</value>
+  </data>
+  <data name="RECONCILED_BALANCE" xml:space="preserve">
+    <value>조정된 잔액</value>
+  </data>
+  <data name="CURRENT_BALANCE" xml:space="preserve">
+    <value>현재 잔액</value>
+  </data>
+  <data name="Accountant_Center" xml:space="preserve">
+    <value>회계사 센터</value>
+  </data>
+  <data name="Date_:" xml:space="preserve">
+    <value>날짜 :</value>
+  </data>
+  <data name="Code_:" xml:space="preserve">
+    <value>코드 :</value>
+  </data>
+  <data name="Name_:" xml:space="preserve">
+    <value>이름 :</value>
+  </data>
+  <data name="Amount_Adjustments" xml:space="preserve">
+    <value>금액 조정</value>
+  </data>
+  <data name="Attendance_Sheet" xml:space="preserve">
+    <value>출석표</value>
+  </data>
+  <data name="Search_By_Item_Name" xml:space="preserve">
+    <value>آئٹم کے نام، کوڈ سے تلاش کریں۔</value>
+  </data>
+  <data name="COGS_Account" xml:space="preserve">
+    <value>COGS 계정</value>
+  </data>
+  <data name="DEDUCTION" xml:space="preserve">
+    <value>공제</value>
+  </data>
+  <data name="SALARY_PAYMENT" xml:space="preserve">
+    <value>급여 지급</value>
+  </data>
+  <data name="Sn" xml:space="preserve">
+    <value>주석</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="Work_Days" xml:space="preserve">
+    <value>근무일</value>
+  </data>
+  <data name="Absent_Days" xml:space="preserve">
+    <value>결근일</value>
+  </data>
+  <data name="Basic_Salary" xml:space="preserve">
+    <value>기본급</value>
+  </data>
+  <data name="Allowance" xml:space="preserve">
+    <value>용돈</value>
+  </data>
+  <data name="Total_Additions" xml:space="preserve">
+    <value>총 추가</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>지연</value>
+  </data>
+  <data name="Total_Deductions" xml:space="preserve">
+    <value>총 공제액</value>
+  </data>
+  <data name="Net_Salary" xml:space="preserve">
+    <value>순급여</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>은행</value>
+  </data>
+  <data name="EMP_ID" xml:space="preserve">
+    <value>EMP ID</value>
+  </data>
+  <data name="Corrected_from_POSTION" xml:space="preserve">
+    <value>POSION에서 수정됨</value>
+  </data>
+  <data name="W.DAYS" xml:space="preserve">
+    <value>W.DAYS</value>
+  </data>
+  <data name="Corrected_casing" xml:space="preserve">
+    <value>수정된 케이싱</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>다른</value>
+  </data>
+  <data name="Addition" xml:space="preserve">
+    <value>덧셈</value>
+  </data>
+  <data name="Total_addition" xml:space="preserve">
+    <value>총 추가</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>대출</value>
+  </data>
+  <data name="Work_Absence" xml:space="preserve">
+    <value>근무 부재</value>
+  </data>
+  <data name="Fines_&amp;_Salik" xml:space="preserve">
+    <value>파인스 &amp; 살릭</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="Total_Deduction" xml:space="preserve">
+    <value>총 공제액</value>
+  </data>
+  <data name="Corrected_from_Net_Salay" xml:space="preserve">
+    <value>Net Salay에서 수정됨</value>
+  </data>
+  <data name="WPS" xml:space="preserve">
+    <value>WPS</value>
+  </data>
+  <data name="Attendance_Saved_Before" xml:space="preserve">
+    <value>이전에 저장된 출석</value>
+  </data>
+  <data name="Add_Manual_Attendance" xml:space="preserve">
+    <value>수동 출석 추가</value>
+  </data>
+  <data name="Upload_Current_Employee" xml:space="preserve">
+    <value>현재 직원 업로드</value>
+  </data>
+  <data name="Download_Sample_Excel_Sheet" xml:space="preserve">
+    <value>샘플 Excel 시트 다운로드</value>
+  </data>
+  <data name="Main_Unit" xml:space="preserve">
+    <value>메인 유닛</value>
+  </data>
+  <data name="Balance_Qty" xml:space="preserve">
+    <value>잔액 수량</value>
+  </data>
+  <data name="Work_Date" xml:space="preserve">
+    <value>근무일</value>
+  </data>
+  <data name="Time_In" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Time_Out" xml:space="preserve">
+    <value>타임아웃</value>
+  </data>
+  <data name="Day_Of_work" xml:space="preserve">
+    <value>근무일</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>가격</value>
+  </data>
+  <data name="Cat/ID" xml:space="preserve">
+    <value>고양이/ID</value>
+  </data>
+  <data name="Delete_Button" xml:space="preserve">
+    <value>삭제 버튼</value>
+  </data>
+  <data name="Employee_Information" xml:space="preserve">
+    <value>직원 정보</value>
+  </data>
+  <data name="Social_Insurance_NO" xml:space="preserve">
+    <value>사회보험 NO</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>전화 번호</value>
+  </data>
+  <data name="Item_Active" xml:space="preserve">
+    <value>아이템 활성화</value>
+  </data>
+  <data name="Emirates_ID" xml:space="preserve">
+    <value>에미레이트 ID</value>
+  </data>
+  <data name="Item_Cost_Details" xml:space="preserve">
+    <value>품목 비용 세부 정보</value>
+  </data>
+  <data name="Additional_Info" xml:space="preserve">
+    <value>추가 정보</value>
+  </data>
+  <data name="Emergency_Info" xml:space="preserve">
+    <value>비상 정보</value>
+  </data>
+  <data name="Employee_Name" xml:space="preserve">
+    <value>직원 이름</value>
+  </data>
+  <data name="House_Allowance" xml:space="preserve">
+    <value>주택 수당</value>
+  </data>
+  <data name="IBAN_Number" xml:space="preserve">
+    <value>IBAN 번호</value>
+  </data>
+  <data name="Emirates_ID_Issuing_Authority" xml:space="preserve">
+    <value>에미레이트 신분증 발급 기관</value>
+  </data>
+  <data name="Emirates_ID_File_Number" xml:space="preserve">
+    <value>에미레이트 ID 파일 번호</value>
+  </data>
+  <data name="Bank_Account_Number" xml:space="preserve">
+    <value>은행 계좌 번호</value>
+  </data>
+  <data name="Total_Salary" xml:space="preserve">
+    <value>총 급여</value>
+  </data>
+  <data name="Transportation_Allowance" xml:space="preserve">
+    <value>교통 수당</value>
+  </data>
+  <data name="Employee_Code" xml:space="preserve">
+    <value>직원 코드</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>부서</value>
+  </data>
+  <data name="AC_/_Code" xml:space="preserve">
+    <value>AC / 코드</value>
+  </data>
+  <data name="Expense_Account_(Chart_-_Account_Name)" xml:space="preserve">
+    <value>비용 계정(차트 - 계정 이름)</value>
+  </data>
+  <data name="Min_Amount" xml:space="preserve">
+    <value>최소 금액</value>
+  </data>
+  <data name="Go_To_Item_Card" xml:space="preserve">
+    <value>아이템 카드로 이동</value>
+  </data>
+  <data name="Residency_Issue_Authority" xml:space="preserve">
+    <value>거주 발급 권한</value>
+  </data>
+  <data name="Residency_File_Number" xml:space="preserve">
+    <value>거주 파일 번호</value>
+  </data>
+  <data name="Position_Name" xml:space="preserve">
+    <value>직책 이름</value>
+  </data>
+  <data name="Working_Hours" xml:space="preserve">
+    <value>근무 시간</value>
+  </data>
+  <data name="Contract_Type" xml:space="preserve">
+    <value>계약 유형</value>
+  </data>
+  <data name="Work_Contract_Number" xml:space="preserve">
+    <value>근로계약번호</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>맥스</value>
+  </data>
+  <data name="Item_Operations___▼" xml:space="preserve">
+    <value>품목 작업 ▼</value>
+  </data>
+  <data name="Edit_Item" xml:space="preserve">
+    <value>항목 편집</value>
+  </data>
+  <data name="Delete_Employee" xml:space="preserve">
+    <value>직원 삭제</value>
+  </data>
+  <data name="Employee_List" xml:space="preserve">
+    <value>직원 목록</value>
+  </data>
+  <data name="Credit_&amp;&amp;_Payment" xml:space="preserve">
+    <value>신용 및 결제</value>
+  </data>
+  <data name="Active_Employee" xml:space="preserve">
+    <value>활동 중인 직원</value>
+  </data>
+  <data name="Inactive_Employee" xml:space="preserve">
+    <value>비활성 직원</value>
+  </data>
+  <data name="Employee_Snapshot" xml:space="preserve">
+    <value>직원 스냅샷</value>
+  </data>
+  <data name="CategoryCode" xml:space="preserve">
+    <value>카테고리 코드</value>
+  </data>
+  <data name="New_Loan" xml:space="preserve">
+    <value>신규 대출</value>
+  </data>
+  <data name="Salary_Information" xml:space="preserve">
+    <value>급여 정보</value>
+  </data>
+  <data name="Additions" xml:space="preserve">
+    <value>추가 사항</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>비활성</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>할부</value>
+  </data>
+  <data name="Request_Amount" xml:space="preserve">
+    <value>요청 금액</value>
+  </data>
+  <data name="Add_New_Loan" xml:space="preserve">
+    <value>새로운 대출 추가</value>
+  </data>
+  <data name="Show_More" xml:space="preserve">
+    <value>더 보기</value>
+  </data>
+  <data name="INV_Date" xml:space="preserve">
+    <value>INV 날짜</value>
+  </data>
+  <data name="Invoice_No" xml:space="preserve">
+    <value>송장 번호</value>
+  </data>
+  <data name="invoice_id" xml:space="preserve">
+    <value>송장_ID</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>균형</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>선택하다</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>남은</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>보다</value>
+  </data>
+  <data name="Show_Invoice" xml:space="preserve">
+    <value>송장 표시</value>
+  </data>
+  <data name="Print_Credit_After_Save" xml:space="preserve">
+    <value>저장 후 인쇄 크레딧</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>편집하다</value>
+  </data>
+  <data name="Item Wise" xml:space="preserve">
+    <value>품목별</value>
+  </data>
+  <data name="Damage_Reason" xml:space="preserve">
+    <value>손상 사유</value>
+  </data>
+  <data name="Edit_Unit" xml:space="preserve">
+    <value>단위 편집</value>
+  </data>
+  <data name="Item_Category_Center" xml:space="preserve">
+    <value>품목 카테고리 센터</value>
+  </data>
+  <data name="New_Unit" xml:space="preserve">
+    <value>새로운 유닛</value>
+  </data>
+  <data name="unitid" xml:space="preserve">
+    <value>단위</value>
+  </data>
+  <data name="Factor" xml:space="preserve">
+    <value>요인</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>제거하다</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>추가하다</value>
+  </data>
+  <data name="Item_Unit_Center" xml:space="preserve">
+    <value>항목 단위 센터</value>
+  </data>
+  <data name="MasterWarehouse" xml:space="preserve">
+    <value>마스터웨어하우스</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>항목 삭제</value>
+  </data>
+  <data name="Transfer_History" xml:space="preserve">
+    <value>Kasaysayan ng Paglipat</value>
+  </data>
+  <data name="Search_By_Item_Name,_Code" xml:space="preserve">
+    <value>항목 이름 또는 코드로 검색</value>
+  </data>
+  <data name="AVG" xml:space="preserve">
+    <value>평균</value>
+  </data>
+  <data name="LIFO" xml:space="preserve">
+    <value>후입선출(LIFO)</value>
+  </data>
+  <data name="FIFO" xml:space="preserve">
+    <value>선입선출(FIFO)</value>
+  </data>
+  <data name="On_Hand" xml:space="preserve">
+    <value>손에</value>
+  </data>
+  <data name="Total_Value" xml:space="preserve">
+    <value>총 가치</value>
+  </data>
+  <data name="Max_Amount" xml:space="preserve">
+    <value>최대 금액</value>
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>바코드</value>
+  </data>
+  <data name="Add_More_Unit" xml:space="preserve">
+    <value>더 많은 유닛 추가</value>
+  </data>
+  <data name="Inventory_" xml:space="preserve">
+    <value>재고</value>
+  </data>
+  <data name="Expense" xml:space="preserve">
+    <value>비용</value>
+  </data>
+  <data name="W.H" xml:space="preserve">
+    <value>와트시</value>
+  </data>
+  <data name="INV_NO." xml:space="preserve">
+    <value>송장번호</value>
+  </data>
+  <data name="TRN_No." xml:space="preserve">
+    <value>TRN 번호</value>
+  </data>
+  <data name="TRN_TYPE" xml:space="preserve">
+    <value>TRN 유형</value>
+  </data>
+  <data name="QTY_-_IN" xml:space="preserve">
+    <value>수량 - 들어감</value>
+  </data>
+  <data name="QTY_-_OUT" xml:space="preserve">
+    <value>수량 - 아웃</value>
+  </data>
+  <data name="Fifoqty" xml:space="preserve">
+    <value>피포수티</value>
+  </data>
+  <data name="FifoCost" xml:space="preserve">
+    <value>피포코스트</value>
+  </data>
+  <data name="11_-_Inventory_Part" xml:space="preserve">
+    <value>11 - 재고 부분</value>
+  </data>
+  <data name="12 -_Service" xml:space="preserve">
+    <value>12 - 서비스</value>
+  </data>
+  <data name="13_-_Inventory_Assembly" xml:space="preserve">
+    <value>13 - 재고 조립</value>
+  </data>
+  <data name="Qty_In" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="Qty_Out" xml:space="preserve">
+    <value>수량 출고</value>
+  </data>
+  <data name="Cost_Price" xml:space="preserve">
+    <value>원가</value>
+  </data>
+  <data name="Sales_Price" xml:space="preserve">
+    <value>판매 가격</value>
+  </data>
+  <data name="Qty_Balance" xml:space="preserve">
+    <value>수량 잔액</value>
+  </data>
+  <data name="Recycle_Item" xml:space="preserve">
+    <value>재활용 품목</value>
+  </data>
+  <data name="Opening_Qty" xml:space="preserve">
+    <value>개장 수량</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>구입</value>
+  </data>
+  <data name="New_Item" xml:space="preserve">
+    <value>새 항목</value>
+  </data>
+  <data name="Selection_Item" xml:space="preserve">
+    <value>선택 항목</value>
+  </data>
+  <data name="Inventory_-_Transaction" xml:space="preserve">
+    <value>재고 - 거래</value>
+  </data>
+  <data name="Item_Code" xml:space="preserve">
+    <value>품목 코드</value>
+  </data>
+  <data name="Item_Name" xml:space="preserve">
+    <value>품목 이름</value>
+  </data>
+  <data name="SYS_QTY" xml:space="preserve">
+    <value>시스템 수량</value>
+  </data>
+  <data name="SYS_Amount" xml:space="preserve">
+    <value>SYS 금액</value>
+  </data>
+  <data name="New_QTY" xml:space="preserve">
+    <value>새로운 수량</value>
+  </data>
+  <data name="QTY_DIF" xml:space="preserve">
+    <value>수량 차이</value>
+  </data>
+  <data name="Amount_(-)" xml:space="preserve">
+    <value>양 (-)</value>
+  </data>
+  <data name="Amount_(+)" xml:space="preserve">
+    <value>금액(+)</value>
+  </data>
+  <data name="Invoice_Header" xml:space="preserve">
+    <value>송장 헤더</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>다음</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>이전의</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>창고</value>
+  </data>
+  <data name="Invoice_Footer" xml:space="preserve">
+    <value>송장 바닥글</value>
+  </data>
+  <data name="Customer/_New_Customer" xml:space="preserve">
+    <value>고객/신규 고객</value>
+  </data>
+  <data name="New_Settlement" xml:space="preserve">
+    <value>새로운 정착지</value>
+  </data>
+  <data name="Edit_Current" xml:space="preserve">
+    <value>현재 편집</value>
+  </data>
+  <data name="Selection_Method" xml:space="preserve">
+    <value>선택 방법</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>기본</value>
+  </data>
+  <data name="Inventory_-_Stock_Management" xml:space="preserve">
+    <value>재고 - 재고 관리</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="Edit_Tax" xml:space="preserve">
+    <value>세금 편집</value>
+  </data>
+  <data name="Sales_Center" xml:space="preserve">
+    <value>판매 센터</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>일괄</value>
+  </data>
+  <data name="Batch_Name_*" xml:space="preserve">
+    <value>배치 이름 *</value>
+  </data>
+  <data name="Amount_*" xml:space="preserve">
+    <value>양 *</value>
+  </data>
+  <data name="Hours_*" xml:space="preserve">
+    <value>시간 *</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>제품</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>비용</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="Total_Cost" xml:space="preserve">
+    <value>총 비용</value>
+  </data>
+  <data name="Choose_The_Machine_*" xml:space="preserve">
+    <value>기계를 선택하세요 *</value>
+  </data>
+  <data name="Wharehouse" xml:space="preserve">
+    <value>창고</value>
+  </data>
+  <data name="Choose_The_Batch_for_Producting" xml:space="preserve">
+    <value>생산을 위한 배치 선택</value>
+  </data>
+  <data name="Search_By_Batch_Name_...." xml:space="preserve">
+    <value>배치 이름으로 검색 ....</value>
+  </data>
+  <data name="Batch_Name" xml:space="preserve">
+    <value>배치 이름</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="(All)" xml:space="preserve">
+    <value>(모두)</value>
+  </data>
+  <data name="All_Order" xml:space="preserve">
+    <value>모든 주문</value>
+  </data>
+  <data name="All_Open" xml:space="preserve">
+    <value>모두 열려 있습니다</value>
+  </data>
+  <data name="Leads_Won" xml:space="preserve">
+    <value>획득한 리드</value>
+  </data>
+  <data name="Leads_Lost" xml:space="preserve">
+    <value>리드 손실</value>
+  </data>
+  <data name="Won_Leads_VS_lost_Leads" xml:space="preserve">
+    <value>획득 리드 vs. 손실 리드</value>
+  </data>
+  <data name="Spline1" xml:space="preserve">
+    <value>스플라인1</value>
+  </data>
+  <data name="HorizontalBar1" xml:space="preserve">
+    <value>수평바1</value>
+  </data>
+  <data name="OPEN_LEADS" xml:space="preserve">
+    <value>오픈 리드</value>
+  </data>
+  <data name="Prospecting" xml:space="preserve">
+    <value>탐사</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>약속</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>프레젠테이션</value>
+  </data>
+  <data name="Bought-In" xml:space="preserve">
+    <value>매입</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>계약</value>
+  </data>
+  <data name="Machine_Name" xml:space="preserve">
+    <value>기계 이름</value>
+  </data>
+  <data name="Start_Time" xml:space="preserve">
+    <value>시작 시간</value>
+  </data>
+  <data name="End_Time" xml:space="preserve">
+    <value>종료 시간</value>
+  </data>
+  <data name="Search_By_Machine_Name_...." xml:space="preserve">
+    <value>기계 이름으로 검색 ....</value>
+  </data>
+  <data name="QTY_Task" xml:space="preserve">
+    <value>수량 작업</value>
+  </data>
+  <data name="Machine_Monitoring" xml:space="preserve">
+    <value>기계 모니터링</value>
+  </data>
+  <data name="Machines_That_Have_No_Tasks_Now" xml:space="preserve">
+    <value>현재 작업이 없는 기계들</value>
+  </data>
+  <data name="Machines_In_Progress" xml:space="preserve">
+    <value>진행 중인 기계</value>
+  </data>
+  <data name="Company_Name_-_Manufacturing" xml:space="preserve">
+    <value>회사 이름 - 제조</value>
+  </data>
+  <data name="Log_Out" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>계기반</value>
+  </data>
+  <data name="Batches" xml:space="preserve">
+    <value>배치</value>
+  </data>
+  <data name="Machine_Records" xml:space="preserve">
+    <value>기계 기록</value>
+  </data>
+  <data name="Orders_Center" xml:space="preserve">
+    <value>주문 센터</value>
+  </data>
+  <data name="Bill_To" xml:space="preserve">
+    <value>청구서 수신자</value>
+  </data>
+  <data name="Disc" xml:space="preserve">
+    <value>디스크</value>
+  </data>
+  <data name="due_to" xml:space="preserve">
+    <value>~ 때문에</value>
+  </data>
+  <data name="Emirates" xml:space="preserve">
+    <value>에미레이트 항공</value>
+  </data>
+  <data name="Fixed_Asset_Category" xml:space="preserve">
+    <value>고정 자산 범주</value>
+  </data>
+  <data name="Invoice_#" xml:space="preserve">
+    <value>송장 #</value>
+  </data>
+  <data name="Invoice_Type" xml:space="preserve">
+    <value>송장 유형</value>
+  </data>
+  <data name="invoice_Report_" xml:space="preserve">
+    <value>송장 보고서</value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>방법</value>
+  </data>
+  <data name="Net_Price" xml:space="preserve">
+    <value>순 가격</value>
+  </data>
+  <data name="P.O_No" xml:space="preserve">
+    <value>우편번호</value>
+  </data>
+  <data name="Payment_Terms" xml:space="preserve">
+    <value>지불 조건</value>
+  </data>
+  <data name="Purchase_By_Customer_Details" xml:space="preserve">
+    <value>고객 세부 정보별 구매</value>
+  </data>
+  <data name="Purchase_Invoice" xml:space="preserve">
+    <value>구매 송장</value>
+  </data>
+  <data name="Purchase_Type" xml:space="preserve">
+    <value>구매 유형</value>
+  </data>
+  <data name="Receive_Payments" xml:space="preserve">
+    <value>결제 받기</value>
+  </data>
+  <data name="Recive_Report" xml:space="preserve">
+    <value>보고서 수신</value>
+  </data>
+  <data name="Refund/_Payment" xml:space="preserve">
+    <value>환불/결제</value>
+  </data>
+  <data name="Sales_Man" xml:space="preserve">
+    <value>영업 사원</value>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>배</value>
+  </data>
+  <data name="Ship_Date" xml:space="preserve">
+    <value>배송 날짜</value>
+  </data>
+  <data name="Ship_To" xml:space="preserve">
+    <value>배송지</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>큰 통</value>
+  </data>
+  <data name="Via" xml:space="preserve">
+    <value>을 통해</value>
+  </data>
+  <data name="New_Invoice" xml:space="preserve">
+    <value>새로운 송장</value>
+  </data>
+  <data name="Edit_Invoice" xml:space="preserve">
+    <value>송장 편집</value>
+  </data>
+  <data name="Vendor_Name" xml:space="preserve">
+    <value>공급업체 이름</value>
+  </data>
+  <data name="Purchases_Center" xml:space="preserve">
+    <value>구매 센터</value>
+  </data>
+  <data name="DHL" xml:space="preserve">
+    <value>DHL</value>
+  </data>
+  <data name="MAIL" xml:space="preserve">
+    <value>우편</value>
+  </data>
+  <data name="On_Site" xml:space="preserve">
+    <value>현장에서</value>
+  </data>
+  <data name="Print_The_Invoice_Now" xml:space="preserve">
+    <value>지금 송장을 인쇄하세요</value>
+  </data>
+  <data name="Create_Bill" xml:space="preserve">
+    <value>청구서 생성</value>
+  </data>
+  <data name="Purchase_Orders_Center" xml:space="preserve">
+    <value>구매 주문 센터</value>
+  </data>
+  <data name="PurchaseReturn_Center" xml:space="preserve">
+    <value>구매반품센터</value>
+  </data>
+  <data name="Export_To_&amp;Excel" xml:space="preserve">
+    <value>Export_To_&amp;Excel</value>
+  </data>
+  <data name="Export_To_&amp;Word" xml:space="preserve">
+    <value>Export_To_&amp;Word</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>정상</value>
+  </data>
+  <data name="Report_with_grid_lines" xml:space="preserve">
+    <value>격자선이 있는 보고서</value>
+  </data>
+  <data name="Save_As_PDF" xml:space="preserve">
+    <value>PDF로 저장</value>
+  </data>
+  <data name="Sort_By" xml:space="preserve">
+    <value>정렬 기준</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="Comment_On_Report" xml:space="preserve">
+    <value>보고서에 대한 의견</value>
+  </data>
+  <data name="Customize_Report" xml:space="preserve">
+    <value>보고서 사용자 정의</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>새로 고치다</value>
+  </data>
+  <data name="Hide_Header" xml:space="preserve">
+    <value>헤더 숨기기</value>
+  </data>
+  <data name="Excel" xml:space="preserve">
+    <value>뛰어나다</value>
+  </data>
+  <data name="Profit_&amp;_loss" xml:space="preserve">
+    <value>손익</value>
+  </data>
+  <data name="Balance_Sheet_Summary" xml:space="preserve">
+    <value>대차대조표 요약</value>
+  </data>
+  <data name="All_Transaction" xml:space="preserve">
+    <value>모든 거래</value>
+  </data>
+  <data name="Balance_Sheet_Standard" xml:space="preserve">
+    <value>대차대조표 기준</value>
+  </data>
+  <data name="Edit_Level_4_Account" xml:space="preserve">
+    <value>레벨 4 계정 편집</value>
+  </data>
+  <data name="New_Level_4_Account" xml:space="preserve">
+    <value>새로운 레벨 4 계정</value>
+  </data>
+  <data name="Accountant_Center_-_Balance_Sheet" xml:space="preserve">
+    <value>회계센터 - 대차대조표</value>
+  </data>
+  <data name="Customer_Balance_Summary" xml:space="preserve">
+    <value>고객 잔액 요약</value>
+  </data>
+  <data name="A/R_Aging_Summary" xml:space="preserve">
+    <value>A/R 에이징 요약</value>
+  </data>
+  <data name="A/R_Aging_Details" xml:space="preserve">
+    <value>A/R 에이징 세부 정보</value>
+  </data>
+  <data name="Project_Activity_Report" xml:space="preserve">
+    <value>프로젝트 활동 보고서</value>
+  </data>
+  <data name="Project_Assign_Report" xml:space="preserve">
+    <value>프로젝트 할당 보고서</value>
+  </data>
+  <data name="Project_Progress_Summary" xml:space="preserve">
+    <value>프로젝트 진행 요약</value>
+  </data>
+  <data name="Project_Resource_Report" xml:space="preserve">
+    <value>프로젝트 리소스 보고서</value>
+  </data>
+  <data name="Project_Name" xml:space="preserve">
+    <value>프로젝트 이름</value>
+  </data>
+  <data name="Project_Work_Progress_Summary" xml:space="preserve">
+    <value>프로젝트 작업 진행 요약</value>
+  </data>
+  <data name="Customer_Aging_Detail" xml:space="preserve">
+    <value>고객 연령 세부 정보</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>회사 이름</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>오늘</value>
+  </data>
+  <data name="This_Week" xml:space="preserve">
+    <value>이번 주</value>
+  </data>
+  <data name="This_Month" xml:space="preserve">
+    <value>이번 달</value>
+  </data>
+  <data name="This_Fiscal_Quarter" xml:space="preserve">
+    <value>이 회계 분기</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year" xml:space="preserve">
+    <value>이 회계 분기 연도</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year-To-Last_Month" xml:space="preserve">
+    <value>이번 회계 분기 연도 대비 지난 달</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>어제</value>
+  </data>
+  <data name="Customer_Aging_Summary" xml:space="preserve">
+    <value>고객 노후화 요약</value>
+  </data>
+  <data name="Customer_Balance_Detail" xml:space="preserve">
+    <value>고객 잔액 세부 정보</value>
+  </data>
+  <data name="Customer_Summary" xml:space="preserve">
+    <value>고객 요약</value>
+  </data>
+  <data name="Employee_Balance_Detail" xml:space="preserve">
+    <value>직원 잔액 세부 정보</value>
+  </data>
+  <data name="Fixed_Asset_Summary" xml:space="preserve">
+    <value>고정 자산 요약</value>
+  </data>
+  <data name="Fixed_Asset_Details" xml:space="preserve">
+    <value>고정 자산 세부 정보</value>
+  </data>
+  <data name="Item_Moving_Report" xml:space="preserve">
+    <value>품목 이동 보고서</value>
+  </data>
+  <data name="Inventory_Center_-_Item_Wise_Profit_Statement" xml:space="preserve">
+    <value>재고 센터 - 품목별 손익 계산서</value>
+  </data>
+  <data name="Vat_Input" xml:space="preserve">
+    <value>부가가치세 입력</value>
+  </data>
+  <data name="Vat_Output" xml:space="preserve">
+    <value>부가가치세 출력</value>
+  </data>
+  <data name="Delete_Invoice" xml:space="preserve">
+    <value>송장 삭제</value>
+  </data>
+  <data name="Statement_Of_Account_(_Customer_)" xml:space="preserve">
+    <value>계정 명세서(고객)</value>
+  </data>
+  <data name="Petty_Cash_Balance_Detail" xml:space="preserve">
+    <value>소액 현금 잔액 세부 정보</value>
+  </data>
+  <data name="Prepaid_Expense_Detail" xml:space="preserve">
+    <value>선불 비용 세부 정보</value>
+  </data>
+  <data name="Prepaid_Expense_Summary" xml:space="preserve">
+    <value>선불 비용 요약</value>
+  </data>
+  <data name="Sales_By_Item_Details" xml:space="preserve">
+    <value>품목별 판매 세부 정보</value>
+  </data>
+  <data name="Purchase_By_Vendor_Details" xml:space="preserve">
+    <value>공급업체별 구매 세부 정보</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>매상</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>인용</value>
+  </data>
+  <data name="Performa" xml:space="preserve">
+    <value>퍼포마</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>주문하다</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>반품</value>
+  </data>
+  <data name="Show_Columns" xml:space="preserve">
+    <value>열 표시</value>
+  </data>
+  <data name="This_Week_To_Date" xml:space="preserve">
+    <value>이번 주 현재까지</value>
+  </data>
+  <data name="This_Month_to_Date" xml:space="preserve">
+    <value>이번 달 현재까지</value>
+  </data>
+  <data name="This_Fiscal_Quarter_To_Date" xml:space="preserve">
+    <value>이 회계 분기 현재까지</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Last_Month" xml:space="preserve">
+    <value>이번 회계 분기 연도 대비 지난 달</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Date" xml:space="preserve">
+    <value>이 회계 분기 연초 대비</value>
+  </data>
+  <data name="Sales_by_Customer_Detail" xml:space="preserve">
+    <value>고객 세부정보별 판매</value>
+  </data>
+  <data name="Refre&amp;sh" xml:space="preserve">
+    <value>새로 고치다</value>
+  </data>
+  <data name="Ex&amp;pend_Rows" xml:space="preserve">
+    <value>행 확장(&amp;P)</value>
+  </data>
+  <data name="E&amp;xcel" xml:space="preserve">
+    <value>뛰어나다</value>
+  </data>
+  <data name="E-mai&amp;l" xml:space="preserve">
+    <value>이메일</value>
+  </data>
+  <data name="Prin&amp;t" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="Memori&amp;ze" xml:space="preserve">
+    <value>기억(&amp;Z)</value>
+  </data>
+  <data name="Share_Template" xml:space="preserve">
+    <value>템플릿 공유</value>
+  </data>
+  <data name="Comme&amp;nt_On_Report" xml:space="preserve">
+    <value>보고서에 대한 의견</value>
+  </data>
+  <data name="Custo&amp;mize_Report" xml:space="preserve">
+    <value>보고서 사용자 지정 및 조정</value>
+  </data>
+  <data name="Accaurl" xml:space="preserve">
+    <value>아카울</value>
+  </data>
+  <data name="Report_Basis" xml:space="preserve">
+    <value>보고 기준</value>
+  </data>
+  <data name="Sales_by_Item_Detail" xml:space="preserve">
+    <value>품목별 판매 상세 정보</value>
+  </data>
+  <data name="Refre_sh" xml:space="preserve">
+    <value>새로 고치다</value>
+  </data>
+  <data name="Ex_pend_Rows" xml:space="preserve">
+    <value>Ex_pend_Rows</value>
+  </data>
+  <data name="E_xcel" xml:space="preserve">
+    <value>뛰어나다</value>
+  </data>
+  <data name="E_mail" xml:space="preserve">
+    <value>이메일</value>
+  </data>
+  <data name="Prin_t" xml:space="preserve">
+    <value>인쇄</value>
+  </data>
+  <data name="Memori_ze" xml:space="preserve">
+    <value>Memori_ze</value>
+  </data>
+  <data name="Comme_nt_On_Report" xml:space="preserve">
+    <value>보고에 대한 의견</value>
+  </data>
+  <data name="Custo_mize_Report" xml:space="preserve">
+    <value>사용자 정의 보고서</value>
+  </data>
+  <data name="Test_Comapnt_LLC_/" xml:space="preserve">
+    <value>테스트 회사 LLC /</value>
+  </data>
+  <data name="E-mail" xml:space="preserve">
+    <value>이메일</value>
+  </data>
+  <data name="Sales_by_Rep_Detail" xml:space="preserve">
+    <value>담당자별 판매 세부 정보</value>
+  </data>
+  <data name="Accrual" xml:space="preserve">
+    <value>발생액</value>
+  </data>
+  <data name="Sales_by_Rep_Summary" xml:space="preserve">
+    <value>담당자별 판매 요약</value>
+  </data>
+  <data name="AR_Aging_Details" xml:space="preserve">
+    <value>A/R 에이징 세부 정보</value>
+  </data>
+  <data name="Income_By_Vendor_Detail" xml:space="preserve">
+    <value>공급업체별 수입 세부 정보</value>
+  </data>
+  <data name="Income_By_Vendor_Summary" xml:space="preserve">
+    <value>공급업체별 소득 요약</value>
+  </data>
+  <data name="Vendor_Aging_Details" xml:space="preserve">
+    <value>공급업체_노후화_세부정보</value>
+  </data>
+  <data name="Vendor_Aging_Summary" xml:space="preserve">
+    <value>공급업체 노후화 요약</value>
+  </data>
+  <data name="Vendor_Balance_Summary" xml:space="preserve">
+    <value>공급업체 잔액 요약</value>
+  </data>
+  <data name="Save_&amp;&amp;_New" xml:space="preserve">
+    <value>저장 &amp;&amp; 새로 만들기</value>
+  </data>
+  <data name="Vendor_Category" xml:space="preserve">
+    <value>공급업체 카테고리</value>
+  </data>
+  <data name="Opening_Balance" xml:space="preserve">
+    <value>개시 잔액</value>
+  </data>
+  <data name="Contact_&amp;_Address_Data" xml:space="preserve">
+    <value>연락처_&amp;_주소_데이터</value>
+  </data>
+  <data name="Building_Name" xml:space="preserve">
+    <value>건물 이름</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>지역</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>주소</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>웹사이트</value>
+  </data>
+  <data name="Mobile_Or_Fax" xml:space="preserve">
+    <value>모바일 또는 팩스</value>
+  </data>
+  <data name="Work_Phone" xml:space="preserve">
+    <value>직장 전화</value>
+  </data>
+  <data name="CC_Email" xml:space="preserve">
+    <value>참조 이메일</value>
+  </data>
+  <data name="Main_Phone" xml:space="preserve">
+    <value>메인_폰</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>도시</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>활동적인</value>
+  </data>
+  <data name="Facility_Name" xml:space="preserve">
+    <value>시설명</value>
+  </data>
+  <data name="TRN" xml:space="preserve">
+    <value>트렌</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>계정</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>lbl오류</value>
+  </data>
+  <data name="Customer_Balance_Details" xml:space="preserve">
+    <value>고객 잔액 세부 정보</value>
+  </data>
+  <data name="Run_Favorite_Reports" xml:space="preserve">
+    <value>즐겨찾는 보고서 실행</value>
+  </data>
+  <data name="View_Balance" xml:space="preserve">
+    <value>잔액 보기</value>
+  </data>
+  <data name="Print_Checks" xml:space="preserve">
+    <value>수표 인쇄</value>
+  </data>
+  <data name="Check_Register" xml:space="preserve">
+    <value>수표 등록</value>
+  </data>
+  <data name="Write_Checks" xml:space="preserve">
+    <value>수표 쓰기</value>
+  </data>
+  <data name="Reconcile" xml:space="preserve">
+    <value>조정하다</value>
+  </data>
+  <data name="Record_Deposits" xml:space="preserve">
+    <value>기록 예금</value>
+  </data>
+  <data name="Home_Page" xml:space="preserve">
+    <value>홈페이지</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>달력</value>
+  </data>
+  <data name="Transaction" xml:space="preserve">
+    <value>거래</value>
+  </data>
+  <data name="Order_Checks" xml:space="preserve">
+    <value>주문 확인</value>
+  </data>
+  <data name="Items_&amp;_Services" xml:space="preserve">
+    <value>품목 및 서비스</value>
+  </data>
+  <data name="Inventory_Activities" xml:space="preserve">
+    <value>재고 활동</value>
+  </data>
+  <data name="Chart_of_accounts" xml:space="preserve">
+    <value>계정 차트</value>
+  </data>
+  <data name="Purchase_Orders" xml:space="preserve">
+    <value>구매 주문서</value>
+  </data>
+  <data name="Statements" xml:space="preserve">
+    <value>진술</value>
+  </data>
+  <data name="Statement_Charges" xml:space="preserve">
+    <value>명세서 요금</value>
+  </data>
+  <data name="Create_Sales_Receipts" xml:space="preserve">
+    <value>판매 영수증 생성</value>
+  </data>
+  <data name="Receive_Payment" xml:space="preserve">
+    <value>결제 받기</value>
+  </data>
+  <data name="Create_Invoice" xml:space="preserve">
+    <value>송장 생성</value>
+  </data>
+  <data name="Pay_Bills" xml:space="preserve">
+    <value>청구서 지불</value>
+  </data>
+  <data name="Enter_Bills" xml:space="preserve">
+    <value>청구서 입력</value>
+  </data>
+  <data name="Manage_Sales_Tax" xml:space="preserve">
+    <value>매출세 관리</value>
+  </data>
+  <data name="Receive_Inventory" xml:space="preserve">
+    <value>재고 수령</value>
+  </data>
+  <data name="Enter_Bills_Against_Inventory" xml:space="preserve">
+    <value>재고에 대한 청구서 입력</value>
+  </data>
+  <data name="Insights" xml:space="preserve">
+    <value>통찰력</value>
+  </data>
+  <data name="Vendor_Operations__▼" xml:space="preserve">
+    <value>공급업체 운영 ▼</value>
+  </data>
+  <data name="New_Vendor" xml:space="preserve">
+    <value>새로운 공급업체</value>
+  </data>
+  <data name="Edit_Vendor" xml:space="preserve">
+    <value>공급업체 편집</value>
+  </data>
+  <data name="Delete_Vendor" xml:space="preserve">
+    <value>공급업체 삭제</value>
+  </data>
+  <data name="New_Transactions___▼" xml:space="preserve">
+    <value>새로운 거래 ▼</value>
+  </data>
+  <data name="Print___▼" xml:space="preserve">
+    <value>인쇄 ▼</value>
+  </data>
+  <data name="Excel___▼" xml:space="preserve">
+    <value>엑셀 ▼</value>
+  </data>
+  <data name="Import_&amp;&amp;_Export" xml:space="preserve">
+    <value>가져오기 및 내보내기</value>
+  </data>
+  <data name="Word__▼" xml:space="preserve">
+    <value>단어 ▼</value>
+  </data>
+  <data name="Active_Vendor" xml:space="preserve">
+    <value>활성 공급업체</value>
+  </data>
+  <data name="Inactive_Vendor" xml:space="preserve">
+    <value>비활성 공급업체</value>
+  </data>
+  <data name="Vendor_Snapshot" xml:space="preserve">
+    <value>공급업체 스냅샷</value>
+  </data>
+  <data name="Open_Balance" xml:space="preserve">
+    <value>오픈 밸런스</value>
+  </data>
+  <data name="QuickReport" xml:space="preserve">
+    <value>퀵리포트</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_CUSTOMER" xml:space="preserve">
+    <value>이 고객에 대한 보고서</value>
+  </data>
+  <data name="Vendor_Information" xml:space="preserve">
+    <value>공급업체 정보</value>
+  </data>
+  <data name="Transactions" xml:space="preserve">
+    <value>업무</value>
+  </data>
+  <data name="Cash_Invoice" xml:space="preserve">
+    <value>현금 송장</value>
+  </data>
+  <data name="Vendor_Center" xml:space="preserve">
+    <value>공급업체 센터</value>
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>카테고리 이름</value>
+  </data>
+  <data name="Acitve" xml:space="preserve">
+    <value>활동적</value>
+  </data>
+  <data name="Facilty_Name" xml:space="preserve">
+    <value>시설 이름</value>
+  </data>
+  <data name="VAT_Configration" xml:space="preserve">
+    <value>부가가치세 구성</value>
+  </data>
+  <data name="Due_Date" xml:space="preserve">
+    <value>마감일</value>
+  </data>
+  <data name="Quarter_One_Due_Date" xml:space="preserve">
+    <value>1분기 납부 기한</value>
+  </data>
+  <data name="Quarter_Four_Due_Date" xml:space="preserve">
+    <value>4분기 납부 기한</value>
+  </data>
+  <data name="Quarter_Three_Due_Date" xml:space="preserve">
+    <value>3분기 납부 기한</value>
+  </data>
+  <data name="Quarter_Two_Due_Date" xml:space="preserve">
+    <value>2분기 납부 기한</value>
+  </data>
+  <data name="Quarter_One_End_Date" xml:space="preserve">
+    <value>1분기 종료일</value>
+  </data>
+  <data name="Quarter_Four_End_Date" xml:space="preserve">
+    <value>4분기 종료일</value>
+  </data>
+  <data name="Quarter_Three_End_Date" xml:space="preserve">
+    <value>3분기 종료일</value>
+  </data>
+  <data name="Quarter_Two_End_Date" xml:space="preserve">
+    <value>2분기 종료일</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>시작 날짜</value>
+  </data>
+  <data name="Quarter_One_Start_Date" xml:space="preserve">
+    <value>1분기 시작일</value>
+  </data>
+  <data name="Quarter_Four_Start_Date" xml:space="preserve">
+    <value>4분기 시작일</value>
+  </data>
+  <data name="Quarter_Three_Start_Date" xml:space="preserve">
+    <value>3분기 시작일</value>
+  </data>
+  <data name="Quarter_Two_Start_Date" xml:space="preserve">
+    <value>2분기 시작일</value>
+  </data>
+  <data name="Quarter_No_1" xml:space="preserve">
+    <value>1분기</value>
+  </data>
+  <data name="Quarter_No_2" xml:space="preserve">
+    <value>2분기</value>
+  </data>
+  <data name="Quarter_No_3" xml:space="preserve">
+    <value>3분기</value>
+  </data>
+  <data name="Quarter_No_4" xml:space="preserve">
+    <value>4분기</value>
+  </data>
+  <data name="TAX_Registration_No" xml:space="preserve">
+    <value>세무 등록 번호</value>
+  </data>
+  <data name="TRN_Issue_Date" xml:space="preserve">
+    <value>TRN 발급일</value>
+  </data>
+  <data name="Corporate_TAX_Configration" xml:space="preserve">
+    <value>법인세 구성</value>
+  </data>
+  <data name="Quarter" xml:space="preserve">
+    <value>4분의 1</value>
+  </data>
+  <data name="Yearly" xml:space="preserve">
+    <value>매년</value>
+  </data>
+  <data name="Corporate_TAX_No" xml:space="preserve">
+    <value>법인세 번호</value>
+  </data>
+  <data name="General_Settings" xml:space="preserve">
+    <value>일반 설정</value>
+  </data>
+  <data name="Users_And_Roles" xml:space="preserve">
+    <value>사용자 및 역할</value>
+  </data>
+  <data name="Employee_Default_Setting" xml:space="preserve">
+    <value>직원 기본 설정</value>
+  </data>
+  <data name="Default_Account_Config" xml:space="preserve">
+    <value>기본 계정 구성</value>
+  </data>
+  <data name="The_email_address_is_essential_and_cannot_be_left_empty" xml:space="preserve">
+    <value>이메일 주소는 필수이므로 비워둘 수 없습니다.</value>
+  </data>
+  <data name="The_company_logo_has_been_updated" xml:space="preserve">
+    <value>회사 로고가 업데이트되었습니다.</value>
+  </data>
+  <data name="The_establishment_customer_number_is_essential_and_cannot_be_left_blank" xml:space="preserve">
+    <value>사업장 고객번호는 필수 입력사항이므로 비워둘 수 없습니다.</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="Setting_-_Master" xml:space="preserve">
+    <value>설정 - 마스터</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>수입</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>내보내다</value>
+  </data>
+  <data name="Starting_Code" xml:space="preserve">
+    <value>시작 코드</value>
+  </data>
+  <data name="Customized_File" xml:space="preserve">
+    <value>사용자 정의 파일</value>
+  </data>
+  <data name="Inventory_Export_&amp;_Import" xml:space="preserve">
+    <value>재고 수출입</value>
+  </data>
+  <data name="General_Config" xml:space="preserve">
+    <value>일반 구성</value>
+  </data>
+  <data name="Defult_Settings" xml:space="preserve">
+    <value>기본 설정</value>
+  </data>
+  <data name="Default_Tax_%" xml:space="preserve">
+    <value>기본 세금 %</value>
+  </data>
+  <data name="Attend_Config" xml:space="preserve">
+    <value>구성에 참석하세요</value>
+  </data>
+  <data name="Ex_:_08:00" xml:space="preserve">
+    <value>예: 08:00</value>
+  </data>
+  <data name="Save_Records" xml:space="preserve">
+    <value>기록 저장</value>
+  </data>
+  <data name="Deductions" xml:space="preserve">
+    <value>공제</value>
+  </data>
+  <data name="Delay_Time" xml:space="preserve">
+    <value>지연 시간</value>
+  </data>
+  <data name="Enter_Full-Day_Deductions" xml:space="preserve">
+    <value>하루 공제 입력</value>
+  </data>
+  <data name="Enter_Late_Arrival_or_Early_Leave_Deductions_(Minutes)" xml:space="preserve">
+    <value>지각 또는 조퇴 공제 시간(분) 입력</value>
+  </data>
+  <data name="Enter_Deduction_for_Missed_Hours" xml:space="preserve">
+    <value>놓친 시간에 대한 공제 입력</value>
+  </data>
+  <data name="Deductions_Configration" xml:space="preserve">
+    <value>공제 구성</value>
+  </data>
+  <data name="Petty_Cash_Account" xml:space="preserve">
+    <value>소액 현금 계좌</value>
+  </data>
+  <data name="Fixed_Asset_Credit_Account" xml:space="preserve">
+    <value>고정 자산 신용 계정</value>
+  </data>
+  <data name="Prepaid_Expense_Credit_Account" xml:space="preserve">
+    <value>선불 비용 크레딧 계정</value>
+  </data>
+  <data name="Fixed_Asset_Debit_Account" xml:space="preserve">
+    <value>고정 자산 차변 계정</value>
+  </data>
+  <data name="Prepaid_Expense_Debit_Account" xml:space="preserve">
+    <value>선불 비용 차변 계좌</value>
+  </data>
+  <data name="PDC_Receivable_Hold" xml:space="preserve">
+    <value>PDC 미수금 보류</value>
+  </data>
+  <data name="PDC_Payable_Hold" xml:space="preserve">
+    <value>PDC 지급 보류</value>
+  </data>
+  <data name="PDC_Receivable" xml:space="preserve">
+    <value>PDC 미수금</value>
+  </data>
+  <data name="PDC_Payable" xml:space="preserve">
+    <value>PDC 지불 가능</value>
+  </data>
+  <data name="PDC_Receivable_Return" xml:space="preserve">
+    <value>PDC 미수금 반환</value>
+  </data>
+  <data name="PDC_Payable_Return" xml:space="preserve">
+    <value>PDC 지급금 반환</value>
+  </data>
+  <data name="Default_Account_For_Cash" xml:space="preserve">
+    <value>현금 기본 계좌</value>
+  </data>
+  <data name="Opening_Balance_Equity" xml:space="preserve">
+    <value>개시 잔액 자본</value>
+  </data>
+  <data name="Item_COGS" xml:space="preserve">
+    <value>품목_COGS</value>
+  </data>
+  <data name="Stock_Settlement" xml:space="preserve">
+    <value>주식 결제</value>
+  </data>
+  <data name="Inventory_Damage_Account" xml:space="preserve">
+    <value>재고 손상 계정</value>
+  </data>
+  <data name="SalesReturn_Invoice" xml:space="preserve">
+    <value>판매 반품 송장</value>
+  </data>
+  <data name="Sales_Invoice" xml:space="preserve">
+    <value>판매 송장</value>
+  </data>
+  <data name="Invoice_Payment_Cash_Method" xml:space="preserve">
+    <value>송장 지불 현금 방법</value>
+  </data>
+  <data name="PurchaseReturn_Invoice" xml:space="preserve">
+    <value>구매반품 송장</value>
+  </data>
+  <data name="Purchase_Payment_Cash_Method" xml:space="preserve">
+    <value>구매 결제 현금 결제 방식</value>
+  </data>
+  <data name="Sales_Invoice_Revenue" xml:space="preserve">
+    <value>판매 송장 수익</value>
+  </data>
+  <data name="End_of_Service_Credit_Account" xml:space="preserve">
+    <value>서비스 종료 크레딧 계정</value>
+  </data>
+  <data name="Leave_Salary_Credit" xml:space="preserve">
+    <value>휴가 급여 크레딧</value>
+  </data>
+  <data name="Leave_Salary_Debit" xml:space="preserve">
+    <value>휴가 급여 차변</value>
+  </data>
+  <data name="End_of_Service_Debit_Account" xml:space="preserve">
+    <value>서비스 종료 직불 계좌</value>
+  </data>
+  <data name="Salaries" xml:space="preserve">
+    <value>급여</value>
+  </data>
+  <data name="Gratuit" xml:space="preserve">
+    <value>무료</value>
+  </data>
+  <data name="Acroal_Leave_Salary" xml:space="preserve">
+    <value>발생 휴가 급여</value>
+  </data>
+  <data name="Employee_Recivable" xml:space="preserve">
+    <value>직원 미수금</value>
+  </data>
+  <data name="Accrued_Salaries" xml:space="preserve">
+    <value>누적 급여</value>
+  </data>
+  <data name="Default_Account_For_Bank" xml:space="preserve">
+    <value>은행 기본 계좌</value>
+  </data>
+  <data name="Bank_&amp;_Others" xml:space="preserve">
+    <value>은행 및 기타</value>
+  </data>
+  <data name="ChartOfAccount_Export_&amp;_Import" xml:space="preserve">
+    <value>ChartOfAccount 내보내기 및 가져오기</value>
+  </data>
+  <data name="User_Operations_▼" xml:space="preserve">
+    <value>사용자 작업 ▼</value>
+  </data>
+  <data name="New_User" xml:space="preserve">
+    <value>새로운 사용자</value>
+  </data>
+  <data name="Edit_User" xml:space="preserve">
+    <value>사용자 편집</value>
+  </data>
+  <data name="Roles_Operations_▼" xml:space="preserve">
+    <value>역할 운영 ▼</value>
+  </data>
+  <data name="New_Role" xml:space="preserve">
+    <value>새로운 역할</value>
+  </data>
+  <data name="Edit_Role" xml:space="preserve">
+    <value>भूमिका संपादित करें</value>
+  </data>
+  <data name="Search_By_First_Name,_Last_Name,_User_Name" xml:space="preserve">
+    <value>이름, 성, 사용자 이름으로 검색</value>
+  </data>
+  <data name="Active_User" xml:space="preserve">
+    <value>활성 사용자</value>
+  </data>
+  <data name="Inactive_User" xml:space="preserve">
+    <value>비활성 사용자</value>
+  </data>
+  <data name="Last_Name" xml:space="preserve">
+    <value>성</value>
+  </data>
+  <data name="First_Name" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="User_Information" xml:space="preserve">
+    <value>사용자 정보</value>
+  </data>
+  <data name="User_-_Roles" xml:space="preserve">
+    <value>사용자 - 역할</value>
+  </data>
+  <data name="User_Center" xml:space="preserve">
+    <value>사용자 센터</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="Confirm_Password" xml:space="preserve">
+    <value>비밀번호 확인</value>
+  </data>
+  <data name="Confirm_Your_Password" xml:space="preserve">
+    <value>비밀번호를 확인하세요</value>
+  </data>
+  <data name="Enter_Password" xml:space="preserve">
+    <value>비밀번호를 입력하세요</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="Role_Name" xml:space="preserve">
+    <value>역할 이름</value>
+  </data>
+  <data name="Old_Password" xml:space="preserve">
+    <value>이전 비밀번호</value>
+  </data>
+  <data name="Add_New_User" xml:space="preserve">
+    <value>새로운 사용자 추가</value>
+  </data>
+  <data name="Delete_User" xml:space="preserve">
+    <value>사용자 삭제</value>
+  </data>
+  <data name="Catch_Log_Report" xml:space="preserve">
+    <value>캐치 로그 보고서</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_User" xml:space="preserve">
+    <value>이 사용자에 대한 보고서</value>
+  </data>
+  <data name="User_Code" xml:space="preserve">
+    <value>사용자 코드</value>
+  </data>
+  <data name="Restore_Company" xml:space="preserve">
+    <value>회사 복원</value>
+  </data>
+  <data name="BackUp_Company" xml:space="preserve">
+    <value>백업 회사</value>
+  </data>
+  <data name="Back_Up_Company" xml:space="preserve">
+    <value>백업 회사</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>모두 선택</value>
+  </data>
+  <data name="File_Access" xml:space="preserve">
+    <value>파일 액세스</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="Clear_Data" xml:space="preserve">
+    <value>데이터 지우기</value>
+  </data>
+  <data name="Change_Current_Password" xml:space="preserve">
+    <value>현재 비밀번호 변경</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Setting_Access" xml:space="preserve">
+    <value>액세스 설정</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>목록</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>구매</value>
+  </data>
+  <data name="Report_Access" xml:space="preserve">
+    <value>보고서 액세스</value>
+  </data>
+  <data name="PDC" xml:space="preserve">
+    <value>피디씨</value>
+  </data>
+  <data name="Cheques" xml:space="preserve">
+    <value>체크 무늬</value>
+  </data>
+  <data name="Open_Bank_Card" xml:space="preserve">
+    <value>오픈뱅크카드</value>
+  </data>
+  <data name="Bank_Center" xml:space="preserve">
+    <value>뱅크센터</value>
+  </data>
+  <data name="Banking_Access" xml:space="preserve">
+    <value>은행 접근</value>
+  </data>
+  <data name="Final_Settlement" xml:space="preserve">
+    <value>최종 결제</value>
+  </data>
+  <data name="Loans" xml:space="preserve">
+    <value>대출</value>
+  </data>
+  <data name="End_Of_Services" xml:space="preserve">
+    <value>서비스 종료</value>
+  </data>
+  <data name="Leave_Salary" xml:space="preserve">
+    <value>휴가 급여</value>
+  </data>
+  <data name="Salary_Sheet" xml:space="preserve">
+    <value>급여표</value>
+  </data>
+  <data name="Human_Resource_Center" xml:space="preserve">
+    <value>인사센터</value>
+  </data>
+  <data name="H.R_Access" xml:space="preserve">
+    <value>H.R 액세스</value>
+  </data>
+  <data name="Purchase_Return" xml:space="preserve">
+    <value>구매 반품</value>
+  </data>
+  <data name="Purchase_Order" xml:space="preserve">
+    <value>구매 주문서</value>
+  </data>
+  <data name="Debit_Note" xml:space="preserve">
+    <value>차변 메모</value>
+  </data>
+  <data name="Create_Purchase" xml:space="preserve">
+    <value>구매 생성</value>
+  </data>
+  <data name="Vendor_Access" xml:space="preserve">
+    <value>공급업체 액세스</value>
+  </data>
+  <data name="Sales_Proforma" xml:space="preserve">
+    <value>판매 프로포마</value>
+  </data>
+  <data name="Sales_Return" xml:space="preserve">
+    <value>판매 반품</value>
+  </data>
+  <data name="Sales_Order" xml:space="preserve">
+    <value>판매 주문</value>
+  </data>
+  <data name="Credit_Note" xml:space="preserve">
+    <value>신용 메모</value>
+  </data>
+  <data name="Customer_Access" xml:space="preserve">
+    <value>고객 접근</value>
+  </data>
+  <data name="Warehouse_Center" xml:space="preserve">
+    <value>창고 센터</value>
+  </data>
+  <data name="Inventory_Center" xml:space="preserve">
+    <value>재고 센터</value>
+  </data>
+  <data name="Stock_Management" xml:space="preserve">
+    <value>재고 관리</value>
+  </data>
+  <data name="Inventory_Items" xml:space="preserve">
+    <value>재고 품목</value>
+  </data>
+  <data name="Inventory_Access" xml:space="preserve">
+    <value>재고 접근</value>
+  </data>
+  <data name="Petty_Cash" xml:space="preserve">
+    <value>용돈</value>
+  </data>
+  <data name="Prepaid_Expense" xml:space="preserve">
+    <value>선불 비용</value>
+  </data>
+  <data name="Vouchers" xml:space="preserve">
+    <value>바우처</value>
+  </data>
+  <data name="Fixed_Assets" xml:space="preserve">
+    <value>고정 자산</value>
+  </data>
+  <data name="Chart_Of_Account" xml:space="preserve">
+    <value>계정 차트</value>
+  </data>
+  <data name="Accountant_Access" xml:space="preserve">
+    <value>회계사 접근</value>
+  </data>
+  <data name="Vendor_&amp;&amp;_Payable" xml:space="preserve">
+    <value>공급업체 및 지불금</value>
+  </data>
+  <data name="Customer_&amp;&amp;_Receivable" xml:space="preserve">
+    <value>고객 및 미수금</value>
+  </data>
+  <data name="Construction_Access" xml:space="preserve">
+    <value>건설 접근</value>
+  </data>
+  <data name="Project_Planning" xml:space="preserve">
+    <value>프로젝트 계획</value>
+  </data>
+  <data name="Project_Estimate" xml:space="preserve">
+    <value>프로젝트 견적</value>
+  </data>
+  <data name="Project_Tender" xml:space="preserve">
+    <value>프로젝트 입찰</value>
+  </data>
+  <data name="Project_Dashboard" xml:space="preserve">
+    <value>프로젝트 대시보드</value>
+  </data>
+  <data name="General_Information" xml:space="preserve">
+    <value>일반 정보</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>먹다</value>
+  </data>
+  <data name="Gmail" xml:space="preserve">
+    <value>지메일</value>
+  </data>
+  <data name="Company_Configration" xml:space="preserve">
+    <value>회사 구성</value>
+  </data>
+  <data name="TRN_No" xml:space="preserve">
+    <value>TRN 번호</value>
+  </data>
+  <data name="Phone_1" xml:space="preserve">
+    <value>전화 1</value>
+  </data>
+  <data name="Phone_2" xml:space="preserve">
+    <value>전화 2</value>
+  </data>
+  <data name="New_SO" xml:space="preserve">
+    <value>새로운 SO</value>
+  </data>
+  <data name="Edit_SO" xml:space="preserve">
+    <value>SO 편집</value>
+  </data>
+  <data name="Sales_Orders_Center" xml:space="preserve">
+    <value>영업 주문 센터</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>복원하다</value>
+  </data>
+  <data name="SalesReturn_Center" xml:space="preserve">
+    <value>판매 반품 센터</value>
+  </data>
+  <data name="Return_Invoice" xml:space="preserve">
+    <value>반환 송장</value>
+  </data>
+  <data name="Print_the_Return_Invoice_after_Saved" xml:space="preserve">
+    <value>저장 후 반품 송장을 인쇄하세요</value>
+  </data>
+  <data name="New_Quotation" xml:space="preserve">
+    <value>새로운 견적</value>
+  </data>
+  <data name="Edit_Quotation" xml:space="preserve">
+    <value>견적 편집</value>
+  </data>
+  <data name="Sales_Quotation_Center" xml:space="preserve">
+    <value>판매 견적 센터</value>
+  </data>
+  <data name="New_Proforma" xml:space="preserve">
+    <value>새로운 프로포마</value>
+  </data>
+  <data name="Create_Qutation" xml:space="preserve">
+    <value>견적 만들기</value>
+  </data>
+  <data name="Edit_Proforma" xml:space="preserve">
+    <value>프로포마 편집</value>
+  </data>
+  <data name="Sales_Performa_Center" xml:space="preserve">
+    <value>영업 수행 센터</value>
+  </data>
+  <data name="Quotation_No" xml:space="preserve">
+    <value>견적 번호</value>
+  </data>
+  <data name="Proforma_Invoice" xml:space="preserve">
+    <value>견적 송장</value>
+  </data>
+  <data name="Print_Performa_Report_After_Save" xml:space="preserve">
+    <value>저장 후 Performa 보고서 인쇄</value>
+  </data>
+  <data name="Sale_Proforma_Invoice" xml:space="preserve">
+    <value>판매 견적 송장</value>
+  </data>
+  <data name="Print_Tax_Invoice_After_Save" xml:space="preserve">
+    <value>저장 후 세금계산서 인쇄</value>
+  </data>
+  <data name="Paid_&amp;_Unpaid" xml:space="preserve">
+    <value>유료 및 무료</value>
+  </data>
+  <data name="PAID" xml:space="preserve">
+    <value>유급의</value>
+  </data>
+  <data name="UNPAID" xml:space="preserve">
+    <value>무급</value>
+  </data>
+  <data name="Pending_Order" xml:space="preserve">
+    <value>보류 중인 주문</value>
+  </data>
+  <data name="Total_Pending" xml:space="preserve">
+    <value>보류 중인 총계</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>배달</value>
+  </data>
+  <data name="Din_In" xml:space="preserve">
+    <value>식당에서 식사하세요</value>
+  </data>
+  <data name="Take_Away" xml:space="preserve">
+    <value>테이크어웨이</value>
+  </data>
+  <data name="Total_Amount" xml:space="preserve">
+    <value>총액</value>
+  </data>
+  <data name="Chart_Report" xml:space="preserve">
+    <value>차트 보고서</value>
+  </data>
+  <data name="Date_From" xml:space="preserve">
+    <value>날짜부터</value>
+  </data>
+  <data name="Date_To" xml:space="preserve">
+    <value>날짜까지</value>
+  </data>
+  <data name="Order_Type" xml:space="preserve">
+    <value>주문 유형</value>
+  </data>
+  <data name="RMS_Home" xml:space="preserve">
+    <value>RMS 홈</value>
+  </data>
+  <data name="Header_Text" xml:space="preserve">
+    <value>헤더 텍스트</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>찾다</value>
+  </data>
+  <data name="RMS" xml:space="preserve">
+    <value>RMS</value>
+  </data>
+  <data name="Search_Here" xml:space="preserve">
+    <value>여기에서 검색하세요</value>
+  </data>
+  <data name="RMSamlpeView" xml:space="preserve">
+    <value>RMSamlpeView</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>헤더</value>
+  </data>
+  <data name="RM" xml:space="preserve">
+    <value>RM</value>
+  </data>
+  <data name="RMSAddSample" xml:space="preserve">
+    <value>RMSAddSample</value>
+  </data>
+  <data name="Kitchen" xml:space="preserve">
+    <value>주방</value>
+  </data>
+  <data name="POS" xml:space="preserve">
+    <value>포스</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>직원</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>테이블</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>카테고리</value>
+  </data>
+  <data name="Restaurant_Management_System" xml:space="preserve">
+    <value>레스토랑 관리 시스템</value>
+  </data>
+  <data name="Table_list" xml:space="preserve">
+    <value>테이블 목록</value>
+  </data>
+  <data name="Staff_List" xml:space="preserve">
+    <value>직원 목록</value>
+  </data>
+  <data name="Products_List" xml:space="preserve">
+    <value>제품 목록</value>
+  </data>
+  <data name="RMSView" xml:space="preserve">
+    <value>RMS뷰</value>
+  </data>
+  <data name="Category_List" xml:space="preserve">
+    <value>카테고리 목록</value>
+  </data>
+  <data name="Contact_and_Address_Info" xml:space="preserve">
+    <value>연락처 및 주소 정보</value>
+  </data>
+  <data name="CC_to_Email" xml:space="preserve">
+    <value>이메일로 참조</value>
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>도시 이름</value>
+  </data>
+  <data name="Enter_User_Name" xml:space="preserve">
+    <value>사용자 이름을 입력하세요</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="Lists" xml:space="preserve">
+    <value>기울기</value>
+  </data>
+  <data name="Item_List" xml:space="preserve">
+    <value>품목 목록</value>
+  </data>
+  <data name="Item_Category_List" xml:space="preserve">
+    <value>품목 카테고리 목록</value>
+  </data>
+  <data name="Item_Tax_Code_List" xml:space="preserve">
+    <value>품목 세금 코드 목록</value>
+  </data>
+  <data name="Item_Unit_List" xml:space="preserve">
+    <value>품목 단위 목록</value>
+  </data>
+  <data name="Account_Center" xml:space="preserve">
+    <value>계정 센터</value>
+  </data>
+  <data name="Export_&amp;&amp;_Import" xml:space="preserve">
+    <value>수출 및 수입</value>
+  </data>
+  <data name="Fixed_Assets_List" xml:space="preserve">
+    <value>고정 자산 목록</value>
+  </data>
+  <data name="Add_Fixed_Assets" xml:space="preserve">
+    <value>고정 자산 추가</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>보증인</value>
+  </data>
+  <data name="Advance_Payment" xml:space="preserve">
+    <value>선불</value>
+  </data>
+  <data name="General_Journal_Voucher" xml:space="preserve">
+    <value>일반 저널 바우처</value>
+  </data>
+  <data name="Prepaid_Expense_List" xml:space="preserve">
+    <value>선불 비용 목록</value>
+  </data>
+  <data name="Add_Prepaid_Expense" xml:space="preserve">
+    <value>선불 비용 추가</value>
+  </data>
+  <data name="Prepaid_Expense_Category" xml:space="preserve">
+    <value>선불 비용 범주</value>
+  </data>
+  <data name="Petty_Cash_List" xml:space="preserve">
+    <value>소액 현금 목록</value>
+  </data>
+  <data name="Petty_Cash_Center" xml:space="preserve">
+    <value>소액 현금 센터</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>제출</value>
+  </data>
+  <data name="Company_Profile" xml:space="preserve">
+    <value>회사 프로필</value>
+  </data>
+  <data name="Company_Center" xml:space="preserve">
+    <value>회사 센터</value>
+  </data>
+  <data name="Inventory_Doc" xml:space="preserve">
+    <value>재고 문서</value>
+  </data>
+  <data name="Add_Unit" xml:space="preserve">
+    <value>단위 추가</value>
+  </data>
+  <data name="Add_New_Item" xml:space="preserve">
+    <value>새 항목 추가</value>
+  </data>
+  <data name="Receive_Voucher" xml:space="preserve">
+    <value>바우처 받기</value>
+  </data>
+  <data name="Construction" xml:space="preserve">
+    <value>건설</value>
+  </data>
+  <data name="Project_Setup" xml:space="preserve">
+    <value>프로젝트 설정</value>
+  </data>
+  <data name="Project_Center" xml:space="preserve">
+    <value>프로젝트 센터</value>
+  </data>
+  <data name="New_Project" xml:space="preserve">
+    <value>새로운 프로젝트</value>
+  </data>
+  <data name="Tender_Center" xml:space="preserve">
+    <value>텐더 센터</value>
+  </data>
+  <data name="New_Tender" xml:space="preserve">
+    <value>신규 입찰</value>
+  </data>
+  <data name="Site_Center" xml:space="preserve">
+    <value>사이트 센터</value>
+  </data>
+  <data name="New_Site" xml:space="preserve">
+    <value>새로운 사이트</value>
+  </data>
+  <data name="Project_Work_Done" xml:space="preserve">
+    <value>프로젝트 작업 완료</value>
+  </data>
+  <data name="Project_Management" xml:space="preserve">
+    <value>프로젝트 관리</value>
+  </data>
+  <data name="Project_Summary" xml:space="preserve">
+    <value>프로젝트 요약</value>
+  </data>
+  <data name="Project_Activity_Summary" xml:space="preserve">
+    <value>프로젝트 활동 요약</value>
+  </data>
+  <data name="Project_Assign_Summary" xml:space="preserve">
+    <value>프로젝트 할당 요약</value>
+  </data>
+  <data name="Project_Resource_Summary" xml:space="preserve">
+    <value>프로젝트 리소스 요약</value>
+  </data>
+  <data name="Project_Dashboards_&amp;&amp;_Reports" xml:space="preserve">
+    <value>프로젝트 대시보드 및 보고서</value>
+  </data>
+  <data name="Project_Time_Line" xml:space="preserve">
+    <value>프로젝트 타임라인</value>
+  </data>
+  <data name="GanttChart" xml:space="preserve">
+    <value>간트차트</value>
+  </data>
+  <data name="Income_By_Customer_Summary" xml:space="preserve">
+    <value>고객별 소득 요약</value>
+  </data>
+  <data name="Expense_From_Vendor_Summary" xml:space="preserve">
+    <value>공급업체 비용 요약</value>
+  </data>
+  <data name="Profit_&amp;&amp;_Loss" xml:space="preserve">
+    <value>이익 &amp; 손실</value>
+  </data>
+  <data name="Customer_Income_Summary" xml:space="preserve">
+    <value>고객 소득 요약</value>
+  </data>
+  <data name="Vendor_Summary" xml:space="preserve">
+    <value>공급업체 요약</value>
+  </data>
+  <data name="Vendor_Income_Summary" xml:space="preserve">
+    <value>공급업체 소득 요약</value>
+  </data>
+  <data name="Purchase_By_Vendor_Summary" xml:space="preserve">
+    <value>공급업체별 구매 요약</value>
+  </data>
+  <data name="Purchase_By_Item_Summary" xml:space="preserve">
+    <value>품목별 구매 요약</value>
+  </data>
+  <data name="Employee_Balance_Summary" xml:space="preserve">
+    <value>직원 잔액 요약</value>
+  </data>
+  <data name="Trial_Balance" xml:space="preserve">
+    <value>시범 결산서</value>
+  </data>
+  <data name="General_Ledger" xml:space="preserve">
+    <value>총계정원장</value>
+  </data>
+  <data name="VAT_Report" xml:space="preserve">
+    <value>부가가치세 보고서</value>
+  </data>
+  <data name="Fixed_Asset" xml:space="preserve">
+    <value>고정 자산</value>
+  </data>
+  <data name="Vat_Category_Report" xml:space="preserve">
+    <value>부가가치세 범주 보고서</value>
+  </data>
+  <data name="Item_Profit" xml:space="preserve">
+    <value>품목 이익</value>
+  </data>
+  <data name="Item_Transaction" xml:space="preserve">
+    <value>품목 거래</value>
+  </data>
+  <data name="Corporate_Tax" xml:space="preserve">
+    <value>법인세</value>
+  </data>
+  <data name="Theme_Color" xml:space="preserve">
+    <value>테마 색상</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>창문</value>
+  </data>
+  <data name="Cascade_All" xml:space="preserve">
+    <value>모두 계단식</value>
+  </data>
+  <data name="Show_Side_By_Side" xml:space="preserve">
+    <value>나란히 표시</value>
+  </data>
+  <data name="Close_All" xml:space="preserve">
+    <value>모두 닫기</value>
+  </data>
+  <data name="Restaurant_System" xml:space="preserve">
+    <value>레스토랑 시스템</value>
+  </data>
+  <data name="YAMY_ERP_SYSTEM" xml:space="preserve">
+    <value>야미 ERP 시스템</value>
+  </data>
+  <data name="My_Shortcuts" xml:space="preserve">
+    <value>내 단축키</value>
+  </data>
+  <data name="Help_Disk" xml:space="preserve">
+    <value>도움말 디스크</value>
+  </data>
+  <data name="Yamy_Technology" xml:space="preserve">
+    <value>야미 테크놀로지</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>환경</value>
+  </data>
+  <data name="Search_Company_or_Help" xml:space="preserve">
+    <value>회사 검색 또는 도움말</value>
+  </data>
+  <data name="Privacy_Policy" xml:space="preserve">
+    <value>개인정보 보호정책</value>
+  </data>
+  <data name="Sign_Out" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="Edit_Account" xml:space="preserve">
+    <value>계정 편집</value>
+  </data>
+  <data name="Change_Password" xml:space="preserve">
+    <value>비밀번호 변경</value>
+  </data>
+  <data name="Sales_By_Customer_Summary" xml:space="preserve">
+    <value>고객별 판매 요약</value>
+  </data>
+  <data name="Sales_by_Item_Summary" xml:space="preserve">
+    <value>품목별 판매 요약</value>
+  </data>
+  <data name="New_Category" xml:space="preserve">
+    <value>새로운 카테고리</value>
+  </data>
+  <data name="COGS" xml:space="preserve">
+    <value>톱니바퀴</value>
+  </data>
+  <data name="Agv_COGS" xml:space="preserve">
+    <value>평균 매출원가</value>
+  </data>
+  <data name="Net_Sales" xml:space="preserve">
+    <value>순매출</value>
+  </data>
+  <data name="Enter_Level_4_Name" xml:space="preserve">
+    <value>레벨 4 이름을 입력하세요</value>
+  </data>
+  <data name="Enter_Level_3_Name" xml:space="preserve">
+    <value>레벨 3 이름을 입력하세요</value>
+  </data>
+  <data name="Item_Card" xml:space="preserve">
+    <value>아이템 카드</value>
+  </data>
+  <data name="Stock_Method" xml:space="preserve">
+    <value>주식 방법</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>로그인</value>
+  </data>
+  <data name="Create_New_Company" xml:space="preserve">
+    <value>새로운 회사 만들기</value>
+  </data>
+  <data name="Phone_no" xml:space="preserve">
+    <value>전화번호</value>
+  </data>
+  <data name="RE-ENTER_THE_PASSWORD" xml:space="preserve">
+    <value>비밀번호를 다시 입력하세요</value>
+  </data>
+  <data name="Employee_Informations" xml:space="preserve">
+    <value>직원 정보</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="PVC_NO" xml:space="preserve">
+    <value>PVC 번호</value>
+  </data>
+  <data name="Description_of_work" xml:space="preserve">
+    <value>작업 설명</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>길이</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>너비</value>
+  </data>
+  <data name="Thick" xml:space="preserve">
+    <value>두꺼운</value>
+  </data>
+  <data name="Margin_%" xml:space="preserve">
+    <value>마진 %</value>
+  </data>
+  <data name="Margin_Amount" xml:space="preserve">
+    <value>마진 금액</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>품목 이름</value>
+  </data>
+  <data name="Sale_Price" xml:space="preserve">
+    <value>판매 가격</value>
+  </data>
+  <data name="Voucher_No" xml:space="preserve">
+    <value>바우처 번호</value>
+  </data>
+  <data name="As_Of" xml:space="preserve">
+    <value>~의 기준</value>
+  </data>
+  <data name="Income_Account" xml:space="preserve">
+    <value>소득 계정</value>
+  </data>
+  <data name="Asset_Account" xml:space="preserve">
+    <value>자산 계정</value>
+  </data>
+  <data name="Preferred_Vendor" xml:space="preserve">
+    <value>선호 공급업체</value>
+  </data>
+  <data name="Warehouse_Code" xml:space="preserve">
+    <value>창고 코드</value>
+  </data>
+  <data name="Warehouse_Name" xml:space="preserve">
+    <value>창고 이름</value>
+  </data>
+  <data name="Unit_Name" xml:space="preserve">
+    <value>단위 이름</value>
+  </data>
+  <data name="Edit_Category" xml:space="preserve">
+    <value>카테고리 편집</value>
+  </data>
+  <data name="Tax_Name" xml:space="preserve">
+    <value>세금 이름</value>
+  </data>
+  <data name="Rate_(%)" xml:space="preserve">
+    <value>비율 (%)</value>
+  </data>
+  <data name="Level1_Code" xml:space="preserve">
+    <value>레벨1_코드</value>
+  </data>
+  <data name="Level1_Name" xml:space="preserve">
+    <value>레벨1 이름</value>
+  </data>
+  <data name="Level2_Code" xml:space="preserve">
+    <value>레벨2 코드</value>
+  </data>
+  <data name="Level2_Name" xml:space="preserve">
+    <value>레벨2 이름</value>
+  </data>
+  <data name="Level3_Code" xml:space="preserve">
+    <value>레벨3 코드</value>
+  </data>
+  <data name="Level3_Name" xml:space="preserve">
+    <value>레벨3 이름</value>
+  </data>
+  <data name="Level4_Code" xml:space="preserve">
+    <value>레벨4 코드</value>
+  </data>
+  <data name="Level4_Name" xml:space="preserve">
+    <value>레벨4 이름</value>
+  </data>
+  <data name="New_Cost_Center" xml:space="preserve">
+    <value>새로운 비용 센터</value>
+  </data>
+  <data name="Sub_Name" xml:space="preserve">
+    <value>하위 이름</value>
+  </data>
+  <data name="A/C_NAME" xml:space="preserve">
+    <value>A/C 이름</value>
+  </data>
+  <data name="A/C_Code" xml:space="preserve">
+    <value>에어컨 코드</value>
+  </data>
+  <data name="Ref_Id" xml:space="preserve">
+    <value>참조_ID</value>
+  </data>
+  <data name="Fixed_Assets_Category" xml:space="preserve">
+    <value>고정 자산 범주</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>날</value>
+  </data>
+  <data name="Customer_Operations___▼" xml:space="preserve">
+    <value>고객 운영 ▼</value>
+  </data>
+  <data name="Employee_Operations__▼" xml:space="preserve">
+    <value>직원 운영 ▼</value>
+  </data>
+  <data name="Fixed_Assets_Operations___▼" xml:space="preserve">
+    <value>고정자산운용 ▼</value>
+  </data>
+  <data name="Asset_Name" xml:space="preserve">
+    <value>자산 이름</value>
+  </data>
+  <data name="Supplier_Name" xml:space="preserve">
+    <value>공급업체 이름</value>
+  </data>
+  <data name="Purchase_Date" xml:space="preserve">
+    <value>구매 날짜</value>
+  </data>
+  <data name="Depreciation_Value_(IN_%)" xml:space="preserve">
+    <value>감가상각 가치(IN %)</value>
+  </data>
+  <data name="Invoice_Number" xml:space="preserve">
+    <value>송장 번호</value>
+  </data>
+  <data name="Model_/_ENG_No" xml:space="preserve">
+    <value>모델 / ENG 번호</value>
+  </data>
+  <data name="New_PV" xml:space="preserve">
+    <value>새로운 PV</value>
+  </data>
+  <data name="Edit_PV" xml:space="preserve">
+    <value>PV 편집</value>
+  </data>
+  <data name="Payment_Code" xml:space="preserve">
+    <value>결제 코드</value>
+  </data>
+  <data name="Debit_Account" xml:space="preserve">
+    <value>직불 계좌</value>
+  </data>
+  <data name="Credit_Account" xml:space="preserve">
+    <value>신용 계좌</value>
+  </data>
+  <data name="Pay_To_-_Debit" xml:space="preserve">
+    <value>지불 대상 - 직불</value>
+  </data>
+  <data name="New_AP" xml:space="preserve">
+    <value>새로운 AP</value>
+  </data>
+  <data name="Edit_AP" xml:space="preserve">
+    <value>AP 편집</value>
+  </data>
+  <data name="Receipt_Code" xml:space="preserve">
+    <value>영수증 코드</value>
+  </data>
+  <data name="Asset_Brand" xml:space="preserve">
+    <value>자산 브랜드</value>
+  </data>
+  <data name="Depreciation_Life_(Years)" xml:space="preserve">
+    <value>감가상각 기간(년)</value>
+  </data>
+  <data name="Journal_Code" xml:space="preserve">
+    <value>저널 코드</value>
+  </data>
+  <data name="Debit_Amount" xml:space="preserve">
+    <value>차변 금액</value>
+  </data>
+  <data name="Credit_Amount" xml:space="preserve">
+    <value>신용 금액</value>
+  </data>
+  <data name="New_Prepaid_Expense" xml:space="preserve">
+    <value>새로운 선불 비용</value>
+  </data>
+  <data name="Fees_Amount" xml:space="preserve">
+    <value>수수료 금액</value>
+  </data>
+  <data name="Agreement_Amount" xml:space="preserve">
+    <value>계약 금액</value>
+  </data>
+  <data name="Agreement_End_Date" xml:space="preserve">
+    <value>계약 종료일</value>
+  </data>
+  <data name="Submission_Date" xml:space="preserve">
+    <value>제출 날짜</value>
+  </data>
+  <data name="Total_With_VAT" xml:space="preserve">
+    <value>부가가치세 포함 총액</value>
+  </data>
+  <data name="WhatsApp_No" xml:space="preserve">
+    <value>왓츠앱 번호</value>
+  </data>
+  <data name="Request_REF" xml:space="preserve">
+    <value>REF 요청</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>감소</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>승인하다</value>
+  </data>
+  <data name="Performa_Invoice_NO." xml:space="preserve">
+    <value>Performa 송장 번호</value>
+  </data>
+  <data name="Quotation_No." xml:space="preserve">
+    <value>견적 번호</value>
+  </data>
+  <data name="invoice_date" xml:space="preserve">
+    <value>송장 날짜</value>
+  </data>
+  <data name="SalesId" xml:space="preserve">
+    <value>판매 ID</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>그물</value>
+  </data>
+  <data name="Print_Quotation_After_Saved" xml:space="preserve">
+    <value>저장 후 견적 인쇄</value>
+  </data>
+  <data name="New_Employee" xml:space="preserve">
+    <value>신입사원</value>
+  </data>
+  <data name="Edit_Employee" xml:space="preserve">
+    <value>직원 편집</value>
+  </data>
+  <data name="_Word___▼" xml:space="preserve">
+    <value>단어 ▼</value>
+  </data>
+  <data name="V_-_No" xml:space="preserve">
+    <value>V - 아니요</value>
+  </data>
+  <data name="Paid_Amt" xml:space="preserve">
+    <value>지불 금액</value>
+  </data>
+  <data name="Select_The_Year" xml:space="preserve">
+    <value>연도를 선택하세요</value>
+  </data>
+  <data name="Select_The_Month" xml:space="preserve">
+    <value>월을 선택하세요</value>
+  </data>
+  <data name="Legal_Document" xml:space="preserve">
+    <value>법률 문서</value>
+  </data>
+  <data name="Basic_Info" xml:space="preserve">
+    <value>기본 정보</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>부서 이름</value>
+  </data>
+  <data name="Salary_Info" xml:space="preserve">
+    <value>급여 정보</value>
+  </data>
+  <data name="Bank_Info" xml:space="preserve">
+    <value>은행 정보</value>
+  </data>
+  <data name="Social_Status" xml:space="preserve">
+    <value>사회적 지위</value>
+  </data>
+  <data name="Date_Of_Birth" xml:space="preserve">
+    <value>생일</value>
+  </data>
+  <data name="Relation" xml:space="preserve">
+    <value>관계</value>
+  </data>
+  <data name="Emirates_ID_Issue_Date" xml:space="preserve">
+    <value>에미레이트 신분증 발급일</value>
+  </data>
+  <data name="Emirates_ID_Expiry_Date" xml:space="preserve">
+    <value>에미레이트 항공 신분증 만료일</value>
+  </data>
+  <data name="Employee_Active" xml:space="preserve">
+    <value>직원 활동</value>
+  </data>
+  <data name="Passport" xml:space="preserve">
+    <value>여권</value>
+  </data>
+  <data name="Residency" xml:space="preserve">
+    <value>거주</value>
+  </data>
+  <data name="Passport_Number" xml:space="preserve">
+    <value>여권 번호</value>
+  </data>
+  <data name="Country_Of_Issue" xml:space="preserve">
+    <value>발행 국가</value>
+  </data>
+  <data name="Residency_Issue_Date" xml:space="preserve">
+    <value>거주 허가 발급일</value>
+  </data>
+  <data name="Residency_Expiry_Date" xml:space="preserve">
+    <value>거주 만료일</value>
+  </data>
+  <data name="Work_Contract" xml:space="preserve">
+    <value>근로 계약</value>
+  </data>
+  <data name="Contract_Issue_Date" xml:space="preserve">
+    <value>계약 발행일</value>
+  </data>
+  <data name="Contract_Expiry_Date" xml:space="preserve">
+    <value>계약 만료일</value>
+  </data>
+  <data name="Passport_Issue_Date" xml:space="preserve">
+    <value>여권 발급일</value>
+  </data>
+  <data name="Passport_End_Date" xml:space="preserve">
+    <value>여권 만료일</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>참고</value>
+  </data>
+  <data name="TotalAdditions" xml:space="preserve">
+    <value>총 추가</value>
+  </data>
+  <data name="Leave_Salary_Days" xml:space="preserve">
+    <value>급여일 휴가</value>
+  </data>
+  <data name="Leave_Salary_Amount" xml:space="preserve">
+    <value>휴가 급여 금액</value>
+  </data>
+  <data name="L.S_Used_Days" xml:space="preserve">
+    <value>L.S 사용일</value>
+  </data>
+  <data name="L.S_REMAINING_DAYS" xml:space="preserve">
+    <value>L.S 남은 일수</value>
+  </data>
+  <data name="L.S_RECEIVED_AMOUNT" xml:space="preserve">
+    <value>L.S 수령 금액</value>
+  </data>
+  <data name="L.S_REMAINING_AMOUNT" xml:space="preserve">
+    <value>L.S 남은 금액</value>
+  </data>
+  <data name="leave_days" xml:space="preserve">
+    <value>휴가일</value>
+  </data>
+  <data name="EOS_Remaining_Amount" xml:space="preserve">
+    <value>남은 EOS 금액</value>
+  </data>
+  <data name="EOS_Received_Amount" xml:space="preserve">
+    <value>EOS 수신 금액</value>
+  </data>
+  <data name="EOS_Remaining_Days" xml:space="preserve">
+    <value>EOS 남은 일수</value>
+  </data>
+  <data name="End_Of_Service_Amount" xml:space="preserve">
+    <value>서비스 종료 금액</value>
+  </data>
+  <data name="End_Of_Service_Days" xml:space="preserve">
+    <value>서비스 종료일</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>더</value>
+  </data>
+  <data name="Received_Amount" xml:space="preserve">
+    <value>받은 금액</value>
+  </data>
+  <data name="Pay_Amount" xml:space="preserve">
+    <value>지불 금액</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>년도</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>낮</value>
+  </data>
+  <data name="Request_No" xml:space="preserve">
+    <value>요청 번호</value>
+  </data>
+  <data name="DateCommencement" xml:space="preserve">
+    <value>날짜 시작</value>
+  </data>
+  <data name="DateLastWork" xml:space="preserve">
+    <value>마지막 근무 날짜</value>
+  </data>
+  <data name="TotalSalary" xml:space="preserve">
+    <value>총 급여</value>
+  </data>
+  <data name="TotalDeductions" xml:space="preserve">
+    <value>총 공제액</value>
+  </data>
+  <data name="NetAccruals" xml:space="preserve">
+    <value>순 발생액</value>
+  </data>
+  <data name="EMP_Code" xml:space="preserve">
+    <value>EMP 코드</value>
+  </data>
+  <data name="Settlement_No" xml:space="preserve">
+    <value>결제 번호</value>
+  </data>
+  <data name="Housing_Allowance" xml:space="preserve">
+    <value>주택 수당</value>
+  </data>
+  <data name="Date_of_Commencement" xml:space="preserve">
+    <value>시작일</value>
+  </data>
+  <data name="Date_of_Last_Working_Day" xml:space="preserve">
+    <value>마지막 근무일 날짜</value>
+  </data>
+  <data name="Employee_Advances" xml:space="preserve">
+    <value>직원의 진급</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>결제</value>
+  </data>
+  <data name="Net_accruals" xml:space="preserve">
+    <value>순 발생액</value>
+  </data>
+  <data name="End_Of_Services_Allowance" xml:space="preserve">
+    <value>서비스 종료 수당</value>
+  </data>
+  <data name="Leave_Salary_Allowance" xml:space="preserve">
+    <value>휴가 급여 수당</value>
+  </data>
+  <data name="Route_No" xml:space="preserve">
+    <value>경로 번호</value>
+  </data>
+  <data name="Swift" xml:space="preserve">
+    <value>스위프트</value>
+  </data>
+  <data name="End_In" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Start_From" xml:space="preserve">
+    <value>시작하다</value>
+  </data>
+  <data name="Check_Book_Qty" xml:space="preserve">
+    <value>수표책 수량</value>
+  </data>
+  <data name="TRF_Date" xml:space="preserve">
+    <value>TRF 날짜</value>
+  </data>
+  <data name="TRF_REF" xml:space="preserve">
+    <value>TRF 참조</value>
+  </data>
+  <data name="REFID" xml:space="preserve">
+    <value>재신용</value>
+  </data>
+  <data name="Pass_Date" xml:space="preserve">
+    <value>보류 날짜</value>
+  </data>
+  <data name="Return_Date" xml:space="preserve">
+    <value>반환 날짜</value>
+  </data>
+  <data name="Cancel_Date" xml:space="preserve">
+    <value>취소 날짜</value>
+  </data>
+  <data name="Hold_Date" xml:space="preserve">
+    <value>통과 날짜</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>숫자</value>
+  </data>
+  <data name="transaction_id" xml:space="preserve">
+    <value>거래 ID</value>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>현재의</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>자귀</value>
+  </data>
+  <data name="Aging" xml:space="preserve">
+    <value>노화</value>
+  </data>
+  <data name="V_.No" xml:space="preserve">
+    <value>V.아니요</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>목</value>
+  </data>
+  <data name="Gross_Margin" xml:space="preserve">
+    <value>총 마진</value>
+  </data>
+  <data name="AVG_COGS" xml:space="preserve">
+    <value>평균 매출원가</value>
+  </data>
+  <data name="AVG_Price" xml:space="preserve">
+    <value>평균 가격</value>
+  </data>
+  <data name="%_of_Sales" xml:space="preserve">
+    <value>매출의 %</value>
+  </data>
+  <data name="General_Ledger_Summary" xml:space="preserve">
+    <value>총계정원장 요약</value>
+  </data>
+  <data name="Cost_Center_Summary" xml:space="preserve">
+    <value>비용 센터 요약</value>
+  </data>
+  <data name="Vat_Amount" xml:space="preserve">
+    <value>부가가치세 금액</value>
+  </data>
+  <data name="Amount_Before_Vat" xml:space="preserve">
+    <value>부가가치세 제외 금액</value>
+  </data>
+  <data name="Total_Price" xml:space="preserve">
+    <value>총 가격</value>
+  </data>
+  <data name="Depreciation_Life" xml:space="preserve">
+    <value>감가상각 수명</value>
+  </data>
+  <data name="Tax_Description" xml:space="preserve">
+    <value>세금 설명</value>
+  </data>
+  <data name="BalanceQty" xml:space="preserve">
+    <value>잔액수량</value>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>손상</value>
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>판매 반품</value>
+  </data>
+  <data name="PurchaseReturn" xml:space="preserve">
+    <value>구매반품</value>
+  </data>
+  <data name="OpeningQty" xml:space="preserve">
+    <value>오프닝수량</value>
+  </data>
+  <data name="SalesPrice" xml:space="preserve">
+    <value>판매 가격</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>원가</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>이익</value>
+  </data>
+  <data name="Sales_Amount" xml:space="preserve">
+    <value>판매 금액</value>
+  </data>
+  <data name="Cost_Amount" xml:space="preserve">
+    <value>비용 금액</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>흔한</value>
+  </data>
+  <data name="Customer_-_Sales" xml:space="preserve">
+    <value>고객 - 영업</value>
+  </data>
+  <data name="Vendor_-_Purchase" xml:space="preserve">
+    <value>공급업체 - 구매</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>수정하다</value>
+  </data>
+  <data name="Accountant__Access" xml:space="preserve">
+    <value>회계사 접근</value>
+  </data>
+  <data name="Inventory__Access" xml:space="preserve">
+    <value>재고 접근</value>
+  </data>
+  <data name="Customer__Access" xml:space="preserve">
+    <value>고객 접근</value>
+  </data>
+  <data name="Vendor__Access" xml:space="preserve">
+    <value>공급업체 액세스</value>
+  </data>
+  <data name="KOT" xml:space="preserve">
+    <value>코트</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>잡고 있다</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>테이블</value>
+  </data>
+  <data name="Waiter" xml:space="preserve">
+    <value>웨이터</value>
+  </data>
+  <data name="Bill_List" xml:space="preserve">
+    <value>청구서 목록</value>
+  </data>
+  <data name="Check_Out" xml:space="preserve">
+    <value>점검</value>
+  </data>
+  <data name="Waiter_Name" xml:space="preserve">
+    <value>웨이터 이름</value>
+  </data>
+  <data name="Order_Time" xml:space="preserve">
+    <value>주문 시간</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>완전한</value>
+  </data>
+  <data name="Voucher_Type" xml:space="preserve">
+    <value>바우처 유형</value>
+  </data>
+  <data name="It_was_set_to_null" xml:space="preserve">
+    <value>값이 null로 설정되었습니다.</value>
+  </data>
+  <data name="Search_By_Name" xml:space="preserve">
+    <value>이름으로 검색하기</value>
+  </data>
+  <data name="Search_By_First_Name" xml:space="preserve">
+    <value>이름으로 검색</value>
+  </data>
+  <data name="Item_Wise" xml:space="preserve">
+    <value>항목별</value>
+  </data>
+  <data name="Performa_Invoice" xml:space="preserve">
+    <value>실행송장</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>출발지</value>
+  </data>
+  <data name="Audit_Trail_Report" xml:space="preserve">
+    <value>감사 추적 보고서</value>
+  </data>
+  <data name="Income_Expense_Statement" xml:space="preserve">
+    <value>수익 지출 명세서</value>
+  </data>
+  <data name="Subcontractor" xml:space="preserve">
+    <value>하청업체</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>출구</value>
+  </data>
+  <data name="Fixed_Asset_Item_List" xml:space="preserve">
+    <value>고정 자산 항목 목록</value>
+  </data>
+  <data name="Search_Item" xml:space="preserve">
+    <value>검색 항목</value>
+  </data>
+  <data name="Petty_Cash_Log" xml:space="preserve">
+    <value>경리 현금 기록</value>
+  </data>
+  <data name="Item_Id" xml:space="preserve">
+    <value>항목 ID</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>알림</value>
+  </data>
+  <data name="Add_Item_Tax_Codes" xml:space="preserve">
+    <value>항목 세금 코드 추가</value>
+  </data>
+  <data name="Item_Warehouse_Transfer" xml:space="preserve">
+    <value>품목 창고 전송</value>
+  </data>
+  <data name="Sales_Quotation" xml:space="preserve">
+    <value>판매 견적</value>
+  </data>
+  <data name="Subcontractor_Center" xml:space="preserve">
+    <value>하청업체 센터</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>타임라인</value>
+  </data>
+  <data name="Purchase_By_Subcontractor_Summary" xml:space="preserve">
+    <value>하청업체 구매 요약</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>요약</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>세부사항</value>
+  </data>
+  <data name="Warehouse_Summary" xml:space="preserve">
+    <value>창고 요약</value>
+  </data>
+  <data name="Cheque_Inquiry" xml:space="preserve">
+    <value>수표 조회</value>
+  </data>
+  <data name="Bank_Balance_Summary" xml:space="preserve">
+    <value>은행 잔고 요약</value>
+  </data>
+  <data name="PDC_Outstanding" xml:space="preserve">
+    <value>PDC 우수</value>
+  </data>
+  <data name="PDC_Cleared_History" xml:space="preserve">
+    <value>PDC 삭제된 기록</value>
+  </data>
+  <data name="Returned_Cheques_Report" xml:space="preserve">
+    <value>반송 수표 보고서</value>
+  </data>
+  <data name="Cheque_Linked_to_Payment/Receipt" xml:space="preserve">
+    <value>지급/영수증에 연결된 수표</value>
+  </data>
+  <data name="Accounts_List" xml:space="preserve">
+    <value>계정 목록</value>
+  </data>
+  <data name="Bank_List" xml:space="preserve">
+    <value>은행 목록</value>
+  </data>
+  <data name="Bank_Card_List" xml:space="preserve">
+    <value>은행 카드 목록</value>
+  </data>
+  <data name="Cheque_List" xml:space="preserve">
+    <value>수표 목록</value>
+  </data>
+  <data name="City_List" xml:space="preserve">
+    <value>도시 목록</value>
+  </data>
+  <data name="Country_List" xml:space="preserve">
+    <value>국가 목록</value>
+  </data>
+  <data name="Cost_Center_List" xml:space="preserve">
+    <value>비용 센터 목록</value>
+  </data>
+  <data name="Customer_Category_List" xml:space="preserve">
+    <value>고객 카테고리 목록</value>
+  </data>
+  <data name="Department_List" xml:space="preserve">
+    <value>부서 목록</value>
+  </data>
+  <data name="Fixed_Asset_List" xml:space="preserve">
+    <value>고정 자산 목록</value>
+  </data>
+  <data name="Fixed_Asset_Category_List" xml:space="preserve">
+    <value>고정 자산 카테고리 목록</value>
+  </data>
+  <data name="Item_Warehouse_List" xml:space="preserve">
+    <value>품목 창고 목록</value>
+  </data>
+  <data name="Petty_Cash_Category_List" xml:space="preserve">
+    <value>경비현금 카테고리 목록</value>
+  </data>
+  <data name="Position_List" xml:space="preserve">
+    <value>위치 목록</value>
+  </data>
+  <data name="Prepaid_Expense_Category_List" xml:space="preserve">
+    <value>선불비용 카테고리 목록</value>
+  </data>
+  <data name="Vendor_Category_List" xml:space="preserve">
+    <value>판매자 카테고리 목록</value>
+  </data>
+  <data name="Account_Under" xml:space="preserve">
+    <value>계정 하에</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>매니저</value>
+  </data>
+  <data name="From_Warehouse" xml:space="preserve">
+    <value>창고에서</value>
+  </data>
+  <data name="To_Warehouse" xml:space="preserve">
+    <value>창고로</value>
+  </data>
+  <data name="Subcontractors" xml:space="preserve">
+    <value>하청업체들</value>
+  </data>
+  <data name="Subcontractor_Operations__▼" xml:space="preserve">
+    <value>하청업체 운영 ▼</value>
+  </data>
+  <data name="New_Subcontractor" xml:space="preserve">
+    <value>새로운 하청업체</value>
+  </data>
+  <data name="Edit_Subcontractor" xml:space="preserve">
+    <value>하청업체 수정</value>
+  </data>
+  <data name="Delete_Subcontractor" xml:space="preserve">
+    <value>하청업체 삭제</value>
+  </data>
+  <data name="Subcontractor_List" xml:space="preserve">
+    <value>하청업체 목록</value>
+  </data>
+  <data name="Subcontractor_Information" xml:space="preserve">
+    <value>하청업체 정보</value>
+  </data>
+  <data name="User_Config" xml:space="preserve">
+    <value>사용자 설정</value>
+  </data>
+  <data name="Subcontractor_Code" xml:space="preserve">
+    <value>하청업체 코드</value>
+  </data>
+  <data name="Subcontractor_Name" xml:space="preserve">
+    <value>하청업체 이름</value>
+  </data>
+  <data name="Subcontractor_Category" xml:space="preserve">
+    <value>하청업체 분류</value>
+  </data>
+</root>

@@ -1,0 +1,3978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close" xml:space="preserve">
+    <value>Isara</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>I-save</value>
+  </data>
+  <data name="Add_New" xml:space="preserve">
+    <value>Magdagdag ng Bago</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="Edit_Name" xml:space="preserve">
+    <value>I-edit ang Pangalan</value>
+  </data>
+  <data name="Enter_Level_4" xml:space="preserve">
+    <value>Ipasok ang Level 4</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>Dahil</value>
+  </data>
+  <data name="LEVEL_4" xml:space="preserve">
+    <value>LEVEL 4</value>
+  </data>
+  <data name="LEVEL_3" xml:space="preserve">
+    <value>LEVEL 3</value>
+  </data>
+  <data name="LEVEL_2" xml:space="preserve">
+    <value>LEVEL 2</value>
+  </data>
+  <data name="LEVEL_1" xml:space="preserve">
+    <value>LEVEL 1</value>
+  </data>
+  <data name="Delete_Name" xml:space="preserve">
+    <value>Tanggalin ang Pangalan</value>
+  </data>
+  <data name="Customers_/_New_Customer" xml:space="preserve">
+    <value>Mga Customer / Bagong Customer</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Tanggalin</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>Upang</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Tandaan</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>Uri ng Pagbabayad</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Uri</value>
+  </data>
+  <data name="It_was_set_to_null,_so_empty_string" xml:space="preserve">
+    <value>Se estableció en nulo, así que cadena vacía</value>
+  </data>
+  <data name="Enter_Level_1_Name" xml:space="preserve">
+    <value>Ilagay ang Level 1 Name</value>
+  </data>
+  <data name="Enter_Level_2_Name" xml:space="preserve">
+    <value>Ilagay ang Level 2 Name</value>
+  </data>
+  <data name="Payment_Method" xml:space="preserve">
+    <value>Paraan ng Pagbabayad</value>
+  </data>
+  <data name="Add_Level_2" xml:space="preserve">
+    <value>Magdagdag ng Level 2</value>
+  </data>
+  <data name="Add_New_Level_3" xml:space="preserve">
+    <value>Magdagdag ng Bagong Antas 3</value>
+  </data>
+  <data name="Customer_-_Add_New_Category" xml:space="preserve">
+    <value>Customer - Magdagdag ng Bagong Kategorya</value>
+  </data>
+  <data name="Edit_Receipt" xml:space="preserve">
+    <value>I-edit ang Resibo</value>
+  </data>
+  <data name="New_Receipt" xml:space="preserve">
+    <value>Bagong Resibo</value>
+  </data>
+  <data name="Cost_Center" xml:space="preserve">
+    <value>Sentro ng Gastos</value>
+  </data>
+  <data name="Request_Date" xml:space="preserve">
+    <value>Petsa ng Kahilingan</value>
+  </data>
+  <data name="Sub" xml:space="preserve">
+    <value>Sub</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Pangunahing</value>
+  </data>
+  <data name="Main_Account" xml:space="preserve">
+    <value>Pangunahing Account</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="Sub_Cost_Center" xml:space="preserve">
+    <value>Sub Cost Center</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Pangalan</value>
+  </data>
+  <data name="Make_Journal" xml:space="preserve">
+    <value>Gumawa ng Journal</value>
+  </data>
+  <data name="Journal_Voucher" xml:space="preserve">
+    <value>Journal Voucher</value>
+  </data>
+  <data name="Fixed_Assets_Account" xml:space="preserve">
+    <value>Fixed Assets Account</value>
+  </data>
+  <data name="Total_Days" xml:space="preserve">
+    <value>Kabuuang Mga Araw</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>Petsa ng Pagtatapos</value>
+  </data>
+  <data name="Amount_In_Word" xml:space="preserve">
+    <value>Halaga Sa Salita</value>
+  </data>
+  <data name="Account_Code" xml:space="preserve">
+    <value>Account Code</value>
+  </data>
+  <data name="Petty_Cash_Name" xml:space="preserve">
+    <value>Pangalan ng Petty Cash</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Petsa</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Paglalarawan</value>
+  </data>
+  <data name="Total_Vat" xml:space="preserve">
+    <value>Kabuuang Vat</value>
+  </data>
+  <data name="Check_No" xml:space="preserve">
+    <value>Suriin ang No</value>
+  </data>
+  <data name="Agreement_Total" xml:space="preserve">
+    <value>Kabuuan ng Kasunduan</value>
+  </data>
+  <data name="Total_Invoice" xml:space="preserve">
+    <value>Kabuuang Invoice</value>
+  </data>
+  <data name="Check_Date" xml:space="preserve">
+    <value>Suriin ang Petsa</value>
+  </data>
+  <data name="Depreciation_Expence" xml:space="preserve">
+    <value>Gastusin sa Depreciation</value>
+  </data>
+  <data name="Enter_supplier_name" xml:space="preserve">
+    <value>Ilagay ang pangalan ng supplier</value>
+  </data>
+  <data name="Enter_purchase_price" xml:space="preserve">
+    <value>Ilagay ang presyo ng pagbili</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Katayuan</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Bago</value>
+  </data>
+  <data name="Not_Manufacture_Assets" xml:space="preserve">
+    <value>Hindi Manufacture Assets </value>
+  </data>
+  <data name="Manufacture_Assets" xml:space="preserve">
+    <value>Mga Asset sa Paggawa </value>
+  </data>
+  <data name="Bank_&amp;_Cash/_New_Prepaid_Expense" xml:space="preserve">
+    <value>Bangko at Cash/ Bagong Prepaid na Gastos</value>
+  </data>
+  <data name="P.C_Request_REF" xml:space="preserve">
+    <value>P.C Kahilingan REF</value>
+  </data>
+  <data name="Accumulated_Depreciation" xml:space="preserve">
+    <value>Naipon na Depreciation</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="New_Fixed_Assets" xml:space="preserve">
+    <value>Bagong Fixed Asset</value>
+  </data>
+  <data name="Edit__Fixed_Assets" xml:space="preserve">
+    <value>I-edit ang Mga Fixed Asset</value>
+  </data>
+  <data name="Delete_Fixed_Assets" xml:space="preserve">
+    <value>Tanggalin ang Fixed Assets</value>
+  </data>
+  <data name="New_Fixed_Assets_Category" xml:space="preserve">
+    <value>Bagong Kategorya ng Fixed Assets</value>
+  </data>
+  <data name="Fixed_Assets_Center" xml:space="preserve">
+    <value>Fixed Assets Center</value>
+  </data>
+  <data name="Cr_Amount" xml:space="preserve">
+    <value>Cr na Halaga</value>
+  </data>
+  <data name="Dr_Amount" xml:space="preserve">
+    <value>Dr Halaga</value>
+  </data>
+  <data name="JV_No" xml:space="preserve">
+    <value>JV No</value>
+  </data>
+  <data name="AC_Code" xml:space="preserve">
+    <value>AC Code</value>
+  </data>
+  <data name="Account_Name" xml:space="preserve">
+    <value>Pangalan ng Account</value>
+  </data>
+  <data name="AC_Name" xml:space="preserve">
+    <value>Pangalan ng AC</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>DEL</value>
+  </data>
+  <data name="General_Journal" xml:space="preserve">
+    <value>Pangkalahatang Journal</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>Kasosyo</value>
+  </data>
+  <data name="Create_a_Copy" xml:space="preserve">
+    <value>Gumawa ng Kopya</value>
+  </data>
+  <data name="Email_Later" xml:space="preserve">
+    <value>Email Mamaya</value>
+  </data>
+  <data name="Print_Later" xml:space="preserve">
+    <value>I-print Mamaya</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>Mga ulat</value>
+  </data>
+  <data name="Average_Days_To_Pay_Summary" xml:space="preserve">
+    <value>Average na Mga Araw Upang Magbayad ng Buod</value>
+  </data>
+  <data name="Sales_By_Customer_Details" xml:space="preserve">
+    <value>Benta Ayon sa Mga Detalye ng Customer</value>
+  </data>
+  <data name="View_Open_Invoice" xml:space="preserve">
+    <value>Tingnan ang Open Invoice</value>
+  </data>
+  <data name="Transaction_Journal" xml:space="preserve">
+    <value>Journal ng Transaksyon</value>
+  </data>
+  <data name="Transaction_History" xml:space="preserve">
+    <value>Kasaysayan ng Transaksyon</value>
+  </data>
+  <data name="Quick_Report" xml:space="preserve">
+    <value>Mabilis na Ulat</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Lahat</value>
+  </data>
+  <data name="Journal_Voucher_Operations___▼" xml:space="preserve">
+    <value>Mga Operasyon ng Journal Voucher ▼</value>
+  </data>
+  <data name="New_Journal_Voucher" xml:space="preserve">
+    <value>Bagong Journal Voucher</value>
+  </data>
+  <data name="Edit_Journal_Voucher" xml:space="preserve">
+    <value>I-edit ang Journal Voucher</value>
+  </data>
+  <data name="Delete_Journal_Voucher" xml:space="preserve">
+    <value>Tanggalin ang Journal Voucher</value>
+  </data>
+  <data name="Restore_Journal_Voucher" xml:space="preserve">
+    <value>Ibalik ang Journal Voucher</value>
+  </data>
+  <data name="Payment_Voucher_Center" xml:space="preserve">
+    <value>Sentro ng Voucher ng Pagbabayad</value>
+  </data>
+  <data name="Transactions_Journal" xml:space="preserve">
+    <value>Journal ng mga Transaksyon</value>
+  </data>
+  <data name="Save_&amp;&amp;_Close" xml:space="preserve">
+    <value>I-save &amp;&amp; Isara</value>
+  </data>
+  <data name="Customer_Code" xml:space="preserve">
+    <value>Code ng Customer</value>
+  </data>
+  <data name="Customer_Name" xml:space="preserve">
+    <value>Pangalan ng Customer</value>
+  </data>
+  <data name="Transfer_Date" xml:space="preserve">
+    <value>Petsa ng Paglipat</value>
+  </data>
+  <data name="Vendor_Code" xml:space="preserve">
+    <value>Vendor Code</value>
+  </data>
+  <data name="TRNS_/_Name" xml:space="preserve">
+    <value>TRNS / Pangalan</value>
+  </data>
+  <data name="TRNS_/_REF" xml:space="preserve">
+    <value>TRNS / REF</value>
+  </data>
+  <data name="Bank_Code" xml:space="preserve">
+    <value>Bank Code</value>
+  </data>
+  <data name="Agreement_Start_Date" xml:space="preserve">
+    <value>Petsa ng Pagsisimula ng Kasunduan</value>
+  </data>
+  <data name="Invoice_Details" xml:space="preserve">
+    <value>Mga Detalye ng Invoice</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategorya</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>Pangalan ng Bangko</value>
+  </data>
+  <data name="Book_NO" xml:space="preserve">
+    <value>Aklat BLG</value>
+  </data>
+  <data name="Bank_Account_Name" xml:space="preserve">
+    <value>Pangalan ng Bank Account</value>
+  </data>
+  <data name="Check_Name" xml:space="preserve">
+    <value>Suriin ang Pangalan</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="INV_NO" xml:space="preserve">
+    <value>INV NO</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Halaga</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Magbayad</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Pagbabayad</value>
+  </data>
+  <data name="voucherType" xml:space="preserve">
+    <value>voucherType</value>
+  </data>
+  <data name="Add_Time_/_Costs" xml:space="preserve">
+    <value>Magdagdag ng Oras / Mga Gastos</value>
+  </data>
+  <data name="Attach_File" xml:space="preserve">
+    <value>Mag-attach ng File</value>
+  </data>
+  <data name="Memorize" xml:space="preserve">
+    <value>Isaulo</value>
+  </data>
+  <data name="Print_After_Save" xml:space="preserve">
+    <value>I-print Pagkatapos I-save</value>
+  </data>
+  <data name="Payment_Voucher" xml:space="preserve">
+    <value>Voucher ng Pagbabayad</value>
+  </data>
+  <data name="Basic_Data" xml:space="preserve">
+    <value>Pangunahing Datos</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>Nagtitinda</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Empleyado</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>Suriin</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>Paglipat</value>
+  </data>
+  <data name="Pay_From_-_Credit" xml:space="preserve">
+    <value>Magbayad Mula sa - Credit</value>
+  </data>
+  <data name="x" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="Trans_Date" xml:space="preserve">
+    <value>Petsa ng Trans</value>
+  </data>
+  <data name="Print__After_Save" xml:space="preserve">
+    <value>I-print Pagkatapos I-save</value>
+  </data>
+  <data name="Advance_Payment_Voucher" xml:space="preserve">
+    <value>Voucher ng Paunang Pagbabayad</value>
+  </data>
+  <data name="Recycle" xml:space="preserve">
+    <value>I-recycle</value>
+  </data>
+  <data name="Advance_Payment_Voucher_Center" xml:space="preserve">
+    <value>Sentro ng Advance Payment Voucher</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>Heneral</value>
+  </data>
+  <data name="Add_New_Category" xml:space="preserve">
+    <value>Magdagdag ng Bagong Kategorya</value>
+  </data>
+  <data name="Save_&amp;_New" xml:space="preserve">
+    <value>I-save at Bago</value>
+  </data>
+  <data name="Petty_Cash_Request" xml:space="preserve">
+    <value>Kahilingan ng Petty Cash</value>
+  </data>
+  <data name="Total_Before_Vat" xml:space="preserve">
+    <value>Kabuuan Bago ang Vat</value>
+  </data>
+  <data name="Net_Amount" xml:space="preserve">
+    <value>Net na Halaga</value>
+  </data>
+  <data name="SN#" xml:space="preserve">
+    <value>SN#</value>
+  </data>
+  <data name="AC.Name" xml:space="preserve">
+    <value>AC.Pangalan</value>
+  </data>
+  <data name="C.C_Name" xml:space="preserve">
+    <value>Pangalan ng C.C</value>
+  </data>
+  <data name="VAT_5%" xml:space="preserve">
+    <value>VAT 5%</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Kabuuan</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Mga Tala</value>
+  </data>
+  <data name="P.C_A/C" xml:space="preserve">
+    <value>P.C A/C</value>
+  </data>
+  <data name="P.C_Categoryies" xml:space="preserve">
+    <value>Mga Kategorya ng P.C</value>
+  </data>
+  <data name="P.C_Request" xml:space="preserve">
+    <value>Kahilingan sa P.C</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>Operasyon</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Pag-apruba</value>
+  </data>
+  <data name="Submition" xml:space="preserve">
+    <value>Pagsusumite</value>
+  </data>
+  <data name="Print__▼" xml:space="preserve">
+    <value>I-print ▼</value>
+  </data>
+  <data name="Vendor_List" xml:space="preserve">
+    <value>Listahan ng Nagtitinda</value>
+  </data>
+  <data name="Transaction_List" xml:space="preserve">
+    <value>Listahan ng Transaksyon</value>
+  </data>
+  <data name="Credit_&amp;_Payment" xml:space="preserve">
+    <value>Credit at Pagbabayad</value>
+  </data>
+  <data name="Excel__▼" xml:space="preserve">
+    <value>Excel ▼</value>
+  </data>
+  <data name="Word_▼" xml:space="preserve">
+    <value>Salita ▼</value>
+  </data>
+  <data name="Add_Account" xml:space="preserve">
+    <value>Magdagdag ng Account</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>Magdagdag ng Kategorya</value>
+  </data>
+  <data name="Add_Request" xml:space="preserve">
+    <value>Magdagdag ng Kahilingan</value>
+  </data>
+  <data name="Search_By_Name,_Code" xml:space="preserve">
+    <value>Maghanap ayon sa Pangalan, Kodigo</value>
+  </data>
+  <data name="Approval_Submition" xml:space="preserve">
+    <value>Pagsusumite ng Pag-apruba</value>
+  </data>
+  <data name="Customer_Center" xml:space="preserve">
+    <value>Customer Center</value>
+  </data>
+  <data name="Declined" xml:space="preserve">
+    <value>Tinanggihan</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Naaprubahan</value>
+  </data>
+  <data name="Petty_Cash_Approval" xml:space="preserve">
+    <value>Pag-apruba ng Petty Cash</value>
+  </data>
+  <data name="Petty_Cash_Submition_Approval" xml:space="preserve">
+    <value>Pag-apruba sa Pagsusumite ng Petty Cash</value>
+  </data>
+  <data name="Petty_Cash_Categories" xml:space="preserve">
+    <value>Mga Kategorya ng Petty Cash</value>
+  </data>
+  <data name="Prepaid_Expense_Center" xml:space="preserve">
+    <value>Prepaid Expense Center</value>
+  </data>
+  <data name="Received_From_-_Credit" xml:space="preserve">
+    <value>Natanggap Mula sa - Credit</value>
+  </data>
+  <data name="Received_To_-_Debit" xml:space="preserve">
+    <value>Natanggap Sa - Debit</value>
+  </data>
+  <data name="Receipt_Voucher" xml:space="preserve">
+    <value>Voucher ng Resibo</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>Mga paglalarawan</value>
+  </data>
+  <data name="Receipt_Voucher_Center" xml:space="preserve">
+    <value>Receipt Voucher Center</value>
+  </data>
+  <data name="Open_Company" xml:space="preserve">
+    <value>Buksan ang Kumpanya</value>
+  </data>
+  <data name="Create_Company" xml:space="preserve">
+    <value>Lumikha ng Kumpanya</value>
+  </data>
+  <data name="Company_List" xml:space="preserve">
+    <value>Listahan ng Kumpanya</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>Mag-sign Up</value>
+  </data>
+  <data name="Sign_In" xml:space="preserve">
+    <value>Mag-sign In</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Don't_have_an_account?" xml:space="preserve">
+    <value>Walang account?</value>
+  </data>
+  <data name="Forgot_your_password?_Click_here" xml:space="preserve">
+    <value>Nakalimutan ang iyong password? Mag-click dito</value>
+  </data>
+  <data name="Learn_More" xml:space="preserve">
+    <value>Matuto pa</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>kumpanya</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telepono</value>
+  </data>
+  <data name="Balance_not_matching" xml:space="preserve">
+    <value>Hindi tugma ang balanse</value>
+  </data>
+  <data name="Balance_is_matching" xml:space="preserve">
+    <value>Ang balanse ay tumutugma</value>
+  </data>
+  <data name="Transactions_appear_on_the_bank_statement_but_are_not_recorded_in_our_books" xml:space="preserve">
+    <value>Lumalabas ang mga transaksyon sa bank statement ngunit hindi nakatala sa aming mga aklat</value>
+  </data>
+  <data name="Transactions_appear_in_our_books_but_do_not_showing_on_the_bank_statement" xml:space="preserve">
+    <value>Ang mga transaksyon ay lumalabas sa aming mga aklat ngunit hindi lumilitaw sa bank statement.</value>
+  </data>
+  <data name="Balance_as_per_our_books_on " xml:space="preserve">
+    <value>Balanse ayon sa aming mga libro sa </value>
+  </data>
+  <data name="Bank_statement_balance_as_of" xml:space="preserve">
+    <value>Balanse sa bank statement simula noong</value>
+  </data>
+  <data name="Bank_Statement_Balance_Amount" xml:space="preserve">
+    <value>Halaga ng Balanse ng Bank Statement</value>
+  </data>
+  <data name="BR_NO" xml:space="preserve">
+    <value>BR NO</value>
+  </data>
+  <data name="Bank_Card_Code" xml:space="preserve">
+    <value>Bank Card Code</value>
+  </data>
+  <data name="Total_Debit" xml:space="preserve">
+    <value>Kabuuang Debit</value>
+  </data>
+  <data name="Total_Credit" xml:space="preserve">
+    <value>Kabuuang Credit</value>
+  </data>
+  <data name="Total_Balance" xml:space="preserve">
+    <value>Kabuuang Balanse</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Sanggunian</value>
+  </data>
+  <data name="AC_ID" xml:space="preserve">
+    <value>AC ID</value>
+  </data>
+  <data name="Amount_Debit" xml:space="preserve">
+    <value>Halaga ng Debit</value>
+  </data>
+  <data name="Amount_Credit" xml:space="preserve">
+    <value>Halaga ng Credit</value>
+  </data>
+  <data name="Reconciliation" xml:space="preserve">
+    <value>Pagkakasundo</value>
+  </data>
+  <data name="BankReconciliation" xml:space="preserve">
+    <value>BankReconciliation</value>
+  </data>
+  <data name="Empty_by_default" xml:space="preserve">
+    <value>Walang laman bilang default</value>
+  </data>
+  <data name="Make_This_Company_Main_Account" xml:space="preserve">
+    <value>Gawin itong Pangunahing Account ng Kumpanya</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Pababain</value>
+  </data>
+  <data name="Please_fill_in_all_required_fields_correctly." xml:space="preserve">
+    <value>Mangyaring punan nang tama ang lahat ng kinakailangang field.</value>
+  </data>
+  <data name="Manufacture_System" xml:space="preserve">
+    <value>Sistema ng Paggawa</value>
+  </data>
+  <data name="Resturen_System" xml:space="preserve">
+    <value>Returen System</value>
+  </data>
+  <data name="CRM" xml:space="preserve">
+    <value>CRM</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Ulat</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Imbentaryo</value>
+  </data>
+  <data name="Banking" xml:space="preserve">
+    <value>Pagbabangko</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>HR</value>
+  </data>
+  <data name="Vendors" xml:space="preserve">
+    <value>Mga nagtitinda</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Mga customer</value>
+  </data>
+  <data name="My_Company" xml:space="preserve">
+    <value>Aking Kumpanya</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Bahay</value>
+  </data>
+  <data name="Accountant" xml:space="preserve">
+    <value>Accountant</value>
+  </data>
+  <data name="Route_No." xml:space="preserve">
+    <value>Ruta No.</value>
+  </data>
+  <data name="Abbreviation_Name" xml:space="preserve">
+    <value>Pangalan ng pagdadaglat</value>
+  </data>
+  <data name="Ent_Id" xml:space="preserve">
+    <value>Ent Id</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Bansa</value>
+  </data>
+  <data name="CHQ_Book_Register" xml:space="preserve">
+    <value>CHQ Book Register</value>
+  </data>
+  <data name="Starting_From" xml:space="preserve">
+    <value>Simula sa</value>
+  </data>
+  <data name="CHQ_Book_QTY" xml:space="preserve">
+    <value>CHQ Book QTY</value>
+  </data>
+  <data name="CHQ_Book_NO" xml:space="preserve">
+    <value>CHQ Book NO</value>
+  </data>
+  <data name="CHQ_/_New_CHQ_Register" xml:space="preserve">
+    <value>CHQ / Bagong CHQ Register</value>
+  </data>
+  <data name="Account_Signature_Authority_Name" xml:space="preserve">
+    <value>Pangalan ng Awtoridad sa Lagda ng Account</value>
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>Pangalan ng Sangay</value>
+  </data>
+  <data name="IBAN_No" xml:space="preserve">
+    <value>IBAN No</value>
+  </data>
+  <data name="Account_Relationship_Manager_MOB" xml:space="preserve">
+    <value>Account Relationship Manager MOB</value>
+  </data>
+  <data name="Account_No" xml:space="preserve">
+    <value>Account No</value>
+  </data>
+  <data name="AC_No" xml:space="preserve">
+    <value>AC No</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Pera</value>
+  </data>
+  <data name="Account_Type" xml:space="preserve">
+    <value>Uri ng Account</value>
+  </data>
+  <data name="AC_Type" xml:space="preserve">
+    <value>Uri ng AC</value>
+  </data>
+  <data name="Account_Relationship_Manager" xml:space="preserve">
+    <value>Account Relationship Manager</value>
+  </data>
+  <data name="Account_Name_-_Chart_Of_Account" xml:space="preserve">
+    <value>Pangalan ng Account - Tsart ng Account</value>
+  </data>
+  <data name="Register_Bank" xml:space="preserve">
+    <value>Magrehistro sa Bangko</value>
+  </data>
+  <data name="Edit_Bank" xml:space="preserve">
+    <value>I-edit ang Bangko</value>
+  </data>
+  <data name="Unregister_Bank" xml:space="preserve">
+    <value>I-unregister ang Bank</value>
+  </data>
+  <data name="New_Check_Book" xml:space="preserve">
+    <value>Bagong Check Book</value>
+  </data>
+  <data name="Bank_Card_Center" xml:space="preserve">
+    <value>Sentro ng Bank Card</value>
+  </data>
+  <data name="Receivable" xml:space="preserve">
+    <value>Matatanggap</value>
+  </data>
+  <data name="Payable" xml:space="preserve">
+    <value>Mababayaran</value>
+  </data>
+  <data name="Assuming_PDC_stands_for_Post-Dated_Cheques" xml:space="preserve">
+    <value>Ipagpalagay na ang PDC ay kumakatawan sa mga Post-Dated Checks</value>
+  </data>
+  <data name="Account_Settings_&amp;_Other" xml:space="preserve">
+    <value>Mga Setting ng Account at Iba pa</value>
+  </data>
+  <data name="MasterCustomer" xml:space="preserve">
+    <value>MasterCustomer</value>
+  </data>
+  <data name="AccountantCenter" xml:space="preserve">
+    <value>AccountantCenter</value>
+  </data>
+  <data name="Customer_Operations__▼" xml:space="preserve">
+    <value>Mga Operasyon ng Customer ▼</value>
+  </data>
+  <data name="New_Customer" xml:space="preserve">
+    <value>Bagong Customer</value>
+  </data>
+  <data name="Edit_Customer" xml:space="preserve">
+    <value>I-edit ang Customer</value>
+  </data>
+  <data name="Delete_Customer" xml:space="preserve">
+    <value>Tanggalin ang Customer</value>
+  </data>
+  <data name="New_Transactions__▼" xml:space="preserve">
+    <value>Mga Bagong Transaksyon ▼</value>
+  </data>
+  <data name="Customer_List" xml:space="preserve">
+    <value>Listahan ng Customer</value>
+  </data>
+  <data name="Export_&amp;_Import" xml:space="preserve">
+    <value>I-export at I-import</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Mga gamit</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>I-customize</value>
+  </data>
+  <data name="Active_Customer" xml:space="preserve">
+    <value>Aktibong Customer</value>
+  </data>
+  <data name="Inactive_Customer" xml:space="preserve">
+    <value>Hindi aktibong Customer</value>
+  </data>
+  <data name="Memorized_Reports" xml:space="preserve">
+    <value>Mga Kabisadong Ulat</value>
+  </data>
+  <data name="Statement_of_Functional_Expenses_(990)" xml:space="preserve">
+    <value>Statement of Functional Expenses (990)</value>
+  </data>
+  <data name="Statement_of_Financial_Position" xml:space="preserve">
+    <value>Pahayag ng Posisyon sa Pinansyal</value>
+  </data>
+  <data name="Statement_of_Financial_Income_and_Expense" xml:space="preserve">
+    <value>Pahayag ng Kita at Gastos sa Pananalapi</value>
+  </data>
+  <data name="Programs/Projects_Report" xml:space="preserve">
+    <value>Ulat ng mga Programa/Proyekto</value>
+  </data>
+  <data name="Donors/Grants_Report" xml:space="preserve">
+    <value>Ulat ng mga Donor/Grant</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Program/Projects" xml:space="preserve">
+    <value>Badyet kumpara sa Aktwal ayon sa Programa/Mga Proyekto</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Donors/Grants" xml:space="preserve">
+    <value>Badyet kumpara sa Aktwal ng mga Donor/Grant</value>
+  </data>
+  <data name="Biggest_Donors/Grants" xml:space="preserve">
+    <value>Pinakamalaking Donor/Grant</value>
+  </data>
+  <data name="Profit_Loss" xml:space="preserve">
+    <value>Pagkalugi ng Kita</value>
+  </data>
+  <data name="Journal_Entries_Entered/Modified_Today" xml:space="preserve">
+    <value>Ipinasok/Binago Ngayon ang Mga Entry sa Journal</value>
+  </data>
+  <data name="Balance_Sheet" xml:space="preserve">
+    <value>Balanse sheet</value>
+  </data>
+  <data name="Adjusted_Trial_Balance" xml:space="preserve">
+    <value>Inayos ang Trial Balance</value>
+  </data>
+  <data name="Adjusting_Journal_Entries" xml:space="preserve">
+    <value>Pagsasaayos ng Mga Entry sa Journal</value>
+  </data>
+  <data name="Select_Group" xml:space="preserve">
+    <value>Piliin ang Grupo</value>
+  </data>
+  <data name="Vendor_Balance_Detail" xml:space="preserve">
+    <value>Detalye ng Balanse ng Vendor</value>
+  </data>
+  <data name="Unpaid_Bills_Detail" xml:space="preserve">
+    <value>Detalye ng Mga Hindi Nabayarang Bill</value>
+  </data>
+  <data name="A/P_Aging_Summary" xml:space="preserve">
+    <value>A/P Aging Summary</value>
+  </data>
+  <data name="Open_Invoices" xml:space="preserve">
+    <value>Buksan ang Mga Invoice</value>
+  </data>
+  <data name="Statement_of_Cash_Flow" xml:space="preserve">
+    <value>Statement of Cash Flows</value>
+  </data>
+  <data name="Deposit_Detail" xml:space="preserve">
+    <value>Detalye ng Deposito</value>
+  </data>
+  <data name="Check_Detail" xml:space="preserve">
+    <value>Suriin ang Detalye</value>
+  </data>
+  <data name="Customer_Snapshot" xml:space="preserve">
+    <value>Snapshot ng Customer</value>
+  </data>
+  <data name="Customer_Information" xml:space="preserve">
+    <value>Impormasyon ng Customer</value>
+  </data>
+  <data name="Customer_Category" xml:space="preserve">
+    <value>Kategorya ng Customer</value>
+  </data>
+  <data name="LAST_RECONCILED" xml:space="preserve">
+    <value>HULING NAKASUNDO</value>
+  </data>
+  <data name="RECONCILED_BALANCE" xml:space="preserve">
+    <value>NAKASUNDO NA BALANSE</value>
+  </data>
+  <data name="CURRENT_BALANCE" xml:space="preserve">
+    <value>KASALUKUYANG BALANSE</value>
+  </data>
+  <data name="Accountant_Center" xml:space="preserve">
+    <value>Accountant Center</value>
+  </data>
+  <data name="Date_:" xml:space="preserve">
+    <value>Petsa :</value>
+  </data>
+  <data name="Code_:" xml:space="preserve">
+    <value>Code :</value>
+  </data>
+  <data name="Name_:" xml:space="preserve">
+    <value>Pangalan :</value>
+  </data>
+  <data name="Amount_Adjustments" xml:space="preserve">
+    <value>Mga Pagsasaayos ng Halaga</value>
+  </data>
+  <data name="Attendance_Sheet" xml:space="preserve">
+    <value>Attendance Sheet</value>
+  </data>
+  <data name="Search_By_Item_Name" xml:space="preserve">
+    <value>Hanapin ayon sa Pangalan ng Item</value>
+  </data>
+  <data name="COGS_Account" xml:space="preserve">
+    <value>COGS Account</value>
+  </data>
+  <data name="DEDUCTION" xml:space="preserve">
+    <value>DEDUKSYON</value>
+  </data>
+  <data name="SALARY_PAYMENT" xml:space="preserve">
+    <value> PAGBAYAD NG SAHOD</value>
+  </data>
+  <data name="Sn" xml:space="preserve">
+    <value>Si Sn</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Posisyon</value>
+  </data>
+  <data name="Work_Days" xml:space="preserve">
+    <value>Mga Araw ng Trabaho</value>
+  </data>
+  <data name="Absent_Days" xml:space="preserve">
+    <value>Absent Days</value>
+  </data>
+  <data name="Basic_Salary" xml:space="preserve">
+    <value>Pangunahing suweldo</value>
+  </data>
+  <data name="Allowance" xml:space="preserve">
+    <value>Allowance</value>
+  </data>
+  <data name="Total_Additions" xml:space="preserve">
+    <value>Kabuuang mga Pagdaragdag</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>Pagkaantala</value>
+  </data>
+  <data name="Total_Deductions" xml:space="preserve">
+    <value>Kabuuang mga Bawas</value>
+  </data>
+  <data name="Net_Salary" xml:space="preserve">
+    <value>Net Salary</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Bangko</value>
+  </data>
+  <data name="EMP_ID" xml:space="preserve">
+    <value>EMP ID</value>
+  </data>
+  <data name="Corrected_from_POSTION" xml:space="preserve">
+    <value>Itinama mula sa POSTION</value>
+  </data>
+  <data name="W.DAYS" xml:space="preserve">
+    <value>W.DAYS</value>
+  </data>
+  <data name="Corrected_casing" xml:space="preserve">
+    <value>Naayos na casing</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Iba pa</value>
+  </data>
+  <data name="Addition" xml:space="preserve">
+    <value>Dagdag</value>
+  </data>
+  <data name="Total_addition" xml:space="preserve">
+    <value>Kabuuang karagdagan</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>Pautang</value>
+  </data>
+  <data name="Work_Absence" xml:space="preserve">
+    <value>Walang Trabaho</value>
+  </data>
+  <data name="Fines_&amp;_Salik" xml:space="preserve">
+    <value>Mga multa at Salik</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Iba</value>
+  </data>
+  <data name="Total_Deduction" xml:space="preserve">
+    <value>Kabuuang Bawas</value>
+  </data>
+  <data name="Corrected_from_Net_Salay" xml:space="preserve">
+    <value>Itinama mula sa Net Salay</value>
+  </data>
+  <data name="WPS" xml:space="preserve">
+    <value>WPS</value>
+  </data>
+  <data name="Attendance_Saved_Before" xml:space="preserve">
+    <value>Nai-save ang Pagdalo Bago</value>
+  </data>
+  <data name="Add_Manual_Attendance" xml:space="preserve">
+    <value>Magdagdag ng Manu-manong Pagpasok</value>
+  </data>
+  <data name="Upload_Current_Employee" xml:space="preserve">
+    <value>Mag-upload ng Kasalukuyang Empleyado</value>
+  </data>
+  <data name="Download_Sample_Excel_Sheet" xml:space="preserve">
+    <value>I-download ang Sample Excel Sheet</value>
+  </data>
+  <data name="Main_Unit" xml:space="preserve">
+    <value>Pangunahing Yunit</value>
+  </data>
+  <data name="Balance_Qty" xml:space="preserve">
+    <value>Balanse Qty</value>
+  </data>
+  <data name="Work_Date" xml:space="preserve">
+    <value>Petsa ng Trabaho</value>
+  </data>
+  <data name="Time_In" xml:space="preserve">
+    <value>Time In</value>
+  </data>
+  <data name="Time_Out" xml:space="preserve">
+    <value>Time Out</value>
+  </data>
+  <data name="Day_Of_work" xml:space="preserve">
+    <value>Araw ng Trabaho</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Presyo</value>
+  </data>
+  <data name="Cat/ID" xml:space="preserve">
+    <value>Pusa/ID</value>
+  </data>
+  <data name="Delete_Button" xml:space="preserve">
+    <value>Pindutan ng Tanggalin</value>
+  </data>
+  <data name="Employee_Information" xml:space="preserve">
+    <value>Impormasyon ng Empleyado</value>
+  </data>
+  <data name="Social_Insurance_NO" xml:space="preserve">
+    <value>Social Insurance BLG</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>Numero ng Telepono</value>
+  </data>
+  <data name="Item_Active" xml:space="preserve">
+    <value>Aktibo ang item</value>
+  </data>
+  <data name="Emirates_ID" xml:space="preserve">
+    <value>Emirates ID</value>
+  </data>
+  <data name="Item_Cost_Details" xml:space="preserve">
+    <value>Mga Detalye ng Gastos ng Item</value>
+  </data>
+  <data name="Additional_Info" xml:space="preserve">
+    <value>Karagdagang Impormasyon</value>
+  </data>
+  <data name="Emergency_Info" xml:space="preserve">
+    <value>Impormasyong Pang-emergency</value>
+  </data>
+  <data name="Employee_Name" xml:space="preserve">
+    <value>Pangalan ng Empleyado</value>
+  </data>
+  <data name="House_Allowance" xml:space="preserve">
+    <value>Allowance sa Bahay</value>
+  </data>
+  <data name="IBAN_Number" xml:space="preserve">
+    <value>Numero ng IBAN</value>
+  </data>
+  <data name="Emirates_ID_Issuing_Authority" xml:space="preserve">
+    <value>Emirates ID Issuing Authority</value>
+  </data>
+  <data name="Emirates_ID_File_Number" xml:space="preserve">
+    <value>Numero ng File ng Emirates ID</value>
+  </data>
+  <data name="Bank_Account_Number" xml:space="preserve">
+    <value>Bank Account Number</value>
+  </data>
+  <data name="Total_Salary" xml:space="preserve">
+    <value>Kabuuang Sahod</value>
+  </data>
+  <data name="Transportation_Allowance" xml:space="preserve">
+    <value>Allowance sa Transportasyon</value>
+  </data>
+  <data name="Employee_Code" xml:space="preserve">
+    <value>Code ng Empleyado</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>Mga kagawaran</value>
+  </data>
+  <data name="AC_/_Code" xml:space="preserve">
+    <value>AC / Code</value>
+  </data>
+  <data name="Expense_Account_(Chart_-_Account_Name)" xml:space="preserve">
+    <value>Expense Account (Chart - Account Name)</value>
+  </data>
+  <data name="Min_Amount" xml:space="preserve">
+    <value>Min na Halaga</value>
+  </data>
+  <data name="Go_To_Item_Card" xml:space="preserve">
+    <value>Pumunta sa Item Card</value>
+  </data>
+  <data name="Residency_Issue_Authority" xml:space="preserve">
+    <value>Awtoridad sa Isyu sa Paninirahan</value>
+  </data>
+  <data name="Residency_File_Number" xml:space="preserve">
+    <value>Numero ng File ng Paninirahan</value>
+  </data>
+  <data name="Position_Name" xml:space="preserve">
+    <value>Pangalan ng Posisyon</value>
+  </data>
+  <data name="Working_Hours" xml:space="preserve">
+    <value>Mga Oras ng Trabaho</value>
+  </data>
+  <data name="Contract_Type" xml:space="preserve">
+    <value>Uri ng Kontrata</value>
+  </data>
+  <data name="Work_Contract_Number" xml:space="preserve">
+    <value>Numero ng Kontrata sa Trabaho</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Item_Operations___▼" xml:space="preserve">
+    <value>Mga Pagpapatakbo ng Item ▼</value>
+  </data>
+  <data name="Edit_Item" xml:space="preserve">
+    <value>I-edit ang Item</value>
+  </data>
+  <data name="Delete_Employee" xml:space="preserve">
+    <value>Tanggalin ang Empleyado</value>
+  </data>
+  <data name="Employee_List" xml:space="preserve">
+    <value>Listahan ng Empleyado</value>
+  </data>
+  <data name="Credit_&amp;&amp;_Payment" xml:space="preserve">
+    <value>Credit at&amp; Pagbabayad</value>
+  </data>
+  <data name="Active_Employee" xml:space="preserve">
+    <value>Aktibong Empleyado</value>
+  </data>
+  <data name="Inactive_Employee" xml:space="preserve">
+    <value>Hindi Aktibong Empleyado</value>
+  </data>
+  <data name="Employee_Snapshot" xml:space="preserve">
+    <value>Snapshot ng empleyado</value>
+  </data>
+  <data name="CategoryCode" xml:space="preserve">
+    <value>Code ng Kategorya</value>
+  </data>
+  <data name="New_Loan" xml:space="preserve">
+    <value>Bagong Pautang</value>
+  </data>
+  <data name="Salary_Information" xml:space="preserve">
+    <value>Impormasyon sa suweldo</value>
+  </data>
+  <data name="Additions" xml:space="preserve">
+    <value>Mga karagdagan</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>Hindi aktibo</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>Mga installment</value>
+  </data>
+  <data name="Request_Amount" xml:space="preserve">
+    <value>Halaga ng Kahilingan</value>
+  </data>
+  <data name="Add_New_Loan" xml:space="preserve">
+    <value>Magdagdag ng Bagong Loan</value>
+  </data>
+  <data name="Show_More" xml:space="preserve">
+    <value>Ipakita ang Higit Pa</value>
+  </data>
+  <data name="INV_Date" xml:space="preserve">
+    <value>Petsa ng INV</value>
+  </data>
+  <data name="Invoice_No" xml:space="preserve">
+    <value>Invoice No</value>
+  </data>
+  <data name="invoice_id" xml:space="preserve">
+    <value>invoice_id</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Balanse</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Pumili</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>Natitira</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Tingnan</value>
+  </data>
+  <data name="Show_Invoice" xml:space="preserve">
+    <value>Ipakita ang Invoice</value>
+  </data>
+  <data name="Print_Credit_After_Save" xml:space="preserve">
+    <value>I-print ang Credit Pagkatapos I-save</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>I-edit</value>
+  </data>
+  <data name="Item Wise" xml:space="preserve">
+    <value>Item Wise</value>
+  </data>
+  <data name="Damage_Reason" xml:space="preserve">
+    <value>Dahilan ng Pagkasira</value>
+  </data>
+  <data name="Edit_Unit" xml:space="preserve">
+    <value>I-edit ang Unit</value>
+  </data>
+  <data name="Item_Category_Center" xml:space="preserve">
+    <value>Sentro ng Kategorya ng Item</value>
+  </data>
+  <data name="New_Unit" xml:space="preserve">
+    <value>Bagong Unit</value>
+  </data>
+  <data name="unitid" xml:space="preserve">
+    <value>unitid</value>
+  </data>
+  <data name="Factor" xml:space="preserve">
+    <value>Salik</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Alisin</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Idagdag</value>
+  </data>
+  <data name="Item_Unit_Center" xml:space="preserve">
+    <value>Sentro ng Yunit ng Item</value>
+  </data>
+  <data name="MasterWarehouse" xml:space="preserve">
+    <value>MasterWarehouse</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>Tanggalin ang Item</value>
+  </data>
+  <data name="Transfer_History" xml:space="preserve">
+    <value>Kasaysayan ng Paglilipat</value>
+  </data>
+  <data name="Search_By_Item_Name,_Code" xml:space="preserve">
+    <value>Maghanap Batay sa Pangalan ng Item, Code</value>
+  </data>
+  <data name="AVG" xml:space="preserve">
+    <value>AVG</value>
+  </data>
+  <data name="LIFO" xml:space="preserve">
+    <value>LIFO</value>
+  </data>
+  <data name="FIFO" xml:space="preserve">
+    <value>FIFO</value>
+  </data>
+  <data name="On_Hand" xml:space="preserve">
+    <value>Nasa Kamay</value>
+  </data>
+  <data name="Total_Value" xml:space="preserve">
+    <value>Kabuuang Halaga</value>
+  </data>
+  <data name="Max_Amount" xml:space="preserve">
+    <value>Max na Halaga</value>
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="Add_More_Unit" xml:space="preserve">
+    <value>Magdagdag ng Higit pang Unit</value>
+  </data>
+  <data name="Inventory_" xml:space="preserve">
+    <value>Imbentaryo </value>
+  </data>
+  <data name="Expense" xml:space="preserve">
+    <value>Gastos</value>
+  </data>
+  <data name="W.H" xml:space="preserve">
+    <value>W.H</value>
+  </data>
+  <data name="INV_NO." xml:space="preserve">
+    <value>INV NO.</value>
+  </data>
+  <data name="TRN_No." xml:space="preserve">
+    <value>TRN No.</value>
+  </data>
+  <data name="TRN_TYPE" xml:space="preserve">
+    <value>URI ng TRN</value>
+  </data>
+  <data name="QTY_-_IN" xml:space="preserve">
+    <value>QTY - IN</value>
+  </data>
+  <data name="QTY_-_OUT" xml:space="preserve">
+    <value>QTY - LABAS</value>
+  </data>
+  <data name="Fifoqty" xml:space="preserve">
+    <value>Fifoqty</value>
+  </data>
+  <data name="FifoCost" xml:space="preserve">
+    <value>FifoCost</value>
+  </data>
+  <data name="11_-_Inventory_Part" xml:space="preserve">
+    <value>11 - Bahagi ng Imbentaryo</value>
+  </data>
+  <data name="12 -_Service" xml:space="preserve">
+    <value>12 - Serbisyo</value>
+  </data>
+  <data name="13_-_Inventory_Assembly" xml:space="preserve">
+    <value>13 - Pagpupulong ng Imbentaryo</value>
+  </data>
+  <data name="Qty_In" xml:space="preserve">
+    <value>Qty In</value>
+  </data>
+  <data name="Qty_Out" xml:space="preserve">
+    <value>Qty Out</value>
+  </data>
+  <data name="Cost_Price" xml:space="preserve">
+    <value>Presyo ng Gastos</value>
+  </data>
+  <data name="Sales_Price" xml:space="preserve">
+    <value>Presyo ng Benta</value>
+  </data>
+  <data name="Qty_Balance" xml:space="preserve">
+    <value>Dami ng Balanse</value>
+  </data>
+  <data name="Recycle_Item" xml:space="preserve">
+    <value>I-recycle ang Item </value>
+  </data>
+  <data name="Opening_Qty" xml:space="preserve">
+    <value>Binubuksan ang Qty</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Bumili</value>
+  </data>
+  <data name="New_Item" xml:space="preserve">
+    <value>Bagong Item</value>
+  </data>
+  <data name="Selection_Item" xml:space="preserve">
+    <value>Item ng Pinili</value>
+  </data>
+  <data name="Inventory_-_Transaction" xml:space="preserve">
+    <value>Imbentaryo - Transaksyon</value>
+  </data>
+  <data name="Item_Code" xml:space="preserve">
+    <value>Item Code</value>
+  </data>
+  <data name="Item_Name" xml:space="preserve">
+    <value>Pangalan ng Item</value>
+  </data>
+  <data name="SYS_QTY" xml:space="preserve">
+    <value>SYS QTY</value>
+  </data>
+  <data name="SYS_Amount" xml:space="preserve">
+    <value>Halaga ng SYS</value>
+  </data>
+  <data name="New_QTY" xml:space="preserve">
+    <value>Bagong QTY</value>
+  </data>
+  <data name="QTY_DIF" xml:space="preserve">
+    <value>QTY DIF</value>
+  </data>
+  <data name="Amount_(-)" xml:space="preserve">
+    <value>Halaga (-)</value>
+  </data>
+  <data name="Amount_(+)" xml:space="preserve">
+    <value>Halaga (+)</value>
+  </data>
+  <data name="Invoice_Header" xml:space="preserve">
+    <value>Header ng Invoice</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Susunod</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Nakaraang</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="Invoice_Footer" xml:space="preserve">
+    <value>Footer ng Invoice</value>
+  </data>
+  <data name="Customer/_New_Customer" xml:space="preserve">
+    <value>Customer/Bagong Customer</value>
+  </data>
+  <data name="New_Settlement" xml:space="preserve">
+    <value>Bagong Settlement</value>
+  </data>
+  <data name="Edit_Current" xml:space="preserve">
+    <value>I-edit ang Kasalukuyan</value>
+  </data>
+  <data name="Selection_Method" xml:space="preserve">
+    <value>Paraan ng Pagpili</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Inventory_-_Stock_Management" xml:space="preserve">
+    <value>Imbentaryo - Pamamahala ng Stock</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Halaga</value>
+  </data>
+  <data name="Edit_Tax" xml:space="preserve">
+    <value>I-edit ang Buwis</value>
+  </data>
+  <data name="Sales_Center" xml:space="preserve">
+    <value>Sales Center</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="Batch_Name_*" xml:space="preserve">
+    <value>Pangalan ng Batch *</value>
+  </data>
+  <data name="Amount_*" xml:space="preserve">
+    <value>Halaga *</value>
+  </data>
+  <data name="Hours_*" xml:space="preserve">
+    <value>Oras *</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Mga produkto</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Gastos</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>QTY</value>
+  </data>
+  <data name="Total_Cost" xml:space="preserve">
+    <value>Kabuuang Gastos</value>
+  </data>
+  <data name="Choose_The_Machine_*" xml:space="preserve">
+    <value>Piliin ang Makina *</value>
+  </data>
+  <data name="Wharehouse" xml:space="preserve">
+    <value>Bodega</value>
+  </data>
+  <data name="Choose_The_Batch_for_Producting" xml:space="preserve">
+    <value>Piliin ang Batch para sa Pagprodukto</value>
+  </data>
+  <data name="Search_By_Batch_Name_...." xml:space="preserve">
+    <value>Maghanap Ayon sa Pangalan ng Batch ....</value>
+  </data>
+  <data name="Batch_Name" xml:space="preserve">
+    <value>Pangalan ng Batch</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Oras</value>
+  </data>
+  <data name="(All)" xml:space="preserve">
+    <value>(Lahat)</value>
+  </data>
+  <data name="All_Order" xml:space="preserve">
+    <value>Lahat ng Order</value>
+  </data>
+  <data name="All_Open" xml:space="preserve">
+    <value>Lahat Bukas</value>
+  </data>
+  <data name="Leads_Won" xml:space="preserve">
+    <value>Nangunguna ang Nanalo</value>
+  </data>
+  <data name="Leads_Lost" xml:space="preserve">
+    <value>Nawala ang mga lead</value>
+  </data>
+  <data name="Won_Leads_VS_lost_Leads" xml:space="preserve">
+    <value>Nanalo ng Leads VS nawalan ng Leads</value>
+  </data>
+  <data name="Spline1" xml:space="preserve">
+    <value>Spline1</value>
+  </data>
+  <data name="HorizontalBar1" xml:space="preserve">
+    <value>Pahalang na Bar1</value>
+  </data>
+  <data name="OPEN_LEADS" xml:space="preserve">
+    <value>OPEN LEADS</value>
+  </data>
+  <data name="Prospecting" xml:space="preserve">
+    <value>Prospecting</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>appointment</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>Pagtatanghal</value>
+  </data>
+  <data name="Bought-In" xml:space="preserve">
+    <value>Binili-Sa</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>Kontrata</value>
+  </data>
+  <data name="Machine_Name" xml:space="preserve">
+    <value>Pangalan ng Machine</value>
+  </data>
+  <data name="Start_Time" xml:space="preserve">
+    <value>Oras ng Pagsisimula</value>
+  </data>
+  <data name="End_Time" xml:space="preserve">
+    <value>Oras ng Pagtatapos</value>
+  </data>
+  <data name="Search_By_Machine_Name_...." xml:space="preserve">
+    <value>Maghanap sa Pangalan ng Machine ....</value>
+  </data>
+  <data name="QTY_Task" xml:space="preserve">
+    <value>QTY Gawain</value>
+  </data>
+  <data name="Machine_Monitoring" xml:space="preserve">
+    <value>Pagsubaybay sa Machine</value>
+  </data>
+  <data name="Machines_That_Have_No_Tasks_Now" xml:space="preserve">
+    <value>Mga Machine na Walang Gawain Ngayon</value>
+  </data>
+  <data name="Machines_In_Progress" xml:space="preserve">
+    <value>Mga Kasalukuyang Makina</value>
+  </data>
+  <data name="Company_Name_-_Manufacturing" xml:space="preserve">
+    <value>Pangalan ng Kumpanya - Paggawa</value>
+  </data>
+  <data name="Log_Out" xml:space="preserve">
+    <value>mag-log Out</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Batches" xml:space="preserve">
+    <value>Mga batch</value>
+  </data>
+  <data name="Machine_Records" xml:space="preserve">
+    <value>Mga Tala ng Machine</value>
+  </data>
+  <data name="Orders_Center" xml:space="preserve">
+    <value>Sentro ng mga Order</value>
+  </data>
+  <data name="Bill_To" xml:space="preserve">
+    <value>Bill To</value>
+  </data>
+  <data name="Disc" xml:space="preserve">
+    <value>Disc</value>
+  </data>
+  <data name="due_to" xml:space="preserve">
+    <value>dahil sa</value>
+  </data>
+  <data name="Emirates" xml:space="preserve">
+    <value>Emirates</value>
+  </data>
+  <data name="Fixed_Asset_Category" xml:space="preserve">
+    <value>Kategorya ng Fixed Asset</value>
+  </data>
+  <data name="Invoice_#" xml:space="preserve">
+    <value>Invoice #</value>
+  </data>
+  <data name="Invoice_Type" xml:space="preserve">
+    <value>Uri ng Invoice</value>
+  </data>
+  <data name="invoice_Report_" xml:space="preserve">
+    <value>Ulat ng invoice </value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>paraan</value>
+  </data>
+  <data name="Net_Price" xml:space="preserve">
+    <value>Net Presyo</value>
+  </data>
+  <data name="P.O_No" xml:space="preserve">
+    <value>P.O HINDI</value>
+  </data>
+  <data name="Payment_Terms" xml:space="preserve">
+    <value>Mga Tuntunin sa Pagbabayad</value>
+  </data>
+  <data name="Purchase_By_Customer_Details" xml:space="preserve">
+    <value>Pagbili Ayon sa Mga Detalye ng Customer</value>
+  </data>
+  <data name="Purchase_Invoice" xml:space="preserve">
+    <value>Invoice ng Pagbili</value>
+  </data>
+  <data name="Purchase_Type" xml:space="preserve">
+    <value>Uri ng Pagbili</value>
+  </data>
+  <data name="Receive_Payments" xml:space="preserve">
+    <value>Tumanggap ng mga Pagbabayad</value>
+  </data>
+  <data name="Recive_Report" xml:space="preserve">
+    <value>Pagtanggap ng Ulat</value>
+  </data>
+  <data name="Refund/_Payment" xml:space="preserve">
+    <value>Refund/ Pagbabayad</value>
+  </data>
+  <data name="Sales_Man" xml:space="preserve">
+    <value>Sales Man</value>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>barko</value>
+  </data>
+  <data name="Ship_Date" xml:space="preserve">
+    <value>Petsa ng Pagpapadala</value>
+  </data>
+  <data name="Ship_To" xml:space="preserve">
+    <value>Ipadala Sa</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>Vat</value>
+  </data>
+  <data name="Via" xml:space="preserve">
+    <value>Sa pamamagitan ng</value>
+  </data>
+  <data name="New_Invoice" xml:space="preserve">
+    <value>Bagong Invoice</value>
+  </data>
+  <data name="Edit_Invoice" xml:space="preserve">
+    <value>I-edit ang Invoice</value>
+  </data>
+  <data name="Vendor_Name" xml:space="preserve">
+    <value>Pangalan ng Vendor</value>
+  </data>
+  <data name="Purchases_Center" xml:space="preserve">
+    <value>Sentro ng Pagbili</value>
+  </data>
+  <data name="DHL" xml:space="preserve">
+    <value>DHL</value>
+  </data>
+  <data name="MAIL" xml:space="preserve">
+    <value>MAIL</value>
+  </data>
+  <data name="On_Site" xml:space="preserve">
+    <value>Sa Site</value>
+  </data>
+  <data name="Print_The_Invoice_Now" xml:space="preserve">
+    <value>I-print ang Invoice Ngayon</value>
+  </data>
+  <data name="Create_Bill" xml:space="preserve">
+    <value>Lumikha ng Bill</value>
+  </data>
+  <data name="Purchase_Orders_Center" xml:space="preserve">
+    <value>Purchase Orders Center</value>
+  </data>
+  <data name="PurchaseReturn_Center" xml:space="preserve">
+    <value>PurchaseReturn Center</value>
+  </data>
+  <data name="Export_To_&amp;Excel" xml:space="preserve">
+    <value>I-export_To_&amp;Excel</value>
+  </data>
+  <data name="Export_To_&amp;Word" xml:space="preserve">
+    <value>I-export_To_&amp;Word</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Report_with_grid_lines" xml:space="preserve">
+    <value>Mag-ulat gamit ang mga linya ng grid</value>
+  </data>
+  <data name="Save_As_PDF" xml:space="preserve">
+    <value>I-save Bilang PDF</value>
+  </data>
+  <data name="Sort_By" xml:space="preserve">
+    <value>Pagbukud-bukurin Ayon</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>Mga petsa</value>
+  </data>
+  <data name="Comment_On_Report" xml:space="preserve">
+    <value>Komento Sa Ulat</value>
+  </data>
+  <data name="Customize_Report" xml:space="preserve">
+    <value>I-customize ang Ulat</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>I-refresh</value>
+  </data>
+  <data name="Hide_Header" xml:space="preserve">
+    <value>Itago ang Header</value>
+  </data>
+  <data name="Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="Profit_&amp;_loss" xml:space="preserve">
+    <value>Kita at pagkalugi</value>
+  </data>
+  <data name="Balance_Sheet_Summary" xml:space="preserve">
+    <value>Buod ng Balanse</value>
+  </data>
+  <data name="All_Transaction" xml:space="preserve">
+    <value>Lahat ng Transaksyon</value>
+  </data>
+  <data name="Balance_Sheet_Standard" xml:space="preserve">
+    <value>Pamantayan ng Balanse</value>
+  </data>
+  <data name="Edit_Level_4_Account" xml:space="preserve">
+    <value>I-edit ang Level 4 na Account</value>
+  </data>
+  <data name="New_Level_4_Account" xml:space="preserve">
+    <value>Bagong Level 4 na Account</value>
+  </data>
+  <data name="Accountant_Center_-_Balance_Sheet" xml:space="preserve">
+    <value>Accountant Center - Balance Sheet</value>
+  </data>
+  <data name="Customer_Balance_Summary" xml:space="preserve">
+    <value>Buod ng Balanse ng Customer</value>
+  </data>
+  <data name="A/R_Aging_Summary" xml:space="preserve">
+    <value>A/R Aging Summary</value>
+  </data>
+  <data name="A/R_Aging_Details" xml:space="preserve">
+    <value>Mga Detalye ng Pagtanda ng A/R</value>
+  </data>
+  <data name="Project_Activity_Report" xml:space="preserve">
+    <value>Ulat sa Aktibidad ng Proyekto</value>
+  </data>
+  <data name="Project_Assign_Report" xml:space="preserve">
+    <value>Ulat sa Pagtatalaga ng Proyekto</value>
+  </data>
+  <data name="Project_Progress_Summary" xml:space="preserve">
+    <value>Buod ng Pag-unlad ng Proyekto</value>
+  </data>
+  <data name="Project_Resource_Report" xml:space="preserve">
+    <value>Ulat sa Mapagkukunan ng Proyekto</value>
+  </data>
+  <data name="Project_Name" xml:space="preserve">
+    <value>Pangalan ng Proyekto</value>
+  </data>
+  <data name="Project_Work_Progress_Summary" xml:space="preserve">
+    <value>Buod ng Pag-unlad ng Gawain sa Proyekto</value>
+  </data>
+  <data name="Customer_Aging_Detail" xml:space="preserve">
+    <value>Detalye ng Pagtanda ng Customer</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>Pangalan ng Kumpanya</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Ngayong araw</value>
+  </data>
+  <data name="This_Week" xml:space="preserve">
+    <value>Ngayong Linggo</value>
+  </data>
+  <data name="This_Month" xml:space="preserve">
+    <value>Ngayong Buwan</value>
+  </data>
+  <data name="This_Fiscal_Quarter" xml:space="preserve">
+    <value>Itong Fiscal Quarter</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year" xml:space="preserve">
+    <value>Ngayong Fiscal Quarter Year</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year-To-Last_Month" xml:space="preserve">
+    <value>Ngayong Fiscal Quarter Year-To-Last Month</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>Kahapon</value>
+  </data>
+  <data name="Customer_Aging_Summary" xml:space="preserve">
+    <value>Buod ng Pagtanda ng Customer</value>
+  </data>
+  <data name="Customer_Balance_Detail" xml:space="preserve">
+    <value>Detalye ng Balanse ng Customer</value>
+  </data>
+  <data name="Customer_Summary" xml:space="preserve">
+    <value>Buod ng Customer</value>
+  </data>
+  <data name="Employee_Balance_Detail" xml:space="preserve">
+    <value>Detalye ng Balanse ng Empleyado</value>
+  </data>
+  <data name="Fixed_Asset_Summary" xml:space="preserve">
+    <value>Buod ng Fixed Asset</value>
+  </data>
+  <data name="Fixed_Asset_Details" xml:space="preserve">
+    <value>Mga Detalye ng Fixed Asset</value>
+  </data>
+  <data name="Item_Moving_Report" xml:space="preserve">
+    <value>Ulat sa Paglilipat ng Item</value>
+  </data>
+  <data name="Inventory_Center_-_Item_Wise_Profit_Statement" xml:space="preserve">
+    <value>Inventory Center - Item Wise Profit Statement</value>
+  </data>
+  <data name="Vat_Input" xml:space="preserve">
+    <value>Input ng Vat</value>
+  </data>
+  <data name="Vat_Output" xml:space="preserve">
+    <value>Output ng Vat</value>
+  </data>
+  <data name="Delete_Invoice" xml:space="preserve">
+    <value>Tanggalin ang Invoice</value>
+  </data>
+  <data name="Statement_Of_Account_(_Customer_)" xml:space="preserve">
+    <value>Statement of Account ( Customer )</value>
+  </data>
+  <data name="Petty_Cash_Balance_Detail" xml:space="preserve">
+    <value>Detalye ng Balanse sa Petty Cash</value>
+  </data>
+  <data name="Prepaid_Expense_Detail" xml:space="preserve">
+    <value>Detalye ng Prepaid Expense</value>
+  </data>
+  <data name="Prepaid_Expense_Summary" xml:space="preserve">
+    <value>Buod ng Prepaid Expense</value>
+  </data>
+  <data name="Sales_By_Item_Details" xml:space="preserve">
+    <value>Benta Ayon sa Mga Detalye ng Item</value>
+  </data>
+  <data name="Purchase_By_Vendor_Details" xml:space="preserve">
+    <value>Mga Detalye ng Pagbili Ng Vendor</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Benta</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>Sipi</value>
+  </data>
+  <data name="Performa" xml:space="preserve">
+    <value>Performa</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Umorder</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Bumalik</value>
+  </data>
+  <data name="Show_Columns" xml:space="preserve">
+    <value>Show_Columns</value>
+  </data>
+  <data name="This_Week_To_Date" xml:space="preserve">
+    <value>Ngayong Linggo-Sa-Petsa</value>
+  </data>
+  <data name="This_Month_to_Date" xml:space="preserve">
+    <value>Ngayong Buwan-sa-Petsa</value>
+  </data>
+  <data name="This_Fiscal_Quarter_To_Date" xml:space="preserve">
+    <value>Itong Fiscal Quarter-To-Date</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Last_Month" xml:space="preserve">
+    <value>Ngayong Fiscal Quarter Year-To-Last Month</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Date" xml:space="preserve">
+    <value>Itong Fiscal Quarter Year-To-Date</value>
+  </data>
+  <data name="Sales_by_Customer_Detail" xml:space="preserve">
+    <value>Benta ayon sa Detalye ng Customer</value>
+  </data>
+  <data name="Refre&amp;sh" xml:space="preserve">
+    <value>I-refresh&amp;sh</value>
+  </data>
+  <data name="Ex&amp;pend_Rows" xml:space="preserve">
+    <value>Ex&amp;pend Row</value>
+  </data>
+  <data name="E&amp;xcel" xml:space="preserve">
+    <value>E&amp;xcel</value>
+  </data>
+  <data name="E-mai&amp;l" xml:space="preserve">
+    <value>E-mail&amp;l</value>
+  </data>
+  <data name="Prin&amp;t" xml:space="preserve">
+    <value>Print&amp;t</value>
+  </data>
+  <data name="Memori&amp;ze" xml:space="preserve">
+    <value>Alaala&amp;ze</value>
+  </data>
+  <data name="Share_Template" xml:space="preserve">
+    <value>Ibahagi ang Template</value>
+  </data>
+  <data name="Comme&amp;nt_On_Report" xml:space="preserve">
+    <value>Mag-comme&amp;nt Sa Ulat</value>
+  </data>
+  <data name="Custo&amp;mize_Report" xml:space="preserve">
+    <value>I-customize ang Ulat</value>
+  </data>
+  <data name="Accaurl" xml:space="preserve">
+    <value>Accaurl</value>
+  </data>
+  <data name="Report_Basis" xml:space="preserve">
+    <value>Batayan sa Pag-uulat</value>
+  </data>
+  <data name="Sales_by_Item_Detail" xml:space="preserve">
+    <value>Benta ayon sa Detalye ng Item</value>
+  </data>
+  <data name="Refre_sh" xml:space="preserve">
+    <value>Rere_sh</value>
+  </data>
+  <data name="Ex_pend_Rows" xml:space="preserve">
+    <value>Ex_pend_Rows</value>
+  </data>
+  <data name="E_xcel" xml:space="preserve">
+    <value>E_xcel</value>
+  </data>
+  <data name="E_mail" xml:space="preserve">
+    <value>E-mail&amp;l</value>
+  </data>
+  <data name="Prin_t" xml:space="preserve">
+    <value>Print_t</value>
+  </data>
+  <data name="Memori_ze" xml:space="preserve">
+    <value>Memori_ze</value>
+  </data>
+  <data name="Comme_nt_On_Report" xml:space="preserve">
+    <value>Comme_nt_On_Report</value>
+  </data>
+  <data name="Custo_mize_Report" xml:space="preserve">
+    <value>Custom_mize_Report</value>
+  </data>
+  <data name="Test_Comapnt_LLC_/" xml:space="preserve">
+    <value>Pagsubok sa Compapnt LLC /</value>
+  </data>
+  <data name="E-mail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Sales_by_Rep_Detail" xml:space="preserve">
+    <value>Benta ayon sa Detalye ng Rep</value>
+  </data>
+  <data name="Accrual" xml:space="preserve">
+    <value>Accrual</value>
+  </data>
+  <data name="Sales_by_Rep_Summary" xml:space="preserve">
+    <value>Benta ng Rep Summary</value>
+  </data>
+  <data name="AR_Aging_Details" xml:space="preserve">
+    <value>Mga Detalye ng Pagtanda ng A/R</value>
+  </data>
+  <data name="Income_By_Vendor_Detail" xml:space="preserve">
+    <value>Kita Ayon sa Detalye ng Vendor</value>
+  </data>
+  <data name="Income_By_Vendor_Summary" xml:space="preserve">
+    <value>Income_By_Vendor_Summary</value>
+  </data>
+  <data name="Vendor_Aging_Details" xml:space="preserve">
+    <value>Vendor_Aging_Details</value>
+  </data>
+  <data name="Vendor_Aging_Summary" xml:space="preserve">
+    <value>Buod ng Pagtanda ng Vendor</value>
+  </data>
+  <data name="Vendor_Balance_Summary" xml:space="preserve">
+    <value>Buod ng Balanse ng Vendor</value>
+  </data>
+  <data name="Save_&amp;&amp;_New" xml:space="preserve">
+    <value>I-save &amp;&amp; Bago</value>
+  </data>
+  <data name="Vendor_Category" xml:space="preserve">
+    <value>Kategorya ng Vendor</value>
+  </data>
+  <data name="Opening_Balance" xml:space="preserve">
+    <value>Pambungad na Balanse</value>
+  </data>
+  <data name="Contact_&amp;_Address_Data" xml:space="preserve">
+    <value>Contact_&amp;_Address_Data</value>
+  </data>
+  <data name="Building_Name" xml:space="preserve">
+    <value>Building Name</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Rehiyon</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Mobile_Or_Fax" xml:space="preserve">
+    <value>Mobile_Or_Fax</value>
+  </data>
+  <data name="Work_Phone" xml:space="preserve">
+    <value>Telepono sa Trabaho</value>
+  </data>
+  <data name="CC_Email" xml:space="preserve">
+    <value>CC Email</value>
+  </data>
+  <data name="Main_Phone" xml:space="preserve">
+    <value>Pangunahing_Telepono</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>lungsod</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktibo</value>
+  </data>
+  <data name="Facility_Name" xml:space="preserve">
+    <value>Pangalan ng Pasilidad</value>
+  </data>
+  <data name="TRN" xml:space="preserve">
+    <value>TRN</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>lblError</value>
+  </data>
+  <data name="Customer_Balance_Details" xml:space="preserve">
+    <value>Mga Detalye ng Balanse ng Customer</value>
+  </data>
+  <data name="Run_Favorite_Reports" xml:space="preserve">
+    <value>Patakbuhin ang Mga Paboritong Ulat</value>
+  </data>
+  <data name="View_Balance" xml:space="preserve">
+    <value>Tingnan ang Balanse</value>
+  </data>
+  <data name="Print_Checks" xml:space="preserve">
+    <value>Mag-print ng mga Check</value>
+  </data>
+  <data name="Check_Register" xml:space="preserve">
+    <value>Suriin ang Register</value>
+  </data>
+  <data name="Write_Checks" xml:space="preserve">
+    <value>Sumulat ng mga Tsek</value>
+  </data>
+  <data name="Reconcile" xml:space="preserve">
+    <value>Magkasundo</value>
+  </data>
+  <data name="Record_Deposits" xml:space="preserve">
+    <value>Itala ang mga Deposito</value>
+  </data>
+  <data name="Home_Page" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Kalendaryo</value>
+  </data>
+  <data name="Transaction" xml:space="preserve">
+    <value>Transaksyon</value>
+  </data>
+  <data name="Order_Checks" xml:space="preserve">
+    <value>Mga Check ng Order</value>
+  </data>
+  <data name="Items_&amp;_Services" xml:space="preserve">
+    <value>Mga Item at Serbisyo</value>
+  </data>
+  <data name="Inventory_Activities" xml:space="preserve">
+    <value>Mga Aktibidad sa Imbentaryo</value>
+  </data>
+  <data name="Chart_of_accounts" xml:space="preserve">
+    <value>Tsart ng mga account</value>
+  </data>
+  <data name="Purchase_Orders" xml:space="preserve">
+    <value>Mga Purchase Order</value>
+  </data>
+  <data name="Statements" xml:space="preserve">
+    <value>Mga pahayag</value>
+  </data>
+  <data name="Statement_Charges" xml:space="preserve">
+    <value>Mga Singil sa Pahayag</value>
+  </data>
+  <data name="Create_Sales_Receipts" xml:space="preserve">
+    <value>Gumawa ng Mga Resibo sa Pagbebenta</value>
+  </data>
+  <data name="Receive_Payment" xml:space="preserve">
+    <value>Tumanggap ng Bayad</value>
+  </data>
+  <data name="Create_Invoice" xml:space="preserve">
+    <value>Gumawa ng Invoice</value>
+  </data>
+  <data name="Pay_Bills" xml:space="preserve">
+    <value>Magbayad ng mga Bill</value>
+  </data>
+  <data name="Enter_Bills" xml:space="preserve">
+    <value>Ipasok ang mga Bill</value>
+  </data>
+  <data name="Manage_Sales_Tax" xml:space="preserve">
+    <value>Pamahalaan ang Sales Tax</value>
+  </data>
+  <data name="Receive_Inventory" xml:space="preserve">
+    <value>Tumanggap ng Imbentaryo</value>
+  </data>
+  <data name="Enter_Bills_Against_Inventory" xml:space="preserve">
+    <value>Ipasok ang Mga Bill Laban sa Imbentaryo</value>
+  </data>
+  <data name="Insights" xml:space="preserve">
+    <value>Mga Insight</value>
+  </data>
+  <data name="Vendor_Operations__▼" xml:space="preserve">
+    <value>Mga Operasyon ng Vendor ▼</value>
+  </data>
+  <data name="New_Vendor" xml:space="preserve">
+    <value>Bagong Vendor </value>
+  </data>
+  <data name="Edit_Vendor" xml:space="preserve">
+    <value>I-edit ang Vendor </value>
+  </data>
+  <data name="Delete_Vendor" xml:space="preserve">
+    <value>Tanggalin ang Vendor</value>
+  </data>
+  <data name="New_Transactions___▼" xml:space="preserve">
+    <value>Mga Bagong Transaksyon ▼</value>
+  </data>
+  <data name="Print___▼" xml:space="preserve">
+    <value>I-print ▼</value>
+  </data>
+  <data name="Excel___▼" xml:space="preserve">
+    <value>Excel ▼</value>
+  </data>
+  <data name="Import_&amp;&amp;_Export" xml:space="preserve">
+    <value>Mag-import at Mag-export</value>
+  </data>
+  <data name="Word__▼" xml:space="preserve">
+    <value>Salita ▼</value>
+  </data>
+  <data name="Active_Vendor" xml:space="preserve">
+    <value>Aktibong Vendor</value>
+  </data>
+  <data name="Inactive_Vendor" xml:space="preserve">
+    <value>Hindi aktibong Vendor</value>
+  </data>
+  <data name="Vendor_Snapshot" xml:space="preserve">
+    <value>Snapshot ng Vendor</value>
+  </data>
+  <data name="Open_Balance" xml:space="preserve">
+    <value>Buksan ang Balanse</value>
+  </data>
+  <data name="QuickReport" xml:space="preserve">
+    <value>QuickReport</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_CUSTOMER" xml:space="preserve">
+    <value>MGA ULAT PARA SA CUSTOMER NA ITO</value>
+  </data>
+  <data name="Vendor_Information" xml:space="preserve">
+    <value>Impormasyon ng Vendor</value>
+  </data>
+  <data name="Transactions" xml:space="preserve">
+    <value>Mga transaksyon</value>
+  </data>
+  <data name="Cash_Invoice" xml:space="preserve">
+    <value>Cash Invoice</value>
+  </data>
+  <data name="Vendor_Center" xml:space="preserve">
+    <value>Vendor Center</value>
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>Pangalan ng Kategorya</value>
+  </data>
+  <data name="Acitve" xml:space="preserve">
+    <value>Acitve</value>
+  </data>
+  <data name="Facilty_Name" xml:space="preserve">
+    <value>Facilty_Name</value>
+  </data>
+  <data name="VAT_Configration" xml:space="preserve">
+    <value>Configration ng VAT</value>
+  </data>
+  <data name="Due_Date" xml:space="preserve">
+    <value>Takdang Petsa</value>
+  </data>
+  <data name="Quarter_One_Due_Date" xml:space="preserve">
+    <value>Quarter_One_Due_Date</value>
+  </data>
+  <data name="Quarter_Four_Due_Date" xml:space="preserve">
+    <value>Quarter_Four_Due_Date</value>
+  </data>
+  <data name="Quarter_Three_Due_Date" xml:space="preserve">
+    <value>Quarter_Three_Date_Date</value>
+  </data>
+  <data name="Quarter_Two_Due_Date" xml:space="preserve">
+    <value>Quarter_Two_Due_Date</value>
+  </data>
+  <data name="Quarter_One_End_Date" xml:space="preserve">
+    <value>Quarter_One_End_Date</value>
+  </data>
+  <data name="Quarter_Four_End_Date" xml:space="preserve">
+    <value>Quarter_Four_End_Date</value>
+  </data>
+  <data name="Quarter_Three_End_Date" xml:space="preserve">
+    <value>Quarter_Three_End_Date</value>
+  </data>
+  <data name="Quarter_Two_End_Date" xml:space="preserve">
+    <value>Quarter_Two_End_Date</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>Petsa ng Pagsisimula</value>
+  </data>
+  <data name="Quarter_One_Start_Date" xml:space="preserve">
+    <value>Quarter_One_Start_Date</value>
+  </data>
+  <data name="Quarter_Four_Start_Date" xml:space="preserve">
+    <value>Quarter_Four_Start_Date</value>
+  </data>
+  <data name="Quarter_Three_Start_Date" xml:space="preserve">
+    <value>Quarter_Three_Start_Petsa</value>
+  </data>
+  <data name="Quarter_Two_Start_Date" xml:space="preserve">
+    <value>Quarter_Two_Start_Date</value>
+  </data>
+  <data name="Quarter_No_1" xml:space="preserve">
+    <value>Quarter No. 1</value>
+  </data>
+  <data name="Quarter_No_2" xml:space="preserve">
+    <value>Quarter No. 2</value>
+  </data>
+  <data name="Quarter_No_3" xml:space="preserve">
+    <value>Quarter No. 3</value>
+  </data>
+  <data name="Quarter_No_4" xml:space="preserve">
+    <value>Quarter No. 4</value>
+  </data>
+  <data name="TAX_Registration_No" xml:space="preserve">
+    <value>TAX Registration No</value>
+  </data>
+  <data name="TRN_Issue_Date" xml:space="preserve">
+    <value>Petsa ng Isyu ng TRN</value>
+  </data>
+  <data name="Corporate_TAX_Configration" xml:space="preserve">
+    <value>Configration ng BUWIS ng Kumpanya</value>
+  </data>
+  <data name="Quarter" xml:space="preserve">
+    <value>quarter</value>
+  </data>
+  <data name="Yearly" xml:space="preserve">
+    <value>Taon-taon</value>
+  </data>
+  <data name="Corporate_TAX_No" xml:space="preserve">
+    <value>Corporate TAX No</value>
+  </data>
+  <data name="General_Settings" xml:space="preserve">
+    <value>Mga Pangkalahatang Setting</value>
+  </data>
+  <data name="Users_And_Roles" xml:space="preserve">
+    <value>Mga Gumagamit At Tungkulin</value>
+  </data>
+  <data name="Employee_Default_Setting" xml:space="preserve">
+    <value>Default na Setting ng Empleyado</value>
+  </data>
+  <data name="Default_Account_Config" xml:space="preserve">
+    <value>Default na Config ng Account</value>
+  </data>
+  <data name="The_email_address_is_essential_and_cannot_be_left_empty" xml:space="preserve">
+    <value>Ang email address ay mahalaga at hindi maaaring iwanang walang laman</value>
+  </data>
+  <data name="The_company_logo_has_been_updated" xml:space="preserve">
+    <value>Ang logo ng kumpanya ay na-update</value>
+  </data>
+  <data name="The_establishment_customer_number_is_essential_and_cannot_be_left_blank" xml:space="preserve">
+    <value>Ang numero ng customer ng establishment ay mahalaga at hindi maaaring iwanang blangko</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Setting_-_Master" xml:space="preserve">
+    <value>Setting - Master</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Mag-import</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>I-export</value>
+  </data>
+  <data name="Starting_Code" xml:space="preserve">
+    <value>Panimulang Code</value>
+  </data>
+  <data name="Customized_File" xml:space="preserve">
+    <value>Customized na File</value>
+  </data>
+  <data name="Inventory_Export_&amp;_Import" xml:space="preserve">
+    <value>Pag-export at Pag-import ng Imbentaryo</value>
+  </data>
+  <data name="General_Config" xml:space="preserve">
+    <value>Pangkalahatang Config</value>
+  </data>
+  <data name="Defult_Settings" xml:space="preserve">
+    <value>Mga Defult na Setting</value>
+  </data>
+  <data name="Default_Tax_%" xml:space="preserve">
+    <value>Default na Buwis % </value>
+  </data>
+  <data name="Attend_Config" xml:space="preserve">
+    <value>Dumalo sa Config</value>
+  </data>
+  <data name="Ex_:_08:00" xml:space="preserve">
+    <value>Hal: 08:00</value>
+  </data>
+  <data name="Save_Records" xml:space="preserve">
+    <value>I-save ang Mga Tala</value>
+  </data>
+  <data name="Deductions" xml:space="preserve">
+    <value>Mga pagbabawas</value>
+  </data>
+  <data name="Delay_Time" xml:space="preserve">
+    <value>Oras ng Pagkaantala</value>
+  </data>
+  <data name="Enter_Full-Day_Deductions" xml:space="preserve">
+    <value>Ipasok ang Buong-araw na Pagbawas</value>
+  </data>
+  <data name="Enter_Late_Arrival_or_Early_Leave_Deductions_(Minutes)" xml:space="preserve">
+    <value>Ilagay ang mga Deduction sa Late Arrival o Early Leave (Minuto)</value>
+  </data>
+  <data name="Enter_Deduction_for_Missed_Hours" xml:space="preserve">
+    <value>Ipasok ang Deduksyon para sa mga Nalampasang Oras</value>
+  </data>
+  <data name="Deductions_Configration" xml:space="preserve">
+    <value>Configuration ng mga Deduction</value>
+  </data>
+  <data name="Petty_Cash_Account" xml:space="preserve">
+    <value>Petty Cash Account</value>
+  </data>
+  <data name="Fixed_Asset_Credit_Account" xml:space="preserve">
+    <value>Fixed Asset Credit Account</value>
+  </data>
+  <data name="Prepaid_Expense_Credit_Account" xml:space="preserve">
+    <value>Prepaid Expense Credit Account</value>
+  </data>
+  <data name="Fixed_Asset_Debit_Account" xml:space="preserve">
+    <value>Fixed Asset Debit Account</value>
+  </data>
+  <data name="Prepaid_Expense_Debit_Account" xml:space="preserve">
+    <value>Prepaid Expense Debit Account</value>
+  </data>
+  <data name="PDC_Receivable_Hold" xml:space="preserve">
+    <value>PDC Receivable Hold</value>
+  </data>
+  <data name="PDC_Payable_Hold" xml:space="preserve">
+    <value>PDC Payable Hold</value>
+  </data>
+  <data name="PDC_Receivable" xml:space="preserve">
+    <value>Matatanggap ng PDC</value>
+  </data>
+  <data name="PDC_Payable" xml:space="preserve">
+    <value>PDC Payable</value>
+  </data>
+  <data name="PDC_Receivable_Return" xml:space="preserve">
+    <value>PDC Receivable Return</value>
+  </data>
+  <data name="PDC_Payable_Return" xml:space="preserve">
+    <value>PDC Payable Return</value>
+  </data>
+  <data name="Default_Account_For_Cash" xml:space="preserve">
+    <value>Default_Account_For_Cash</value>
+  </data>
+  <data name="Opening_Balance_Equity" xml:space="preserve">
+    <value>Pagbubukas ng Balanse Equity</value>
+  </data>
+  <data name="Item_COGS" xml:space="preserve">
+    <value>Item_COGS</value>
+  </data>
+  <data name="Stock_Settlement" xml:space="preserve">
+    <value>Stock Settlement</value>
+  </data>
+  <data name="Inventory_Damage_Account" xml:space="preserve">
+    <value>Account sa Pinsala ng Imbentaryo</value>
+  </data>
+  <data name="SalesReturn_Invoice" xml:space="preserve">
+    <value>SalesReturn Invoice</value>
+  </data>
+  <data name="Sales_Invoice" xml:space="preserve">
+    <value>Sales Invoice</value>
+  </data>
+  <data name="Invoice_Payment_Cash_Method" xml:space="preserve">
+    <value>Paraan ng Cash sa Pagbabayad ng Invoice</value>
+  </data>
+  <data name="PurchaseReturn_Invoice" xml:space="preserve">
+    <value>PurchaseReturn Invoice</value>
+  </data>
+  <data name="Purchase_Payment_Cash_Method" xml:space="preserve">
+    <value>Paraan ng Cash na Pagbabayad sa Pagbili</value>
+  </data>
+  <data name="Sales_Invoice_Revenue" xml:space="preserve">
+    <value>Kita sa Sales Invoice</value>
+  </data>
+  <data name="End_of_Service_Credit_Account" xml:space="preserve">
+    <value>End of Service Credit Account</value>
+  </data>
+  <data name="Leave_Salary_Credit" xml:space="preserve">
+    <value>Mag-iwan ng Salary Credit</value>
+  </data>
+  <data name="Leave_Salary_Debit" xml:space="preserve">
+    <value>Mag-iwan ng Salary Debit</value>
+  </data>
+  <data name="End_of_Service_Debit_Account" xml:space="preserve">
+    <value>End of Service Debit Account</value>
+  </data>
+  <data name="Salaries" xml:space="preserve">
+    <value>Mga suweldo</value>
+  </data>
+  <data name="Gratuit" xml:space="preserve">
+    <value>Gratuit</value>
+  </data>
+  <data name="Acroal_Leave_Salary" xml:space="preserve">
+    <value>Sahod ng Akrual na Pag-iwan</value>
+  </data>
+  <data name="Employee_Recivable" xml:space="preserve">
+    <value>Recivable ng Empleyado</value>
+  </data>
+  <data name="Accrued_Salaries" xml:space="preserve">
+    <value>Mga Naipong Sahod</value>
+  </data>
+  <data name="Default_Account_For_Bank" xml:space="preserve">
+    <value>Default na Account Para sa Bangko</value>
+  </data>
+  <data name="Bank_&amp;_Others" xml:space="preserve">
+    <value>Bangko at Iba pa</value>
+  </data>
+  <data name="ChartOfAccount_Export_&amp;_Import" xml:space="preserve">
+    <value>ChartOfAccount Export at Import</value>
+  </data>
+  <data name="User_Operations_▼" xml:space="preserve">
+    <value>Mga Operasyon ng Gumagamit ▼</value>
+  </data>
+  <data name="New_User" xml:space="preserve">
+    <value>Bagong User</value>
+  </data>
+  <data name="Edit_User" xml:space="preserve">
+    <value>I-edit ang User</value>
+  </data>
+  <data name="Roles_Operations_▼" xml:space="preserve">
+    <value>Mga Tungkulin na Operasyon ▼</value>
+  </data>
+  <data name="New_Role" xml:space="preserve">
+    <value>Bagong Tungkulin</value>
+  </data>
+  <data name="Edit_Role" xml:space="preserve">
+    <value>I-edit ang Papel</value>
+  </data>
+  <data name="Search_By_First_Name,_Last_Name,_User_Name" xml:space="preserve">
+    <value>Maghanap ayon sa Unang Pangalan, Apelyido, Pangalan ng Gumagamit</value>
+  </data>
+  <data name="Active_User" xml:space="preserve">
+    <value>Aktibong User</value>
+  </data>
+  <data name="Inactive_User" xml:space="preserve">
+    <value>Hindi Aktibong Gumagamit</value>
+  </data>
+  <data name="Last_Name" xml:space="preserve">
+    <value>Apelyido</value>
+  </data>
+  <data name="First_Name" xml:space="preserve">
+    <value>Unang Pangalan</value>
+  </data>
+  <data name="User_Information" xml:space="preserve">
+    <value>Impormasyon ng Gumagamit</value>
+  </data>
+  <data name="User_-_Roles" xml:space="preserve">
+    <value>User - Mga Tungkulin</value>
+  </data>
+  <data name="User_Center" xml:space="preserve">
+    <value>User Center</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Confirm_Password" xml:space="preserve">
+    <value>Kumpirmahin ang Password</value>
+  </data>
+  <data name="Confirm_Your_Password" xml:space="preserve">
+    <value>Kumpirmahin ang Iyong Password</value>
+  </data>
+  <data name="Enter_Password" xml:space="preserve">
+    <value>Ipasok ang Password</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Tungkulin</value>
+  </data>
+  <data name="Role_Name" xml:space="preserve">
+    <value>Pangalan ng Tungkulin</value>
+  </data>
+  <data name="Old_Password" xml:space="preserve">
+    <value>Lumang Password</value>
+  </data>
+  <data name="Add_New_User" xml:space="preserve">
+    <value>Magdagdag ng Bagong User</value>
+  </data>
+  <data name="Delete_User" xml:space="preserve">
+    <value>Tanggalin ang User</value>
+  </data>
+  <data name="Catch_Log_Report" xml:space="preserve">
+    <value>Ulat ng Catch Log</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_User" xml:space="preserve">
+    <value>MGA ULAT PARA SA Gumagamit NA ITO</value>
+  </data>
+  <data name="User_Code" xml:space="preserve">
+    <value>User Code</value>
+  </data>
+  <data name="Restore_Company" xml:space="preserve">
+    <value>Ibalik ang Kumpanya</value>
+  </data>
+  <data name="BackUp_Company" xml:space="preserve">
+    <value>BackUp Company</value>
+  </data>
+  <data name="Back_Up_Company" xml:space="preserve">
+    <value>Back Up Company</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>Piliin ang Lahat</value>
+  </data>
+  <data name="File_Access" xml:space="preserve">
+    <value>Pag-access sa File</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Mga gumagamit</value>
+  </data>
+  <data name="Clear_Data" xml:space="preserve">
+    <value>I-clear ang Data</value>
+  </data>
+  <data name="Change_Current_Password" xml:space="preserve">
+    <value>Baguhin ang Kasalukuyang Password</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Mga setting</value>
+  </data>
+  <data name="Setting_Access" xml:space="preserve">
+    <value>Pagtatakda ng Access</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Listahan</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Mga empleyado</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>Mga pagbili</value>
+  </data>
+  <data name="Report_Access" xml:space="preserve">
+    <value>Access sa Ulat</value>
+  </data>
+  <data name="PDC" xml:space="preserve">
+    <value>PDC</value>
+  </data>
+  <data name="Cheques" xml:space="preserve">
+    <value>Mga tseke</value>
+  </data>
+  <data name="Open_Bank_Card" xml:space="preserve">
+    <value>Buksan ang Bank Card</value>
+  </data>
+  <data name="Bank_Center" xml:space="preserve">
+    <value>Sentro ng Bangko</value>
+  </data>
+  <data name="Banking_Access" xml:space="preserve">
+    <value>Access sa Pagbabangko</value>
+  </data>
+  <data name="Final_Settlement" xml:space="preserve">
+    <value>Pangwakas na Settlement</value>
+  </data>
+  <data name="Loans" xml:space="preserve">
+    <value>Mga pautang</value>
+  </data>
+  <data name="End_Of_Services" xml:space="preserve">
+    <value>Katapusan ng Mga Serbisyo</value>
+  </data>
+  <data name="Leave_Salary" xml:space="preserve">
+    <value>Mag-iwan ng suweldo</value>
+  </data>
+  <data name="Salary_Sheet" xml:space="preserve">
+    <value>Salary Sheet</value>
+  </data>
+  <data name="Human_Resource_Center" xml:space="preserve">
+    <value>Human Resource Center</value>
+  </data>
+  <data name="H.R_Access" xml:space="preserve">
+    <value>H.R Access</value>
+  </data>
+  <data name="Purchase_Return" xml:space="preserve">
+    <value>Pagbabalik ng Bumili</value>
+  </data>
+  <data name="Purchase_Order" xml:space="preserve">
+    <value>Purchase Order</value>
+  </data>
+  <data name="Debit_Note" xml:space="preserve">
+    <value>Debit Note</value>
+  </data>
+  <data name="Create_Purchase" xml:space="preserve">
+    <value>Lumikha ng Pagbili</value>
+  </data>
+  <data name="Vendor_Access" xml:space="preserve">
+    <value>Access sa Vendor</value>
+  </data>
+  <data name="Sales_Proforma" xml:space="preserve">
+    <value>Sales Proforma</value>
+  </data>
+  <data name="Sales_Return" xml:space="preserve">
+    <value>Pagbabalik ng Benta</value>
+  </data>
+  <data name="Sales_Order" xml:space="preserve">
+    <value>Order ng Pagbebenta</value>
+  </data>
+  <data name="Credit_Note" xml:space="preserve">
+    <value>Credit Note</value>
+  </data>
+  <data name="Customer_Access" xml:space="preserve">
+    <value>Access ng Customer</value>
+  </data>
+  <data name="Warehouse_Center" xml:space="preserve">
+    <value>Sentro ng bodega</value>
+  </data>
+  <data name="Inventory_Center" xml:space="preserve">
+    <value>Sentro ng Imbentaryo</value>
+  </data>
+  <data name="Stock_Management" xml:space="preserve">
+    <value>Pamamahala ng Stock</value>
+  </data>
+  <data name="Inventory_Items" xml:space="preserve">
+    <value>Mga Item ng Imbentaryo</value>
+  </data>
+  <data name="Inventory_Access" xml:space="preserve">
+    <value>Access sa Imbentaryo</value>
+  </data>
+  <data name="Petty_Cash" xml:space="preserve">
+    <value>Petty Cash</value>
+  </data>
+  <data name="Prepaid_Expense" xml:space="preserve">
+    <value>Prepaid Expense</value>
+  </data>
+  <data name="Vouchers" xml:space="preserve">
+    <value>Mga voucher</value>
+  </data>
+  <data name="Fixed_Assets" xml:space="preserve">
+    <value>Mga Fixed Asset</value>
+  </data>
+  <data name="Chart_Of_Account" xml:space="preserve">
+    <value>Tsart ng Account</value>
+  </data>
+  <data name="Accountant_Access" xml:space="preserve">
+    <value>Access sa Accountant</value>
+  </data>
+  <data name="Vendor_&amp;&amp;_Payable" xml:space="preserve">
+    <value>Vendor &amp;&amp; Payable</value>
+  </data>
+  <data name="Customer_&amp;&amp;_Receivable" xml:space="preserve">
+    <value>Customer &amp;&amp; Matatanggap</value>
+  </data>
+  <data name="Construction_Access" xml:space="preserve">
+    <value>Access sa Konstruksyon</value>
+  </data>
+  <data name="Project_Planning" xml:space="preserve">
+    <value>Pagpaplano ng Proyekto</value>
+  </data>
+  <data name="Project_Estimate" xml:space="preserve">
+    <value>Pagtatantya ng Proyekto</value>
+  </data>
+  <data name="Project_Tender" xml:space="preserve">
+    <value>Tender ng Proyekto</value>
+  </data>
+  <data name="Project_Dashboard" xml:space="preserve">
+    <value>Dashboard ng Proyekto</value>
+  </data>
+  <data name="General_Information" xml:space="preserve">
+    <value>Pangkalahatang Impormasyon</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Mag-browse</value>
+  </data>
+  <data name="Gmail" xml:space="preserve">
+    <value>Gmail</value>
+  </data>
+  <data name="Company_Configration" xml:space="preserve">
+    <value>Configration ng Kumpanya</value>
+  </data>
+  <data name="TRN_No" xml:space="preserve">
+    <value>TRN No</value>
+  </data>
+  <data name="Phone_1" xml:space="preserve">
+    <value>Telepono 1</value>
+  </data>
+  <data name="Phone_2" xml:space="preserve">
+    <value>Telepono 2</value>
+  </data>
+  <data name="New_SO" xml:space="preserve">
+    <value>Bagong SO</value>
+  </data>
+  <data name="Edit_SO" xml:space="preserve">
+    <value>I-edit KAYA</value>
+  </data>
+  <data name="Sales_Orders_Center" xml:space="preserve">
+    <value>Sales Orders Center</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Ibalik</value>
+  </data>
+  <data name="SalesReturn_Center" xml:space="preserve">
+    <value>SalesReturn Center</value>
+  </data>
+  <data name="Return_Invoice" xml:space="preserve">
+    <value>Ibalik ang Invoice</value>
+  </data>
+  <data name="Print_the_Return_Invoice_after_Saved" xml:space="preserve">
+    <value>I-print ang Return Invoice pagkatapos I-save</value>
+  </data>
+  <data name="New_Quotation" xml:space="preserve">
+    <value>Bagong Sipi</value>
+  </data>
+  <data name="Edit_Quotation" xml:space="preserve">
+    <value>I-edit ang Sipi</value>
+  </data>
+  <data name="Sales_Quotation_Center" xml:space="preserve">
+    <value>Sales Quotation Center</value>
+  </data>
+  <data name="New_Proforma" xml:space="preserve">
+    <value>Bagong Proforma</value>
+  </data>
+  <data name="Create_Qutation" xml:space="preserve">
+    <value>Lumikha ng Qutation</value>
+  </data>
+  <data name="Edit_Proforma" xml:space="preserve">
+    <value>I-edit ang Proforma</value>
+  </data>
+  <data name="Sales_Performa_Center" xml:space="preserve">
+    <value>Sales Performa Center</value>
+  </data>
+  <data name="Quotation_No" xml:space="preserve">
+    <value>Sipi Blg</value>
+  </data>
+  <data name="Proforma_Invoice" xml:space="preserve">
+    <value>Proforma Invoice</value>
+  </data>
+  <data name="Print_Performa_Report_After_Save" xml:space="preserve">
+    <value>I-print ang Ulat ng Performa Pagkatapos I-save</value>
+  </data>
+  <data name="Sale_Proforma_Invoice" xml:space="preserve">
+    <value>Sale Proforma Invoice</value>
+  </data>
+  <data name="Print_Tax_Invoice_After_Save" xml:space="preserve">
+    <value>I-print ang Tax Invoice Pagkatapos I-save</value>
+  </data>
+  <data name="Paid_&amp;_Unpaid" xml:space="preserve">
+    <value>Bayad at Hindi Nabayaran</value>
+  </data>
+  <data name="PAID" xml:space="preserve">
+    <value>BINAYARAN</value>
+  </data>
+  <data name="UNPAID" xml:space="preserve">
+    <value>HINDI NABAYAD</value>
+  </data>
+  <data name="Pending_Order" xml:space="preserve">
+    <value>Nakabinbing Order</value>
+  </data>
+  <data name="Total_Pending" xml:space="preserve">
+    <value>Kabuuang Nakabinbin</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Paghahatid</value>
+  </data>
+  <data name="Din_In" xml:space="preserve">
+    <value>Dine In</value>
+  </data>
+  <data name="Take_Away" xml:space="preserve">
+    <value>Take away</value>
+  </data>
+  <data name="Total_Amount" xml:space="preserve">
+    <value>Kabuuang Halaga</value>
+  </data>
+  <data name="Chart_Report" xml:space="preserve">
+    <value>Ulat sa Tsart</value>
+  </data>
+  <data name="Date_From" xml:space="preserve">
+    <value>Petsa Mula</value>
+  </data>
+  <data name="Date_To" xml:space="preserve">
+    <value>Petsa Kay</value>
+  </data>
+  <data name="Order_Type" xml:space="preserve">
+    <value>Uri ng Order</value>
+  </data>
+  <data name="RMS_Home" xml:space="preserve">
+    <value>Tahanan ng RMS</value>
+  </data>
+  <data name="Header_Text" xml:space="preserve">
+    <value>Teksto ng Header</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Maghanap</value>
+  </data>
+  <data name="RMS" xml:space="preserve">
+    <value>RMS</value>
+  </data>
+  <data name="Search_Here" xml:space="preserve">
+    <value>Maghanap Dito</value>
+  </data>
+  <data name="RMSamlpeView" xml:space="preserve">
+    <value>RMSamlpeView</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="RM" xml:space="preserve">
+    <value>RM</value>
+  </data>
+  <data name="RMSAddSample" xml:space="preserve">
+    <value>RMSAddSample</value>
+  </data>
+  <data name="Kitchen" xml:space="preserve">
+    <value>Kusina</value>
+  </data>
+  <data name="POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Mga tauhan</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>Mga mesa</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Mga kategorya</value>
+  </data>
+  <data name="Restaurant_Management_System" xml:space="preserve">
+    <value>Sistema ng Pamamahala ng Restaurant</value>
+  </data>
+  <data name="Table_list" xml:space="preserve">
+    <value>Listahan ng talahanayan</value>
+  </data>
+  <data name="Staff_List" xml:space="preserve">
+    <value>Listahan ng mga tauhan</value>
+  </data>
+  <data name="Products_List" xml:space="preserve">
+    <value>Listahan ng mga Produkto</value>
+  </data>
+  <data name="RMSView" xml:space="preserve">
+    <value>RMSView</value>
+  </data>
+  <data name="Category_List" xml:space="preserve">
+    <value>Listahan ng Kategorya</value>
+  </data>
+  <data name="Contact_and_Address_Info" xml:space="preserve">
+    <value>Impormasyon ng Contact at Address</value>
+  </data>
+  <data name="CC_to_Email" xml:space="preserve">
+    <value>CC sa Email</value>
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>Pangalan ng Lungsod</value>
+  </data>
+  <data name="Enter_User_Name" xml:space="preserve">
+    <value>Ilagay ang User Name</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>file</value>
+  </data>
+  <data name="Lists" xml:space="preserve">
+    <value>Mga listahan</value>
+  </data>
+  <data name="Item_List" xml:space="preserve">
+    <value>Listahan ng Item</value>
+  </data>
+  <data name="Item_Category_List" xml:space="preserve">
+    <value>Listahan ng Kategorya ng Item</value>
+  </data>
+  <data name="Item_Tax_Code_List" xml:space="preserve">
+    <value>Listahan ng Item Tax Code</value>
+  </data>
+  <data name="Item_Unit_List" xml:space="preserve">
+    <value>Listahan ng Yunit ng Item</value>
+  </data>
+  <data name="Account_Center" xml:space="preserve">
+    <value>Account Center</value>
+  </data>
+  <data name="Export_&amp;&amp;_Import" xml:space="preserve">
+    <value>I-export &amp;&amp; I-import</value>
+  </data>
+  <data name="Fixed_Assets_List" xml:space="preserve">
+    <value>Listahan ng mga Fixed Asset</value>
+  </data>
+  <data name="Add_Fixed_Assets" xml:space="preserve">
+    <value>Magdagdag ng mga Fixed Asset</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="Advance_Payment" xml:space="preserve">
+    <value>Paunang Pagbabayad</value>
+  </data>
+  <data name="General_Journal_Voucher" xml:space="preserve">
+    <value>Pangkalahatang Journal Voucher</value>
+  </data>
+  <data name="Prepaid_Expense_List" xml:space="preserve">
+    <value>Listahan ng Prepaid Expense</value>
+  </data>
+  <data name="Add_Prepaid_Expense" xml:space="preserve">
+    <value>Magdagdag ng Prepaid Expense</value>
+  </data>
+  <data name="Prepaid_Expense_Category" xml:space="preserve">
+    <value>Prepaid Expense Category</value>
+  </data>
+  <data name="Petty_Cash_List" xml:space="preserve">
+    <value>Listahan ng Petty Cash</value>
+  </data>
+  <data name="Petty_Cash_Center" xml:space="preserve">
+    <value>Petty Cash Center</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>Pagsusumite</value>
+  </data>
+  <data name="Company_Profile" xml:space="preserve">
+    <value>Profile ng Kumpanya</value>
+  </data>
+  <data name="Company_Center" xml:space="preserve">
+    <value>Sentro ng Kumpanya</value>
+  </data>
+  <data name="Inventory_Doc" xml:space="preserve">
+    <value>Imbentaryo Doc</value>
+  </data>
+  <data name="Add_Unit" xml:space="preserve">
+    <value>Magdagdag ng Unit</value>
+  </data>
+  <data name="Add_New_Item" xml:space="preserve">
+    <value>Magdagdag ng Bagong Item</value>
+  </data>
+  <data name="Receive_Voucher" xml:space="preserve">
+    <value>Tumanggap ng Voucher</value>
+  </data>
+  <data name="Construction" xml:space="preserve">
+    <value>Konstruksyon</value>
+  </data>
+  <data name="Project_Setup" xml:space="preserve">
+    <value>Pag-setup ng Proyekto</value>
+  </data>
+  <data name="Project_Center" xml:space="preserve">
+    <value>Sentro ng Proyekto</value>
+  </data>
+  <data name="New_Project" xml:space="preserve">
+    <value>Bagong Proyekto</value>
+  </data>
+  <data name="Tender_Center" xml:space="preserve">
+    <value>Sentro ng Tender</value>
+  </data>
+  <data name="New_Tender" xml:space="preserve">
+    <value>Bagong Tender</value>
+  </data>
+  <data name="Site_Center" xml:space="preserve">
+    <value>Site Center</value>
+  </data>
+  <data name="New_Site" xml:space="preserve">
+    <value>Bagong Site</value>
+  </data>
+  <data name="Project_Work_Done" xml:space="preserve">
+    <value>Tapos na ang Gawain ng Proyekto</value>
+  </data>
+  <data name="Project_Management" xml:space="preserve">
+    <value>Pamamahala ng Proyekto</value>
+  </data>
+  <data name="Project_Summary" xml:space="preserve">
+    <value>Buod ng Proyekto</value>
+  </data>
+  <data name="Project_Activity_Summary" xml:space="preserve">
+    <value>Buod ng Aktibidad ng Proyekto</value>
+  </data>
+  <data name="Project_Assign_Summary" xml:space="preserve">
+    <value>Buod ng Pagtatalaga ng Proyekto</value>
+  </data>
+  <data name="Project_Resource_Summary" xml:space="preserve">
+    <value>Buod ng Mapagkukunan ng Proyekto</value>
+  </data>
+  <data name="Project_Dashboards_&amp;&amp;_Reports" xml:space="preserve">
+    <value>Mga Dashboard ng Proyekto at&amp; Ulat</value>
+  </data>
+  <data name="Project_Time_Line" xml:space="preserve">
+    <value>Linya ng Oras ng Proyekto</value>
+  </data>
+  <data name="GanttChart" xml:space="preserve">
+    <value>GanttChart</value>
+  </data>
+  <data name="Income_By_Customer_Summary" xml:space="preserve">
+    <value>Kita Ayon sa Buod ng Customer</value>
+  </data>
+  <data name="Expense_From_Vendor_Summary" xml:space="preserve">
+    <value>Gastos Mula sa Buod ng Vendor</value>
+  </data>
+  <data name="Profit_&amp;&amp;_Loss" xml:space="preserve">
+    <value>Kita at Pagkalugi</value>
+  </data>
+  <data name="Customer_Income_Summary" xml:space="preserve">
+    <value>Buod ng Kita ng Customer</value>
+  </data>
+  <data name="Vendor_Summary" xml:space="preserve">
+    <value>Buod ng Vendor</value>
+  </data>
+  <data name="Vendor_Income_Summary" xml:space="preserve">
+    <value>Buod ng Kita ng Vendor</value>
+  </data>
+  <data name="Purchase_By_Vendor_Summary" xml:space="preserve">
+    <value>Buod ng Pagbili Ng Vendor</value>
+  </data>
+  <data name="Purchase_By_Item_Summary" xml:space="preserve">
+    <value>Buod ng Pagbili Ayon sa Item</value>
+  </data>
+  <data name="Employee_Balance_Summary" xml:space="preserve">
+    <value>Buod ng Balanse ng Empleyado</value>
+  </data>
+  <data name="Trial_Balance" xml:space="preserve">
+    <value>Trial Balance</value>
+  </data>
+  <data name="General_Ledger" xml:space="preserve">
+    <value>Pangkalahatang Ledger</value>
+  </data>
+  <data name="VAT_Report" xml:space="preserve">
+    <value>Ulat ng VAT</value>
+  </data>
+  <data name="Fixed_Asset" xml:space="preserve">
+    <value>Nakapirming Asset</value>
+  </data>
+  <data name="Vat_Category_Report" xml:space="preserve">
+    <value>Ulat sa Kategorya ng Vat</value>
+  </data>
+  <data name="Item_Profit" xml:space="preserve">
+    <value>Item na Kita</value>
+  </data>
+  <data name="Item_Transaction" xml:space="preserve">
+    <value>Transaksyon ng Item</value>
+  </data>
+  <data name="Corporate_Tax" xml:space="preserve">
+    <value>Buwis ng Kumpanya</value>
+  </data>
+  <data name="Theme_Color" xml:space="preserve">
+    <value>Kulay ng Tema</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>Bintana</value>
+  </data>
+  <data name="Cascade_All" xml:space="preserve">
+    <value>Cascade Lahat</value>
+  </data>
+  <data name="Show_Side_By_Side" xml:space="preserve">
+    <value>Ipakita Magkatabi</value>
+  </data>
+  <data name="Close_All" xml:space="preserve">
+    <value>Isara Lahat</value>
+  </data>
+  <data name="Restaurant_System" xml:space="preserve">
+    <value>Sistema ng Restaurant</value>
+  </data>
+  <data name="YAMY_ERP_SYSTEM" xml:space="preserve">
+    <value>YAMY ERP SYSTEM</value>
+  </data>
+  <data name="My_Shortcuts" xml:space="preserve">
+    <value>Aking Mga Shortcut</value>
+  </data>
+  <data name="Help_Disk" xml:space="preserve">
+    <value>Tulong sa Disk</value>
+  </data>
+  <data name="Yamy_Technology" xml:space="preserve">
+    <value>Yamy Technology</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="Search_Company_or_Help" xml:space="preserve">
+    <value>Maghanap ng Kumpanya o Tulong</value>
+  </data>
+  <data name="Privacy_Policy" xml:space="preserve">
+    <value>Patakaran sa Privacy</value>
+  </data>
+  <data name="Sign_Out" xml:space="preserve">
+    <value>Mag-sign Out</value>
+  </data>
+  <data name="Edit_Account" xml:space="preserve">
+    <value>I-edit ang Account</value>
+  </data>
+  <data name="Change_Password" xml:space="preserve">
+    <value>Baguhin ang Password</value>
+  </data>
+  <data name="Sales_By_Customer_Summary" xml:space="preserve">
+    <value>Benta Ayon sa Buod ng Customer</value>
+  </data>
+  <data name="Sales_by_Item_Summary" xml:space="preserve">
+    <value>Mga Benta Ayon sa Buod ng Item</value>
+  </data>
+  <data name="New_Category" xml:space="preserve">
+    <value>Bagong Kategorya</value>
+  </data>
+  <data name="COGS" xml:space="preserve">
+    <value>COGS</value>
+  </data>
+  <data name="Agv_COGS" xml:space="preserve">
+    <value>Avg COGS</value>
+  </data>
+  <data name="Net_Sales" xml:space="preserve">
+    <value>Net Benta</value>
+  </data>
+  <data name="Enter_Level_4_Name" xml:space="preserve">
+    <value>Ilagay ang Level 4 na Pangalan</value>
+  </data>
+  <data name="Enter_Level_3_Name" xml:space="preserve">
+    <value>Ilagay ang Level 3 Name</value>
+  </data>
+  <data name="Item_Card" xml:space="preserve">
+    <value>Item Card</value>
+  </data>
+  <data name="Stock_Method" xml:space="preserve">
+    <value>Paraan ng Stock</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Mag-login</value>
+  </data>
+  <data name="Create_New_Company" xml:space="preserve">
+    <value>Lumikha ng Bagong Kumpanya</value>
+  </data>
+  <data name="Phone_no" xml:space="preserve">
+    <value>Telepono No</value>
+  </data>
+  <data name="RE-ENTER_THE_PASSWORD" xml:space="preserve">
+    <value>Ipasok muli ang PASSWORD</value>
+  </data>
+  <data name="Employee_Informations" xml:space="preserve">
+    <value>Impormasyon ng Empleyado</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="PVC_NO" xml:space="preserve">
+    <value>PVC NO</value>
+  </data>
+  <data name="Description_of_work" xml:space="preserve">
+    <value>Paglalarawan ng trabaho</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Ang haba</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Lapad</value>
+  </data>
+  <data name="Thick" xml:space="preserve">
+    <value>makapal</value>
+  </data>
+  <data name="Margin_%" xml:space="preserve">
+    <value>margin %</value>
+  </data>
+  <data name="Margin_Amount" xml:space="preserve">
+    <value>Halaga ng Margin</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>Pangalan ng Item</value>
+  </data>
+  <data name="Sale_Price" xml:space="preserve">
+    <value>Presyo ng Pagbebenta</value>
+  </data>
+  <data name="Voucher_No" xml:space="preserve">
+    <value>Voucher No</value>
+  </data>
+  <data name="As_Of" xml:space="preserve">
+    <value>Bilang Ng</value>
+  </data>
+  <data name="Income_Account" xml:space="preserve">
+    <value>Account ng Kita</value>
+  </data>
+  <data name="Asset_Account" xml:space="preserve">
+    <value>Asset Account</value>
+  </data>
+  <data name="Preferred_Vendor" xml:space="preserve">
+    <value>Ginustong Vendor</value>
+  </data>
+  <data name="Warehouse_Code" xml:space="preserve">
+    <value>Code ng Warehouse</value>
+  </data>
+  <data name="Warehouse_Name" xml:space="preserve">
+    <value>Pangalan ng Warehouse</value>
+  </data>
+  <data name="Unit_Name" xml:space="preserve">
+    <value>Pangalan ng Yunit</value>
+  </data>
+  <data name="Edit_Category" xml:space="preserve">
+    <value>I-edit ang Kategorya</value>
+  </data>
+  <data name="Tax_Name" xml:space="preserve">
+    <value>Pangalan ng Buwis</value>
+  </data>
+  <data name="Rate_(%)" xml:space="preserve">
+    <value>Rate (%)</value>
+  </data>
+  <data name="Level1_Code" xml:space="preserve">
+    <value>Level1_Code</value>
+  </data>
+  <data name="Level1_Name" xml:space="preserve">
+    <value>Pangalan ng Level1</value>
+  </data>
+  <data name="Level2_Code" xml:space="preserve">
+    <value>Level2 Code</value>
+  </data>
+  <data name="Level2_Name" xml:space="preserve">
+    <value>Pangalan ng Level2</value>
+  </data>
+  <data name="Level3_Code" xml:space="preserve">
+    <value>Level3 Code</value>
+  </data>
+  <data name="Level3_Name" xml:space="preserve">
+    <value>Pangalan ng Level3</value>
+  </data>
+  <data name="Level4_Code" xml:space="preserve">
+    <value>Level4 Code</value>
+  </data>
+  <data name="Level4_Name" xml:space="preserve">
+    <value>Pangalan ng Level4</value>
+  </data>
+  <data name="New_Cost_Center" xml:space="preserve">
+    <value>Bagong Sentro ng Gastos</value>
+  </data>
+  <data name="Sub_Name" xml:space="preserve">
+    <value>Sub Name</value>
+  </data>
+  <data name="A/C_NAME" xml:space="preserve">
+    <value>A/C NAME</value>
+  </data>
+  <data name="A/C_Code" xml:space="preserve">
+    <value>A/C Code</value>
+  </data>
+  <data name="Ref_Id" xml:space="preserve">
+    <value>Ref_Id</value>
+  </data>
+  <data name="Fixed_Assets_Category" xml:space="preserve">
+    <value>Kategorya ng Fixed Assets</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Mga araw</value>
+  </data>
+  <data name="Customer_Operations___▼" xml:space="preserve">
+    <value>Mga Operasyon ng Customer ▼</value>
+  </data>
+  <data name="Employee_Operations__▼" xml:space="preserve">
+    <value>Mga Operasyon ng Empleyado ▼</value>
+  </data>
+  <data name="Fixed_Assets_Operations___▼" xml:space="preserve">
+    <value>Mga Operasyon ng Fixed Assets ▼</value>
+  </data>
+  <data name="Asset_Name" xml:space="preserve">
+    <value>Pangalan ng Asset</value>
+  </data>
+  <data name="Supplier_Name" xml:space="preserve">
+    <value>Pangalan ng Supplier</value>
+  </data>
+  <data name="Purchase_Date" xml:space="preserve">
+    <value>Petsa ng Pagbili</value>
+  </data>
+  <data name="Depreciation_Value_(IN_%)" xml:space="preserve">
+    <value>Halaga ng Depreciation (IN %)</value>
+  </data>
+  <data name="Invoice_Number" xml:space="preserve">
+    <value>Numero ng Invoice</value>
+  </data>
+  <data name="Model_/_ENG_No" xml:space="preserve">
+    <value>Modelo / ENG No</value>
+  </data>
+  <data name="New_PV" xml:space="preserve">
+    <value>Bagong PV</value>
+  </data>
+  <data name="Edit_PV" xml:space="preserve">
+    <value>I-edit ang PV</value>
+  </data>
+  <data name="Payment_Code" xml:space="preserve">
+    <value>Code ng Pagbabayad</value>
+  </data>
+  <data name="Debit_Account" xml:space="preserve">
+    <value>Debit Account</value>
+  </data>
+  <data name="Credit_Account" xml:space="preserve">
+    <value>Credit Account</value>
+  </data>
+  <data name="Pay_To_-_Debit" xml:space="preserve">
+    <value>Magbayad Sa - Debit</value>
+  </data>
+  <data name="New_AP" xml:space="preserve">
+    <value>Bagong AP</value>
+  </data>
+  <data name="Edit_AP" xml:space="preserve">
+    <value>I-edit ang AP</value>
+  </data>
+  <data name="Receipt_Code" xml:space="preserve">
+    <value>Code ng Resibo</value>
+  </data>
+  <data name="Asset_Brand" xml:space="preserve">
+    <value>Brand ng Asset</value>
+  </data>
+  <data name="Depreciation_Life_(Years)" xml:space="preserve">
+    <value>Buhay ng Depreciation (Taon)</value>
+  </data>
+  <data name="Journal_Code" xml:space="preserve">
+    <value>Journal Code</value>
+  </data>
+  <data name="Debit_Amount" xml:space="preserve">
+    <value>Halaga ng Debit</value>
+  </data>
+  <data name="Credit_Amount" xml:space="preserve">
+    <value>Halaga ng Credit</value>
+  </data>
+  <data name="New_Prepaid_Expense" xml:space="preserve">
+    <value>Bagong Prepaid Expense</value>
+  </data>
+  <data name="Fees_Amount" xml:space="preserve">
+    <value>Halaga ng Bayad</value>
+  </data>
+  <data name="Agreement_Amount" xml:space="preserve">
+    <value>Halaga ng Kasunduan</value>
+  </data>
+  <data name="Agreement_End_Date" xml:space="preserve">
+    <value>Petsa ng Pagtatapos ng Kasunduan</value>
+  </data>
+  <data name="Submission_Date" xml:space="preserve">
+    <value>Petsa ng Pagsumite</value>
+  </data>
+  <data name="Total_With_VAT" xml:space="preserve">
+    <value>Kabuuan na may VAT</value>
+  </data>
+  <data name="WhatsApp_No" xml:space="preserve">
+    <value>WhatsApp No</value>
+  </data>
+  <data name="Request_REF" xml:space="preserve">
+    <value>Humiling ng REF</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>Tanggihan</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Aprubahan</value>
+  </data>
+  <data name="Performa_Invoice_NO." xml:space="preserve">
+    <value>Performa Invoice NO.</value>
+  </data>
+  <data name="Quotation_No." xml:space="preserve">
+    <value>Sipi Blg.</value>
+  </data>
+  <data name="invoice_date" xml:space="preserve">
+    <value>petsa ng invoice</value>
+  </data>
+  <data name="SalesId" xml:space="preserve">
+    <value>SalesId</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>Net</value>
+  </data>
+  <data name="Print_Quotation_After_Saved" xml:space="preserve">
+    <value>I-print ang Sipi Pagkatapos Nai-save</value>
+  </data>
+  <data name="New_Employee" xml:space="preserve">
+    <value>Bagong Empleyado</value>
+  </data>
+  <data name="Edit_Employee" xml:space="preserve">
+    <value>I-edit ang Empleyado</value>
+  </data>
+  <data name="_Word___▼" xml:space="preserve">
+    <value> Salita ▼</value>
+  </data>
+  <data name="V_-_No" xml:space="preserve">
+    <value>V - Hindi</value>
+  </data>
+  <data name="Paid_Amt" xml:space="preserve">
+    <value>Nagbayad ng Amt</value>
+  </data>
+  <data name="Select_The_Year" xml:space="preserve">
+    <value>Piliin ang Taon</value>
+  </data>
+  <data name="Select_The_Month" xml:space="preserve">
+    <value>Piliin ang Buwan</value>
+  </data>
+  <data name="Legal_Document" xml:space="preserve">
+    <value>Legal na Dokumento</value>
+  </data>
+  <data name="Basic_Info" xml:space="preserve">
+    <value>Pangunahing Impormasyon</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>Pangalan ng Kagawaran</value>
+  </data>
+  <data name="Salary_Info" xml:space="preserve">
+    <value>Impormasyon sa suweldo</value>
+  </data>
+  <data name="Bank_Info" xml:space="preserve">
+    <value>Impormasyon sa Bangko</value>
+  </data>
+  <data name="Social_Status" xml:space="preserve">
+    <value>Katayuan sa lipunan</value>
+  </data>
+  <data name="Date_Of_Birth" xml:space="preserve">
+    <value>Petsa ng Kapanganakan</value>
+  </data>
+  <data name="Relation" xml:space="preserve">
+    <value>Relasyon</value>
+  </data>
+  <data name="Emirates_ID_Issue_Date" xml:space="preserve">
+    <value>Petsa ng Paglabas ng Emirates ID</value>
+  </data>
+  <data name="Emirates_ID_Expiry_Date" xml:space="preserve">
+    <value>Petsa ng Pag-expire ng Emirates ID</value>
+  </data>
+  <data name="Employee_Active" xml:space="preserve">
+    <value>Aktibo ng Empleyado</value>
+  </data>
+  <data name="Passport" xml:space="preserve">
+    <value>Pasaporte</value>
+  </data>
+  <data name="Residency" xml:space="preserve">
+    <value>Paninirahan</value>
+  </data>
+  <data name="Passport_Number" xml:space="preserve">
+    <value>Numero ng Pasaporte</value>
+  </data>
+  <data name="Country_Of_Issue" xml:space="preserve">
+    <value>Bansa ng Isyu</value>
+  </data>
+  <data name="Residency_Issue_Date" xml:space="preserve">
+    <value>Petsa ng Isyu sa Paninirahan</value>
+  </data>
+  <data name="Residency_Expiry_Date" xml:space="preserve">
+    <value>Petsa ng Pag-expire ng Paninirahan</value>
+  </data>
+  <data name="Work_Contract" xml:space="preserve">
+    <value>Kontrata sa Trabaho</value>
+  </data>
+  <data name="Contract_Issue_Date" xml:space="preserve">
+    <value>Petsa ng Paglabas ng Kontrata</value>
+  </data>
+  <data name="Contract_Expiry_Date" xml:space="preserve">
+    <value>Petsa ng Pag-expire ng Kontrata</value>
+  </data>
+  <data name="Passport_Issue_Date" xml:space="preserve">
+    <value>Petsa ng Pag-isyu ng Pasaporte</value>
+  </data>
+  <data name="Passport_End_Date" xml:space="preserve">
+    <value>Petsa ng Pagtatapos ng Pasaporte</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Gumagamit</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>REF</value>
+  </data>
+  <data name="TotalAdditions" xml:space="preserve">
+    <value>TotalAdditions</value>
+  </data>
+  <data name="Leave_Salary_Days" xml:space="preserve">
+    <value>Mag-iwan ng mga Araw ng suweldo</value>
+  </data>
+  <data name="Leave_Salary_Amount" xml:space="preserve">
+    <value>Mag-iwan ng Halaga ng Sahod</value>
+  </data>
+  <data name="L.S_Used_Days" xml:space="preserve">
+    <value>L.S Used Days</value>
+  </data>
+  <data name="L.S_REMAINING_DAYS" xml:space="preserve">
+    <value>L.S NA NATITIRANG ARAW</value>
+  </data>
+  <data name="L.S_RECEIVED_AMOUNT" xml:space="preserve">
+    <value>L.S NATANGGAP NA HALAGA</value>
+  </data>
+  <data name="L.S_REMAINING_AMOUNT" xml:space="preserve">
+    <value>L.S NATITIRANG HALAGA</value>
+  </data>
+  <data name="leave_days" xml:space="preserve">
+    <value>araw ng pag-alis</value>
+  </data>
+  <data name="EOS_Remaining_Amount" xml:space="preserve">
+    <value>Natitirang Halaga ng EOS</value>
+  </data>
+  <data name="EOS_Received_Amount" xml:space="preserve">
+    <value>Halaga ng Natanggap ng EOS</value>
+  </data>
+  <data name="EOS_Remaining_Days" xml:space="preserve">
+    <value>Mga Natitirang Araw ng EOS</value>
+  </data>
+  <data name="End_Of_Service_Amount" xml:space="preserve">
+    <value>Halaga ng Pagtatapos ng Serbisyo</value>
+  </data>
+  <data name="End_Of_Service_Days" xml:space="preserve">
+    <value>Pagtatapos ng Mga Araw ng Serbisyo</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Higit pa</value>
+  </data>
+  <data name="Received_Amount" xml:space="preserve">
+    <value>Natanggap na Halaga</value>
+  </data>
+  <data name="Pay_Amount" xml:space="preserve">
+    <value>Halaga ng Bayad</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>buwan</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>taon</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Araw</value>
+  </data>
+  <data name="Request_No" xml:space="preserve">
+    <value>Request No</value>
+  </data>
+  <data name="DateCommencement" xml:space="preserve">
+    <value>Petsa ng Pagsisimula</value>
+  </data>
+  <data name="DateLastWork" xml:space="preserve">
+    <value>Petsa ng Huling Trabaho</value>
+  </data>
+  <data name="TotalSalary" xml:space="preserve">
+    <value>Kabuuang Sahod</value>
+  </data>
+  <data name="TotalDeductions" xml:space="preserve">
+    <value>Kabuuang mga Bawas</value>
+  </data>
+  <data name="NetAccruals" xml:space="preserve">
+    <value>Mga Net Accrual</value>
+  </data>
+  <data name="EMP_Code" xml:space="preserve">
+    <value>EMP Code</value>
+  </data>
+  <data name="Settlement_No" xml:space="preserve">
+    <value>Settlement No</value>
+  </data>
+  <data name="Housing_Allowance" xml:space="preserve">
+    <value>Allowance sa Pabahay</value>
+  </data>
+  <data name="Date_of_Commencement" xml:space="preserve">
+    <value>Petsa ng Pagsisimula</value>
+  </data>
+  <data name="Date_of_Last_Working_Day" xml:space="preserve">
+    <value>Petsa ng Huling Araw ng Paggawa</value>
+  </data>
+  <data name="Employee_Advances" xml:space="preserve">
+    <value>Mga Advance ng Empleyado</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Mga pagbabayad</value>
+  </data>
+  <data name="Net_accruals" xml:space="preserve">
+    <value>Mga Net Accrual</value>
+  </data>
+  <data name="End_Of_Services_Allowance" xml:space="preserve">
+    <value>End Of Services Allowance</value>
+  </data>
+  <data name="Leave_Salary_Allowance" xml:space="preserve">
+    <value>Mag-iwan ng Salary Allowance</value>
+  </data>
+  <data name="Route_No" xml:space="preserve">
+    <value>Ruta No</value>
+  </data>
+  <data name="Swift" xml:space="preserve">
+    <value>matulin</value>
+  </data>
+  <data name="End_In" xml:space="preserve">
+    <value>End In</value>
+  </data>
+  <data name="Start_From" xml:space="preserve">
+    <value>Simulan Mula</value>
+  </data>
+  <data name="Check_Book_Qty" xml:space="preserve">
+    <value>Suriin ang Book Quty</value>
+  </data>
+  <data name="TRF_Date" xml:space="preserve">
+    <value>Petsa ng TRF</value>
+  </data>
+  <data name="TRF_REF" xml:space="preserve">
+    <value>TRF REF</value>
+  </data>
+  <data name="REFID" xml:space="preserve">
+    <value>REFID</value>
+  </data>
+  <data name="Pass_Date" xml:space="preserve">
+    <value>I-hold ang Petsa</value>
+  </data>
+  <data name="Return_Date" xml:space="preserve">
+    <value>Petsa ng Pagbabalik</value>
+  </data>
+  <data name="Cancel_Date" xml:space="preserve">
+    <value>Kanselahin ang Petsa</value>
+  </data>
+  <data name="Hold_Date" xml:space="preserve">
+    <value>Petsa ng Pass</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>Blg</value>
+  </data>
+  <data name="transaction_id" xml:space="preserve">
+    <value>transaction id</value>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Kasalukuyan</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Mga tuntunin</value>
+  </data>
+  <data name="Aging" xml:space="preserve">
+    <value>Pagtanda</value>
+  </data>
+  <data name="V_.No" xml:space="preserve">
+    <value>V .Hindi</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>item</value>
+  </data>
+  <data name="Gross_Margin" xml:space="preserve">
+    <value>Gross Margin</value>
+  </data>
+  <data name="AVG_COGS" xml:space="preserve">
+    <value>AVG COGS</value>
+  </data>
+  <data name="AVG_Price" xml:space="preserve">
+    <value>AVG na Presyo</value>
+  </data>
+  <data name="%_of_Sales" xml:space="preserve">
+    <value>% ng Benta</value>
+  </data>
+  <data name="General_Ledger_Summary" xml:space="preserve">
+    <value>Buod ng General Ledger</value>
+  </data>
+  <data name="Cost_Center_Summary" xml:space="preserve">
+    <value>Buod ng Cost Center</value>
+  </data>
+  <data name="Vat_Amount" xml:space="preserve">
+    <value>Halaga ng Vat</value>
+  </data>
+  <data name="Amount_Before_Vat" xml:space="preserve">
+    <value>Halaga Bago ang VAT</value>
+  </data>
+  <data name="Total_Price" xml:space="preserve">
+    <value>Kabuuang Presyo</value>
+  </data>
+  <data name="Depreciation_Life" xml:space="preserve">
+    <value>Buhay ng Depreciation</value>
+  </data>
+  <data name="Tax_Description" xml:space="preserve">
+    <value>Paglalarawan ng Buwis</value>
+  </data>
+  <data name="BalanceQty" xml:space="preserve">
+    <value>BalanseQty</value>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>Pinsala</value>
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>SalesReturn</value>
+  </data>
+  <data name="PurchaseReturn" xml:space="preserve">
+    <value>PurchaseReturn</value>
+  </data>
+  <data name="OpeningQty" xml:space="preserve">
+    <value>OpeningQty</value>
+  </data>
+  <data name="SalesPrice" xml:space="preserve">
+    <value>SalesPrice</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>CostPrice</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>Kita</value>
+  </data>
+  <data name="Sales_Amount" xml:space="preserve">
+    <value>Halaga ng Benta</value>
+  </data>
+  <data name="Cost_Amount" xml:space="preserve">
+    <value>Halaga ng Gastos</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>Karaniwan</value>
+  </data>
+  <data name="Customer_-_Sales" xml:space="preserve">
+    <value>Customer - Benta</value>
+  </data>
+  <data name="Vendor_-_Purchase" xml:space="preserve">
+    <value>Vendor - Bumili</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>Baguhin</value>
+  </data>
+  <data name="Accountant__Access" xml:space="preserve">
+    <value>Access sa Accountant</value>
+  </data>
+  <data name="Inventory__Access" xml:space="preserve">
+    <value>Access sa Imbentaryo</value>
+  </data>
+  <data name="Customer__Access" xml:space="preserve">
+    <value>Access ng Customer</value>
+  </data>
+  <data name="Vendor__Access" xml:space="preserve">
+    <value>Access sa Vendor</value>
+  </data>
+  <data name="KOT" xml:space="preserve">
+    <value>KOT</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Hawakan</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>mesa</value>
+  </data>
+  <data name="Waiter" xml:space="preserve">
+    <value>Waiter</value>
+  </data>
+  <data name="Bill_List" xml:space="preserve">
+    <value>Listahan ng Bill</value>
+  </data>
+  <data name="Check_Out" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="Waiter_Name" xml:space="preserve">
+    <value>Pangalan ng Waiter</value>
+  </data>
+  <data name="Order_Time" xml:space="preserve">
+    <value>Oras ng Order</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>Nakumpleto</value>
+  </data>
+  <data name="Voucher_Type" xml:space="preserve">
+    <value>Uri ng Voucher</value>
+  </data>
+  <data name="It_was_set_to_null" xml:space="preserve">
+    <value>Ito ay itinakda sa null</value>
+  </data>
+  <data name="Search_By_Name" xml:space="preserve">
+    <value>Maghanap ayon sa Pangalan</value>
+  </data>
+  <data name="Search_By_First_Name" xml:space="preserve">
+    <value>Maghanap ayon sa Unang Pangalan</value>
+  </data>
+  <data name="Item_Wise" xml:space="preserve">
+    <value>Bawat Item</value>
+  </data>
+  <data name="Performa_Invoice" xml:space="preserve">
+    <value>Performa Invoice</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>Mula</value>
+  </data>
+  <data name="Audit_Trail_Report" xml:space="preserve">
+    <value>Ulat ng Audit Trail</value>
+  </data>
+  <data name="Income_Expense_Statement" xml:space="preserve">
+    <value>Pahayag ng Kita at Gastusin</value>
+  </data>
+  <data name="Subcontractor" xml:space="preserve">
+    <value>Subkontraktor</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Umalis</value>
+  </data>
+  <data name="Fixed_Asset_Item_List" xml:space="preserve">
+    <value>Listahan ng mga Fixed Asset Item</value>
+  </data>
+  <data name="Search_Item" xml:space="preserve">
+    <value>Maghanap ng Item</value>
+  </data>
+  <data name="Petty_Cash_Log" xml:space="preserve">
+    <value>Talaan ng Maliit na Pera</value>
+  </data>
+  <data name="Item_Id" xml:space="preserve">
+    <value>Item Id</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>Mga Paalala</value>
+  </data>
+  <data name="Add_Item_Tax_Codes" xml:space="preserve">
+    <value>Magdagdag ng Mga Kodigo ng Buwis sa Item</value>
+  </data>
+  <data name="Item_Warehouse_Transfer" xml:space="preserve">
+    <value>Paglipat ng Item sa Bodega</value>
+  </data>
+  <data name="Sales_Quotation" xml:space="preserve">
+    <value>Sipi ng Benta</value>
+  </data>
+  <data name="Subcontractor_Center" xml:space="preserve">
+    <value>Sentro ng Subkontraktor</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>Timeline</value>
+  </data>
+  <data name="Purchase_By_Subcontractor_Summary" xml:space="preserve">
+    <value>Buod ng Pagbili ng Subkontraktor</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Buod</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>mga detalye</value>
+  </data>
+  <data name="Warehouse_Summary" xml:space="preserve">
+    <value>Buod ng Imbakan</value>
+  </data>
+  <data name="Cheque_Inquiry" xml:space="preserve">
+    <value>Pagtatanong sa Cheque</value>
+  </data>
+  <data name="Bank_Balance_Summary" xml:space="preserve">
+    <value>Buod ng Balanseng Pondo</value>
+  </data>
+  <data name="PDC_Outstanding" xml:space="preserve">
+    <value>PDC Natatanging</value>
+  </data>
+  <data name="PDC_Cleared_History" xml:space="preserve">
+    <value>Nalinaw na Kasaysayan ng PDC</value>
+  </data>
+  <data name="Returned_Cheques_Report" xml:space="preserve">
+    <value>Ulat ng Binalik na Cheke</value>
+  </data>
+  <data name="Cheque_Linked_to_Payment/Receipt" xml:space="preserve">
+    <value>Siningil na Tsekeng Konektado sa Bayad/Tanggap</value>
+  </data>
+  <data name="Accounts_List" xml:space="preserve">
+    <value>Listahan ng mga Account</value>
+  </data>
+  <data name="Bank_List" xml:space="preserve">
+    <value>Listahan ng Bangko</value>
+  </data>
+  <data name="Bank_Card_List" xml:space="preserve">
+    <value>Listahan ng Mga Bank Card</value>
+  </data>
+  <data name="Cheque_List" xml:space="preserve">
+    <value>Listahan ng Cheque</value>
+  </data>
+  <data name="City_List" xml:space="preserve">
+    <value>Listahan ng mga Lungsod</value>
+  </data>
+  <data name="Country_List" xml:space="preserve">
+    <value>Listahan ng mga Bansa</value>
+  </data>
+  <data name="Cost_Center_List" xml:space="preserve">
+    <value>Listahan ng Sentro ng Gastos</value>
+  </data>
+  <data name="Customer_Category_List" xml:space="preserve">
+    <value>Listahan ng Kategorya ng Kostumer</value>
+  </data>
+  <data name="Department_List" xml:space="preserve">
+    <value>Listahan ng Kagawaran</value>
+  </data>
+  <data name="Fixed_Asset_List" xml:space="preserve">
+    <value>Listahan ng Mga Nakatag-ing Asset</value>
+  </data>
+  <data name="Fixed_Asset_Category_List" xml:space="preserve">
+    <value>Talaan ng Kategorya ng Nakatakdang Ari-arian</value>
+  </data>
+  <data name="Item_Warehouse_List" xml:space="preserve">
+    <value>Listahan ng Imbakan ng Item</value>
+  </data>
+  <data name="Petty_Cash_Category_List" xml:space="preserve">
+    <value>Listahan ng Kategorya ng Maliit na Pondo</value>
+  </data>
+  <data name="Position_List" xml:space="preserve">
+    <value>Listahan ng Posisyon</value>
+  </data>
+  <data name="Prepaid_Expense_Category_List" xml:space="preserve">
+    <value>Listahan ng Kategorya ng Paunang Gastos</value>
+  </data>
+  <data name="Vendor_Category_List" xml:space="preserve">
+    <value>Listahan ng Kategorya ng Nagbebenta</value>
+  </data>
+  <data name="Account_Under" xml:space="preserve">
+    <value>Account Sa Ilalim</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Tagapamahala</value>
+  </data>
+  <data name="From_Warehouse" xml:space="preserve">
+    <value>Mula sa Bodega</value>
+  </data>
+  <data name="To_Warehouse" xml:space="preserve">
+    <value>Sa Bodega</value>
+  </data>
+  <data name="Subcontractors" xml:space="preserve">
+    <value>Mga subkontraktor</value>
+  </data>
+  <data name="Subcontractor_Operations__▼" xml:space="preserve">
+    <value>Mga Operasyon ng Subkontraktor ▼</value>
+  </data>
+  <data name="New_Subcontractor" xml:space="preserve">
+    <value>Bagong Subkontrak</value>
+  </data>
+  <data name="Edit_Subcontractor" xml:space="preserve">
+    <value>I-edit ang Subkontraktor</value>
+  </data>
+  <data name="Delete_Subcontractor" xml:space="preserve">
+    <value>Tanggalin ang Subkontraktor</value>
+  </data>
+  <data name="Subcontractor_List" xml:space="preserve">
+    <value>Listahan ng Subkontraktor</value>
+  </data>
+  <data name="Subcontractor_Information" xml:space="preserve">
+    <value>Impormasyon ng Subkontraktor</value>
+  </data>
+  <data name="User_Config" xml:space="preserve">
+    <value>User Config</value>
+  </data>
+  <data name="Subcontractor_Code" xml:space="preserve">
+    <value>Kodigo ng Subkontraktor</value>
+  </data>
+  <data name="Subcontractor_Name" xml:space="preserve">
+    <value>Pangalan ng Subkontraktor</value>
+  </data>
+  <data name="Subcontractor_Category" xml:space="preserve">
+    <value>Kategorya ng Subkontraktor</value>
+  </data>
+</root>

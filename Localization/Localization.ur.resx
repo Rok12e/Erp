@@ -1,0 +1,3985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close" xml:space="preserve">
+    <value>بند کریں</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>محفوظ کریں</value>
+  </data>
+  <data name="Add_New" xml:space="preserve">
+    <value>نیا شامل کریں</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>کریڈٹ</value>
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>ڈیبٹ</value>
+  </data>
+  <data name="Edit_Name" xml:space="preserve">
+    <value>نام میں ترمیم کریں</value>
+  </data>
+  <data name="Enter_Level_4" xml:space="preserve">
+    <value>سطح 4 درج کریں</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>واجب الادا</value>
+    <comment>Due Date</comment>
+  </data>
+  <data name="LEVEL_4" xml:space="preserve">
+    <value>سطح 4</value>
+  </data>
+  <data name="LEVEL_3" xml:space="preserve">
+    <value>سطح 3</value>
+  </data>
+  <data name="LEVEL_2" xml:space="preserve">
+    <value>سطح 2</value>
+  </data>
+  <data name="LEVEL_1" xml:space="preserve">
+    <value>سطح 1</value>
+  </data>
+  <data name="Delete_Name" xml:space="preserve">
+    <value>نام حذف کریں</value>
+  </data>
+  <data name="Customers_/_New_Customer" xml:space="preserve">
+    <value>گاہک / نیا گاہک</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف کریں</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>کو</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>نوٹ</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>ادائیگی کی قسم</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>قسم</value>
+  </data>
+  <data name="It_was_set_to_null,_so_empty_string" xml:space="preserve">
+    <value>یہ null پر سیٹ تھا، لہذا خالی سٹرنگ</value>
+  </data>
+  <data name="Enter_Level_1_Name" xml:space="preserve">
+    <value>سطح 1 کا نام درج کریں</value>
+  </data>
+  <data name="Enter_Level_2_Name" xml:space="preserve">
+    <value>سطح 2 کا نام درج کریں</value>
+  </data>
+  <data name="Payment_Method" xml:space="preserve">
+    <value>ادائیگی کا طریقہ</value>
+  </data>
+  <data name="Add_Level_2" xml:space="preserve">
+    <value>سطح 2 شامل کریں</value>
+  </data>
+  <data name="Add_New_Level_3" xml:space="preserve">
+    <value>نیا لیول 3 شامل کریں</value>
+  </data>
+  <data name="Customer_-_Add_New_Category" xml:space="preserve">
+    <value>گاہک - نیا زمرہ شامل کریں</value>
+  </data>
+  <data name="Edit_Receipt" xml:space="preserve">
+    <value>رسید میں ترمیم کریں</value>
+  </data>
+  <data name="New_Receipt" xml:space="preserve">
+    <value>نئی رسید</value>
+  </data>
+  <data name="Cost_Center" xml:space="preserve">
+    <value>لاگت مرکز</value>
+  </data>
+  <data name="Request_Date" xml:space="preserve">
+    <value>درخواست کی تاریخ</value>
+  </data>
+  <data name="Sub" xml:space="preserve">
+    <value>ذیلی</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>مرکزی</value>
+  </data>
+  <data name="Main_Account" xml:space="preserve">
+    <value>مرکزی اکاؤنٹ</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>موبائل</value>
+  </data>
+  <data name="Sub_Cost_Center" xml:space="preserve">
+    <value>ذیلی لاگت مرکز</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Make_Journal" xml:space="preserve">
+    <value>جرنل بنائیں</value>
+  </data>
+  <data name="Journal_Voucher" xml:space="preserve">
+    <value>جرنل واؤچر</value>
+  </data>
+  <data name="Fixed_Assets_Account" xml:space="preserve">
+    <value>فکسڈ اثاثے اکاؤنٹ</value>
+  </data>
+  <data name="Total_Days" xml:space="preserve">
+    <value>کل دن</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>آخری تاریخ</value>
+  </data>
+  <data name="Amount_In_Word" xml:space="preserve">
+    <value>رقم الفاظ میں</value>
+  </data>
+  <data name="Account_Code" xml:space="preserve">
+    <value>اکاؤنٹ کوڈ</value>
+  </data>
+  <data name="Petty_Cash_Name" xml:space="preserve">
+    <value>پیٹی کیش کا نام</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>تفصیل</value>
+  </data>
+  <data name="Total_Vat" xml:space="preserve">
+    <value>کل VAT</value>
+  </data>
+  <data name="Check_No" xml:space="preserve">
+    <value>نمبر چیک کریں</value>
+  </data>
+  <data name="Agreement_Total" xml:space="preserve">
+    <value>معاہدے کی کل رقم</value>
+  </data>
+  <data name="Total_Invoice" xml:space="preserve">
+    <value>کل انوائس</value>
+  </data>
+  <data name="Check_Date" xml:space="preserve">
+    <value>چیک کی تاریخ</value>
+  </data>
+  <data name="Depreciation_Expence" xml:space="preserve">
+    <value>فرسودگی کا خرچ</value>
+  </data>
+  <data name="Enter_supplier_name" xml:space="preserve">
+    <value>سپلائر کا نام درج کریں</value>
+  </data>
+  <data name="Enter_purchase_price" xml:space="preserve">
+    <value>خریداری کی قیمت درج کریں</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>حیثیت</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>نیا</value>
+  </data>
+  <data name="Not_Manufacture_Assets" xml:space="preserve">
+    <value>غیر تیار کردہ اثاثے </value>
+  </data>
+  <data name="Manufacture_Assets" xml:space="preserve">
+    <value>تیار کردہ اثاثے </value>
+  </data>
+  <data name="Bank_&amp;_Cash/_New_Prepaid_Expense" xml:space="preserve">
+    <value>بینک اور کیش/ نیا پری پیڈ خرچ</value>
+  </data>
+  <data name="P.C_Request_REF" xml:space="preserve">
+    <value>P.C درخواست REF</value>
+  </data>
+  <data name="Accumulated_Depreciation" xml:space="preserve">
+    <value>جمع شدہ فرسودگی</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>کنفیگریشن</value>
+  </data>
+  <data name="New_Fixed_Assets" xml:space="preserve">
+    <value>نئے فکسڈ اثاثے</value>
+  </data>
+  <data name="Edit__Fixed_Assets" xml:space="preserve">
+    <value>فکسڈ اثاثوں میں ترمیم کریں</value>
+  </data>
+  <data name="Delete_Fixed_Assets" xml:space="preserve">
+    <value>فکسڈ اثاثے حذف کریں</value>
+  </data>
+  <data name="New_Fixed_Assets_Category" xml:space="preserve">
+    <value>نیا فکسڈ اثاثہ زمرہ</value>
+  </data>
+  <data name="Fixed_Assets_Center" xml:space="preserve">
+    <value>فکسڈ اثاثے مرکز</value>
+  </data>
+  <data name="Cr_Amount" xml:space="preserve">
+    <value>کریڈٹ رقم</value>
+  </data>
+  <data name="Dr_Amount" xml:space="preserve">
+    <value>ڈیبٹ رقم</value>
+  </data>
+  <data name="JV_No" xml:space="preserve">
+    <value>JV نمبر</value>
+  </data>
+  <data name="AC_Code" xml:space="preserve">
+    <value>AC کوڈ</value>
+  </data>
+  <data name="Account_Name" xml:space="preserve">
+    <value>اکاؤنٹ کا نام</value>
+  </data>
+  <data name="AC_Name" xml:space="preserve">
+    <value>AC نام</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>حذف کریں</value>
+  </data>
+  <data name="General_Journal" xml:space="preserve">
+    <value>عمومی جریدہ</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>شراکت دار</value>
+  </data>
+  <data name="Create_a_Copy" xml:space="preserve">
+    <value>ایک کاپی بنائیں</value>
+  </data>
+  <data name="Email_Later" xml:space="preserve">
+    <value>بعد میں ای میل کریں</value>
+  </data>
+  <data name="Print_Later" xml:space="preserve">
+    <value>بعد میں پرنٹ کریں</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>پرنٹ کریں</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ای میل</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>رپورٹس</value>
+  </data>
+  <data name="Average_Days_To_Pay_Summary" xml:space="preserve">
+    <value>ادائیگی کے لیے اوسط دنوں کا خلاصہ</value>
+  </data>
+  <data name="Sales_By_Customer_Details" xml:space="preserve">
+    <value>گاہک کے لحاظ سے سیلز کی تفصیلات</value>
+  </data>
+  <data name="View_Open_Invoice" xml:space="preserve">
+    <value>کھلی انوائس دیکھیں</value>
+  </data>
+  <data name="Transaction_Journal" xml:space="preserve">
+    <value>لین دین جریدہ</value>
+  </data>
+  <data name="Transaction_History" xml:space="preserve">
+    <value>لین دین کی تاریخ</value>
+  </data>
+  <data name="Quick_Report" xml:space="preserve">
+    <value>فوری رپورٹ</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>سب</value>
+  </data>
+  <data name="Journal_Voucher_Operations___▼" xml:space="preserve">
+    <value>جرنل واؤچر آپریشنز   ▼</value>
+  </data>
+  <data name="New_Journal_Voucher" xml:space="preserve">
+    <value>نیا جرنل واؤچر</value>
+  </data>
+  <data name="Edit_Journal_Voucher" xml:space="preserve">
+    <value>جرنل واؤچر میں ترمیم کریں</value>
+  </data>
+  <data name="Delete_Journal_Voucher" xml:space="preserve">
+    <value>جرنل واؤچر حذف کریں</value>
+  </data>
+  <data name="Restore_Journal_Voucher" xml:space="preserve">
+    <value>جرنل واؤچر بحال کریں</value>
+  </data>
+  <data name="Payment_Voucher_Center" xml:space="preserve">
+    <value>ادائیگی واؤچر مرکز</value>
+  </data>
+  <data name="Transactions_Journal" xml:space="preserve">
+    <value>لین دین جریدہ</value>
+  </data>
+  <data name="Save_&amp;&amp;_Close" xml:space="preserve">
+    <value>محفوظ کریں اور بند کریں</value>
+  </data>
+  <data name="Customer_Code" xml:space="preserve">
+    <value>گاہک کوڈ</value>
+  </data>
+  <data name="Customer_Name" xml:space="preserve">
+    <value>گاہک کا نام</value>
+  </data>
+  <data name="Transfer_Date" xml:space="preserve">
+    <value>منتقلی کی تاریخ</value>
+  </data>
+  <data name="Vendor_Code" xml:space="preserve">
+    <value>وینڈر کوڈ</value>
+  </data>
+  <data name="TRNS_/_Name" xml:space="preserve">
+    <value>TRNS / نام</value>
+  </data>
+  <data name="TRNS_/_REF" xml:space="preserve">
+    <value>TRNS / REF</value>
+  </data>
+  <data name="Bank_Code" xml:space="preserve">
+    <value>بینک کوڈ</value>
+  </data>
+  <data name="Agreement_Start_Date" xml:space="preserve">
+    <value>معاہدے کی شروعات کی تاریخ</value>
+  </data>
+  <data name="Invoice_Details" xml:space="preserve">
+    <value>انوائس کی تفصیلات</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>زمرہ</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>بینک کا نام</value>
+  </data>
+  <data name="Book_NO" xml:space="preserve">
+    <value>کتاب نمبر</value>
+  </data>
+  <data name="Bank_Account_Name" xml:space="preserve">
+    <value>بینک اکاؤنٹ کا نام</value>
+  </data>
+  <data name="Check_Name" xml:space="preserve">
+    <value>نام چیک کریں</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="INV_NO" xml:space="preserve">
+    <value>انوائس نمبر</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>رقم</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>ادا کریں</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>ادائیگی</value>
+  </data>
+  <data name="voucherType" xml:space="preserve">
+    <value>واؤچر کی قسم</value>
+  </data>
+  <data name="Add_Time_/_Costs" xml:space="preserve">
+    <value>وقت / اخراجات شامل کریں</value>
+  </data>
+  <data name="Attach_File" xml:space="preserve">
+    <value>فائل منسلک کریں</value>
+  </data>
+  <data name="Memorize" xml:space="preserve">
+    <value>یاد رکھیں</value>
+  </data>
+  <data name="Print_After_Save" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد پرنٹ کریں</value>
+  </data>
+  <data name="Payment_Voucher" xml:space="preserve">
+    <value>ادائیگی واؤچر</value>
+  </data>
+  <data name="Basic_Data" xml:space="preserve">
+    <value>بنیادی ڈیٹا</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>وینڈر</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>گاہک</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>ملازم</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>نقد</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>چیک کریں</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>منتقلی</value>
+  </data>
+  <data name="Pay_From_-_Credit" xml:space="preserve">
+    <value>سے ادائیگی کریں - کریڈٹ</value>
+  </data>
+  <data name="x" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="Trans_Date" xml:space="preserve">
+    <value>لین دین کی تاریخ</value>
+  </data>
+  <data name="Print__After_Save" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد پرنٹ کریں</value>
+  </data>
+  <data name="Advance_Payment_Voucher" xml:space="preserve">
+    <value>ایڈوانس پیمنٹ واؤچر</value>
+  </data>
+  <data name="Recycle" xml:space="preserve">
+    <value>ری سائیکل</value>
+  </data>
+  <data name="Advance_Payment_Voucher_Center" xml:space="preserve">
+    <value>ایڈوانس پیمنٹ واؤچر سینٹر</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="Add_New_Category" xml:space="preserve">
+    <value>نیا زمرہ شامل کریں</value>
+  </data>
+  <data name="Save_&amp;_New" xml:space="preserve">
+    <value>محفوظ کریں اور نیا</value>
+  </data>
+  <data name="Petty_Cash_Request" xml:space="preserve">
+    <value>پیٹی کیش کی درخواست</value>
+  </data>
+  <data name="Total_Before_Vat" xml:space="preserve">
+    <value>VAT سے پہلے کل</value>
+  </data>
+  <data name="Net_Amount" xml:space="preserve">
+    <value>نیٹ رقم</value>
+  </data>
+  <data name="SN#" xml:space="preserve">
+    <value>SN#</value>
+  </data>
+  <data name="AC.Name" xml:space="preserve">
+    <value>AC.نام</value>
+  </data>
+  <data name="C.C_Name" xml:space="preserve">
+    <value>C.C نام</value>
+  </data>
+  <data name="VAT_5%" xml:space="preserve">
+    <value>VAT 5%</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>کل</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>نوٹس</value>
+  </data>
+  <data name="P.C_A/C" xml:space="preserve">
+    <value>P.C A/C</value>
+  </data>
+  <data name="P.C_Categoryies" xml:space="preserve">
+    <value>P.C زمرے</value>
+  </data>
+  <data name="P.C_Request" xml:space="preserve">
+    <value>P.C درخواست</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>آپریشن</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>منظوری</value>
+  </data>
+  <data name="Submition" xml:space="preserve">
+    <value>جمع کروانا</value>
+  </data>
+  <data name="Print__▼" xml:space="preserve">
+    <value>پرنٹ کریں  ▼</value>
+  </data>
+  <data name="Vendor_List" xml:space="preserve">
+    <value>وینڈر کی فہرست</value>
+  </data>
+  <data name="Transaction_List" xml:space="preserve">
+    <value>لین دین کی فہرست</value>
+  </data>
+  <data name="Credit_&amp;_Payment" xml:space="preserve">
+    <value>کریڈٹ اور ادائیگی</value>
+  </data>
+  <data name="Excel__▼" xml:space="preserve">
+    <value>ایکسل  ▼</value>
+  </data>
+  <data name="Word_▼" xml:space="preserve">
+    <value>ورڈ ▼</value>
+  </data>
+  <data name="Add_Account" xml:space="preserve">
+    <value>اکاؤنٹ شامل کریں</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>زمرہ شامل کریں</value>
+  </data>
+  <data name="Add_Request" xml:space="preserve">
+    <value>درخواست شامل کریں</value>
+  </data>
+  <data name="Search_By_Name,_Code" xml:space="preserve">
+    <value>نام، کوڈ سے تلاش کریں</value>
+  </data>
+  <data name="Approval_Submition" xml:space="preserve">
+    <value>منظوری جمع کروانا</value>
+  </data>
+  <data name="Customer_Center" xml:space="preserve">
+    <value>گاہک مرکز</value>
+  </data>
+  <data name="Declined" xml:space="preserve">
+    <value>مسترد</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>منظور شدہ</value>
+  </data>
+  <data name="Petty_Cash_Approval" xml:space="preserve">
+    <value>پیٹی کیش منظوری</value>
+  </data>
+  <data name="Petty_Cash_Submition_Approval" xml:space="preserve">
+    <value>پیٹی کیش جمع کرانے کی منظوری</value>
+  </data>
+  <data name="Petty_Cash_Categories" xml:space="preserve">
+    <value>پیٹی کیش زمرے</value>
+  </data>
+  <data name="Prepaid_Expense_Center" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ مرکز</value>
+  </data>
+  <data name="Received_From_-_Credit" xml:space="preserve">
+    <value>سے موصول - کریڈٹ</value>
+  </data>
+  <data name="Received_To_-_Debit" xml:space="preserve">
+    <value>کو موصول - ڈیبٹ</value>
+  </data>
+  <data name="Receipt_Voucher" xml:space="preserve">
+    <value>رسید واؤچر</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>تفصیلات</value>
+  </data>
+  <data name="Receipt_Voucher_Center" xml:space="preserve">
+    <value>رسید واؤچر مرکز</value>
+  </data>
+  <data name="Open_Company" xml:space="preserve">
+    <value>کمپنی کھولیں</value>
+  </data>
+  <data name="Create_Company" xml:space="preserve">
+    <value>کمپنی بنائیں</value>
+  </data>
+  <data name="Company_List" xml:space="preserve">
+    <value>کمپنی کی فہرست</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>کوڈ</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>سائن اپ کریں</value>
+  </data>
+  <data name="Sign_In" xml:space="preserve">
+    <value>سائن ان کریں</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>صارف نام</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>پاس ورڈ</value>
+  </data>
+  <data name="Don't_have_an_account?" xml:space="preserve">
+    <value>اکاؤنٹ نہیں ہے؟</value>
+  </data>
+  <data name="Forgot_your_password?_Click_here" xml:space="preserve">
+    <value>اپنا پاس ورڈ بھول گئے؟ یہاں کلک کریں</value>
+  </data>
+  <data name="Learn_More" xml:space="preserve">
+    <value>مزید جانیں</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>کمپنی</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>فون</value>
+  </data>
+  <data name="Balance_not_matching" xml:space="preserve">
+    <value>بیلنس مماثل نہیں ہے</value>
+  </data>
+  <data name="Balance_is_matching" xml:space="preserve">
+    <value>بیلنس مماثل ہے</value>
+  </data>
+  <data name="Transactions_appear_on_the_bank_statement_but_are_not_recorded_in_our_books" xml:space="preserve">
+    <value>لین دین بینک اسٹیٹمنٹ پر ظاہر ہوتے ہیں لیکن ہماری کتابوں میں ریکارڈ نہیں ہیں</value>
+  </data>
+  <data name="Transactions_appear_in_our_books_but_do_not_showing_on_the_bank_statement" xml:space="preserve">
+    <value>لین دین ہماری کتابوں میں ظاہر ہوتے ہیں لیکن بینک اسٹیٹمنٹ پر ظاہر نہیں ہوتے</value>
+  </data>
+  <data name="Balance_as_per_our_books_on " xml:space="preserve">
+    <value>ہماری کتابوں کے مطابق بیلنس </value>
+  </data>
+  <data name="Bank_statement_balance_as_of" xml:space="preserve">
+    <value>بینک اسٹیٹمنٹ بیلنس کی تاریخ</value>
+  </data>
+  <data name="Bank_Statement_Balance_Amount" xml:space="preserve">
+    <value>بینک اسٹیٹمنٹ بیلنس کی رقم</value>
+  </data>
+  <data name="BR_NO" xml:space="preserve">
+    <value>BR نمبر</value>
+  </data>
+  <data name="Bank_Card_Code" xml:space="preserve">
+    <value>بینک کارڈ کوڈ</value>
+  </data>
+  <data name="Total_Debit" xml:space="preserve">
+    <value>کل ڈیبٹ</value>
+  </data>
+  <data name="Total_Credit" xml:space="preserve">
+    <value>کل کریڈٹ</value>
+  </data>
+  <data name="Total_Balance" xml:space="preserve">
+    <value>کل بیلنس</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>حوالہ</value>
+  </data>
+  <data name="AC_ID" xml:space="preserve">
+    <value>AC ID</value>
+  </data>
+  <data name="Amount_Debit" xml:space="preserve">
+    <value>رقم ڈیبٹ</value>
+  </data>
+  <data name="Amount_Credit" xml:space="preserve">
+    <value>رقم کریڈٹ</value>
+  </data>
+  <data name="Reconciliation" xml:space="preserve">
+    <value>مصالحت</value>
+  </data>
+  <data name="BankReconciliation" xml:space="preserve">
+    <value>بینک مصالحت</value>
+  </data>
+  <data name="Empty_by_default" xml:space="preserve">
+    <value>پہلے سے خالی</value>
+  </data>
+  <data name="Make_This_Company_Main_Account" xml:space="preserve">
+    <value>اس کمپنی کو مرکزی اکاؤنٹ بنائیں</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>کم سے کم کریں</value>
+  </data>
+  <data name="Please_fill_in_all_required_fields_correctly." xml:space="preserve">
+    <value>براہ کرم تمام مطلوبہ فیلڈز کو صحیح طریقے سے پُر کریں۔</value>
+  </data>
+  <data name="Manufacture_System" xml:space="preserve">
+    <value>مینوفیکچرنگ سسٹم</value>
+  </data>
+  <data name="Resturen_System" xml:space="preserve">
+    <value>ریسٹورنٹ سسٹم</value>
+  </data>
+  <data name="CRM" xml:space="preserve">
+    <value>CRM</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>رپورٹ</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>انوینٹری</value>
+  </data>
+  <data name="Banking" xml:space="preserve">
+    <value>بینکنگ</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>HR</value>
+  </data>
+  <data name="Vendors" xml:space="preserve">
+    <value>وینڈرز</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>گاہک</value>
+  </data>
+  <data name="My_Company" xml:space="preserve">
+    <value>میری کمپنی</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>گھر</value>
+  </data>
+  <data name="Accountant" xml:space="preserve">
+    <value>اکاؤنٹنٹ</value>
+  </data>
+  <data name="Route_No." xml:space="preserve">
+    <value>روٹ نمبر</value>
+  </data>
+  <data name="Abbreviation_Name" xml:space="preserve">
+    <value>مخفف نام</value>
+  </data>
+  <data name="Ent_Id" xml:space="preserve">
+    <value>Ent Id</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>ملک</value>
+  </data>
+  <data name="CHQ_Book_Register" xml:space="preserve">
+    <value>CHQ بک رجسٹر</value>
+  </data>
+  <data name="Starting_From" xml:space="preserve">
+    <value>سے شروع</value>
+  </data>
+  <data name="CHQ_Book_QTY" xml:space="preserve">
+    <value>CHQ بک کی مقدار</value>
+  </data>
+  <data name="CHQ_Book_NO" xml:space="preserve">
+    <value>CHQ بک نمبر</value>
+  </data>
+  <data name="CHQ_/_New_CHQ_Register" xml:space="preserve">
+    <value>CHQ / نیا CHQ رجسٹر</value>
+  </data>
+  <data name="Account_Signature_Authority_Name" xml:space="preserve">
+    <value>اکاؤنٹ دستخط اتھارٹی کا نام</value>
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>برانچ کا نام</value>
+  </data>
+  <data name="IBAN_No" xml:space="preserve">
+    <value>IBAN نمبر</value>
+  </data>
+  <data name="Account_Relationship_Manager_MOB" xml:space="preserve">
+    <value>اکاؤنٹ ریلیشن شپ مینیجر MOB</value>
+  </data>
+  <data name="Account_No" xml:space="preserve">
+    <value>اکاؤنٹ نمبر</value>
+  </data>
+  <data name="AC_No" xml:space="preserve">
+    <value>AC نمبر</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>کرنسی</value>
+  </data>
+  <data name="Account_Type" xml:space="preserve">
+    <value>اکاؤنٹ کی قسم</value>
+  </data>
+  <data name="AC_Type" xml:space="preserve">
+    <value>AC قسم</value>
+  </data>
+  <data name="Account_Relationship_Manager" xml:space="preserve">
+    <value>اکاؤنٹ ریلیشن شپ مینیجر</value>
+  </data>
+  <data name="Account_Name_-_Chart_Of_Account" xml:space="preserve">
+    <value>اکاؤنٹ کا نام - چارٹ آف اکاؤنٹ</value>
+  </data>
+  <data name="Register_Bank" xml:space="preserve">
+    <value>بینک رجسٹر کریں</value>
+  </data>
+  <data name="Edit_Bank" xml:space="preserve">
+    <value>بینک میں ترمیم کریں</value>
+  </data>
+  <data name="Unregister_Bank" xml:space="preserve">
+    <value>بینک کو غیر رجسٹر کریں</value>
+  </data>
+  <data name="New_Check_Book" xml:space="preserve">
+    <value>نئی چیک بک</value>
+  </data>
+  <data name="Bank_Card_Center" xml:space="preserve">
+    <value>بینک کارڈ سینٹر</value>
+  </data>
+  <data name="Receivable" xml:space="preserve">
+    <value>قابل وصول</value>
+  </data>
+  <data name="Payable" xml:space="preserve">
+    <value>قابل ادائیگی</value>
+  </data>
+  <data name="Assuming_PDC_stands_for_Post-Dated_Cheques" xml:space="preserve">
+    <value>فرض کریں PDC کا مطلب پوسٹ ڈیٹڈ چیک ہے</value>
+  </data>
+  <data name="Account_Settings_&amp;_Other" xml:space="preserve">
+    <value>اکاؤنٹ کی ترتیبات اور دیگر</value>
+  </data>
+  <data name="MasterCustomer" xml:space="preserve">
+    <value>ماسٹر گاہک</value>
+  </data>
+  <data name="AccountantCenter" xml:space="preserve">
+    <value>اکاؤنٹنٹ سینٹر</value>
+  </data>
+  <data name="Customer_Operations__▼" xml:space="preserve">
+    <value>گاہک آپریشنز ▼</value>
+  </data>
+  <data name="New_Customer" xml:space="preserve">
+    <value>نیا گاہک</value>
+  </data>
+  <data name="Edit_Customer" xml:space="preserve">
+    <value>گاہک میں ترمیم کریں</value>
+  </data>
+  <data name="Delete_Customer" xml:space="preserve">
+    <value>گاہک کو حذف کریں</value>
+  </data>
+  <data name="New_Transactions__▼" xml:space="preserve">
+    <value>نئے لین دین  ▼</value>
+  </data>
+  <data name="Customer_List" xml:space="preserve">
+    <value>گاہک کی فہرست</value>
+  </data>
+  <data name="Export_&amp;_Import" xml:space="preserve">
+    <value>برآمد اور درآمد</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>اوزار</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>اپنی مرضی کے مطابق بنائیں</value>
+  </data>
+  <data name="Active_Customer" xml:space="preserve">
+    <value>فعال گاہک</value>
+  </data>
+  <data name="Inactive_Customer" xml:space="preserve">
+    <value>غیر فعال گاہک</value>
+  </data>
+  <data name="Memorized_Reports" xml:space="preserve">
+    <value>یاد شدہ رپورٹس</value>
+  </data>
+  <data name="Statement_of_Functional_Expenses_(990)" xml:space="preserve">
+    <value>فعلی اخراجات کا بیان (990)</value>
+  </data>
+  <data name="Statement_of_Financial_Position" xml:space="preserve">
+    <value>مالی پوزیشن کا بیان</value>
+  </data>
+  <data name="Statement_of_Financial_Income_and_Expense" xml:space="preserve">
+    <value>مالی آمدنی اور اخراجات کا بیان</value>
+  </data>
+  <data name="Programs/Projects_Report" xml:space="preserve">
+    <value>پروگرامز/پروجیکٹس کی رپورٹ</value>
+  </data>
+  <data name="Donors/Grants_Report" xml:space="preserve">
+    <value>عطیہ دہندگان/گرانٹس کی رپورٹ</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Program/Projects" xml:space="preserve">
+    <value>بجٹ بمقابلہ اصل بذریعہ پروگرام/پروجیکٹس</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Donors/Grants" xml:space="preserve">
+    <value>بجٹ بمقابلہ اصل بذریعہ عطیہ دہندگان/گرانٹس</value>
+  </data>
+  <data name="Biggest_Donors/Grants" xml:space="preserve">
+    <value>سب سے بڑے عطیہ دہندگان/گرانٹس</value>
+  </data>
+  <data name="Profit_Loss" xml:space="preserve">
+    <value>منافع نقصان</value>
+  </data>
+  <data name="Journal_Entries_Entered/Modified_Today" xml:space="preserve">
+    <value>آج درج/ترمیم شدہ جرنل اندراجات</value>
+  </data>
+  <data name="Balance_Sheet" xml:space="preserve">
+    <value>بیلنس شیٹ</value>
+  </data>
+  <data name="Adjusted_Trial_Balance" xml:space="preserve">
+    <value>ایڈجسٹڈ ٹرائل بیلنس</value>
+  </data>
+  <data name="Adjusting_Journal_Entries" xml:space="preserve">
+    <value>ایڈجسٹنگ جرنل اندراجات</value>
+  </data>
+  <data name="Select_Group" xml:space="preserve">
+    <value>گروپ منتخب کریں</value>
+  </data>
+  <data name="Vendor_Balance_Detail" xml:space="preserve">
+    <value>وینڈر بیلنس کی تفصیل</value>
+  </data>
+  <data name="Unpaid_Bills_Detail" xml:space="preserve">
+    <value>غیر ادا شدہ بلوں کی تفصیل</value>
+  </data>
+  <data name="A/P_Aging_Summary" xml:space="preserve">
+    <value>A/P ایجنگ کا خلاصہ</value>
+  </data>
+  <data name="Open_Invoices" xml:space="preserve">
+    <value>کھلی انوائسز</value>
+  </data>
+  <data name="Statement_of_Cash_Flow" xml:space="preserve">
+    <value>کیش فلو کا بیان</value>
+  </data>
+  <data name="Deposit_Detail" xml:space="preserve">
+    <value>جمع کی تفصیل</value>
+  </data>
+  <data name="Check_Detail" xml:space="preserve">
+    <value>تفصیل چیک کریں</value>
+  </data>
+  <data name="Customer_Snapshot" xml:space="preserve">
+    <value>گاہک کا سنیپ شاٹ</value>
+  </data>
+  <data name="Customer_Information" xml:space="preserve">
+    <value>گاہک کی معلومات</value>
+  </data>
+  <data name="Customer_Category" xml:space="preserve">
+    <value>گاہک کا زمرہ</value>
+  </data>
+  <data name="LAST_RECONCILED" xml:space="preserve">
+    <value>آخری مصالحت شدہ</value>
+  </data>
+  <data name="RECONCILED_BALANCE" xml:space="preserve">
+    <value>مصالحت شدہ بیلنس</value>
+  </data>
+  <data name="CURRENT_BALANCE" xml:space="preserve">
+    <value>موجودہ بیلنس</value>
+  </data>
+  <data name="Accountant_Center" xml:space="preserve">
+    <value>اکاؤنٹنٹ سینٹر</value>
+  </data>
+  <data name="Date_:" xml:space="preserve">
+    <value>تاریخ :</value>
+  </data>
+  <data name="Code_:" xml:space="preserve">
+    <value>کوڈ :</value>
+  </data>
+  <data name="Name_:" xml:space="preserve">
+    <value>نام :</value>
+  </data>
+  <data name="Amount_Adjustments" xml:space="preserve">
+    <value>رقم کی ایڈجسٹمنٹ</value>
+  </data>
+  <data name="Attendance_Sheet" xml:space="preserve">
+    <value>حاضری شیٹ</value>
+  </data>
+  <data name="Search_By_Item_Name" xml:space="preserve">
+    <value>آئٹم کے نام سے تلاش کریں</value>
+  </data>
+  <data name="COGS_Account" xml:space="preserve">
+    <value>COGS اکاؤنٹ</value>
+  </data>
+  <data name="DEDUCTION" xml:space="preserve">
+    <value>کٹوتی</value>
+  </data>
+  <data name="SALARY_PAYMENT" xml:space="preserve">
+    <value> تنخواہ کی ادائیگی</value>
+  </data>
+  <data name="Sn" xml:space="preserve">
+    <value>Sn</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>عہدہ</value>
+  </data>
+  <data name="Work_Days" xml:space="preserve">
+    <value>کام کے دن</value>
+  </data>
+  <data name="Absent_Days" xml:space="preserve">
+    <value>غیر حاضر دن</value>
+  </data>
+  <data name="Basic_Salary" xml:space="preserve">
+    <value>بنیادی تنخواہ</value>
+  </data>
+  <data name="Allowance" xml:space="preserve">
+    <value>الاؤنس</value>
+  </data>
+  <data name="Total_Additions" xml:space="preserve">
+    <value>کل اضافے</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>تاخیر</value>
+  </data>
+  <data name="Total_Deductions" xml:space="preserve">
+    <value>کل کٹوتیاں</value>
+  </data>
+  <data name="Net_Salary" xml:space="preserve">
+    <value>نیٹ تنخواہ</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>بینک</value>
+  </data>
+  <data name="EMP_ID" xml:space="preserve">
+    <value>EMP ID</value>
+  </data>
+  <data name="Corrected_from_POSTION" xml:space="preserve">
+    <value>پوزیشن سے درست کیا گیا</value>
+  </data>
+  <data name="W.DAYS" xml:space="preserve">
+    <value>W.DAYS</value>
+  </data>
+  <data name="Corrected_casing" xml:space="preserve">
+    <value>درست کیسنگ</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>دیگر</value>
+  </data>
+  <data name="Addition" xml:space="preserve">
+    <value>اضافہ</value>
+  </data>
+  <data name="Total_addition" xml:space="preserve">
+    <value>کل اضافہ</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>قرض</value>
+  </data>
+  <data name="Work_Absence" xml:space="preserve">
+    <value>کام سے غیر حاضری</value>
+  </data>
+  <data name="Fines_&amp;_Salik" xml:space="preserve">
+    <value>جرمانے اور سالک</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>دیگر</value>
+  </data>
+  <data name="Total_Deduction" xml:space="preserve">
+    <value>کل کٹوتی</value>
+  </data>
+  <data name="Corrected_from_Net_Salay" xml:space="preserve">
+    <value>نیٹ سالے سے درست کیا گیا</value>
+  </data>
+  <data name="WPS" xml:space="preserve">
+    <value>WPS</value>
+  </data>
+  <data name="Attendance_Saved_Before" xml:space="preserve">
+    <value>حاضری پہلے محفوظ کی گئی</value>
+  </data>
+  <data name="Add_Manual_Attendance" xml:space="preserve">
+    <value>دستی حاضری شامل کریں</value>
+  </data>
+  <data name="Upload_Current_Employee" xml:space="preserve">
+    <value>موجودہ ملازم اپ لوڈ کریں</value>
+  </data>
+  <data name="Download_Sample_Excel_Sheet" xml:space="preserve">
+    <value>نمونہ ایکسل شیٹ ڈاؤن لوڈ کریں</value>
+  </data>
+  <data name="Main_Unit" xml:space="preserve">
+    <value>مرکزی یونٹ</value>
+  </data>
+  <data name="Balance_Qty" xml:space="preserve">
+    <value>بیلنس مقدار</value>
+  </data>
+  <data name="Work_Date" xml:space="preserve">
+    <value>کام کی تاریخ</value>
+  </data>
+  <data name="Time_In" xml:space="preserve">
+    <value>وقت اندر</value>
+  </data>
+  <data name="Time_Out" xml:space="preserve">
+    <value>وقت باہر</value>
+  </data>
+  <data name="Day_Of_work" xml:space="preserve">
+    <value>کام کا دن</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>قیمت</value>
+  </data>
+  <data name="Cat/ID" xml:space="preserve">
+    <value>زمرہ/ID</value>
+  </data>
+  <data name="Delete_Button" xml:space="preserve">
+    <value>حذف کریں بٹن</value>
+  </data>
+  <data name="Employee_Information" xml:space="preserve">
+    <value>ملازم کی معلومات</value>
+  </data>
+  <data name="Social_Insurance_NO" xml:space="preserve">
+    <value>سوشل انشورنس نمبر</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>فون نمبر</value>
+  </data>
+  <data name="Item_Active" xml:space="preserve">
+    <value>آئٹم فعال</value>
+  </data>
+  <data name="Emirates_ID" xml:space="preserve">
+    <value>اماراتی شناختی کارڈ</value>
+  </data>
+  <data name="Item_Cost_Details" xml:space="preserve">
+    <value>آئٹم لاگت کی تفصیلات</value>
+  </data>
+  <data name="Additional_Info" xml:space="preserve">
+    <value>اضافی معلومات</value>
+  </data>
+  <data name="Emergency_Info" xml:space="preserve">
+    <value>ہنگامی معلومات</value>
+  </data>
+  <data name="Employee_Name" xml:space="preserve">
+    <value>ملازم کا نام</value>
+  </data>
+  <data name="House_Allowance" xml:space="preserve">
+    <value>گھر کا الاؤنس</value>
+  </data>
+  <data name="IBAN_Number" xml:space="preserve">
+    <value>IBAN نمبر</value>
+  </data>
+  <data name="Emirates_ID_Issuing_Authority" xml:space="preserve">
+    <value>اماراتی شناختی کارڈ جاری کرنے والی اتھارٹی</value>
+  </data>
+  <data name="Emirates_ID_File_Number" xml:space="preserve">
+    <value>اماراتی شناختی کارڈ فائل نمبر</value>
+  </data>
+  <data name="Bank_Account_Number" xml:space="preserve">
+    <value>بینک اکاؤنٹ نمبر</value>
+  </data>
+  <data name="Total_Salary" xml:space="preserve">
+    <value>کل تنخواہ</value>
+  </data>
+  <data name="Transportation_Allowance" xml:space="preserve">
+    <value>ٹرانسپورٹیشن الاؤنس</value>
+  </data>
+  <data name="Employee_Code" xml:space="preserve">
+    <value>ملازم کوڈ</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>محکمے</value>
+  </data>
+  <data name="AC_/_Code" xml:space="preserve">
+    <value>AC / کوڈ</value>
+  </data>
+  <data name="Expense_Account_(Chart_-_Account_Name)" xml:space="preserve">
+    <value>خرچ اکاؤنٹ (چارٹ - اکاؤنٹ کا نام)</value>
+  </data>
+  <data name="Min_Amount" xml:space="preserve">
+    <value>کم از کم رقم</value>
+  </data>
+  <data name="Go_To_Item_Card" xml:space="preserve">
+    <value>آئٹم کارڈ پر جائیں</value>
+  </data>
+  <data name="Residency_Issue_Authority" xml:space="preserve">
+    <value>رہائش جاری کرنے والی اتھارٹی</value>
+  </data>
+  <data name="Residency_File_Number" xml:space="preserve">
+    <value>رہائش فائل نمبر</value>
+  </data>
+  <data name="Position_Name" xml:space="preserve">
+    <value>عہدے کا نام</value>
+  </data>
+  <data name="Working_Hours" xml:space="preserve">
+    <value>کام کے اوقات</value>
+  </data>
+  <data name="Contract_Type" xml:space="preserve">
+    <value>معاہدے کی قسم</value>
+  </data>
+  <data name="Work_Contract_Number" xml:space="preserve">
+    <value>کام کے معاہدے کا نمبر</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>زیادہ سے زیادہ</value>
+  </data>
+  <data name="Item_Operations___▼" xml:space="preserve">
+    <value>آئٹم آپریشنز   ▼</value>
+  </data>
+  <data name="Edit_Item" xml:space="preserve">
+    <value>آئٹم میں ترمیم کریں</value>
+  </data>
+  <data name="Delete_Employee" xml:space="preserve">
+    <value>ملازم کو حذف کریں</value>
+  </data>
+  <data name="Employee_List" xml:space="preserve">
+    <value>ملازمین کی فہرست</value>
+  </data>
+  <data name="Credit_&amp;&amp;_Payment" xml:space="preserve">
+    <value>کریڈٹ اور ادائیگی</value>
+  </data>
+  <data name="Active_Employee" xml:space="preserve">
+    <value>فعال ملازم</value>
+  </data>
+  <data name="Inactive_Employee" xml:space="preserve">
+    <value>غیر فعال ملازم</value>
+  </data>
+  <data name="Employee_Snapshot" xml:space="preserve">
+    <value>ملازم کا سنیپ شاٹ</value>
+  </data>
+  <data name="CategoryCode" xml:space="preserve">
+    <value>زمرہ کوڈ</value>
+  </data>
+  <data name="New_Loan" xml:space="preserve">
+    <value>نیا قرض</value>
+  </data>
+  <data name="Salary_Information" xml:space="preserve">
+    <value>تنخواہ کی معلومات</value>
+  </data>
+  <data name="Additions" xml:space="preserve">
+    <value>اضافے</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>غیر فعال</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>اقساط</value>
+  </data>
+  <data name="Request_Amount" xml:space="preserve">
+    <value>درخواست کی رقم</value>
+  </data>
+  <data name="Add_New_Loan" xml:space="preserve">
+    <value>نیا قرض شامل کریں</value>
+  </data>
+  <data name="Show_More" xml:space="preserve">
+    <value>مزید دکھائیں</value>
+  </data>
+  <data name="INV_Date" xml:space="preserve">
+    <value>انوائس کی تاریخ</value>
+  </data>
+  <data name="Invoice_No" xml:space="preserve">
+    <value>انوائس نمبر</value>
+  </data>
+  <data name="invoice_id" xml:space="preserve">
+    <value>انوائس_آئی ڈی</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>بیلنس</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>منتخب کریں</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>باقی</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>دیکھیں</value>
+  </data>
+  <data name="Show_Invoice" xml:space="preserve">
+    <value>انوائس دکھائیں</value>
+  </data>
+  <data name="Print_Credit_After_Save" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد کریڈٹ پرنٹ کریں</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>ترمیم کریں</value>
+  </data>
+  <data name="Item Wise" xml:space="preserve">
+    <value>آئٹم وائز</value>
+  </data>
+  <data name="Damage_Reason" xml:space="preserve">
+    <value>نقصان کی وجہ</value>
+  </data>
+  <data name="Edit_Unit" xml:space="preserve">
+    <value>یونٹ میں ترمیم کریں</value>
+  </data>
+  <data name="Item_Category_Center" xml:space="preserve">
+    <value>آئٹم زمرہ مرکز</value>
+  </data>
+  <data name="New_Unit" xml:space="preserve">
+    <value>نیا یونٹ</value>
+  </data>
+  <data name="unitid" xml:space="preserve">
+    <value>unitid</value>
+  </data>
+  <data name="Factor" xml:space="preserve">
+    <value>عنصر</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>ہٹائیں</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>شامل کریں</value>
+  </data>
+  <data name="Item_Unit_Center" xml:space="preserve">
+    <value>آئٹم یونٹ مرکز</value>
+  </data>
+  <data name="MasterWarehouse" xml:space="preserve">
+    <value>ماسٹر گودام</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>آئٹم حذف کریں</value>
+  </data>
+  <data name="Transfer_History" xml:space="preserve">
+    <value>منتقلی کی تاریخ</value>
+  </data>
+  <data name="Search_By_Item_Name,_Code" xml:space="preserve">
+    <value>آئٹم کے نام، کوڈ سے تلاش کریں</value>
+  </data>
+  <data name="AVG" xml:space="preserve">
+    <value>اوسط</value>
+  </data>
+  <data name="LIFO" xml:space="preserve">
+    <value>LIFO</value>
+  </data>
+  <data name="FIFO" xml:space="preserve">
+    <value>FIFO</value>
+  </data>
+  <data name="On_Hand" xml:space="preserve">
+    <value>دستیاب</value>
+  </data>
+  <data name="Total_Value" xml:space="preserve">
+    <value>کل قیمت</value>
+  </data>
+  <data name="Max_Amount" xml:space="preserve">
+    <value>زیادہ سے زیادہ رقم</value>
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>بارکوڈ</value>
+  </data>
+  <data name="Add_More_Unit" xml:space="preserve">
+    <value>مزید یونٹ شامل کریں</value>
+  </data>
+  <data name="Inventory_" xml:space="preserve">
+    <value>انوینٹری </value>
+  </data>
+  <data name="Expense" xml:space="preserve">
+    <value>خرچ</value>
+  </data>
+  <data name="W.H" xml:space="preserve">
+    <value>W.H</value>
+  </data>
+  <data name="INV_NO." xml:space="preserve">
+    <value>انوائس نمبر</value>
+  </data>
+  <data name="TRN_No." xml:space="preserve">
+    <value>TRN نمبر</value>
+  </data>
+  <data name="TRN_TYPE" xml:space="preserve">
+    <value>TRN قسم</value>
+  </data>
+  <data name="QTY_-_IN" xml:space="preserve">
+    <value>مقدار - اندر</value>
+  </data>
+  <data name="QTY_-_OUT" xml:space="preserve">
+    <value>مقدار - باہر</value>
+  </data>
+  <data name="Fifoqty" xml:space="preserve">
+    <value>Fifoqty</value>
+  </data>
+  <data name="FifoCost" xml:space="preserve">
+    <value>FifoCost</value>
+  </data>
+  <data name="11_-_Inventory_Part" xml:space="preserve">
+    <value>11 - انوینٹری حصہ</value>
+  </data>
+  <data name="12 -_Service" xml:space="preserve">
+    <value>12 - سروس</value>
+  </data>
+  <data name="13_-_Inventory_Assembly" xml:space="preserve">
+    <value>13 - انوینٹری اسمبلی</value>
+  </data>
+  <data name="Qty_In" xml:space="preserve">
+    <value>مقدار اندر</value>
+  </data>
+  <data name="Qty_Out" xml:space="preserve">
+    <value>مقدار باہر</value>
+  </data>
+  <data name="Cost_Price" xml:space="preserve">
+    <value>لاگت کی قیمت</value>
+  </data>
+  <data name="Sales_Price" xml:space="preserve">
+    <value>فروخت کی قیمت</value>
+  </data>
+  <data name="Qty_Balance" xml:space="preserve">
+    <value>مقدار بیلنس</value>
+  </data>
+  <data name="Recycle_Item" xml:space="preserve">
+    <value>آئٹم ری سائیکل کریں </value>
+  </data>
+  <data name="Opening_Qty" xml:space="preserve">
+    <value>اوپننگ مقدار</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>خریداری</value>
+  </data>
+  <data name="New_Item" xml:space="preserve">
+    <value>نیا آئٹم</value>
+  </data>
+  <data name="Selection_Item" xml:space="preserve">
+    <value>انتخاب آئٹم</value>
+  </data>
+  <data name="Inventory_-_Transaction" xml:space="preserve">
+    <value>انوینٹری - لین دین</value>
+  </data>
+  <data name="Item_Code" xml:space="preserve">
+    <value>آئٹم کوڈ</value>
+  </data>
+  <data name="Item_Name" xml:space="preserve">
+    <value>آئٹم کا نام</value>
+  </data>
+  <data name="SYS_QTY" xml:space="preserve">
+    <value>SYS مقدار</value>
+  </data>
+  <data name="SYS_Amount" xml:space="preserve">
+    <value>SYS رقم</value>
+  </data>
+  <data name="New_QTY" xml:space="preserve">
+    <value>نئی مقدار</value>
+  </data>
+  <data name="QTY_DIF" xml:space="preserve">
+    <value>مقدار کا فرق</value>
+  </data>
+  <data name="Amount_(-)" xml:space="preserve">
+    <value>رقم (-)</value>
+  </data>
+  <data name="Amount_(+)" xml:space="preserve">
+    <value>رقم (+)</value>
+  </data>
+  <data name="Invoice_Header" xml:space="preserve">
+    <value>انوائس ہیڈر</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>اگلا</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>پچھلا</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>گودام</value>
+  </data>
+  <data name="Invoice_Footer" xml:space="preserve">
+    <value>انوائس فوٹر</value>
+  </data>
+  <data name="Customer/_New_Customer" xml:space="preserve">
+    <value>گاہک/ نیا گاہک</value>
+  </data>
+  <data name="New_Settlement" xml:space="preserve">
+    <value>نیا تصفیہ</value>
+  </data>
+  <data name="Edit_Current" xml:space="preserve">
+    <value>موجودہ میں ترمیم کریں</value>
+  </data>
+  <data name="Selection_Method" xml:space="preserve">
+    <value>انتخاب کا طریقہ</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>ڈیفالٹ</value>
+  </data>
+  <data name="Inventory_-_Stock_Management" xml:space="preserve">
+    <value>انوینٹری - اسٹاک مینجمنٹ</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>قیمت</value>
+  </data>
+  <data name="Edit_Tax" xml:space="preserve">
+    <value>ٹیکس میں ترمیم کریں</value>
+  </data>
+  <data name="Sales_Center" xml:space="preserve">
+    <value>سیلز سینٹر</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>بیچ</value>
+  </data>
+  <data name="Batch_Name_*" xml:space="preserve">
+    <value>بیچ کا نام *</value>
+  </data>
+  <data name="Amount_*" xml:space="preserve">
+    <value>رقم *</value>
+  </data>
+  <data name="Hours_*" xml:space="preserve">
+    <value>گھنٹے *</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>مصنوعات</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>لاگت</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>مقدار</value>
+  </data>
+  <data name="Total_Cost" xml:space="preserve">
+    <value>کل لاگت</value>
+  </data>
+  <data name="Choose_The_Machine_*" xml:space="preserve">
+    <value>مشین منتخب کریں *</value>
+  </data>
+  <data name="Wharehouse" xml:space="preserve">
+    <value>گودام</value>
+  </data>
+  <data name="Choose_The_Batch_for_Producting" xml:space="preserve">
+    <value>پیداوار کے لیے بیچ منتخب کریں</value>
+  </data>
+  <data name="Search_By_Batch_Name_...." xml:space="preserve">
+    <value>بیچ کے نام سے تلاش کریں ....</value>
+  </data>
+  <data name="Batch_Name" xml:space="preserve">
+    <value>بیچ کا نام</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>وقت</value>
+  </data>
+  <data name="(All)" xml:space="preserve">
+    <value>(سب)</value>
+  </data>
+  <data name="All_Order" xml:space="preserve">
+    <value>تمام آرڈر</value>
+  </data>
+  <data name="All_Open" xml:space="preserve">
+    <value>سبھی کھلے</value>
+  </data>
+  <data name="Leads_Won" xml:space="preserve">
+    <value>جیتے ہوئے لیڈز</value>
+  </data>
+  <data name="Leads_Lost" xml:space="preserve">
+    <value>کھوئے ہوئے لیڈز</value>
+  </data>
+  <data name="Won_Leads_VS_lost_Leads" xml:space="preserve">
+    <value>جیتے ہوئے لیڈز بمقابلہ کھوئے ہوئے لیڈز</value>
+  </data>
+  <data name="Spline1" xml:space="preserve">
+    <value>Spline1</value>
+  </data>
+  <data name="HorizontalBar1" xml:space="preserve">
+    <value>افقی بار 1</value>
+  </data>
+  <data name="OPEN_LEADS" xml:space="preserve">
+    <value>کھلے لیڈز</value>
+  </data>
+  <data name="Prospecting" xml:space="preserve">
+    <value>تلاش</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>ملاقات</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>پیشکش</value>
+  </data>
+  <data name="Bought-In" xml:space="preserve">
+    <value>خریدا ہوا</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>معاہدہ</value>
+  </data>
+  <data name="Machine_Name" xml:space="preserve">
+    <value>مشین کا نام</value>
+  </data>
+  <data name="Start_Time" xml:space="preserve">
+    <value>شروع کا وقت</value>
+  </data>
+  <data name="End_Time" xml:space="preserve">
+    <value>اختتامی وقت</value>
+  </data>
+  <data name="Search_By_Machine_Name_...." xml:space="preserve">
+    <value>مشین کے نام سے تلاش کریں ....</value>
+  </data>
+  <data name="QTY_Task" xml:space="preserve">
+    <value>مقدار ٹاسک</value>
+  </data>
+  <data name="Machine_Monitoring" xml:space="preserve">
+    <value>مشین کی نگرانی</value>
+  </data>
+  <data name="Machines_That_Have_No_Tasks_Now" xml:space="preserve">
+    <value>وہ مشینیں جن کے پاس ابھی کوئی کام نہیں ہے</value>
+  </data>
+  <data name="Machines_In_Progress" xml:space="preserve">
+    <value>مشینیں جاری ہیں</value>
+  </data>
+  <data name="Company_Name_-_Manufacturing" xml:space="preserve">
+    <value>کمپنی کا نام - مینوفیکچرنگ</value>
+  </data>
+  <data name="Log_Out" xml:space="preserve">
+    <value>لاگ آؤٹ</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>ڈیش بورڈ</value>
+  </data>
+  <data name="Batches" xml:space="preserve">
+    <value>بیچز</value>
+  </data>
+  <data name="Machine_Records" xml:space="preserve">
+    <value>مشین ریکارڈز</value>
+  </data>
+  <data name="Orders_Center" xml:space="preserve">
+    <value>آرڈرز سینٹر</value>
+  </data>
+  <data name="Bill_To" xml:space="preserve">
+    <value>بل بنام</value>
+  </data>
+  <data name="Disc" xml:space="preserve">
+    <value>رعایت</value>
+  </data>
+  <data name="due_to" xml:space="preserve">
+    <value>کی وجہ سے</value>
+  </data>
+  <data name="Emirates" xml:space="preserve">
+    <value>امارات</value>
+  </data>
+  <data name="Fixed_Asset_Category" xml:space="preserve">
+    <value>فکسڈ اثاثہ زمرہ</value>
+  </data>
+  <data name="Invoice_#" xml:space="preserve">
+    <value>انوائس #</value>
+  </data>
+  <data name="Invoice_Type" xml:space="preserve">
+    <value>انوائس کی قسم</value>
+  </data>
+  <data name="invoice_Report_" xml:space="preserve">
+    <value>انوائس رپورٹ </value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>طریقہ</value>
+  </data>
+  <data name="Net_Price" xml:space="preserve">
+    <value>نیٹ قیمت</value>
+  </data>
+  <data name="P.O_No" xml:space="preserve">
+    <value>P.O نمبر</value>
+  </data>
+  <data name="Payment_Terms" xml:space="preserve">
+    <value>ادائیگی کی شرائط</value>
+  </data>
+  <data name="Purchase_By_Customer_Details" xml:space="preserve">
+    <value>گاہک کے لحاظ سے خریداری کی تفصیلات</value>
+  </data>
+  <data name="Purchase_Invoice" xml:space="preserve">
+    <value>خریداری انوائس</value>
+  </data>
+  <data name="Purchase_Type" xml:space="preserve">
+    <value>خریداری کی قسم</value>
+  </data>
+  <data name="Receive_Payments" xml:space="preserve">
+    <value>ادائیگیاں وصول کریں</value>
+  </data>
+  <data name="Recive_Report" xml:space="preserve">
+    <value>رپورٹ وصول کریں</value>
+  </data>
+  <data name="Refund/_Payment" xml:space="preserve">
+    <value>رقم کی واپسی/ ادائیگی</value>
+  </data>
+  <data name="Sales_Man" xml:space="preserve">
+    <value>سیلز مین</value>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>جہاز</value>
+  </data>
+  <data name="Ship_Date" xml:space="preserve">
+    <value>جہاز کی تاریخ</value>
+  </data>
+  <data name="Ship_To" xml:space="preserve">
+    <value>کو بھیجیں</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="Via" xml:space="preserve">
+    <value>بذریعہ</value>
+  </data>
+  <data name="New_Invoice" xml:space="preserve">
+    <value>نئی انوائس</value>
+  </data>
+  <data name="Edit_Invoice" xml:space="preserve">
+    <value>انوائس میں ترمیم کریں</value>
+  </data>
+  <data name="Vendor_Name" xml:space="preserve">
+    <value>وینڈر کا نام</value>
+  </data>
+  <data name="Purchases_Center" xml:space="preserve">
+    <value>خریداری مرکز</value>
+  </data>
+  <data name="DHL" xml:space="preserve">
+    <value>ڈی ایچ ایل</value>
+  </data>
+  <data name="MAIL" xml:space="preserve">
+    <value>میل</value>
+  </data>
+  <data name="On_Site" xml:space="preserve">
+    <value>سائٹ پر</value>
+  </data>
+  <data name="Print_The_Invoice_Now" xml:space="preserve">
+    <value>انوائس ابھی پرنٹ کریں</value>
+  </data>
+  <data name="Create_Bill" xml:space="preserve">
+    <value>بل بنائیں</value>
+  </data>
+  <data name="Purchase_Orders_Center" xml:space="preserve">
+    <value>خریداری آرڈرز سینٹر</value>
+  </data>
+  <data name="PurchaseReturn_Center" xml:space="preserve">
+    <value>خریداری واپسی مرکز</value>
+  </data>
+  <data name="Export_To_&amp;Excel" xml:space="preserve">
+    <value>ایکسل میں برآمد کریں</value>
+  </data>
+  <data name="Export_To_&amp;Word" xml:space="preserve">
+    <value>ورڈ میں برآمد کریں</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Report_with_grid_lines" xml:space="preserve">
+    <value>گرڈ لائنوں کے ساتھ رپورٹ</value>
+  </data>
+  <data name="Save_As_PDF" xml:space="preserve">
+    <value>پی ڈی ایف کے طور پر محفوظ کریں</value>
+  </data>
+  <data name="Sort_By" xml:space="preserve">
+    <value>ترتیب دیں بذریعہ</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>تاریخیں</value>
+  </data>
+  <data name="Comment_On_Report" xml:space="preserve">
+    <value>رپورٹ پر تبصرہ کریں</value>
+  </data>
+  <data name="Customize_Report" xml:space="preserve">
+    <value>رپورٹ کو اپنی مرضی کے مطابق بنائیں</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>ریفریش کریں</value>
+  </data>
+  <data name="Hide_Header" xml:space="preserve">
+    <value>ہیڈر چھپائیں</value>
+  </data>
+  <data name="Excel" xml:space="preserve">
+    <value>ایکسل</value>
+  </data>
+  <data name="Profit_&amp;_loss" xml:space="preserve">
+    <value>منافع اور نقصان</value>
+  </data>
+  <data name="Balance_Sheet_Summary" xml:space="preserve">
+    <value>بیلنس شیٹ کا خلاصہ</value>
+  </data>
+  <data name="All_Transaction" xml:space="preserve">
+    <value>تمام لین دین</value>
+  </data>
+  <data name="Balance_Sheet_Standard" xml:space="preserve">
+    <value>بیلنس شیٹ سٹینڈرڈ</value>
+  </data>
+  <data name="Edit_Level_4_Account" xml:space="preserve">
+    <value>سطح 4 اکاؤنٹ میں ترمیم کریں</value>
+  </data>
+  <data name="New_Level_4_Account" xml:space="preserve">
+    <value>نیا سطح 4 اکاؤنٹ</value>
+  </data>
+  <data name="Accountant_Center_-_Balance_Sheet" xml:space="preserve">
+    <value>اکاؤنٹنٹ سینٹر - بیلنس شیٹ</value>
+  </data>
+  <data name="Customer_Balance_Summary" xml:space="preserve">
+    <value>گاہک بیلنس کا خلاصہ</value>
+  </data>
+  <data name="A/R_Aging_Summary" xml:space="preserve">
+    <value>A/R ایجنگ کا خلاصہ</value>
+  </data>
+  <data name="A/R_Aging_Details" xml:space="preserve">
+    <value>A/R ایجنگ کی تفصیلات</value>
+  </data>
+  <data name="Project_Activity_Report" xml:space="preserve">
+    <value>پروجیکٹ سرگرمی کی رپورٹ</value>
+  </data>
+  <data name="Project_Assign_Report" xml:space="preserve">
+    <value>پروجیکٹ تفویض رپورٹ</value>
+  </data>
+  <data name="Project_Progress_Summary" xml:space="preserve">
+    <value>پروجیکٹ کی پیشرفت کا خلاصہ</value>
+  </data>
+  <data name="Project_Resource_Report" xml:space="preserve">
+    <value>پروجیکٹ وسائل کی رپورٹ</value>
+  </data>
+  <data name="Project_Name" xml:space="preserve">
+    <value>پروجیکٹ کا نام</value>
+  </data>
+  <data name="Project_Work_Progress_Summary" xml:space="preserve">
+    <value>پروجیکٹ کے کام کی پیشرفت کا خلاصہ</value>
+  </data>
+  <data name="Customer_Aging_Detail" xml:space="preserve">
+    <value>گاہک کی عمر کی تفصیل</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>کمپنی کا نام</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>آج</value>
+  </data>
+  <data name="This_Week" xml:space="preserve">
+    <value>یہ ہفتہ</value>
+  </data>
+  <data name="This_Month" xml:space="preserve">
+    <value>یہ مہینہ</value>
+  </data>
+  <data name="This_Fiscal_Quarter" xml:space="preserve">
+    <value>یہ مالی سہ ماہی</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year" xml:space="preserve">
+    <value>یہ مالی سہ ماہی سال</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year-To-Last_Month" xml:space="preserve">
+    <value>یہ مالی سہ ماہی سال-پچھلے مہینے تک</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>کل</value>
+  </data>
+  <data name="Customer_Aging_Summary" xml:space="preserve">
+    <value>گاہک کی عمر کا خلاصہ</value>
+  </data>
+  <data name="Customer_Balance_Detail" xml:space="preserve">
+    <value>گاہک بیلنس کی تفصیل</value>
+  </data>
+  <data name="Customer_Summary" xml:space="preserve">
+    <value>گاہک کا خلاصہ</value>
+  </data>
+  <data name="Employee_Balance_Detail" xml:space="preserve">
+    <value>ملازم بیلنس کی تفصیل</value>
+  </data>
+  <data name="Fixed_Asset_Summary" xml:space="preserve">
+    <value>فکسڈ اثاثہ کا خلاصہ</value>
+  </data>
+  <data name="Fixed_Asset_Details" xml:space="preserve">
+    <value>فکسڈ اثاثہ کی تفصیلات</value>
+  </data>
+  <data name="Item_Moving_Report" xml:space="preserve">
+    <value>آئٹم موونگ رپورٹ</value>
+  </data>
+  <data name="Inventory_Center_-_Item_Wise_Profit_Statement" xml:space="preserve">
+    <value>انوینٹری سینٹر - آئٹم وائز منافع کا بیان</value>
+  </data>
+  <data name="Vat_Input" xml:space="preserve">
+    <value>VAT ان پٹ</value>
+  </data>
+  <data name="Vat_Output" xml:space="preserve">
+    <value>VAT آؤٹ پٹ</value>
+  </data>
+  <data name="Delete_Invoice" xml:space="preserve">
+    <value>انوائس حذف کریں</value>
+  </data>
+  <data name="Statement_Of_Account_(_Customer_)" xml:space="preserve">
+    <value>اکاؤنٹ کا بیان (گاہک)</value>
+  </data>
+  <data name="Petty_Cash_Balance_Detail" xml:space="preserve">
+    <value>پیٹی کیش بیلنس کی تفصیل</value>
+  </data>
+  <data name="Prepaid_Expense_Detail" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ کی تفصیل</value>
+  </data>
+  <data name="Prepaid_Expense_Summary" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ کا خلاصہ</value>
+  </data>
+  <data name="Sales_By_Item_Details" xml:space="preserve">
+    <value>آئٹم کے لحاظ سے سیلز کی تفصیلات</value>
+  </data>
+  <data name="Purchase_By_Vendor_Details" xml:space="preserve">
+    <value>وینڈر کے لحاظ سے خریداری کی تفصیلات</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>سیلز</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>کوٹیشن</value>
+  </data>
+  <data name="Performa" xml:space="preserve">
+    <value>پروفارما</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>آرڈر</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>واپسی</value>
+  </data>
+  <data name="Show_Columns" xml:space="preserve">
+    <value>کالم دکھائیں</value>
+  </data>
+  <data name="This_Week_To_Date" xml:space="preserve">
+    <value>یہ ہفتہ-تاریخ تک</value>
+  </data>
+  <data name="This_Month_to_Date" xml:space="preserve">
+    <value>یہ مہینہ-تاریخ تک</value>
+  </data>
+  <data name="This_Fiscal_Quarter_To_Date" xml:space="preserve">
+    <value>یہ مالی سہ ماہی-تاریخ تک</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Last_Month" xml:space="preserve">
+    <value>یہ مالی سہ ماہی سال-پچھلے مہینے تک</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Date" xml:space="preserve">
+    <value>یہ مالی سہ ماہی سال-تاریخ تک</value>
+  </data>
+  <data name="Sales_by_Customer_Detail" xml:space="preserve">
+    <value>گاہک کے لحاظ سے سیلز کی تفصیل</value>
+  </data>
+  <data name="Refre&amp;sh" xml:space="preserve">
+    <value>ریفریش کریں</value>
+  </data>
+  <data name="Ex&amp;pend_Rows" xml:space="preserve">
+    <value>قطاریں پھیلائیں</value>
+  </data>
+  <data name="E&amp;xcel" xml:space="preserve">
+    <value>ایکسل</value>
+  </data>
+  <data name="E-mai&amp;l" xml:space="preserve">
+    <value>ای میل</value>
+  </data>
+  <data name="Prin&amp;t" xml:space="preserve">
+    <value>پرنٹ کریں</value>
+  </data>
+  <data name="Memori&amp;ze" xml:space="preserve">
+    <value>یاد رکھیں</value>
+  </data>
+  <data name="Share_Template" xml:space="preserve">
+    <value>ٹیمپلیٹ شیئر کریں</value>
+  </data>
+  <data name="Comme&amp;nt_On_Report" xml:space="preserve">
+    <value>رپورٹ پر تبصرہ کریں</value>
+  </data>
+  <data name="Custo&amp;mize_Report" xml:space="preserve">
+    <value>رپورٹ کو اپنی مرضی کے مطابق بنائیں</value>
+  </data>
+  <data name="Accaurl" xml:space="preserve">
+    <value>اکاؤنٹ کا یو آر ایل</value>
+  </data>
+  <data name="Report_Basis" xml:space="preserve">
+    <value>رپورٹ کی بنیاد</value>
+  </data>
+  <data name="Sales_by_Item_Detail" xml:space="preserve">
+    <value>آئٹم کے لحاظ سے سیلز کی تفصیل</value>
+  </data>
+  <data name="Refre_sh" xml:space="preserve">
+    <value>ریفریش کریں</value>
+  </data>
+  <data name="Ex_pend_Rows" xml:space="preserve">
+    <value>قطاریں پھیلائیں</value>
+  </data>
+  <data name="E_xcel" xml:space="preserve">
+    <value>ایکسل</value>
+  </data>
+  <data name="E_mail" xml:space="preserve">
+    <value>ای میل</value>
+  </data>
+  <data name="Prin_t" xml:space="preserve">
+    <value>پرنٹ کریں</value>
+  </data>
+  <data name="Memori_ze" xml:space="preserve">
+    <value>یاد رکھیں</value>
+  </data>
+  <data name="Comme_nt_On_Report" xml:space="preserve">
+    <value>رپورٹ پر تبصرہ کریں</value>
+  </data>
+  <data name="Custo_mize_Report" xml:space="preserve">
+    <value>رپورٹ کو اپنی مرضی کے مطابق بنائیں</value>
+  </data>
+  <data name="Test_Comapnt_LLC_/" xml:space="preserve">
+    <value>ٹیسٹ کمپنی LLC /</value>
+  </data>
+  <data name="E-mail" xml:space="preserve">
+    <value>ای میل</value>
+  </data>
+  <data name="Sales_by_Rep_Detail" xml:space="preserve">
+    <value>نمائندے کے لحاظ سے سیلز کی تفصیل</value>
+  </data>
+  <data name="Accrual" xml:space="preserve">
+    <value>اکروول</value>
+  </data>
+  <data name="Sales_by_Rep_Summary" xml:space="preserve">
+    <value>نمائندے کے لحاظ سے سیلز کا خلاصہ</value>
+  </data>
+  <data name="AR_Aging_Details" xml:space="preserve">
+    <value>A/R ایجنگ کی تفصیلات</value>
+  </data>
+  <data name="Income_By_Vendor_Detail" xml:space="preserve">
+    <value>وینڈر کے لحاظ سے آمدنی کی تفصیل</value>
+  </data>
+  <data name="Income_By_Vendor_Summary" xml:space="preserve">
+    <value>وینڈر کے لحاظ سے آمدنی کا خلاصہ</value>
+  </data>
+  <data name="Vendor_Aging_Details" xml:space="preserve">
+    <value>وینڈر_ایجنگ_تفصیلات</value>
+  </data>
+  <data name="Vendor_Aging_Summary" xml:space="preserve">
+    <value>وینڈر ایجنگ کا خلاصہ</value>
+  </data>
+  <data name="Vendor_Balance_Summary" xml:space="preserve">
+    <value>وینڈر بیلنس کا خلاصہ</value>
+  </data>
+  <data name="Save_&amp;&amp;_New" xml:space="preserve">
+    <value>محفوظ کریں اور نیا</value>
+  </data>
+  <data name="Vendor_Category" xml:space="preserve">
+    <value>وینڈر کا زمرہ</value>
+  </data>
+  <data name="Opening_Balance" xml:space="preserve">
+    <value>اوپننگ بیلنس</value>
+  </data>
+  <data name="Contact_&amp;_Address_Data" xml:space="preserve">
+    <value>رابطہ اور پتہ کا ڈیٹا</value>
+  </data>
+  <data name="Building_Name" xml:space="preserve">
+    <value>عمارت کا نام</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>علاقہ</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>پتہ</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>ویب سائٹ</value>
+  </data>
+  <data name="Mobile_Or_Fax" xml:space="preserve">
+    <value>موبائل_یا_فیکس</value>
+  </data>
+  <data name="Work_Phone" xml:space="preserve">
+    <value>کام کا فون</value>
+  </data>
+  <data name="CC_Email" xml:space="preserve">
+    <value>CC ای میل</value>
+  </data>
+  <data name="Main_Phone" xml:space="preserve">
+    <value>مرکزی_فون</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>شہر</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="Facility_Name" xml:space="preserve">
+    <value>سہولت کا نام</value>
+  </data>
+  <data name="TRN" xml:space="preserve">
+    <value>TRN</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>کھاتہ</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>lblError</value>
+  </data>
+  <data name="Customer_Balance_Details" xml:space="preserve">
+    <value>گاہک بیلنس کی تفصیلات</value>
+  </data>
+  <data name="Run_Favorite_Reports" xml:space="preserve">
+    <value>پسندیدہ رپورٹس چلائیں</value>
+  </data>
+  <data name="View_Balance" xml:space="preserve">
+    <value>بیلنس دیکھیں</value>
+  </data>
+  <data name="Print_Checks" xml:space="preserve">
+    <value>چیک چھاپیں</value>
+  </data>
+  <data name="Check_Register" xml:space="preserve">
+    <value>رجسٹر چیک کریں</value>
+  </data>
+  <data name="Write_Checks" xml:space="preserve">
+    <value>چیکس لکھیں</value>
+  </data>
+  <data name="Reconcile" xml:space="preserve">
+    <value>مصالحت کریں</value>
+  </data>
+  <data name="Record_Deposits" xml:space="preserve">
+    <value>جمع ریکارڈ کریں</value>
+  </data>
+  <data name="Home_Page" xml:space="preserve">
+    <value>مرکزی صفحہ</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>کیلنڈر</value>
+  </data>
+  <data name="Transaction" xml:space="preserve">
+    <value>لین دین</value>
+  </data>
+  <data name="Order_Checks" xml:space="preserve">
+    <value>چیکس آرڈر کریں</value>
+  </data>
+  <data name="Items_&amp;_Services" xml:space="preserve">
+    <value>آئٹمز اور خدمات</value>
+  </data>
+  <data name="Inventory_Activities" xml:space="preserve">
+    <value>انوینٹری کی سرگرمیاں</value>
+  </data>
+  <data name="Chart_of_accounts" xml:space="preserve">
+    <value>اکاؤنٹس کا چارٹ</value>
+  </data>
+  <data name="Purchase_Orders" xml:space="preserve">
+    <value>خریداری آرڈرز</value>
+  </data>
+  <data name="Statements" xml:space="preserve">
+    <value>بیانات</value>
+  </data>
+  <data name="Statement_Charges" xml:space="preserve">
+    <value>اسٹیٹمنٹ چارجز</value>
+  </data>
+  <data name="Create_Sales_Receipts" xml:space="preserve">
+    <value>سیلز رسیدیں بنائیں</value>
+  </data>
+  <data name="Receive_Payment" xml:space="preserve">
+    <value>ادائیگی وصول کریں</value>
+  </data>
+  <data name="Create_Invoice" xml:space="preserve">
+    <value>انوائس بنائیں</value>
+  </data>
+  <data name="Pay_Bills" xml:space="preserve">
+    <value>بل ادا کریں</value>
+  </data>
+  <data name="Enter_Bills" xml:space="preserve">
+    <value>بل درج کریں</value>
+  </data>
+  <data name="Manage_Sales_Tax" xml:space="preserve">
+    <value>سیلز ٹیکس کا انتظام کریں</value>
+  </data>
+  <data name="Receive_Inventory" xml:space="preserve">
+    <value>انوینٹری وصول کریں</value>
+  </data>
+  <data name="Enter_Bills_Against_Inventory" xml:space="preserve">
+    <value>انوینٹری کے خلاف بل درج کریں</value>
+  </data>
+  <data name="Insights" xml:space="preserve">
+    <value>بصیرتیں</value>
+  </data>
+  <data name="Vendor_Operations__▼" xml:space="preserve">
+    <value>وینڈر آپریشنز  ▼</value>
+  </data>
+  <data name="New_Vendor" xml:space="preserve">
+    <value>نیا وینڈر </value>
+  </data>
+  <data name="Edit_Vendor" xml:space="preserve">
+    <value>وینڈر میں ترمیم کریں </value>
+  </data>
+  <data name="Delete_Vendor" xml:space="preserve">
+    <value>وینڈر کو حذف کریں</value>
+  </data>
+  <data name="New_Transactions___▼" xml:space="preserve">
+    <value>نئے لین دین   ▼</value>
+  </data>
+  <data name="Print___▼" xml:space="preserve">
+    <value>پرنٹ کریں   ▼</value>
+  </data>
+  <data name="Excel___▼" xml:space="preserve">
+    <value>ایکسل   ▼</value>
+  </data>
+  <data name="Import_&amp;&amp;_Export" xml:space="preserve">
+    <value>درآمد و برآمد</value>
+  </data>
+  <data name="Word__▼" xml:space="preserve">
+    <value>ورڈ  ▼</value>
+  </data>
+  <data name="Active_Vendor" xml:space="preserve">
+    <value>فعال وینڈر</value>
+  </data>
+  <data name="Inactive_Vendor" xml:space="preserve">
+    <value>غیر فعال وینڈر</value>
+  </data>
+  <data name="Vendor_Snapshot" xml:space="preserve">
+    <value>وینڈر کا سنیپ شاٹ</value>
+    <comment>Vendor Snapshot</comment>
+  </data>
+  <data name="Open_Balance" xml:space="preserve">
+    <value>اوپننگ بیلنس</value>
+    <comment>Open Balance</comment>
+  </data>
+  <data name="QuickReport" xml:space="preserve">
+    <value>فوری رپورٹ</value>
+    <comment>QuickReport</comment>
+  </data>
+  <data name="REPORTS_FOR_THIS_CUSTOMER" xml:space="preserve">
+    <value>اس گاہک کے لیے رپورٹس</value>
+    <comment>REPORTS FOR THIS CUSTOMER</comment>
+  </data>
+  <data name="Vendor_Information" xml:space="preserve">
+    <value>وینڈر کی معلومات</value>
+    <comment>Vendor Information</comment>
+  </data>
+  <data name="Transactions" xml:space="preserve">
+    <value>لین دین</value>
+  </data>
+  <data name="Cash_Invoice" xml:space="preserve">
+    <value>کیش انوائس</value>
+  </data>
+  <data name="Vendor_Center" xml:space="preserve">
+    <value>وینڈر سینٹر</value>
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>زمرہ کا نام</value>
+  </data>
+  <data name="Acitve" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="Facilty_Name" xml:space="preserve">
+    <value>سہولت کا نام</value>
+  </data>
+  <data name="VAT_Configration" xml:space="preserve">
+    <value>VAT کنفیگریشن</value>
+  </data>
+  <data name="Due_Date" xml:space="preserve">
+    <value>واجب الادا تاریخ</value>
+  </data>
+  <data name="Quarter_One_Due_Date" xml:space="preserve">
+    <value>سہ ماہی ایک کی واجب الادا تاریخ</value>
+  </data>
+  <data name="Quarter_Four_Due_Date" xml:space="preserve">
+    <value>سہ ماہی چار کی واجب الادا تاریخ</value>
+  </data>
+  <data name="Quarter_Three_Due_Date" xml:space="preserve">
+    <value>سہ ماہی تین کی واجب الادا تاریخ</value>
+  </data>
+  <data name="Quarter_Two_Due_Date" xml:space="preserve">
+    <value>سہ ماہی دو کی واجب الادا تاریخ</value>
+  </data>
+  <data name="Quarter_One_End_Date" xml:space="preserve">
+    <value>سہ ماہی ایک کی آخری تاریخ</value>
+  </data>
+  <data name="Quarter_Four_End_Date" xml:space="preserve">
+    <value>سہ ماہی چار کی آخری تاریخ</value>
+  </data>
+  <data name="Quarter_Three_End_Date" xml:space="preserve">
+    <value>سہ ماہی تین کی آخری تاریخ</value>
+  </data>
+  <data name="Quarter_Two_End_Date" xml:space="preserve">
+    <value>سہ ماہی دو کی آخری تاریخ</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>شروع کی تاریخ</value>
+  </data>
+  <data name="Quarter_One_Start_Date" xml:space="preserve">
+    <value>سہ ماہی ایک کی شروعات کی تاریخ</value>
+  </data>
+  <data name="Quarter_Four_Start_Date" xml:space="preserve">
+    <value>سہ ماہی چار کی شروعات کی تاریخ</value>
+  </data>
+  <data name="Quarter_Three_Start_Date" xml:space="preserve">
+    <value>سہ ماہی تین کی شروعات کی تاریخ</value>
+  </data>
+  <data name="Quarter_Two_Start_Date" xml:space="preserve">
+    <value>سہ ماہی دو کی شروعات کی تاریخ</value>
+  </data>
+  <data name="Quarter_No_1" xml:space="preserve">
+    <value>سہ ماہی نمبر 1</value>
+  </data>
+  <data name="Quarter_No_2" xml:space="preserve">
+    <value>سہ ماہی نمبر 2</value>
+  </data>
+  <data name="Quarter_No_3" xml:space="preserve">
+    <value>سہ ماہی نمبر 3</value>
+  </data>
+  <data name="Quarter_No_4" xml:space="preserve">
+    <value>سہ ماہی نمبر 4</value>
+  </data>
+  <data name="TAX_Registration_No" xml:space="preserve">
+    <value>ٹیکس رجسٹریشن نمبر</value>
+  </data>
+  <data name="TRN_Issue_Date" xml:space="preserve">
+    <value>TRN اجراء کی تاریخ</value>
+  </data>
+  <data name="Corporate_TAX_Configration" xml:space="preserve">
+    <value>کارپوریٹ ٹیکس کنفیگریشن</value>
+  </data>
+  <data name="Quarter" xml:space="preserve">
+    <value>سہ ماہی</value>
+  </data>
+  <data name="Yearly" xml:space="preserve">
+    <value>سالانہ</value>
+  </data>
+  <data name="Corporate_TAX_No" xml:space="preserve">
+    <value>کارپوریٹ ٹیکس نمبر</value>
+  </data>
+  <data name="General_Settings" xml:space="preserve">
+    <value>عمومی ترتیبات</value>
+  </data>
+  <data name="Users_And_Roles" xml:space="preserve">
+    <value>صارفین اور کردار</value>
+  </data>
+  <data name="Employee_Default_Setting" xml:space="preserve">
+    <value>ملازم ڈیفالٹ سیٹنگ</value>
+  </data>
+  <data name="Default_Account_Config" xml:space="preserve">
+    <value>ڈیفالٹ اکاؤنٹ کنفگ</value>
+  </data>
+  <data name="The_email_address_is_essential_and_cannot_be_left_empty" xml:space="preserve">
+    <value>ای میل ایڈریس ضروری ہے اور اسے خالی نہیں چھوڑا جا سکتا</value>
+  </data>
+  <data name="The_company_logo_has_been_updated" xml:space="preserve">
+    <value>کمپنی کا لوگو اپ ڈیٹ کر دیا گیا ہے</value>
+  </data>
+  <data name="The_establishment_customer_number_is_essential_and_cannot_be_left_blank" xml:space="preserve">
+    <value>اسٹیبلشمنٹ کسٹمر نمبر ضروری ہے اور اسے خالی نہیں چھوڑا جا سکتا</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>اپ ڈیٹ کریں</value>
+  </data>
+  <data name="Setting_-_Master" xml:space="preserve">
+    <value>ترتیب - ماسٹر</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>درآمد</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>برآمد کریں</value>
+  </data>
+  <data name="Starting_Code" xml:space="preserve">
+    <value>شروعاتی کوڈ</value>
+  </data>
+  <data name="Customized_File" xml:space="preserve">
+    <value>اپنی مرضی کی فائل</value>
+  </data>
+  <data name="Inventory_Export_&amp;_Import" xml:space="preserve">
+    <value>انوینٹری ایکسپورٹ اور امپورٹ</value>
+  </data>
+  <data name="General_Config" xml:space="preserve">
+    <value>عمومی کنفگ</value>
+  </data>
+  <data name="Defult_Settings" xml:space="preserve">
+    <value>ڈیفالٹ ترتیبات</value>
+  </data>
+  <data name="Default_Tax_%" xml:space="preserve">
+    <value>ڈیفالٹ ٹیکس % </value>
+  </data>
+  <data name="Attend_Config" xml:space="preserve">
+    <value>حاضری کنفگ</value>
+  </data>
+  <data name="Ex_:_08:00" xml:space="preserve">
+    <value>مثال: 08:00</value>
+  </data>
+  <data name="Save_Records" xml:space="preserve">
+    <value>ریکارڈ محفوظ کریں</value>
+  </data>
+  <data name="Deductions" xml:space="preserve">
+    <value>کٹوتی</value>
+  </data>
+  <data name="Delay_Time" xml:space="preserve">
+    <value>تاخیر کا وقت</value>
+  </data>
+  <data name="Enter_Full-Day_Deductions" xml:space="preserve">
+    <value>پورے دن کی کٹوتیاں درج کریں</value>
+  </data>
+  <data name="Enter_Late_Arrival_or_Early_Leave_Deductions_(Minutes)" xml:space="preserve">
+    <value>دیر سے آمد یا جلدی چھٹی کی کٹوتیاں درج کریں (منٹ)</value>
+  </data>
+  <data name="Enter_Deduction_for_Missed_Hours" xml:space="preserve">
+    <value>چھوٹے ہوئے گھنٹوں کے لیے کٹوتی درج کریں</value>
+  </data>
+  <data name="Deductions_Configration" xml:space="preserve">
+    <value>کٹوتیوں کی تشکیل</value>
+  </data>
+  <data name="Petty_Cash_Account" xml:space="preserve">
+    <value>پیٹی کیش اکاؤنٹ</value>
+  </data>
+  <data name="Fixed_Asset_Credit_Account" xml:space="preserve">
+    <value>فکسڈ اثاثہ کریڈٹ اکاؤنٹ</value>
+  </data>
+  <data name="Prepaid_Expense_Credit_Account" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ کریڈٹ اکاؤنٹ</value>
+  </data>
+  <data name="Fixed_Asset_Debit_Account" xml:space="preserve">
+    <value>فکسڈ اثاثہ ڈیبٹ اکاؤنٹ</value>
+  </data>
+  <data name="Prepaid_Expense_Debit_Account" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ ڈیبٹ اکاؤنٹ</value>
+  </data>
+  <data name="PDC_Receivable_Hold" xml:space="preserve">
+    <value>PDC قابل وصول ہولڈ</value>
+  </data>
+  <data name="PDC_Payable_Hold" xml:space="preserve">
+    <value>PDC قابل ادائیگی ہولڈ</value>
+  </data>
+  <data name="PDC_Receivable" xml:space="preserve">
+    <value>PDC قابل وصول</value>
+  </data>
+  <data name="PDC_Payable" xml:space="preserve">
+    <value>PDC قابل ادائیگی</value>
+  </data>
+  <data name="PDC_Receivable_Return" xml:space="preserve">
+    <value>PDC قابل وصول واپسی</value>
+  </data>
+  <data name="PDC_Payable_Return" xml:space="preserve">
+    <value>PDC قابل ادائیگی واپسی</value>
+  </data>
+  <data name="Default_Account_For_Cash" xml:space="preserve">
+    <value>کیش کے لیے ڈیفالٹ اکاؤنٹ</value>
+  </data>
+  <data name="Opening_Balance_Equity" xml:space="preserve">
+    <value>اوپننگ بیلنس ایکویٹی</value>
+  </data>
+  <data name="Item_COGS" xml:space="preserve">
+    <value>آئٹم_COGS</value>
+  </data>
+  <data name="Stock_Settlement" xml:space="preserve">
+    <value>اسٹاک تصفیہ</value>
+  </data>
+  <data name="Inventory_Damage_Account" xml:space="preserve">
+    <value>انوینٹری نقصان اکاؤنٹ</value>
+  </data>
+  <data name="SalesReturn_Invoice" xml:space="preserve">
+    <value>سیلز واپسی انوائس</value>
+  </data>
+  <data name="Sales_Invoice" xml:space="preserve">
+    <value>سیلز انوائس</value>
+  </data>
+  <data name="Invoice_Payment_Cash_Method" xml:space="preserve">
+    <value>انوائس ادائیگی کیش کا طریقہ</value>
+  </data>
+  <data name="PurchaseReturn_Invoice" xml:space="preserve">
+    <value>خریداری واپسی انوائس</value>
+  </data>
+  <data name="Purchase_Payment_Cash_Method" xml:space="preserve">
+    <value>خریداری ادائیگی کیش کا طریقہ</value>
+  </data>
+  <data name="Sales_Invoice_Revenue" xml:space="preserve">
+    <value>سیلز انوائس آمدنی</value>
+  </data>
+  <data name="End_of_Service_Credit_Account" xml:space="preserve">
+    <value>سروس کے اختتام پر کریڈٹ اکاؤنٹ</value>
+  </data>
+  <data name="Leave_Salary_Credit" xml:space="preserve">
+    <value>چھٹی کی تنخواہ کریڈٹ</value>
+  </data>
+  <data name="Leave_Salary_Debit" xml:space="preserve">
+    <value>چھٹی کی تنخواہ ڈیبٹ</value>
+  </data>
+  <data name="End_of_Service_Debit_Account" xml:space="preserve">
+    <value>سروس کے اختتام پر ڈیبٹ اکاؤنٹ</value>
+  </data>
+  <data name="Salaries" xml:space="preserve">
+    <value>تنخواہیں</value>
+  </data>
+  <data name="Gratuit" xml:space="preserve">
+    <value>گریجویٹی</value>
+  </data>
+  <data name="Acroal_Leave_Salary" xml:space="preserve">
+    <value>اکروول چھٹی کی تنخواہ</value>
+  </data>
+  <data name="Employee_Recivable" xml:space="preserve">
+    <value>ملازم قابل وصول</value>
+  </data>
+  <data name="Accrued_Salaries" xml:space="preserve">
+    <value>جمع شدہ تنخواہیں</value>
+  </data>
+  <data name="Default_Account_For_Bank" xml:space="preserve">
+    <value>بینک کے لیے ڈیفالٹ اکاؤنٹ</value>
+  </data>
+  <data name="Bank_&amp;_Others" xml:space="preserve">
+    <value>بینک اور دیگر</value>
+  </data>
+  <data name="ChartOfAccount_Export_&amp;_Import" xml:space="preserve">
+    <value>چارٹ آف اکاؤنٹ ایکسپورٹ اور امپورٹ</value>
+  </data>
+  <data name="User_Operations_▼" xml:space="preserve">
+    <value>صارف آپریشنز ▼</value>
+  </data>
+  <data name="New_User" xml:space="preserve">
+    <value>نیا صارف</value>
+  </data>
+  <data name="Edit_User" xml:space="preserve">
+    <value>صارف میں ترمیم کریں</value>
+  </data>
+  <data name="Roles_Operations_▼" xml:space="preserve">
+    <value>کردار آپریشنز ▼</value>
+  </data>
+  <data name="New_Role" xml:space="preserve">
+    <value>نیا کردار</value>
+  </data>
+  <data name="Edit_Role" xml:space="preserve">
+    <value>کردار میں ترمیم کریں</value>
+  </data>
+  <data name="Search_By_First_Name,_Last_Name,_User_Name" xml:space="preserve">
+    <value>پہلے نام، آخری نام، صارف نام سے تلاش کریں</value>
+  </data>
+  <data name="Active_User" xml:space="preserve">
+    <value>فعال صارف</value>
+  </data>
+  <data name="Inactive_User" xml:space="preserve">
+    <value>غیر فعال صارف</value>
+  </data>
+  <data name="Last_Name" xml:space="preserve">
+    <value>آخری نام</value>
+  </data>
+  <data name="First_Name" xml:space="preserve">
+    <value>پہلا نام</value>
+  </data>
+  <data name="User_Information" xml:space="preserve">
+    <value>صارف کی معلومات</value>
+  </data>
+  <data name="User_-_Roles" xml:space="preserve">
+    <value>صارف - کردار</value>
+  </data>
+  <data name="User_Center" xml:space="preserve">
+    <value>صارف مرکز</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>صارف کا نام</value>
+  </data>
+  <data name="Confirm_Password" xml:space="preserve">
+    <value>پاس ورڈ کی تصدیق کریں</value>
+  </data>
+  <data name="Confirm_Your_Password" xml:space="preserve">
+    <value>اپنے پاس ورڈ کی تصدیق کریں</value>
+  </data>
+  <data name="Enter_Password" xml:space="preserve">
+    <value>پاس ورڈ درج کریں</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>کردار</value>
+  </data>
+  <data name="Role_Name" xml:space="preserve">
+    <value>کردار کا نام</value>
+  </data>
+  <data name="Old_Password" xml:space="preserve">
+    <value>پرانا پاس ورڈ</value>
+  </data>
+  <data name="Add_New_User" xml:space="preserve">
+    <value>نیا صارف شامل کریں</value>
+  </data>
+  <data name="Delete_User" xml:space="preserve">
+    <value>صارف کو حذف کریں</value>
+  </data>
+  <data name="Catch_Log_Report" xml:space="preserve">
+    <value>کیچ لاگ رپورٹ</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_User" xml:space="preserve">
+    <value>اس صارف کے لیے رپورٹس</value>
+  </data>
+  <data name="User_Code" xml:space="preserve">
+    <value>صارف کوڈ</value>
+  </data>
+  <data name="Restore_Company" xml:space="preserve">
+    <value>کمپنی بحال کریں</value>
+  </data>
+  <data name="BackUp_Company" xml:space="preserve">
+    <value>بیک اپ کمپنی</value>
+  </data>
+  <data name="Back_Up_Company" xml:space="preserve">
+    <value>کمپنی کا بیک اپ لیں</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>سب منتخب کریں</value>
+  </data>
+  <data name="File_Access" xml:space="preserve">
+    <value>فائل تک رسائی</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>صارفین</value>
+  </data>
+  <data name="Clear_Data" xml:space="preserve">
+    <value>ڈیٹا صاف کریں</value>
+  </data>
+  <data name="Change_Current_Password" xml:space="preserve">
+    <value>موجودہ پاس ورڈ تبدیل کریں</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>ترتیبات</value>
+  </data>
+  <data name="Setting_Access" xml:space="preserve">
+    <value>ترتیب تک رسائی</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>فہرست</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>ملازمین</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>خریداری</value>
+  </data>
+  <data name="Report_Access" xml:space="preserve">
+    <value>رپورٹ تک رسائی</value>
+  </data>
+  <data name="PDC" xml:space="preserve">
+    <value>PDC</value>
+  </data>
+  <data name="Cheques" xml:space="preserve">
+    <value>چیکس</value>
+  </data>
+  <data name="Open_Bank_Card" xml:space="preserve">
+    <value>بینک کارڈ کھولیں</value>
+  </data>
+  <data name="Bank_Center" xml:space="preserve">
+    <value>بینک سینٹر</value>
+  </data>
+  <data name="Banking_Access" xml:space="preserve">
+    <value>بینکنگ تک رسائی</value>
+  </data>
+  <data name="Final_Settlement" xml:space="preserve">
+    <value>حتمی تصفیہ</value>
+  </data>
+  <data name="Loans" xml:space="preserve">
+    <value>قرضے</value>
+  </data>
+  <data name="End_Of_Services" xml:space="preserve">
+    <value>خدمات کا اختتام</value>
+  </data>
+  <data name="Leave_Salary" xml:space="preserve">
+    <value>چھٹی کی تنخواہ</value>
+  </data>
+  <data name="Salary_Sheet" xml:space="preserve">
+    <value>تنخواہ شیٹ</value>
+  </data>
+  <data name="Human_Resource_Center" xml:space="preserve">
+    <value>انسانی وسائل مرکز</value>
+  </data>
+  <data name="H.R_Access" xml:space="preserve">
+    <value>H.R رسائی</value>
+  </data>
+  <data name="Purchase_Return" xml:space="preserve">
+    <value>خریداری واپسی</value>
+  </data>
+  <data name="Purchase_Order" xml:space="preserve">
+    <value>خریداری آرڈر</value>
+  </data>
+  <data name="Debit_Note" xml:space="preserve">
+    <value>ڈیبٹ نوٹ</value>
+  </data>
+  <data name="Create_Purchase" xml:space="preserve">
+    <value>خریداری بنائیں</value>
+  </data>
+  <data name="Vendor_Access" xml:space="preserve">
+    <value>وینڈر تک رسائی</value>
+  </data>
+  <data name="Sales_Proforma" xml:space="preserve">
+    <value>سیلز پروفارما</value>
+  </data>
+  <data name="Sales_Return" xml:space="preserve">
+    <value>سیلز واپسی</value>
+  </data>
+  <data name="Sales_Order" xml:space="preserve">
+    <value>سیلز آرڈر</value>
+  </data>
+  <data name="Credit_Note" xml:space="preserve">
+    <value>کریڈٹ نوٹ</value>
+  </data>
+  <data name="Customer_Access" xml:space="preserve">
+    <value>گاہک تک رسائی</value>
+  </data>
+  <data name="Warehouse_Center" xml:space="preserve">
+    <value>گودام مرکز</value>
+  </data>
+  <data name="Inventory_Center" xml:space="preserve">
+    <value>انوینٹری سینٹر</value>
+  </data>
+  <data name="Stock_Management" xml:space="preserve">
+    <value>اسٹاک مینجمنٹ</value>
+  </data>
+  <data name="Inventory_Items" xml:space="preserve">
+    <value>انوینٹری آئٹمز</value>
+  </data>
+  <data name="Inventory_Access" xml:space="preserve">
+    <value>انوینٹری تک رسائی</value>
+  </data>
+  <data name="Petty_Cash" xml:space="preserve">
+    <value>پیٹی کیش</value>
+  </data>
+  <data name="Prepaid_Expense" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ</value>
+  </data>
+  <data name="Vouchers" xml:space="preserve">
+    <value>واؤچرز</value>
+  </data>
+  <data name="Fixed_Assets" xml:space="preserve">
+    <value>فکسڈ اثاثے</value>
+  </data>
+  <data name="Chart_Of_Account" xml:space="preserve">
+    <value>اکاؤنٹس کا چارٹ</value>
+  </data>
+  <data name="Accountant_Access" xml:space="preserve">
+    <value>اکاؤنٹنٹ تک رسائی</value>
+  </data>
+  <data name="Vendor_&amp;&amp;_Payable" xml:space="preserve">
+    <value>وینڈر اور قابل ادائیگی</value>
+  </data>
+  <data name="Customer_&amp;&amp;_Receivable" xml:space="preserve">
+    <value>گاہک اور قابل وصول</value>
+  </data>
+  <data name="Construction_Access" xml:space="preserve">
+    <value>تعمیراتی رسائی</value>
+  </data>
+  <data name="Project_Planning" xml:space="preserve">
+    <value>پروجیکٹ کی منصوبہ بندی</value>
+  </data>
+  <data name="Project_Estimate" xml:space="preserve">
+    <value>پروجیکٹ کا تخمینہ</value>
+  </data>
+  <data name="Project_Tender" xml:space="preserve">
+    <value>پروجیکٹ ٹینڈر</value>
+  </data>
+  <data name="Project_Dashboard" xml:space="preserve">
+    <value>پروجیکٹ ڈیش بورڈ</value>
+    <comment>Project Dashboard</comment>
+  </data>
+  <data name="General_Information" xml:space="preserve">
+    <value>عمومی معلومات</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>براؤز کریں</value>
+  </data>
+  <data name="Gmail" xml:space="preserve">
+    <value>جی میل</value>
+  </data>
+  <data name="Company_Configration" xml:space="preserve">
+    <value>کمپنی کنفیگریشن</value>
+  </data>
+  <data name="TRN_No" xml:space="preserve">
+    <value>TRN نمبر</value>
+  </data>
+  <data name="Phone_1" xml:space="preserve">
+    <value>فون 1</value>
+  </data>
+  <data name="Phone_2" xml:space="preserve">
+    <value>فون 2</value>
+  </data>
+  <data name="New_SO" xml:space="preserve">
+    <value>نیا SO</value>
+  </data>
+  <data name="Edit_SO" xml:space="preserve">
+    <value>SO میں ترمیم کریں</value>
+  </data>
+  <data name="Sales_Orders_Center" xml:space="preserve">
+    <value>سیلز آرڈرز سینٹر</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>بحال کریں</value>
+  </data>
+  <data name="SalesReturn_Center" xml:space="preserve">
+    <value>سیلز واپسی مرکز</value>
+  </data>
+  <data name="Return_Invoice" xml:space="preserve">
+    <value>واپسی انوائس</value>
+  </data>
+  <data name="Print_the_Return_Invoice_after_Saved" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد واپسی انوائس پرنٹ کریں</value>
+  </data>
+  <data name="New_Quotation" xml:space="preserve">
+    <value>نئی کوٹیشن</value>
+  </data>
+  <data name="Edit_Quotation" xml:space="preserve">
+    <value>کوٹیشن میں ترمیم کریں</value>
+  </data>
+  <data name="Sales_Quotation_Center" xml:space="preserve">
+    <value>سیلز کوٹیشن سینٹر</value>
+  </data>
+  <data name="New_Proforma" xml:space="preserve">
+    <value>نیا پروفارما</value>
+  </data>
+  <data name="Create_Qutation" xml:space="preserve">
+    <value>کوٹیشن بنائیں</value>
+  </data>
+  <data name="Edit_Proforma" xml:space="preserve">
+    <value>پروفارما میں ترمیم کریں</value>
+  </data>
+  <data name="Sales_Performa_Center" xml:space="preserve">
+    <value>سیلز پروفارما سینٹر</value>
+  </data>
+  <data name="Quotation_No" xml:space="preserve">
+    <value>کوٹیشن نمبر</value>
+  </data>
+  <data name="Proforma_Invoice" xml:space="preserve">
+    <value>پروفارما انوائس</value>
+  </data>
+  <data name="Print_Performa_Report_After_Save" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد پروفارما رپورٹ پرنٹ کریں</value>
+  </data>
+  <data name="Sale_Proforma_Invoice" xml:space="preserve">
+    <value>فروخت پروفارما انوائس</value>
+  </data>
+  <data name="Print_Tax_Invoice_After_Save" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد ٹیکس انوائس پرنٹ کریں</value>
+  </data>
+  <data name="Paid_&amp;_Unpaid" xml:space="preserve">
+    <value>ادا شدہ اور غیر ادا شدہ</value>
+  </data>
+  <data name="PAID" xml:space="preserve">
+    <value>ادا شدہ</value>
+  </data>
+  <data name="UNPAID" xml:space="preserve">
+    <value>غیر ادا شدہ</value>
+  </data>
+  <data name="Pending_Order" xml:space="preserve">
+    <value>زیر التواء آرڈر</value>
+  </data>
+  <data name="Total_Pending" xml:space="preserve">
+    <value>کل زیر التواء</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>ترسیل</value>
+  </data>
+  <data name="Din_In" xml:space="preserve">
+    <value>ڈائن ان</value>
+  </data>
+  <data name="Take_Away" xml:space="preserve">
+    <value>ٹیک اوے</value>
+  </data>
+  <data name="Total_Amount" xml:space="preserve">
+    <value>کل رقم</value>
+  </data>
+  <data name="Chart_Report" xml:space="preserve">
+    <value>چارٹ رپورٹ</value>
+  </data>
+  <data name="Date_From" xml:space="preserve">
+    <value>تاریخ سے</value>
+  </data>
+  <data name="Date_To" xml:space="preserve">
+    <value>تاریخ تک</value>
+  </data>
+  <data name="Order_Type" xml:space="preserve">
+    <value>آرڈر کی قسم</value>
+  </data>
+  <data name="RMS_Home" xml:space="preserve">
+    <value>RMS ہوم</value>
+  </data>
+  <data name="Header_Text" xml:space="preserve">
+    <value>ہیڈر ٹیکسٹ</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>تلاش کریں</value>
+  </data>
+  <data name="RMS" xml:space="preserve">
+    <value>RMS</value>
+  </data>
+  <data name="Search_Here" xml:space="preserve">
+    <value>یہاں تلاش کریں</value>
+  </data>
+  <data name="RMSamlpeView" xml:space="preserve">
+    <value>RMSamlpeView</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>ہیڈر</value>
+  </data>
+  <data name="RM" xml:space="preserve">
+    <value>RM</value>
+  </data>
+  <data name="RMSAddSample" xml:space="preserve">
+    <value>RMSAddSample</value>
+  </data>
+  <data name="Kitchen" xml:space="preserve">
+    <value>باورچی خانہ</value>
+  </data>
+  <data name="POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>عملہ</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>میزیں</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>زمرے</value>
+  </data>
+  <data name="Restaurant_Management_System" xml:space="preserve">
+    <value>ریسٹورنٹ مینجمنٹ سسٹم</value>
+  </data>
+  <data name="Table_list" xml:space="preserve">
+    <value>میز کی فہرست</value>
+  </data>
+  <data name="Staff_List" xml:space="preserve">
+    <value>عملے کی فہرست</value>
+  </data>
+  <data name="Products_List" xml:space="preserve">
+    <value>مصنوعات کی فہرست</value>
+  </data>
+  <data name="RMSView" xml:space="preserve">
+    <value>RMSView</value>
+  </data>
+  <data name="Category_List" xml:space="preserve">
+    <value>زمرہ کی فہرست</value>
+  </data>
+  <data name="Contact_and_Address_Info" xml:space="preserve">
+    <value>رابطہ اور پتہ کی معلومات</value>
+  </data>
+  <data name="CC_to_Email" xml:space="preserve">
+    <value>ای میل پر CC کریں</value>
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>شہر کا نام</value>
+  </data>
+  <data name="Enter_User_Name" xml:space="preserve">
+    <value>صارف کا نام درج کریں</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>فائل</value>
+  </data>
+  <data name="Lists" xml:space="preserve">
+    <value>فہرستیں</value>
+  </data>
+  <data name="Item_List" xml:space="preserve">
+    <value>آئٹم کی فہرست</value>
+  </data>
+  <data name="Item_Category_List" xml:space="preserve">
+    <value>آئٹم زمرہ کی فہرست</value>
+  </data>
+  <data name="Item_Tax_Code_List" xml:space="preserve">
+    <value>آئٹم ٹیکس کوڈ کی فہرست</value>
+  </data>
+  <data name="Item_Unit_List" xml:space="preserve">
+    <value>آئٹم یونٹ کی فہرست</value>
+  </data>
+  <data name="Account_Center" xml:space="preserve">
+    <value>اکاؤنٹ سینٹر</value>
+  </data>
+  <data name="Export_&amp;&amp;_Import" xml:space="preserve">
+    <value>برآمد اور درآمد</value>
+  </data>
+  <data name="Fixed_Assets_List" xml:space="preserve">
+    <value>فکسڈ اثاثوں کی فہرست</value>
+  </data>
+  <data name="Add_Fixed_Assets" xml:space="preserve">
+    <value>فکسڈ اثاثے شامل کریں</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>واؤچر</value>
+  </data>
+  <data name="Advance_Payment" xml:space="preserve">
+    <value>پیشگی ادائیگی</value>
+  </data>
+  <data name="General_Journal_Voucher" xml:space="preserve">
+    <value>عمومی جریدہ واؤچر</value>
+  </data>
+  <data name="Prepaid_Expense_List" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ کی فہرست</value>
+  </data>
+  <data name="Add_Prepaid_Expense" xml:space="preserve">
+    <value>پیشگی ادائیگی شدہ خرچ شامل کریں</value>
+  </data>
+  <data name="Prepaid_Expense_Category" xml:space="preserve">
+    <value>پیشگی ادا شدہ خرچ کا زمرہ</value>
+  </data>
+  <data name="Petty_Cash_List" xml:space="preserve">
+    <value>پیٹی کیش کی فہرست</value>
+  </data>
+  <data name="Petty_Cash_Center" xml:space="preserve">
+    <value>پیٹی کیش سینٹر</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>جمع کروانا</value>
+  </data>
+  <data name="Company_Profile" xml:space="preserve">
+    <value>کمپنی پروفائل</value>
+  </data>
+  <data name="Company_Center" xml:space="preserve">
+    <value>کمپنی سینٹر</value>
+  </data>
+  <data name="Inventory_Doc" xml:space="preserve">
+    <value>انوینٹری دستاویز</value>
+  </data>
+  <data name="Add_Unit" xml:space="preserve">
+    <value>یونٹ شامل کریں</value>
+  </data>
+  <data name="Add_New_Item" xml:space="preserve">
+    <value>نیا آئٹم شامل کریں</value>
+  </data>
+  <data name="Receive_Voucher" xml:space="preserve">
+    <value>واؤچر وصول کریں</value>
+  </data>
+  <data name="Construction" xml:space="preserve">
+    <value>تعمیراتی</value>
+  </data>
+  <data name="Project_Setup" xml:space="preserve">
+    <value>پروجیکٹ سیٹ اپ</value>
+  </data>
+  <data name="Project_Center" xml:space="preserve">
+    <value>پروجیکٹ سینٹر</value>
+  </data>
+  <data name="New_Project" xml:space="preserve">
+    <value>نیا پروجیکٹ</value>
+  </data>
+  <data name="Tender_Center" xml:space="preserve">
+    <value>ٹینڈر سینٹر</value>
+  </data>
+  <data name="New_Tender" xml:space="preserve">
+    <value>نیا ٹینڈر</value>
+  </data>
+  <data name="Site_Center" xml:space="preserve">
+    <value>سائٹ سینٹر</value>
+  </data>
+  <data name="New_Site" xml:space="preserve">
+    <value>نئی سائٹ</value>
+  </data>
+  <data name="Project_Work_Done" xml:space="preserve">
+    <value>پروجیکٹ کا کام مکمل</value>
+  </data>
+  <data name="Project_Management" xml:space="preserve">
+    <value>پروجیکٹ مینجمنٹ</value>
+  </data>
+  <data name="Project_Summary" xml:space="preserve">
+    <value>پروجیکٹ کا خلاصہ</value>
+  </data>
+  <data name="Project_Activity_Summary" xml:space="preserve">
+    <value>پروجیکٹ سرگرمی کا خلاصہ</value>
+  </data>
+  <data name="Project_Assign_Summary" xml:space="preserve">
+    <value>پروجیکٹ تفویض کا خلاصہ</value>
+  </data>
+  <data name="Project_Resource_Summary" xml:space="preserve">
+    <value>پروجیکٹ وسائل کا خلاصہ</value>
+  </data>
+  <data name="Project_Dashboards_&amp;&amp;_Reports" xml:space="preserve">
+    <value>پروجیکٹ ڈیش بورڈز اور رپورٹس</value>
+  </data>
+  <data name="Project_Time_Line" xml:space="preserve">
+    <value>پروجیکٹ ٹائم لائن</value>
+  </data>
+  <data name="GanttChart" xml:space="preserve">
+    <value>گینٹ چارٹ</value>
+  </data>
+  <data name="Income_By_Customer_Summary" xml:space="preserve">
+    <value>گاہک کے لحاظ سے آمدنی کا خلاصہ</value>
+  </data>
+  <data name="Expense_From_Vendor_Summary" xml:space="preserve">
+    <value>وینڈر سے خرچ کا خلاصہ</value>
+  </data>
+  <data name="Profit_&amp;&amp;_Loss" xml:space="preserve">
+    <value>منافع اور نقصان</value>
+  </data>
+  <data name="Customer_Income_Summary" xml:space="preserve">
+    <value>گاہک آمدنی کا خلاصہ</value>
+  </data>
+  <data name="Vendor_Summary" xml:space="preserve">
+    <value>وینڈر کا خلاصہ</value>
+  </data>
+  <data name="Vendor_Income_Summary" xml:space="preserve">
+    <value>وینڈر آمدنی کا خلاصہ</value>
+  </data>
+  <data name="Purchase_By_Vendor_Summary" xml:space="preserve">
+    <value>وینڈر کے لحاظ سے خریداری کا خلاصہ</value>
+  </data>
+  <data name="Purchase_By_Item_Summary" xml:space="preserve">
+    <value>آئٹم کے لحاظ سے خریداری کا خلاصہ</value>
+  </data>
+  <data name="Employee_Balance_Summary" xml:space="preserve">
+    <value>ملازم بیلنس کا خلاصہ</value>
+  </data>
+  <data name="Trial_Balance" xml:space="preserve">
+    <value>ٹرائل بیلنس</value>
+  </data>
+  <data name="General_Ledger" xml:space="preserve">
+    <value>عمومی لیجر</value>
+  </data>
+  <data name="VAT_Report" xml:space="preserve">
+    <value>VAT رپورٹ</value>
+  </data>
+  <data name="Fixed_Asset" xml:space="preserve">
+    <value>فکسڈ اثاثہ</value>
+  </data>
+  <data name="Vat_Category_Report" xml:space="preserve">
+    <value>VAT زمرہ رپورٹ</value>
+  </data>
+  <data name="Item_Profit" xml:space="preserve">
+    <value>آئٹم منافع</value>
+  </data>
+  <data name="Item_Transaction" xml:space="preserve">
+    <value>آئٹم لین دین</value>
+  </data>
+  <data name="Corporate_Tax" xml:space="preserve">
+    <value>کارپوریٹ ٹیکس</value>
+  </data>
+  <data name="Theme_Color" xml:space="preserve">
+    <value>تھیم کا رنگ</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>ونڈو</value>
+  </data>
+  <data name="Cascade_All" xml:space="preserve">
+    <value>سب کو کیسکیڈ کریں</value>
+  </data>
+  <data name="Show_Side_By_Side" xml:space="preserve">
+    <value>ساتھ ساتھ دکھائیں</value>
+  </data>
+  <data name="Close_All" xml:space="preserve">
+    <value>سب بند کریں</value>
+  </data>
+  <data name="Restaurant_System" xml:space="preserve">
+    <value>ریسٹورنٹ سسٹم</value>
+  </data>
+  <data name="YAMY_ERP_SYSTEM" xml:space="preserve">
+    <value>YAMY ERP سسٹم</value>
+  </data>
+  <data name="My_Shortcuts" xml:space="preserve">
+    <value>میرے شارٹ کٹس</value>
+  </data>
+  <data name="Help_Disk" xml:space="preserve">
+    <value>مدد ڈسک</value>
+  </data>
+  <data name="Yamy_Technology" xml:space="preserve">
+    <value>یامی ٹیکنالوجی</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>ترتیب</value>
+  </data>
+  <data name="Search_Company_or_Help" xml:space="preserve">
+    <value>کمپنی یا مدد تلاش کریں</value>
+  </data>
+  <data name="Privacy_Policy" xml:space="preserve">
+    <value>رازداری کی پالیسی</value>
+  </data>
+  <data name="Sign_Out" xml:space="preserve">
+    <value>سائن آؤٹ کریں</value>
+  </data>
+  <data name="Edit_Account" xml:space="preserve">
+    <value>اکاؤنٹ میں ترمیم کریں</value>
+  </data>
+  <data name="Change_Password" xml:space="preserve">
+    <value>پاس ورڈ تبدیل کریں</value>
+  </data>
+  <data name="Sales_By_Customer_Summary" xml:space="preserve">
+    <value>گاہک کے لحاظ سے سیلز کا خلاصہ</value>
+  </data>
+  <data name="Sales_by_Item_Summary" xml:space="preserve">
+    <value>آئٹم کے لحاظ سے سیلز کا خلاصہ</value>
+  </data>
+  <data name="New_Category" xml:space="preserve">
+    <value>نیا زمرہ</value>
+  </data>
+  <data name="COGS" xml:space="preserve">
+    <value>COGS</value>
+  </data>
+  <data name="Agv_COGS" xml:space="preserve">
+    <value>اوسط COGS</value>
+  </data>
+  <data name="Net_Sales" xml:space="preserve">
+    <value>نیٹ سیلز</value>
+  </data>
+  <data name="Enter_Level_4_Name" xml:space="preserve">
+    <value>سطح 4 کا نام درج کریں</value>
+  </data>
+  <data name="Enter_Level_3_Name" xml:space="preserve">
+    <value>سطح 3 کا نام درج کریں</value>
+  </data>
+  <data name="Item_Card" xml:space="preserve">
+    <value>آئٹم کارڈ</value>
+  </data>
+  <data name="Stock_Method" xml:space="preserve">
+    <value>اسٹاک کا طریقہ</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>لاگ ان</value>
+  </data>
+  <data name="Create_New_Company" xml:space="preserve">
+    <value>نئی کمپنی بنائیں</value>
+  </data>
+  <data name="Phone_no" xml:space="preserve">
+    <value>فون نمبر</value>
+  </data>
+  <data name="RE-ENTER_THE_PASSWORD" xml:space="preserve">
+    <value>پاس ورڈ دوبارہ درج کریں</value>
+  </data>
+  <data name="Employee_Informations" xml:space="preserve">
+    <value>ملازمین کی معلومات</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>ریاست</value>
+  </data>
+  <data name="PVC_NO" xml:space="preserve">
+    <value>PVC نمبر</value>
+  </data>
+  <data name="Description_of_work" xml:space="preserve">
+    <value>کام کی تفصیل</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>لمبائی</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>چوڑائی</value>
+  </data>
+  <data name="Thick" xml:space="preserve">
+    <value>موٹا</value>
+  </data>
+  <data name="Margin_%" xml:space="preserve">
+    <value>مارجن %</value>
+  </data>
+  <data name="Margin_Amount" xml:space="preserve">
+    <value>مارجن کی رقم</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>آئٹم کا نام</value>
+  </data>
+  <data name="Sale_Price" xml:space="preserve">
+    <value>فروخت کی قیمت</value>
+  </data>
+  <data name="Voucher_No" xml:space="preserve">
+    <value>واؤچر نمبر</value>
+  </data>
+  <data name="As_Of" xml:space="preserve">
+    <value>کی تاریخ تک</value>
+  </data>
+  <data name="Income_Account" xml:space="preserve">
+    <value>آمدنی اکاؤنٹ</value>
+  </data>
+  <data name="Asset_Account" xml:space="preserve">
+    <value>اثاثہ اکاؤنٹ</value>
+  </data>
+  <data name="Preferred_Vendor" xml:space="preserve">
+    <value>ترجیحی وینڈر</value>
+  </data>
+  <data name="Warehouse_Code" xml:space="preserve">
+    <value>گودام کوڈ</value>
+  </data>
+  <data name="Warehouse_Name" xml:space="preserve">
+    <value>گودام کا نام</value>
+  </data>
+  <data name="Unit_Name" xml:space="preserve">
+    <value>یونٹ کا نام</value>
+  </data>
+  <data name="Edit_Category" xml:space="preserve">
+    <value>زمرہ میں ترمیم کریں</value>
+  </data>
+  <data name="Tax_Name" xml:space="preserve">
+    <value>ٹیکس کا نام</value>
+  </data>
+  <data name="Rate_(%)" xml:space="preserve">
+    <value>شرح (%)</value>
+  </data>
+  <data name="Level1_Code" xml:space="preserve">
+    <value>سطح 1_کوڈ</value>
+  </data>
+  <data name="Level1_Name" xml:space="preserve">
+    <value>سطح 1 نام</value>
+  </data>
+  <data name="Level2_Code" xml:space="preserve">
+    <value>سطح 2 کوڈ</value>
+  </data>
+  <data name="Level2_Name" xml:space="preserve">
+    <value>سطح 2 نام</value>
+  </data>
+  <data name="Level3_Code" xml:space="preserve">
+    <value>لیول 3 کوڈ</value>
+  </data>
+  <data name="Level3_Name" xml:space="preserve">
+    <value>سطح 3 نام</value>
+  </data>
+  <data name="Level4_Code" xml:space="preserve">
+    <value>سطح 4 کوڈ</value>
+  </data>
+  <data name="Level4_Name" xml:space="preserve">
+    <value>سطح 4 نام</value>
+  </data>
+  <data name="New_Cost_Center" xml:space="preserve">
+    <value>نیا لاگت مرکز</value>
+  </data>
+  <data name="Sub_Name" xml:space="preserve">
+    <value>ذیلی نام</value>
+  </data>
+  <data name="A/C_NAME" xml:space="preserve">
+    <value>A/C نام</value>
+  </data>
+  <data name="A/C_Code" xml:space="preserve">
+    <value>A/C کوڈ</value>
+  </data>
+  <data name="Ref_Id" xml:space="preserve">
+    <value>Ref_Id</value>
+  </data>
+  <data name="Fixed_Assets_Category" xml:space="preserve">
+    <value>فکسڈ اثاثے زمرہ</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>دن</value>
+  </data>
+  <data name="Customer_Operations___▼" xml:space="preserve">
+    <value>گاہک آپریشنز   ▼</value>
+  </data>
+  <data name="Employee_Operations__▼" xml:space="preserve">
+    <value>ملازم آپریشنز  ▼</value>
+  </data>
+  <data name="Fixed_Assets_Operations___▼" xml:space="preserve">
+    <value>فکسڈ اثاثے آپریشنز   ▼</value>
+  </data>
+  <data name="Asset_Name" xml:space="preserve">
+    <value>اثاثہ کا نام</value>
+  </data>
+  <data name="Supplier_Name" xml:space="preserve">
+    <value>سپلائر کا نام</value>
+  </data>
+  <data name="Purchase_Date" xml:space="preserve">
+    <value>خریداری کی تاریخ</value>
+  </data>
+  <data name="Depreciation_Value_(IN_%)" xml:space="preserve">
+    <value>فرسودگی کی قیمت (فیصد میں)</value>
+  </data>
+  <data name="Invoice_Number" xml:space="preserve">
+    <value>انوائس نمبر</value>
+  </data>
+  <data name="Model_/_ENG_No" xml:space="preserve">
+    <value>ماڈل / ENG نمبر</value>
+  </data>
+  <data name="New_PV" xml:space="preserve">
+    <value>نیا PV</value>
+  </data>
+  <data name="Edit_PV" xml:space="preserve">
+    <value>PV میں ترمیم کریں</value>
+  </data>
+  <data name="Payment_Code" xml:space="preserve">
+    <value>ادائیگی کوڈ</value>
+  </data>
+  <data name="Debit_Account" xml:space="preserve">
+    <value>ڈیبٹ اکاؤنٹ</value>
+  </data>
+  <data name="Credit_Account" xml:space="preserve">
+    <value>کریڈٹ اکاؤنٹ</value>
+  </data>
+  <data name="Pay_To_-_Debit" xml:space="preserve">
+    <value>کو ادائیگی کریں - ڈیبٹ</value>
+  </data>
+  <data name="New_AP" xml:space="preserve">
+    <value>نیا AP</value>
+  </data>
+  <data name="Edit_AP" xml:space="preserve">
+    <value>AP میں ترمیم کریں</value>
+  </data>
+  <data name="Receipt_Code" xml:space="preserve">
+    <value>رسید کوڈ</value>
+  </data>
+  <data name="Asset_Brand" xml:space="preserve">
+    <value>اثاثہ برانڈ</value>
+  </data>
+  <data name="Depreciation_Life_(Years)" xml:space="preserve">
+    <value>فرسودگی کی زندگی (سال)</value>
+  </data>
+  <data name="Journal_Code" xml:space="preserve">
+    <value>جرنل کوڈ</value>
+  </data>
+  <data name="Debit_Amount" xml:space="preserve">
+    <value>ڈیبٹ رقم</value>
+  </data>
+  <data name="Credit_Amount" xml:space="preserve">
+    <value>کریڈٹ رقم</value>
+  </data>
+  <data name="New_Prepaid_Expense" xml:space="preserve">
+    <value>نیا پیشگی خرچہ</value>
+  </data>
+  <data name="Fees_Amount" xml:space="preserve">
+    <value>فیس کی رقم</value>
+  </data>
+  <data name="Agreement_Amount" xml:space="preserve">
+    <value>معاہدے کی رقم</value>
+  </data>
+  <data name="Agreement_End_Date" xml:space="preserve">
+    <value>معاہدے کی آخری تاریخ</value>
+  </data>
+  <data name="Submission_Date" xml:space="preserve">
+    <value>جمع کرانے کی تاریخ</value>
+  </data>
+  <data name="Total_With_VAT" xml:space="preserve">
+    <value>VAT کے ساتھ کل</value>
+  </data>
+  <data name="WhatsApp_No" xml:space="preserve">
+    <value>واٹس ایپ نمبر</value>
+  </data>
+  <data name="Request_REF" xml:space="preserve">
+    <value>درخواست REF</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>مسترد کریں</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>منظور کریں</value>
+  </data>
+  <data name="Performa_Invoice_NO." xml:space="preserve">
+    <value>پروفارما انوائس نمبر</value>
+  </data>
+  <data name="Quotation_No." xml:space="preserve">
+    <value>کوٹیشن نمبر</value>
+  </data>
+  <data name="invoice_date" xml:space="preserve">
+    <value>انوائس کی تاریخ</value>
+  </data>
+  <data name="SalesId" xml:space="preserve">
+    <value>SalesId</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>نیٹ</value>
+  </data>
+  <data name="Print_Quotation_After_Saved" xml:space="preserve">
+    <value>محفوظ کرنے کے بعد کوٹیشن پرنٹ کریں</value>
+  </data>
+  <data name="New_Employee" xml:space="preserve">
+    <value>نیا ملازم</value>
+  </data>
+  <data name="Edit_Employee" xml:space="preserve">
+    <value>ملازم میں ترمیم کریں</value>
+  </data>
+  <data name="_Word___▼" xml:space="preserve">
+    <value> ورڈ   ▼</value>
+  </data>
+  <data name="V_-_No" xml:space="preserve">
+    <value>V - نمبر</value>
+  </data>
+  <data name="Paid_Amt" xml:space="preserve">
+    <value>ادا شدہ رقم</value>
+  </data>
+  <data name="Select_The_Year" xml:space="preserve">
+    <value>سال منتخب کریں</value>
+  </data>
+  <data name="Select_The_Month" xml:space="preserve">
+    <value>مہینہ منتخب کریں</value>
+  </data>
+  <data name="Legal_Document" xml:space="preserve">
+    <value>قانونی دستاویز</value>
+  </data>
+  <data name="Basic_Info" xml:space="preserve">
+    <value>بنیادی معلومات</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>محکمہ کا نام</value>
+  </data>
+  <data name="Salary_Info" xml:space="preserve">
+    <value>تنخواہ کی معلومات</value>
+  </data>
+  <data name="Bank_Info" xml:space="preserve">
+    <value>بینک کی معلومات</value>
+  </data>
+  <data name="Social_Status" xml:space="preserve">
+    <value>سماجی حیثیت</value>
+  </data>
+  <data name="Date_Of_Birth" xml:space="preserve">
+    <value>تاریخ پیدائش</value>
+  </data>
+  <data name="Relation" xml:space="preserve">
+    <value>رشتہ</value>
+  </data>
+  <data name="Emirates_ID_Issue_Date" xml:space="preserve">
+    <value>اماراتی شناختی کارڈ کے اجراء کی تاریخ</value>
+  </data>
+  <data name="Emirates_ID_Expiry_Date" xml:space="preserve">
+    <value>اماراتی شناختی کارڈ کی میعاد ختم ہونے کی تاریخ</value>
+  </data>
+  <data name="Employee_Active" xml:space="preserve">
+    <value>ملازم فعال</value>
+  </data>
+  <data name="Passport" xml:space="preserve">
+    <value>پاسپورٹ</value>
+  </data>
+  <data name="Residency" xml:space="preserve">
+    <value>رہائش</value>
+  </data>
+  <data name="Passport_Number" xml:space="preserve">
+    <value>پاسپورٹ نمبر</value>
+  </data>
+  <data name="Country_Of_Issue" xml:space="preserve">
+    <value>اجراء کا ملک</value>
+  </data>
+  <data name="Residency_Issue_Date" xml:space="preserve">
+    <value>رہائش کے اجراء کی تاریخ</value>
+  </data>
+  <data name="Residency_Expiry_Date" xml:space="preserve">
+    <value>رہائش کی میعاد ختم ہونے کی تاریخ</value>
+  </data>
+  <data name="Work_Contract" xml:space="preserve">
+    <value>کام کا معاہدہ</value>
+  </data>
+  <data name="Contract_Issue_Date" xml:space="preserve">
+    <value>معاہدے کے اجراء کی تاریخ</value>
+  </data>
+  <data name="Contract_Expiry_Date" xml:space="preserve">
+    <value>معاہدے کی میعاد ختم ہونے کی تاریخ</value>
+  </data>
+  <data name="Passport_Issue_Date" xml:space="preserve">
+    <value>پاسپورٹ کے اجراء کی تاریخ</value>
+  </data>
+  <data name="Passport_End_Date" xml:space="preserve">
+    <value>پاسپورٹ کی آخری تاریخ</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>صارف</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>REF</value>
+  </data>
+  <data name="TotalAdditions" xml:space="preserve">
+    <value>کل اضافے</value>
+  </data>
+  <data name="Leave_Salary_Days" xml:space="preserve">
+    <value>چھٹی کی تنخواہ کے دن</value>
+  </data>
+  <data name="Leave_Salary_Amount" xml:space="preserve">
+    <value>چھٹی کی تنخواہ کی رقم</value>
+  </data>
+  <data name="L.S_Used_Days" xml:space="preserve">
+    <value>L.S استعمال شدہ دن</value>
+  </data>
+  <data name="L.S_REMAINING_DAYS" xml:space="preserve">
+    <value>L.S باقی دن</value>
+  </data>
+  <data name="L.S_RECEIVED_AMOUNT" xml:space="preserve">
+    <value>L.S موصول شدہ رقم</value>
+  </data>
+  <data name="L.S_REMAINING_AMOUNT" xml:space="preserve">
+    <value>L.S باقی رقم</value>
+  </data>
+  <data name="leave_days" xml:space="preserve">
+    <value>چھٹی کے دن</value>
+  </data>
+  <data name="EOS_Remaining_Amount" xml:space="preserve">
+    <value>EOS باقی رقم</value>
+  </data>
+  <data name="EOS_Received_Amount" xml:space="preserve">
+    <value>EOS موصول شدہ رقم</value>
+  </data>
+  <data name="EOS_Remaining_Days" xml:space="preserve">
+    <value>EOS باقی دن</value>
+  </data>
+  <data name="End_Of_Service_Amount" xml:space="preserve">
+    <value>سروس کی آخری رقم</value>
+  </data>
+  <data name="End_Of_Service_Days" xml:space="preserve">
+    <value>سروس کے آخری دن</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>مزید</value>
+  </data>
+  <data name="Received_Amount" xml:space="preserve">
+    <value>موصول شدہ رقم</value>
+  </data>
+  <data name="Pay_Amount" xml:space="preserve">
+    <value>رقم ادا کریں</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>مہینہ</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>سال</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>دن</value>
+  </data>
+  <data name="Request_No" xml:space="preserve">
+    <value>درخواست نمبر</value>
+  </data>
+  <data name="DateCommencement" xml:space="preserve">
+    <value>شروع ہونے کی تاریخ</value>
+  </data>
+  <data name="DateLastWork" xml:space="preserve">
+    <value>آخری کام کی تاریخ</value>
+  </data>
+  <data name="TotalSalary" xml:space="preserve">
+    <value>کل تنخواہ</value>
+  </data>
+  <data name="TotalDeductions" xml:space="preserve">
+    <value>کل کٹوتیاں</value>
+  </data>
+  <data name="NetAccruals" xml:space="preserve">
+    <value>نیٹ اکروولز</value>
+  </data>
+  <data name="EMP_Code" xml:space="preserve">
+    <value>EMP کوڈ</value>
+  </data>
+  <data name="Settlement_No" xml:space="preserve">
+    <value>تصفیہ نمبر</value>
+  </data>
+  <data name="Housing_Allowance" xml:space="preserve">
+    <value>رہائشی الاؤنس</value>
+  </data>
+  <data name="Date_of_Commencement" xml:space="preserve">
+    <value>شروع ہونے کی تاریخ</value>
+  </data>
+  <data name="Date_of_Last_Working_Day" xml:space="preserve">
+    <value>آخری کام کے دن کی تاریخ</value>
+  </data>
+  <data name="Employee_Advances" xml:space="preserve">
+    <value>ملازم ایڈوانس</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>ادائیگیاں</value>
+  </data>
+  <data name="Net_accruals" xml:space="preserve">
+    <value>نیٹ اکروولز</value>
+  </data>
+  <data name="End_Of_Services_Allowance" xml:space="preserve">
+    <value>خدمات کے اختتام پر الاؤنس</value>
+  </data>
+  <data name="Leave_Salary_Allowance" xml:space="preserve">
+    <value>چھٹی کی تنخواہ کا الاؤنس</value>
+  </data>
+  <data name="Route_No" xml:space="preserve">
+    <value>روٹ نمبر</value>
+  </data>
+  <data name="Swift" xml:space="preserve">
+    <value>سوئفٹ</value>
+  </data>
+  <data name="End_In" xml:space="preserve">
+    <value>میں ختم</value>
+  </data>
+  <data name="Start_From" xml:space="preserve">
+    <value>سے شروع کریں</value>
+  </data>
+  <data name="Check_Book_Qty" xml:space="preserve">
+    <value>چیک بک کی مقدار</value>
+  </data>
+  <data name="TRF_Date" xml:space="preserve">
+    <value>TRF تاریخ</value>
+  </data>
+  <data name="TRF_REF" xml:space="preserve">
+    <value>TRF REF</value>
+  </data>
+  <data name="REFID" xml:space="preserve">
+    <value>REFID</value>
+  </data>
+  <data name="Pass_Date" xml:space="preserve">
+    <value>ہولڈ تاریخ</value>
+  </data>
+  <data name="Return_Date" xml:space="preserve">
+    <value>واپسی کی تاریخ</value>
+  </data>
+  <data name="Cancel_Date" xml:space="preserve">
+    <value>منسوخی کی تاریخ</value>
+  </data>
+  <data name="Hold_Date" xml:space="preserve">
+    <value>پاس تاریخ</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>نمبر</value>
+  </data>
+  <data name="transaction_id" xml:space="preserve">
+    <value>لین دین آئی ڈی</value>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>میمو</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>موجودہ</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>شرائط</value>
+  </data>
+  <data name="Aging" xml:space="preserve">
+    <value>عمر رسیدگی</value>
+  </data>
+  <data name="V_.No" xml:space="preserve">
+    <value>V .نمبر</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>آئٹم</value>
+  </data>
+  <data name="Gross_Margin" xml:space="preserve">
+    <value>مجموعی مارجن</value>
+  </data>
+  <data name="AVG_COGS" xml:space="preserve">
+    <value>اوسط COGS</value>
+  </data>
+  <data name="AVG_Price" xml:space="preserve">
+    <value>اوسط قیمت</value>
+  </data>
+  <data name="%_of_Sales" xml:space="preserve">
+    <value>سیل کا فیصد</value>
+  </data>
+  <data name="General_Ledger_Summary" xml:space="preserve">
+    <value>عمومی لیجر کا خلاصہ</value>
+  </data>
+  <data name="Cost_Center_Summary" xml:space="preserve">
+    <value>لاگت مرکز کا خلاصہ</value>
+  </data>
+  <data name="Vat_Amount" xml:space="preserve">
+    <value>VAT رقم</value>
+  </data>
+  <data name="Amount_Before_Vat" xml:space="preserve">
+    <value>VAT سے پہلے کی رقم</value>
+  </data>
+  <data name="Total_Price" xml:space="preserve">
+    <value>کل قیمت</value>
+  </data>
+  <data name="Depreciation_Life" xml:space="preserve">
+    <value>فرسودگی کی زندگی</value>
+  </data>
+  <data name="Tax_Description" xml:space="preserve">
+    <value>ٹیکس کی تفصیل</value>
+  </data>
+  <data name="BalanceQty" xml:space="preserve">
+    <value>بیلنس مقدار</value>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>نقصان</value>
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>سیلز واپسی</value>
+  </data>
+  <data name="PurchaseReturn" xml:space="preserve">
+    <value>خریداری واپسی</value>
+  </data>
+  <data name="OpeningQty" xml:space="preserve">
+    <value>اوپننگ مقدار</value>
+  </data>
+  <data name="SalesPrice" xml:space="preserve">
+    <value>فروخت کی قیمت</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>لاگت کی قیمت</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>منافع</value>
+  </data>
+  <data name="Sales_Amount" xml:space="preserve">
+    <value>سیلز کی رقم</value>
+  </data>
+  <data name="Cost_Amount" xml:space="preserve">
+    <value>لاگت کی رقم</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="Customer_-_Sales" xml:space="preserve">
+    <value>گاہک - سیلز</value>
+  </data>
+  <data name="Vendor_-_Purchase" xml:space="preserve">
+    <value>وینڈر - خریداری</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>ترمیم کریں</value>
+  </data>
+  <data name="Accountant__Access" xml:space="preserve">
+    <value>اکاؤنٹنٹ  رسائی</value>
+  </data>
+  <data name="Inventory__Access" xml:space="preserve">
+    <value>انوینٹری  رسائی</value>
+  </data>
+  <data name="Customer__Access" xml:space="preserve">
+    <value>گاہک  رسائی</value>
+  </data>
+  <data name="Vendor__Access" xml:space="preserve">
+    <value>وینڈر  رسائی</value>
+  </data>
+  <data name="KOT" xml:space="preserve">
+    <value>KOT</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>روکیں</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>میز</value>
+  </data>
+  <data name="Waiter" xml:space="preserve">
+    <value>ویٹر</value>
+  </data>
+  <data name="Bill_List" xml:space="preserve">
+    <value>بل کی فہرست</value>
+  </data>
+  <data name="Check_Out" xml:space="preserve">
+    <value>چیک آؤٹ</value>
+  </data>
+  <data name="Waiter_Name" xml:space="preserve">
+    <value>ویٹر کا نام</value>
+  </data>
+  <data name="Order_Time" xml:space="preserve">
+    <value>آرڈر کا وقت</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>مکمل</value>
+  </data>
+  <data name="Voucher_Type" xml:space="preserve">
+    <value>ووچر کی قسم</value>
+  </data>
+  <data name="It_was_set_to_null" xml:space="preserve">
+    <value>اسے نل پر مقرر کیا گیا تھا</value>
+  </data>
+  <data name="Search_By_Name" xml:space="preserve">
+    <value>پہلے نام سے تلاش کریں</value>
+  </data>
+  <data name="Search_By_First_Name" xml:space="preserve">
+    <value>پہلے نام سے تلاش کریں</value>
+  </data>
+  <data name="Item_Wise" xml:space="preserve">
+    <value>آئٹم کے لحاظ سے</value>
+  </data>
+  <data name="Performa_Invoice" xml:space="preserve">
+    <value>پروفارما انوائس</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>سے</value>
+  </data>
+  <data name="Audit_Trail_Report" xml:space="preserve">
+    <value>آڈٹ ٹریل رپورٹ</value>
+  </data>
+  <data name="Income_Expense_Statement" xml:space="preserve">
+    <value>آمدنی خرچ کا بیان</value>
+  </data>
+  <data name="Subcontractor" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>خارج ہونا</value>
+  </data>
+  <data name="Fixed_Asset_Item_List" xml:space="preserve">
+    <value>مستقل اثاثہ آئٹم کی فہرست</value>
+  </data>
+  <data name="Search_Item" xml:space="preserve">
+    <value>آئٹم تلاش کریں</value>
+  </data>
+  <data name="Petty_Cash_Log" xml:space="preserve">
+    <value>چھوٹی نقد رقم کا ریکارڈ</value>
+  </data>
+  <data name="Item_Id" xml:space="preserve">
+    <value>آئٹم آئی ڈی</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>یاد دہانیاں</value>
+  </data>
+  <data name="Add_Item_Tax_Codes" xml:space="preserve">
+    <value>آئٹمز کے ٹیکس کوڈز شامل کریں</value>
+  </data>
+  <data name="Item_Warehouse_Transfer" xml:space="preserve">
+    <value>آئٹم گودام منتقلی</value>
+  </data>
+  <data name="Sales_Quotation" xml:space="preserve">
+    <value>سیلز کی قیمتوں کا اقتباس</value>
+  </data>
+  <data name="Subcontractor_Center" xml:space="preserve">
+    <value>سب کنٹریکٹر سینٹر</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>ٹائم لائن</value>
+  </data>
+  <data name="Purchase_By_Subcontractor_Summary" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار کے ذریعہ خریداری کا خلاصہ</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>خلاصہ</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>تفصیلات</value>
+  </data>
+  <data name="Warehouse_Summary" xml:space="preserve">
+    <value>گودام کا خلاصہ</value>
+  </data>
+  <data name="Cheque_Inquiry" xml:space="preserve">
+    <value>چیک کی تحقیق</value>
+  </data>
+  <data name="Bank_Balance_Summary" xml:space="preserve">
+    <value>بینک بیلنس کا خلاصہ</value>
+  </data>
+  <data name="PDC_Outstanding" xml:space="preserve">
+    <value>پی ڈی سی بقایا</value>
+  </data>
+  <data name="PDC_Cleared_History" xml:space="preserve">
+    <value>پی ڈی سی کی صاف کردہ تاریخ</value>
+  </data>
+  <data name="Returned_Cheques_Report" xml:space="preserve">
+    <value>راجع چیک رپورٹ</value>
+  </data>
+  <data name="Cheque_Linked_to_Payment/Receipt" xml:space="preserve">
+    <value>چیک ادائیگی/موصولی سے منسلک</value>
+  </data>
+  <data name="Accounts_List" xml:space="preserve">
+    <value>اکاؤنٹس کی فہرست</value>
+  </data>
+  <data name="Bank_List" xml:space="preserve">
+    <value>بینک کی فہرست</value>
+  </data>
+  <data name="Bank_Card_List" xml:space="preserve">
+    <value>بینک کارڈ کی فہرست</value>
+  </data>
+  <data name="Cheque_List" xml:space="preserve">
+    <value>چیک لسٹ</value>
+  </data>
+  <data name="City_List" xml:space="preserve">
+    <value>شہر کی فہرست</value>
+  </data>
+  <data name="Country_List" xml:space="preserve">
+    <value>ملکوں کی فہرست</value>
+  </data>
+  <data name="Cost_Center_List" xml:space="preserve">
+    <value>اخراجات کا مرکز کی فہرست</value>
+  </data>
+  <data name="Customer_Category_List" xml:space="preserve">
+    <value>کسٹمر کیٹیگری کی فہرست</value>
+  </data>
+  <data name="Department_List" xml:space="preserve">
+    <value>محکمہ کی فہرست</value>
+  </data>
+  <data name="Fixed_Asset_List" xml:space="preserve">
+    <value>مستقل اثاثوں کی فہرست</value>
+  </data>
+  <data name="Fixed_Asset_Category_List" xml:space="preserve">
+    <value>مستقل اثاثہ زمرہ کی فہرست</value>
+  </data>
+  <data name="Item_Warehouse_List" xml:space="preserve">
+    <value>آئٹم گودام کی فہرست</value>
+  </data>
+  <data name="Petty_Cash_Category_List" xml:space="preserve">
+    <value>چھوٹے اخراجات کی زمرہ جاتی فہرست</value>
+  </data>
+  <data name="Position_List" xml:space="preserve">
+    <value>پوزیشن کی فہرست</value>
+  </data>
+  <data name="Prepaid_Expense_Category_List" xml:space="preserve">
+    <value>پری پیڈ خرچ زمرہ فہرست</value>
+  </data>
+  <data name="Vendor_Category_List" xml:space="preserve">
+    <value>وینڈر کیٹیگری کی فہرست</value>
+  </data>
+  <data name="Account_Under" xml:space="preserve">
+    <value>اکاؤنٹ کے تحت</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>مینجر</value>
+  </data>
+  <data name="From_Warehouse" xml:space="preserve">
+    <value>گودام سے</value>
+  </data>
+  <data name="To_Warehouse" xml:space="preserve">
+    <value>گودام میں</value>
+  </data>
+  <data name="Subcontractors" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار</value>
+  </data>
+  <data name="Subcontractor_Operations__▼" xml:space="preserve">
+    <value>ذیلی کنٹریکٹر کی کارروائیاں ▼</value>
+  </data>
+  <data name="New_Subcontractor" xml:space="preserve">
+    <value>نیا ذیلی ٹھیکیدار</value>
+  </data>
+  <data name="Edit_Subcontractor" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار میں ترمیم کریں</value>
+  </data>
+  <data name="Delete_Subcontractor" xml:space="preserve">
+    <value>سب کانٹریکٹر کو حذف کریں</value>
+  </data>
+  <data name="Subcontractor_List" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار کی فہرست</value>
+  </data>
+  <data name="Subcontractor_Information" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار کی معلومات</value>
+  </data>
+  <data name="User_Config" xml:space="preserve">
+    <value>صارف کی ترتیبات</value>
+  </data>
+  <data name="Subcontractor_Code" xml:space="preserve">
+    <value>سب کنٹریکٹر کوڈ</value>
+  </data>
+  <data name="Subcontractor_Name" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار کا نام</value>
+  </data>
+  <data name="Subcontractor_Category" xml:space="preserve">
+    <value>ذیلی ٹھیکیدار زمرہ</value>
+  </data>
+</root>

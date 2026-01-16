@@ -1,0 +1,3978 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close" xml:space="preserve">
+    <value>近い</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Add_New" xml:space="preserve">
+    <value>新規追加</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>クレジット</value>
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>デビット</value>
+  </data>
+  <data name="Edit_Name" xml:space="preserve">
+    <value>名前を編集</value>
+  </data>
+  <data name="Enter_Level_4" xml:space="preserve">
+    <value>レベル4へ進む</value>
+  </data>
+  <data name="Due" xml:space="preserve">
+    <value>期限</value>
+  </data>
+  <data name="LEVEL_4" xml:space="preserve">
+    <value>レベル4</value>
+  </data>
+  <data name="LEVEL_3" xml:space="preserve">
+    <value>レベル3</value>
+  </data>
+  <data name="LEVEL_2" xml:space="preserve">
+    <value>レベル2</value>
+  </data>
+  <data name="LEVEL_1" xml:space="preserve">
+    <value>レベル1</value>
+  </data>
+  <data name="Delete_Name" xml:space="preserve">
+    <value>名前を削除</value>
+  </data>
+  <data name="Customers_/_New_Customer" xml:space="preserve">
+    <value>顧客 / 新規顧客</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>に</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>注記</value>
+  </data>
+  <data name="Payment_Type" xml:space="preserve">
+    <value>支払い方法</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Il a été défini sur null</value>
+  </data>
+  <data name="It_was_set_to_null,_so_empty_string" xml:space="preserve">
+    <value>nullに設定されていたので、空の文字列</value>
+  </data>
+  <data name="Enter_Level_1_Name" xml:space="preserve">
+    <value>レベル1の名前を入力してください</value>
+  </data>
+  <data name="Enter_Level_2_Name" xml:space="preserve">
+    <value>レベル2の名前を入力してください</value>
+  </data>
+  <data name="Payment_Method" xml:space="preserve">
+    <value>支払方法</value>
+  </data>
+  <data name="Add_Level_2" xml:space="preserve">
+    <value>レベル2を追加</value>
+  </data>
+  <data name="Add_New_Level_3" xml:space="preserve">
+    <value>新しいレベル3を追加</value>
+  </data>
+  <data name="Customer_-_Add_New_Category" xml:space="preserve">
+    <value>顧客 - 新しいカテゴリを追加</value>
+  </data>
+  <data name="Edit_Receipt" xml:space="preserve">
+    <value>領収書を編集</value>
+  </data>
+  <data name="New_Receipt" xml:space="preserve">
+    <value>新しい領収書</value>
+  </data>
+  <data name="Cost_Center" xml:space="preserve">
+    <value>コストセンター</value>
+  </data>
+  <data name="Request_Date" xml:space="preserve">
+    <value>リクエスト日</value>
+  </data>
+  <data name="Sub" xml:space="preserve">
+    <value>サブ</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>主要</value>
+  </data>
+  <data name="Main_Account" xml:space="preserve">
+    <value>メインアカウント</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>携帯</value>
+  </data>
+  <data name="Sub_Cost_Center" xml:space="preserve">
+    <value>サブコストセンター</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="Make_Journal" xml:space="preserve">
+    <value>ジャーナルを作成する</value>
+  </data>
+  <data name="Journal_Voucher" xml:space="preserve">
+    <value>ジャーナルバウチャー</value>
+  </data>
+  <data name="Fixed_Assets_Account" xml:space="preserve">
+    <value>固定資産勘定</value>
+  </data>
+  <data name="Total_Days" xml:space="preserve">
+    <value>合計日数</value>
+  </data>
+  <data name="End_Date" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="Amount_In_Word" xml:space="preserve">
+    <value>金額（単語）</value>
+  </data>
+  <data name="Account_Code" xml:space="preserve">
+    <value>アカウントコード</value>
+  </data>
+  <data name="Petty_Cash_Name" xml:space="preserve">
+    <value>小口現金名</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="Total_Vat" xml:space="preserve">
+    <value>合計VAT</value>
+  </data>
+  <data name="Check_No" xml:space="preserve">
+    <value>チェック番号</value>
+  </data>
+  <data name="Agreement_Total" xml:space="preserve">
+    <value>合意合計</value>
+  </data>
+  <data name="Total_Invoice" xml:space="preserve">
+    <value>請求額合計</value>
+  </data>
+  <data name="Check_Date" xml:space="preserve">
+    <value>日付を確認</value>
+  </data>
+  <data name="Depreciation_Expence" xml:space="preserve">
+    <value>減価償却費</value>
+  </data>
+  <data name="Enter_supplier_name" xml:space="preserve">
+    <value>サプライヤー名を入力してください</value>
+  </data>
+  <data name="Enter_purchase_price" xml:space="preserve">
+    <value>購入価格を入力してください</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>新しい</value>
+  </data>
+  <data name="Not_Manufacture_Assets" xml:space="preserve">
+    <value>資産を製造しない</value>
+  </data>
+  <data name="Manufacture_Assets" xml:space="preserve">
+    <value>製造資産</value>
+  </data>
+  <data name="Bank_&amp;_Cash/_New_Prepaid_Expense" xml:space="preserve">
+    <value>銀行と現金/新規前払費用</value>
+  </data>
+  <data name="P.C_Request_REF" xml:space="preserve">
+    <value>P.C リクエスト REF</value>
+  </data>
+  <data name="Accumulated_Depreciation" xml:space="preserve">
+    <value>減価償却累計額</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>構成</value>
+  </data>
+  <data name="New_Fixed_Assets" xml:space="preserve">
+    <value>新規固定資産</value>
+  </data>
+  <data name="Edit__Fixed_Assets" xml:space="preserve">
+    <value>固定資産の編集</value>
+  </data>
+  <data name="Delete_Fixed_Assets" xml:space="preserve">
+    <value>固定資産の削除</value>
+  </data>
+  <data name="New_Fixed_Assets_Category" xml:space="preserve">
+    <value>新しい固定資産カテゴリ</value>
+  </data>
+  <data name="Fixed_Assets_Center" xml:space="preserve">
+    <value>固定資産センター</value>
+  </data>
+  <data name="Cr_Amount" xml:space="preserve">
+    <value>Cr金額</value>
+  </data>
+  <data name="Dr_Amount" xml:space="preserve">
+    <value>借方金額</value>
+  </data>
+  <data name="JV_No" xml:space="preserve">
+    <value>JV番号</value>
+  </data>
+  <data name="AC_Code" xml:space="preserve">
+    <value>ACコード</value>
+  </data>
+  <data name="Account_Name" xml:space="preserve">
+    <value>アカウント名</value>
+  </data>
+  <data name="AC_Name" xml:space="preserve">
+    <value>AC名</value>
+  </data>
+  <data name="DEL" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="General_Journal" xml:space="preserve">
+    <value>一般ジャーナル</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>パートナー</value>
+  </data>
+  <data name="Create_a_Copy" xml:space="preserve">
+    <value>コピーを作成</value>
+  </data>
+  <data name="Email_Later" xml:space="preserve">
+    <value>後でメール</value>
+  </data>
+  <data name="Print_Later" xml:space="preserve">
+    <value>後で印刷</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>印刷</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>メール</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="Average_Days_To_Pay_Summary" xml:space="preserve">
+    <value>平均支払日数の概要</value>
+  </data>
+  <data name="Sales_By_Customer_Details" xml:space="preserve">
+    <value>顧客別売上詳細</value>
+  </data>
+  <data name="View_Open_Invoice" xml:space="preserve">
+    <value>未払い請求書を表示</value>
+  </data>
+  <data name="Transaction_Journal" xml:space="preserve">
+    <value>取引ジャーナル</value>
+  </data>
+  <data name="Transaction_History" xml:space="preserve">
+    <value>取引履歴</value>
+  </data>
+  <data name="Quick_Report" xml:space="preserve">
+    <value>クイックレポート</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>全て</value>
+  </data>
+  <data name="Journal_Voucher_Operations___▼" xml:space="preserve">
+    <value>ジャーナルバウチャー操作 ▼</value>
+  </data>
+  <data name="New_Journal_Voucher" xml:space="preserve">
+    <value>新しいジャーナルバウチャー</value>
+  </data>
+  <data name="Edit_Journal_Voucher" xml:space="preserve">
+    <value>ジャーナルバウチャーの編集</value>
+  </data>
+  <data name="Delete_Journal_Voucher" xml:space="preserve">
+    <value>ジャーナル伝票の削除</value>
+  </data>
+  <data name="Restore_Journal_Voucher" xml:space="preserve">
+    <value>ジャーナルバウチャーの復元</value>
+  </data>
+  <data name="Payment_Voucher_Center" xml:space="preserve">
+    <value>支払伝票センター</value>
+  </data>
+  <data name="Transactions_Journal" xml:space="preserve">
+    <value>取引ジャーナル</value>
+  </data>
+  <data name="Save_&amp;&amp;_Close" xml:space="preserve">
+    <value>保存して閉じる</value>
+  </data>
+  <data name="Customer_Code" xml:space="preserve">
+    <value>顧客コード</value>
+  </data>
+  <data name="Customer_Name" xml:space="preserve">
+    <value>顧客名</value>
+  </data>
+  <data name="Transfer_Date" xml:space="preserve">
+    <value>移転日</value>
+  </data>
+  <data name="Vendor_Code" xml:space="preserve">
+    <value>ベンダーコード</value>
+  </data>
+  <data name="TRNS_/_Name" xml:space="preserve">
+    <value>TRNS / 名前</value>
+  </data>
+  <data name="TRNS_/_REF" xml:space="preserve">
+    <value>トランス / リファレンス</value>
+  </data>
+  <data name="Bank_Code" xml:space="preserve">
+    <value>銀行コード</value>
+  </data>
+  <data name="Agreement_Start_Date" xml:space="preserve">
+    <value>契約開始日</value>
+  </data>
+  <data name="Invoice_Details" xml:space="preserve">
+    <value>請求書の詳細</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>カテゴリ</value>
+  </data>
+  <data name="Bank_Name" xml:space="preserve">
+    <value>銀行名</value>
+  </data>
+  <data name="Book_NO" xml:space="preserve">
+    <value>書籍番号</value>
+  </data>
+  <data name="Bank_Account_Name" xml:space="preserve">
+    <value>銀行口座名義</value>
+  </data>
+  <data name="Check_Name" xml:space="preserve">
+    <value>名前を確認</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="INV_NO" xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>額</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>支払う</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>支払い</value>
+  </data>
+  <data name="voucherType" xml:space="preserve">
+    <value>バウチャータイプ</value>
+  </data>
+  <data name="Add_Time_/_Costs" xml:space="preserve">
+    <value>時間/コストを追加</value>
+  </data>
+  <data name="Attach_File" xml:space="preserve">
+    <value>ファイルを添付</value>
+  </data>
+  <data name="Memorize" xml:space="preserve">
+    <value>暗記する</value>
+  </data>
+  <data name="Print_After_Save" xml:space="preserve">
+    <value>保存後に印刷</value>
+  </data>
+  <data name="Payment_Voucher" xml:space="preserve">
+    <value>支払伝票</value>
+  </data>
+  <data name="Basic_Data" xml:space="preserve">
+    <value>基本データ</value>
+  </data>
+  <data name="Vendor" xml:space="preserve">
+    <value>ベンダー</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>従業員</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>現金</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>チェック</value>
+  </data>
+  <data name="Transfer" xml:space="preserve">
+    <value>移行</value>
+  </data>
+  <data name="Pay_From_-_Credit" xml:space="preserve">
+    <value>支払い方法 - クレジット</value>
+  </data>
+  <data name="x" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="Trans_Date" xml:space="preserve">
+    <value>取引日</value>
+  </data>
+  <data name="Print__After_Save" xml:space="preserve">
+    <value>保存後に印刷</value>
+  </data>
+  <data name="Advance_Payment_Voucher" xml:space="preserve">
+    <value>前払い伝票</value>
+  </data>
+  <data name="Recycle" xml:space="preserve">
+    <value>リサイクル</value>
+  </data>
+  <data name="Advance_Payment_Voucher_Center" xml:space="preserve">
+    <value>前払金バウチャーセンター</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>一般的な</value>
+  </data>
+  <data name="Add_New_Category" xml:space="preserve">
+    <value>新しいカテゴリーを追加</value>
+  </data>
+  <data name="Save_&amp;_New" xml:space="preserve">
+    <value>保存して新規作成</value>
+  </data>
+  <data name="Petty_Cash_Request" xml:space="preserve">
+    <value>小口現金請求</value>
+  </data>
+  <data name="Total_Before_Vat" xml:space="preserve">
+    <value>付加価値税前合計</value>
+  </data>
+  <data name="Net_Amount" xml:space="preserve">
+    <value>正味金額</value>
+  </data>
+  <data name="SN#" xml:space="preserve">
+    <value>シリアル番号</value>
+  </data>
+  <data name="AC.Name" xml:space="preserve">
+    <value>AC.名前</value>
+  </data>
+  <data name="C.C_Name" xml:space="preserve">
+    <value>C.C.名</value>
+  </data>
+  <data name="VAT_5%" xml:space="preserve">
+    <value>付加価値税5%</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>注記</value>
+  </data>
+  <data name="P.C_A/C" xml:space="preserve">
+    <value>PCエアコン</value>
+  </data>
+  <data name="P.C_Categoryies" xml:space="preserve">
+    <value>P.Cカテゴリー</value>
+  </data>
+  <data name="P.C_Request" xml:space="preserve">
+    <value>PCリクエスト</value>
+  </data>
+  <data name="Operation" xml:space="preserve">
+    <value>手術</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>承認</value>
+  </data>
+  <data name="Submition" xml:space="preserve">
+    <value>提出</value>
+  </data>
+  <data name="Print__▼" xml:space="preserve">
+    <value>印刷 ▼</value>
+  </data>
+  <data name="Vendor_List" xml:space="preserve">
+    <value>ベンダーリスト</value>
+  </data>
+  <data name="Transaction_List" xml:space="preserve">
+    <value>取引リスト</value>
+  </data>
+  <data name="Credit_&amp;_Payment" xml:space="preserve">
+    <value>クレジットと支払い</value>
+  </data>
+  <data name="Excel__▼" xml:space="preserve">
+    <value>エクセル ▼</value>
+  </data>
+  <data name="Word_▼" xml:space="preserve">
+    <value>単語 ▼</value>
+  </data>
+  <data name="Add_Account" xml:space="preserve">
+    <value>アカウントを追加</value>
+  </data>
+  <data name="Add_Category" xml:space="preserve">
+    <value>カテゴリーを追加</value>
+  </data>
+  <data name="Add_Request" xml:space="preserve">
+    <value>Recherche par nom</value>
+  </data>
+  <data name="Search_By_Name,_Code" xml:space="preserve">
+    <value>名前、コードで検索</value>
+  </data>
+  <data name="Approval_Submition" xml:space="preserve">
+    <value>承認申請</value>
+  </data>
+  <data name="Customer_Center" xml:space="preserve">
+    <value>カスタマーセンター</value>
+  </data>
+  <data name="Declined" xml:space="preserve">
+    <value>拒否</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>承認された</value>
+  </data>
+  <data name="Petty_Cash_Approval" xml:space="preserve">
+    <value>小口現金承認</value>
+  </data>
+  <data name="Petty_Cash_Submition_Approval" xml:space="preserve">
+    <value>小口現金提出承認</value>
+  </data>
+  <data name="Petty_Cash_Categories" xml:space="preserve">
+    <value>小口現金のカテゴリー</value>
+  </data>
+  <data name="Prepaid_Expense_Center" xml:space="preserve">
+    <value>前払経費センター</value>
+  </data>
+  <data name="Received_From_-_Credit" xml:space="preserve">
+    <value>受取人 - クレジット</value>
+  </data>
+  <data name="Received_To_-_Debit" xml:space="preserve">
+    <value>受取先 - 借方</value>
+  </data>
+  <data name="Receipt_Voucher" xml:space="preserve">
+    <value>領収書バウチャー</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="Receipt_Voucher_Center" xml:space="preserve">
+    <value>レシートバウチャーセンター</value>
+  </data>
+  <data name="Open_Company" xml:space="preserve">
+    <value>オープンカンパニー</value>
+  </data>
+  <data name="Create_Company" xml:space="preserve">
+    <value>会社を設立する</value>
+  </data>
+  <data name="Company_List" xml:space="preserve">
+    <value>企業リスト</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="Sign_Up" xml:space="preserve">
+    <value>サインアップ</value>
+  </data>
+  <data name="Sign_In" xml:space="preserve">
+    <value>サインイン</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Don't_have_an_account?" xml:space="preserve">
+    <value>アカウントをお持ちではありませんか？</value>
+  </data>
+  <data name="Forgot_your_password?_Click_here" xml:space="preserve">
+    <value>パスワードをお忘れですか？こちらをクリックしてください</value>
+  </data>
+  <data name="Learn_More" xml:space="preserve">
+    <value>もっと詳しく知る</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>会社</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="Balance_not_matching" xml:space="preserve">
+    <value>残高が一致しません</value>
+  </data>
+  <data name="Balance_is_matching" xml:space="preserve">
+    <value>バランスが合っている</value>
+  </data>
+  <data name="Transactions_appear_on_the_bank_statement_but_are_not_recorded_in_our_books" xml:space="preserve">
+    <value>取引は銀行の明細書に記載されますが、当社の帳簿には記録されません</value>
+  </data>
+  <data name="Transactions_appear_in_our_books_but_do_not_showing_on_the_bank_statement" xml:space="preserve">
+    <value>取引は当社の帳簿には記載されているが、銀行の明細書には記載されていない</value>
+  </data>
+  <data name="Balance_as_per_our_books_on " xml:space="preserve">
+    <value>帳簿上の残高</value>
+  </data>
+  <data name="Bank_statement_balance_as_of" xml:space="preserve">
+    <value>銀行取引明細書残高</value>
+  </data>
+  <data name="Bank_Statement_Balance_Amount" xml:space="preserve">
+    <value>銀行取引明細書の残高</value>
+  </data>
+  <data name="BR_NO" xml:space="preserve">
+    <value>BR番号</value>
+  </data>
+  <data name="Bank_Card_Code" xml:space="preserve">
+    <value>銀行カードコード</value>
+  </data>
+  <data name="Total_Debit" xml:space="preserve">
+    <value>合計借方</value>
+  </data>
+  <data name="Total_Credit" xml:space="preserve">
+    <value>合計クレジット</value>
+  </data>
+  <data name="Total_Balance" xml:space="preserve">
+    <value>合計残高</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>参照</value>
+  </data>
+  <data name="AC_ID" xml:space="preserve">
+    <value>酸</value>
+  </data>
+  <data name="Amount_Debit" xml:space="preserve">
+    <value>借方金額</value>
+  </data>
+  <data name="Amount_Credit" xml:space="preserve">
+    <value>クレジット金額</value>
+  </data>
+  <data name="Reconciliation" xml:space="preserve">
+    <value>和解</value>
+  </data>
+  <data name="BankReconciliation" xml:space="preserve">
+    <value>銀行調整</value>
+  </data>
+  <data name="Empty_by_default" xml:space="preserve">
+    <value>デフォルトでは空</value>
+  </data>
+  <data name="Make_This_Company_Main_Account" xml:space="preserve">
+    <value>この会社をメインアカウントにする</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Veuillez remplir correctement tous les champs obligatoires.</value>
+  </data>
+  <data name="Please_fill_in_all_required_fields_correctly." xml:space="preserve">
+    <value>すべての必須項目に正しく入力してください。</value>
+  </data>
+  <data name="Manufacture_System" xml:space="preserve">
+    <value>製造システム</value>
+  </data>
+  <data name="Resturen_System" xml:space="preserve">
+    <value>レストレンシステム</value>
+  </data>
+  <data name="CRM" xml:space="preserve">
+    <value>CRM</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>報告</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>在庫</value>
+  </data>
+  <data name="Banking" xml:space="preserve">
+    <value>銀行業務</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>人事</value>
+  </data>
+  <data name="Vendors" xml:space="preserve">
+    <value>ベンダー</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>顧客</value>
+  </data>
+  <data name="My_Company" xml:space="preserve">
+    <value>私の会社</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="Accountant" xml:space="preserve">
+    <value>会計士</value>
+  </data>
+  <data name="Route_No." xml:space="preserve">
+    <value>ルート番号</value>
+  </data>
+  <data name="Abbreviation_Name" xml:space="preserve">
+    <value>略称名</value>
+  </data>
+  <data name="Ent_Id" xml:space="preserve">
+    <value>エンティティID</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="CHQ_Book_Register" xml:space="preserve">
+    <value>CHQブックレジスター</value>
+  </data>
+  <data name="Starting_From" xml:space="preserve">
+    <value>出発点</value>
+  </data>
+  <data name="CHQ_Book_QTY" xml:space="preserve">
+    <value>CHQブック数量</value>
+  </data>
+  <data name="CHQ_Book_NO" xml:space="preserve">
+    <value>CHQブック番号</value>
+  </data>
+  <data name="CHQ_/_New_CHQ_Register" xml:space="preserve">
+    <value>CHQ / 新しいCHQレジスター</value>
+  </data>
+  <data name="Account_Signature_Authority_Name" xml:space="preserve">
+    <value>アカウント署名権限名</value>
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>支店名</value>
+  </data>
+  <data name="IBAN_No" xml:space="preserve">
+    <value>IBAN番号</value>
+  </data>
+  <data name="Account_Relationship_Manager_MOB" xml:space="preserve">
+    <value>アカウント・リレーションシップ・マネージャー（MOB）</value>
+  </data>
+  <data name="Account_No" xml:space="preserve">
+    <value>口座番号</value>
+  </data>
+  <data name="AC_No" xml:space="preserve">
+    <value>AC番号</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>通貨</value>
+  </data>
+  <data name="Account_Type" xml:space="preserve">
+    <value>アカウントの種類</value>
+  </data>
+  <data name="AC_Type" xml:space="preserve">
+    <value>ACタイプ</value>
+  </data>
+  <data name="Account_Relationship_Manager" xml:space="preserve">
+    <value>アカウントリレーションシップマネージャー</value>
+  </data>
+  <data name="Account_Name_-_Chart_Of_Account" xml:space="preserve">
+    <value>口座名義 - 勘定科目表</value>
+  </data>
+  <data name="Register_Bank" xml:space="preserve">
+    <value>銀行登録</value>
+  </data>
+  <data name="Edit_Bank" xml:space="preserve">
+    <value>銀行を編集</value>
+  </data>
+  <data name="Unregister_Bank" xml:space="preserve">
+    <value>銀行の登録解除</value>
+  </data>
+  <data name="New_Check_Book" xml:space="preserve">
+    <value>新しい小切手帳</value>
+  </data>
+  <data name="Bank_Card_Center" xml:space="preserve">
+    <value>銀行カードセンター</value>
+  </data>
+  <data name="Receivable" xml:space="preserve">
+    <value>売掛金</value>
+  </data>
+  <data name="Payable" xml:space="preserve">
+    <value>支払可能額</value>
+  </data>
+  <data name="Assuming_PDC_stands_for_Post-Dated_Cheques" xml:space="preserve">
+    <value>PDCはPost-Date Checkesの略だと仮定します</value>
+  </data>
+  <data name="Account_Settings_&amp;_Other" xml:space="preserve">
+    <value>アカウント設定とその他</value>
+  </data>
+  <data name="MasterCustomer" xml:space="preserve">
+    <value>マスター顧客</value>
+  </data>
+  <data name="AccountantCenter" xml:space="preserve">
+    <value>会計センター</value>
+  </data>
+  <data name="Customer_Operations__▼" xml:space="preserve">
+    <value>カスタマーオペレーション ▼</value>
+  </data>
+  <data name="New_Customer" xml:space="preserve">
+    <value>新規顧客</value>
+  </data>
+  <data name="Edit_Customer" xml:space="preserve">
+    <value>顧客を編集</value>
+  </data>
+  <data name="Delete_Customer" xml:space="preserve">
+    <value>顧客を削除</value>
+  </data>
+  <data name="New_Transactions__▼" xml:space="preserve">
+    <value>新規取引 ▼</value>
+  </data>
+  <data name="Customer_List" xml:space="preserve">
+    <value>顧客リスト</value>
+  </data>
+  <data name="Export_&amp;_Import" xml:space="preserve">
+    <value>輸出入</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>カスタマイズ</value>
+  </data>
+  <data name="Active_Customer" xml:space="preserve">
+    <value>アクティブ顧客</value>
+  </data>
+  <data name="Inactive_Customer" xml:space="preserve">
+    <value>非アクティブな顧客</value>
+  </data>
+  <data name="Memorized_Reports" xml:space="preserve">
+    <value>記憶されたレポート</value>
+  </data>
+  <data name="Statement_of_Functional_Expenses_(990)" xml:space="preserve">
+    <value>機能別費用明細書（990）</value>
+  </data>
+  <data name="Statement_of_Financial_Position" xml:space="preserve">
+    <value>財務状況報告書</value>
+  </data>
+  <data name="Statement_of_Financial_Income_and_Expense" xml:space="preserve">
+    <value>財務収益および費用の明細書</value>
+  </data>
+  <data name="Programs/Projects_Report" xml:space="preserve">
+    <value>プログラム/プロジェクトレポート</value>
+  </data>
+  <data name="Donors/Grants_Report" xml:space="preserve">
+    <value>寄付者/助成金レポート</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Program/Projects" xml:space="preserve">
+    <value>プログラム/プロジェクト別の予算と実績</value>
+  </data>
+  <data name="Budget_vs._Actual_by_Donors/Grants" xml:space="preserve">
+    <value>寄付者/助成金別の予算と実績</value>
+  </data>
+  <data name="Biggest_Donors/Grants" xml:space="preserve">
+    <value>最大の寄付者/助成金</value>
+  </data>
+  <data name="Profit_Loss" xml:space="preserve">
+    <value>利益損失</value>
+  </data>
+  <data name="Journal_Entries_Entered/Modified_Today" xml:space="preserve">
+    <value>今日入力/変更されたジャーナルエントリ</value>
+  </data>
+  <data name="Balance_Sheet" xml:space="preserve">
+    <value>貸借対照表</value>
+  </data>
+  <data name="Adjusted_Trial_Balance" xml:space="preserve">
+    <value>調整試算表</value>
+  </data>
+  <data name="Adjusting_Journal_Entries" xml:space="preserve">
+    <value>仕訳の調整</value>
+  </data>
+  <data name="Select_Group" xml:space="preserve">
+    <value>グループを選択</value>
+  </data>
+  <data name="Vendor_Balance_Detail" xml:space="preserve">
+    <value>ベンダー残高詳細</value>
+  </data>
+  <data name="Unpaid_Bills_Detail" xml:space="preserve">
+    <value>未払い請求書の詳細</value>
+  </data>
+  <data name="A/P_Aging_Summary" xml:space="preserve">
+    <value>A/Pエイジングサマリー</value>
+  </data>
+  <data name="Open_Invoices" xml:space="preserve">
+    <value>未払い請求書</value>
+  </data>
+  <data name="Statement_of_Cash_Flow" xml:space="preserve">
+    <value>キャッシュフロー計算書</value>
+  </data>
+  <data name="Deposit_Detail" xml:space="preserve">
+    <value>預金の詳細</value>
+  </data>
+  <data name="Check_Detail" xml:space="preserve">
+    <value>詳細を確認する</value>
+  </data>
+  <data name="Customer_Snapshot" xml:space="preserve">
+    <value>顧客スナップショット</value>
+  </data>
+  <data name="Customer_Information" xml:space="preserve">
+    <value>顧客情報</value>
+  </data>
+  <data name="Customer_Category" xml:space="preserve">
+    <value>顧客カテゴリー</value>
+  </data>
+  <data name="LAST_RECONCILED" xml:space="preserve">
+    <value>最終和解</value>
+  </data>
+  <data name="RECONCILED_BALANCE" xml:space="preserve">
+    <value>調整された残高</value>
+  </data>
+  <data name="CURRENT_BALANCE" xml:space="preserve">
+    <value>現在の残高</value>
+  </data>
+  <data name="Accountant_Center" xml:space="preserve">
+    <value>会計センター</value>
+  </data>
+  <data name="Date_:" xml:space="preserve">
+    <value>日付 ：</value>
+  </data>
+  <data name="Code_:" xml:space="preserve">
+    <value>コード:</value>
+  </data>
+  <data name="Name_:" xml:space="preserve">
+    <value>名前 ：</value>
+  </data>
+  <data name="Amount_Adjustments" xml:space="preserve">
+    <value>金額調整</value>
+  </data>
+  <data name="Attendance_Sheet" xml:space="preserve">
+    <value>出席シート</value>
+  </data>
+  <data name="Search_By_Item_Name" xml:space="preserve">
+    <value>Promedio</value>
+  </data>
+  <data name="COGS_Account" xml:space="preserve">
+    <value>COGSアカウント</value>
+  </data>
+  <data name="DEDUCTION" xml:space="preserve">
+    <value>控除</value>
+  </data>
+  <data name="SALARY_PAYMENT" xml:space="preserve">
+    <value>給与の支払い</value>
+  </data>
+  <data name="Sn" xml:space="preserve">
+    <value>スン</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Work_Days" xml:space="preserve">
+    <value>勤務日</value>
+  </data>
+  <data name="Absent_Days" xml:space="preserve">
+    <value>欠席日</value>
+  </data>
+  <data name="Basic_Salary" xml:space="preserve">
+    <value>基本給</value>
+  </data>
+  <data name="Allowance" xml:space="preserve">
+    <value>手当</value>
+  </data>
+  <data name="Total_Additions" xml:space="preserve">
+    <value>合計追加数</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>遅れ</value>
+  </data>
+  <data name="Total_Deductions" xml:space="preserve">
+    <value>合計控除額</value>
+  </data>
+  <data name="Net_Salary" xml:space="preserve">
+    <value>純給与</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>銀行</value>
+  </data>
+  <data name="EMP_ID" xml:space="preserve">
+    <value>従業員ID</value>
+  </data>
+  <data name="Corrected_from_POSTION" xml:space="preserve">
+    <value>POSTIONから修正</value>
+  </data>
+  <data name="W.DAYS" xml:space="preserve">
+    <value>W.デイズ</value>
+  </data>
+  <data name="Corrected_casing" xml:space="preserve">
+    <value>大文字と小文字を修正</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>他の</value>
+  </data>
+  <data name="Addition" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Total_addition" xml:space="preserve">
+    <value>合計追加</value>
+  </data>
+  <data name="Loan" xml:space="preserve">
+    <value>ローン</value>
+  </data>
+  <data name="Work_Absence" xml:space="preserve">
+    <value>欠勤</value>
+  </data>
+  <data name="Fines_&amp;_Salik" xml:space="preserve">
+    <value>罰金とサリック</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="Total_Deduction" xml:space="preserve">
+    <value>合計控除額</value>
+  </data>
+  <data name="Corrected_from_Net_Salay" xml:space="preserve">
+    <value>Net Salayより訂正</value>
+  </data>
+  <data name="WPS" xml:space="preserve">
+    <value>WPS</value>
+  </data>
+  <data name="Attendance_Saved_Before" xml:space="preserve">
+    <value>出席記録を保存</value>
+  </data>
+  <data name="Add_Manual_Attendance" xml:space="preserve">
+    <value>手動で出勤情報を追加する</value>
+  </data>
+  <data name="Upload_Current_Employee" xml:space="preserve">
+    <value>現在の従業員をアップロード</value>
+  </data>
+  <data name="Download_Sample_Excel_Sheet" xml:space="preserve">
+    <value>サンプルExcelシートをダウンロード</value>
+  </data>
+  <data name="Main_Unit" xml:space="preserve">
+    <value>本体</value>
+  </data>
+  <data name="Balance_Qty" xml:space="preserve">
+    <value>残高数量</value>
+  </data>
+  <data name="Work_Date" xml:space="preserve">
+    <value>勤務日</value>
+  </data>
+  <data name="Time_In" xml:space="preserve">
+    <value>所要時間</value>
+  </data>
+  <data name="Time_Out" xml:space="preserve">
+    <value>タイムアウト</value>
+  </data>
+  <data name="Day_Of_work" xml:space="preserve">
+    <value>仕事の日</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>価格</value>
+  </data>
+  <data name="Cat/ID" xml:space="preserve">
+    <value>猫/ID</value>
+  </data>
+  <data name="Delete_Button" xml:space="preserve">
+    <value>削除ボタン</value>
+  </data>
+  <data name="Employee_Information" xml:space="preserve">
+    <value>従業員情報</value>
+  </data>
+  <data name="Social_Insurance_NO" xml:space="preserve">
+    <value>社会保険番号</value>
+  </data>
+  <data name="Phone_Number" xml:space="preserve">
+    <value>電話番号</value>
+  </data>
+  <data name="Item_Active" xml:space="preserve">
+    <value>アイテムがアクティブ</value>
+  </data>
+  <data name="Emirates_ID" xml:space="preserve">
+    <value>エミレーツID</value>
+  </data>
+  <data name="Item_Cost_Details" xml:space="preserve">
+    <value>アイテムコストの詳細</value>
+  </data>
+  <data name="Additional_Info" xml:space="preserve">
+    <value>追加情報</value>
+  </data>
+  <data name="Emergency_Info" xml:space="preserve">
+    <value>緊急情報</value>
+  </data>
+  <data name="Employee_Name" xml:space="preserve">
+    <value>従業員名</value>
+  </data>
+  <data name="House_Allowance" xml:space="preserve">
+    <value>住宅手当</value>
+  </data>
+  <data name="IBAN_Number" xml:space="preserve">
+    <value>IBAN番号</value>
+  </data>
+  <data name="Emirates_ID_Issuing_Authority" xml:space="preserve">
+    <value>エミレーツID発行機関</value>
+  </data>
+  <data name="Emirates_ID_File_Number" xml:space="preserve">
+    <value>エミレーツIDファイル番号</value>
+  </data>
+  <data name="Bank_Account_Number" xml:space="preserve">
+    <value>銀行口座番号</value>
+  </data>
+  <data name="Total_Salary" xml:space="preserve">
+    <value>総給与</value>
+  </data>
+  <data name="Transportation_Allowance" xml:space="preserve">
+    <value>交通費手当</value>
+  </data>
+  <data name="Employee_Code" xml:space="preserve">
+    <value>従業員規約</value>
+  </data>
+  <data name="Departments" xml:space="preserve">
+    <value>部門</value>
+  </data>
+  <data name="AC_/_Code" xml:space="preserve">
+    <value>AC / コード</value>
+  </data>
+  <data name="Expense_Account_(Chart_-_Account_Name)" xml:space="preserve">
+    <value>費用勘定（チャート - 勘定科目名）</value>
+  </data>
+  <data name="Min_Amount" xml:space="preserve">
+    <value>最小金額</value>
+  </data>
+  <data name="Go_To_Item_Card" xml:space="preserve">
+    <value>アイテムカードへ移動</value>
+  </data>
+  <data name="Residency_Issue_Authority" xml:space="preserve">
+    <value>居住地発行機関</value>
+  </data>
+  <data name="Residency_File_Number" xml:space="preserve">
+    <value>居住ファイル番号</value>
+  </data>
+  <data name="Position_Name" xml:space="preserve">
+    <value>役職名</value>
+  </data>
+  <data name="Working_Hours" xml:space="preserve">
+    <value>勤務時間</value>
+  </data>
+  <data name="Contract_Type" xml:space="preserve">
+    <value>契約タイプ</value>
+  </data>
+  <data name="Work_Contract_Number" xml:space="preserve">
+    <value>労働契約番号</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>マックス</value>
+  </data>
+  <data name="Item_Operations___▼" xml:space="preserve">
+    <value>アイテム操作 ▼</value>
+  </data>
+  <data name="Edit_Item" xml:space="preserve">
+    <value>アイテムを編集</value>
+  </data>
+  <data name="Delete_Employee" xml:space="preserve">
+    <value>従業員を削除</value>
+  </data>
+  <data name="Employee_List" xml:space="preserve">
+    <value>従業員リスト</value>
+  </data>
+  <data name="Credit_&amp;&amp;_Payment" xml:space="preserve">
+    <value>クレジットと支払い</value>
+  </data>
+  <data name="Active_Employee" xml:space="preserve">
+    <value>現役従業員</value>
+  </data>
+  <data name="Inactive_Employee" xml:space="preserve">
+    <value>非アクティブな従業員</value>
+  </data>
+  <data name="Employee_Snapshot" xml:space="preserve">
+    <value>従業員スナップショット</value>
+  </data>
+  <data name="CategoryCode" xml:space="preserve">
+    <value>カテゴリーコード</value>
+  </data>
+  <data name="New_Loan" xml:space="preserve">
+    <value>新規ローン</value>
+  </data>
+  <data name="Salary_Information" xml:space="preserve">
+    <value>給与情報</value>
+  </data>
+  <data name="Additions" xml:space="preserve">
+    <value>追加事項</value>
+  </data>
+  <data name="Inactive" xml:space="preserve">
+    <value>非アクティブ</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>分割払い</value>
+  </data>
+  <data name="Request_Amount" xml:space="preserve">
+    <value>請求金額</value>
+  </data>
+  <data name="Add_New_Loan" xml:space="preserve">
+    <value>新しいローンを追加</value>
+  </data>
+  <data name="Show_More" xml:space="preserve">
+    <value>もっと見る</value>
+  </data>
+  <data name="INV_Date" xml:space="preserve">
+    <value>発行日</value>
+  </data>
+  <data name="Invoice_No" xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="invoice_id" xml:space="preserve">
+    <value>請求書ID</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>バランス</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="Remaining" xml:space="preserve">
+    <value>残り</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>ビュー</value>
+  </data>
+  <data name="Show_Invoice" xml:space="preserve">
+    <value>請求書を表示</value>
+  </data>
+  <data name="Print_Credit_After_Save" xml:space="preserve">
+    <value>保存後にクレジットを印刷</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="Item Wise" xml:space="preserve">
+    <value>アイテム別</value>
+  </data>
+  <data name="Damage_Reason" xml:space="preserve">
+    <value>損害理由</value>
+  </data>
+  <data name="Edit_Unit" xml:space="preserve">
+    <value>ユニットを編集</value>
+  </data>
+  <data name="Item_Category_Center" xml:space="preserve">
+    <value>商品カテゴリセンター</value>
+  </data>
+  <data name="New_Unit" xml:space="preserve">
+    <value>新しいユニット</value>
+  </data>
+  <data name="unitid" xml:space="preserve">
+    <value>ユニットID</value>
+  </data>
+  <data name="Factor" xml:space="preserve">
+    <value>要素</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>取り除く</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Item_Unit_Center" xml:space="preserve">
+    <value>アイテムユニットセンター</value>
+  </data>
+  <data name="MasterWarehouse" xml:space="preserve">
+    <value>マスターウェアハウス</value>
+  </data>
+  <data name="Delete_Item" xml:space="preserve">
+    <value>アイテムを削除</value>
+  </data>
+  <data name="Transfer_History" xml:space="preserve">
+    <value>Rechercher par nom d'article</value>
+  </data>
+  <data name="Search_By_Item_Name,_Code" xml:space="preserve">
+    <value>アイテム名、コードで検索</value>
+  </data>
+  <data name="AVG" xml:space="preserve">
+    <value>平均</value>
+  </data>
+  <data name="LIFO" xml:space="preserve">
+    <value>後入先出法</value>
+  </data>
+  <data name="FIFO" xml:space="preserve">
+    <value>先入れ先出し法</value>
+  </data>
+  <data name="On_Hand" xml:space="preserve">
+    <value>手持ち</value>
+  </data>
+  <data name="Total_Value" xml:space="preserve">
+    <value>合計金額</value>
+  </data>
+  <data name="Max_Amount" xml:space="preserve">
+    <value>最大金額</value>
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>バーコード</value>
+  </data>
+  <data name="Add_More_Unit" xml:space="preserve">
+    <value>ユニットを追加</value>
+  </data>
+  <data name="Inventory_" xml:space="preserve">
+    <value>在庫 </value>
+  </data>
+  <data name="Expense" xml:space="preserve">
+    <value>費用</value>
+  </data>
+  <data name="W.H" xml:space="preserve">
+    <value>W.H</value>
+  </data>
+  <data name="INV_NO." xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="TRN_No." xml:space="preserve">
+    <value>TRN番号</value>
+  </data>
+  <data name="TRN_TYPE" xml:space="preserve">
+    <value>TRNタイプ</value>
+  </data>
+  <data name="QTY_-_IN" xml:space="preserve">
+    <value>数量 - 入数</value>
+  </data>
+  <data name="QTY_-_OUT" xml:space="preserve">
+    <value>数量 - 在庫</value>
+  </data>
+  <data name="Fifoqty" xml:space="preserve">
+    <value>50%</value>
+  </data>
+  <data name="FifoCost" xml:space="preserve">
+    <value>FIFOコスト</value>
+  </data>
+  <data name="11_-_Inventory_Part" xml:space="preserve">
+    <value>11 - 在庫部品</value>
+  </data>
+  <data name="12 -_Service" xml:space="preserve">
+    <value>12 - サービス</value>
+  </data>
+  <data name="13_-_Inventory_Assembly" xml:space="preserve">
+    <value>13 - 在庫組立</value>
+  </data>
+  <data name="Qty_In" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Qty_Out" xml:space="preserve">
+    <value>在庫数</value>
+  </data>
+  <data name="Cost_Price" xml:space="preserve">
+    <value>原価</value>
+  </data>
+  <data name="Sales_Price" xml:space="preserve">
+    <value>販売価格</value>
+  </data>
+  <data name="Qty_Balance" xml:space="preserve">
+    <value>数量残高</value>
+  </data>
+  <data name="Recycle_Item" xml:space="preserve">
+    <value>リサイクルアイテム</value>
+  </data>
+  <data name="Opening_Qty" xml:space="preserve">
+    <value>開封数量</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>購入</value>
+  </data>
+  <data name="New_Item" xml:space="preserve">
+    <value>新商品</value>
+  </data>
+  <data name="Selection_Item" xml:space="preserve">
+    <value>選択項目</value>
+  </data>
+  <data name="Inventory_-_Transaction" xml:space="preserve">
+    <value>在庫 - 取引</value>
+  </data>
+  <data name="Item_Code" xml:space="preserve">
+    <value>商品コード</value>
+  </data>
+  <data name="Item_Name" xml:space="preserve">
+    <value>アイテム名</value>
+  </data>
+  <data name="SYS_QTY" xml:space="preserve">
+    <value>システム数量</value>
+  </data>
+  <data name="SYS_Amount" xml:space="preserve">
+    <value>SYS金額</value>
+  </data>
+  <data name="New_QTY" xml:space="preserve">
+    <value>新しい数量</value>
+  </data>
+  <data name="QTY_DIF" xml:space="preserve">
+    <value>数量差</value>
+  </data>
+  <data name="Amount_(-)" xml:space="preserve">
+    <value>額 （-）</value>
+  </data>
+  <data name="Amount_(+)" xml:space="preserve">
+    <value>金額（+）</value>
+  </data>
+  <data name="Invoice_Header" xml:space="preserve">
+    <value>請求書ヘッダー</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>前の</value>
+  </data>
+  <data name="Warehouse" xml:space="preserve">
+    <value>倉庫</value>
+  </data>
+  <data name="Invoice_Footer" xml:space="preserve">
+    <value>請求書フッター</value>
+  </data>
+  <data name="Customer/_New_Customer" xml:space="preserve">
+    <value>顧客/新規顧客</value>
+  </data>
+  <data name="New_Settlement" xml:space="preserve">
+    <value>新しい集落</value>
+  </data>
+  <data name="Edit_Current" xml:space="preserve">
+    <value>現在の編集</value>
+  </data>
+  <data name="Selection_Method" xml:space="preserve">
+    <value>選考方法</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>デフォルト</value>
+  </data>
+  <data name="Inventory_-_Stock_Management" xml:space="preserve">
+    <value>在庫 - 在庫管理</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>価値</value>
+  </data>
+  <data name="Edit_Tax" xml:space="preserve">
+    <value>税金の編集</value>
+  </data>
+  <data name="Sales_Center" xml:space="preserve">
+    <value>セールスセンター</value>
+  </data>
+  <data name="Batch" xml:space="preserve">
+    <value>バッチ</value>
+  </data>
+  <data name="Batch_Name_*" xml:space="preserve">
+    <value>バッチ名 *</value>
+  </data>
+  <data name="Amount_*" xml:space="preserve">
+    <value>額 *</value>
+  </data>
+  <data name="Hours_*" xml:space="preserve">
+    <value>時間 *</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>製品</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>料金</value>
+  </data>
+  <data name="QTY" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Total_Cost" xml:space="preserve">
+    <value>総費用</value>
+  </data>
+  <data name="Choose_The_Machine_*" xml:space="preserve">
+    <value>マシンを選択 *</value>
+  </data>
+  <data name="Wharehouse" xml:space="preserve">
+    <value>倉庫</value>
+  </data>
+  <data name="Choose_The_Batch_for_Producting" xml:space="preserve">
+    <value>製造バッチを選択する</value>
+  </data>
+  <data name="Search_By_Batch_Name_...." xml:space="preserve">
+    <value>バッチ名で検索....</value>
+  </data>
+  <data name="Batch_Name" xml:space="preserve">
+    <value>バッチ名</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="(All)" xml:space="preserve">
+    <value>（全て）</value>
+  </data>
+  <data name="All_Order" xml:space="preserve">
+    <value>すべての注文</value>
+  </data>
+  <data name="All_Open" xml:space="preserve">
+    <value>すべてオープン</value>
+  </data>
+  <data name="Leads_Won" xml:space="preserve">
+    <value>獲得したリード</value>
+  </data>
+  <data name="Leads_Lost" xml:space="preserve">
+    <value>失われたリード</value>
+  </data>
+  <data name="Won_Leads_VS_lost_Leads" xml:space="preserve">
+    <value>獲得リード数 VS 失ったリード数</value>
+  </data>
+  <data name="Spline1" xml:space="preserve">
+    <value>スプライン1</value>
+  </data>
+  <data name="HorizontalBar1" xml:space="preserve">
+    <value>水平バー1</value>
+  </data>
+  <data name="OPEN_LEADS" xml:space="preserve">
+    <value>オープンリード</value>
+  </data>
+  <data name="Prospecting" xml:space="preserve">
+    <value>探査</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>予定</value>
+  </data>
+  <data name="Presentation" xml:space="preserve">
+    <value>プレゼンテーション</value>
+  </data>
+  <data name="Bought-In" xml:space="preserve">
+    <value>買収</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>契約</value>
+  </data>
+  <data name="Machine_Name" xml:space="preserve">
+    <value>マシン名</value>
+  </data>
+  <data name="Start_Time" xml:space="preserve">
+    <value>開始時間</value>
+  </data>
+  <data name="End_Time" xml:space="preserve">
+    <value>終了時間</value>
+  </data>
+  <data name="Search_By_Machine_Name_...." xml:space="preserve">
+    <value>マシン名で検索....</value>
+  </data>
+  <data name="QTY_Task" xml:space="preserve">
+    <value>数量タスク</value>
+  </data>
+  <data name="Machine_Monitoring" xml:space="preserve">
+    <value>機械監視</value>
+  </data>
+  <data name="Machines_That_Have_No_Tasks_Now" xml:space="preserve">
+    <value>今は何もしていない機械</value>
+  </data>
+  <data name="Machines_In_Progress" xml:space="preserve">
+    <value>進行中の機械</value>
+  </data>
+  <data name="Company_Name_-_Manufacturing" xml:space="preserve">
+    <value>会社名 - 製造</value>
+  </data>
+  <data name="Log_Out" xml:space="preserve">
+    <value>ログアウト</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>ダッシュボード</value>
+  </data>
+  <data name="Batches" xml:space="preserve">
+    <value>バッチ</value>
+  </data>
+  <data name="Machine_Records" xml:space="preserve">
+    <value>機械記録</value>
+  </data>
+  <data name="Orders_Center" xml:space="preserve">
+    <value>注文センター</value>
+  </data>
+  <data name="Bill_To" xml:space="preserve">
+    <value>請求先</value>
+  </data>
+  <data name="Disc" xml:space="preserve">
+    <value>ディスク</value>
+  </data>
+  <data name="due_to" xml:space="preserve">
+    <value>により</value>
+  </data>
+  <data name="Emirates" xml:space="preserve">
+    <value>エミレーツ航空</value>
+  </data>
+  <data name="Fixed_Asset_Category" xml:space="preserve">
+    <value>固定資産カテゴリー</value>
+  </data>
+  <data name="Invoice_#" xml:space="preserve">
+    <value>請求書 ＃</value>
+  </data>
+  <data name="Invoice_Type" xml:space="preserve">
+    <value>請求書の種類</value>
+  </data>
+  <data name="invoice_Report_" xml:space="preserve">
+    <value>請求書レポート</value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="Net_Price" xml:space="preserve">
+    <value>正価</value>
+  </data>
+  <data name="P.O_No" xml:space="preserve">
+    <value>郵便局番号</value>
+  </data>
+  <data name="Payment_Terms" xml:space="preserve">
+    <value>支払い条件</value>
+  </data>
+  <data name="Purchase_By_Customer_Details" xml:space="preserve">
+    <value>顧客別購入詳細</value>
+  </data>
+  <data name="Purchase_Invoice" xml:space="preserve">
+    <value>購入請求書</value>
+  </data>
+  <data name="Purchase_Type" xml:space="preserve">
+    <value>購入タイプ</value>
+  </data>
+  <data name="Receive_Payments" xml:space="preserve">
+    <value>支払いを受け取る</value>
+  </data>
+  <data name="Recive_Report" xml:space="preserve">
+    <value>受信レポート</value>
+  </data>
+  <data name="Refund/_Payment" xml:space="preserve">
+    <value>払い戻し/支払い</value>
+  </data>
+  <data name="Sales_Man" xml:space="preserve">
+    <value>セールスマン</value>
+  </data>
+  <data name="Ship" xml:space="preserve">
+    <value>船</value>
+  </data>
+  <data name="Ship_Date" xml:space="preserve">
+    <value>発送日</value>
+  </data>
+  <data name="Ship_To" xml:space="preserve">
+    <value>送り先</value>
+  </data>
+  <data name="Vat" xml:space="preserve">
+    <value>バット</value>
+  </data>
+  <data name="Via" xml:space="preserve">
+    <value>経由</value>
+  </data>
+  <data name="New_Invoice" xml:space="preserve">
+    <value>新しい請求書</value>
+  </data>
+  <data name="Edit_Invoice" xml:space="preserve">
+    <value>請求書を編集</value>
+  </data>
+  <data name="Vendor_Name" xml:space="preserve">
+    <value>ベンダー名</value>
+  </data>
+  <data name="Purchases_Center" xml:space="preserve">
+    <value>購入センター</value>
+  </data>
+  <data name="DHL" xml:space="preserve">
+    <value>DHL</value>
+  </data>
+  <data name="MAIL" xml:space="preserve">
+    <value>郵便</value>
+  </data>
+  <data name="On_Site" xml:space="preserve">
+    <value>現場で</value>
+  </data>
+  <data name="Print_The_Invoice_Now" xml:space="preserve">
+    <value>今すぐ請求書を印刷する</value>
+  </data>
+  <data name="Create_Bill" xml:space="preserve">
+    <value>請求書を作成</value>
+  </data>
+  <data name="Purchase_Orders_Center" xml:space="preserve">
+    <value>発注センター</value>
+  </data>
+  <data name="PurchaseReturn_Center" xml:space="preserve">
+    <value>購入返品センター</value>
+  </data>
+  <data name="Export_To_&amp;Excel" xml:space="preserve">
+    <value>Excel へのエクスポート(&amp;Excel)</value>
+  </data>
+  <data name="Export_To_&amp;Word" xml:space="preserve">
+    <value>Word にエクスポート(&amp;W)</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Report_with_grid_lines" xml:space="preserve">
+    <value>グリッド線付きレポート</value>
+  </data>
+  <data name="Save_As_PDF" xml:space="preserve">
+    <value>PDFとして保存</value>
+  </data>
+  <data name="Sort_By" xml:space="preserve">
+    <value>並べ替え</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="Comment_On_Report" xml:space="preserve">
+    <value>レポートへのコメント</value>
+  </data>
+  <data name="Customize_Report" xml:space="preserve">
+    <value>レポートをカスタマイズ</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="Hide_Header" xml:space="preserve">
+    <value>ヘッダーを非表示</value>
+  </data>
+  <data name="Excel" xml:space="preserve">
+    <value>エクセル</value>
+  </data>
+  <data name="Profit_&amp;_loss" xml:space="preserve">
+    <value>損益</value>
+  </data>
+  <data name="Balance_Sheet_Summary" xml:space="preserve">
+    <value>貸借対照表の概要</value>
+  </data>
+  <data name="All_Transaction" xml:space="preserve">
+    <value>すべての取引</value>
+  </data>
+  <data name="Balance_Sheet_Standard" xml:space="preserve">
+    <value>貸借対照表基準</value>
+  </data>
+  <data name="Edit_Level_4_Account" xml:space="preserve">
+    <value>レベル4アカウントを編集</value>
+  </data>
+  <data name="New_Level_4_Account" xml:space="preserve">
+    <value>新しいレベル4アカウント</value>
+  </data>
+  <data name="Accountant_Center_-_Balance_Sheet" xml:space="preserve">
+    <value>会計センター - 貸借対照表</value>
+  </data>
+  <data name="Customer_Balance_Summary" xml:space="preserve">
+    <value>顧客残高概要</value>
+  </data>
+  <data name="A/R_Aging_Summary" xml:space="preserve">
+    <value>売掛金経過期間サマリー</value>
+  </data>
+  <data name="A/R_Aging_Details" xml:space="preserve">
+    <value>売掛金経過期間の詳細</value>
+  </data>
+  <data name="Project_Activity_Report" xml:space="preserve">
+    <value>プロジェクト活動報告</value>
+  </data>
+  <data name="Project_Assign_Report" xml:space="preserve">
+    <value>プロジェクト割り当てレポート</value>
+  </data>
+  <data name="Project_Progress_Summary" xml:space="preserve">
+    <value>プロジェクト進捗概要</value>
+  </data>
+  <data name="Project_Resource_Report" xml:space="preserve">
+    <value>プロジェクトリソースレポート</value>
+  </data>
+  <data name="Project_Name" xml:space="preserve">
+    <value>プロジェクト名</value>
+  </data>
+  <data name="Project_Work_Progress_Summary" xml:space="preserve">
+    <value>プロジェクト作業進捗概要</value>
+  </data>
+  <data name="Customer_Aging_Detail" xml:space="preserve">
+    <value>顧客の年齢詳細</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>会社名</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>今日</value>
+  </data>
+  <data name="This_Week" xml:space="preserve">
+    <value>今週</value>
+  </data>
+  <data name="This_Month" xml:space="preserve">
+    <value>今月</value>
+  </data>
+  <data name="This_Fiscal_Quarter" xml:space="preserve">
+    <value>今四半期</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year" xml:space="preserve">
+    <value>今四半期</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year-To-Last_Month" xml:space="preserve">
+    <value>今四半期前年同期比</value>
+  </data>
+  <data name="Yesterday" xml:space="preserve">
+    <value>昨日</value>
+  </data>
+  <data name="Customer_Aging_Summary" xml:space="preserve">
+    <value>顧客エイジングサマリー</value>
+  </data>
+  <data name="Customer_Balance_Detail" xml:space="preserve">
+    <value>顧客残高詳細</value>
+  </data>
+  <data name="Customer_Summary" xml:space="preserve">
+    <value>顧客概要</value>
+  </data>
+  <data name="Employee_Balance_Detail" xml:space="preserve">
+    <value>従業員残高詳細</value>
+  </data>
+  <data name="Fixed_Asset_Summary" xml:space="preserve">
+    <value>固定資産概要</value>
+  </data>
+  <data name="Fixed_Asset_Details" xml:space="preserve">
+    <value>固定資産の詳細</value>
+  </data>
+  <data name="Item_Moving_Report" xml:space="preserve">
+    <value>アイテム移動レポート</value>
+  </data>
+  <data name="Inventory_Center_-_Item_Wise_Profit_Statement" xml:space="preserve">
+    <value>在庫センター - 品目別利益計算書</value>
+  </data>
+  <data name="Vat_Input" xml:space="preserve">
+    <value>VAT入力</value>
+  </data>
+  <data name="Vat_Output" xml:space="preserve">
+    <value>付加価値税出力</value>
+  </data>
+  <data name="Delete_Invoice" xml:space="preserve">
+    <value>請求書を削除</value>
+  </data>
+  <data name="Statement_Of_Account_(_Customer_)" xml:space="preserve">
+    <value>明細書（顧客）</value>
+  </data>
+  <data name="Petty_Cash_Balance_Detail" xml:space="preserve">
+    <value>小口現金残高詳細</value>
+  </data>
+  <data name="Prepaid_Expense_Detail" xml:space="preserve">
+    <value>前払費用の詳細</value>
+  </data>
+  <data name="Prepaid_Expense_Summary" xml:space="preserve">
+    <value>前払費用概要</value>
+  </data>
+  <data name="Sales_By_Item_Details" xml:space="preserve">
+    <value>商品別売上詳細</value>
+  </data>
+  <data name="Purchase_By_Vendor_Details" xml:space="preserve">
+    <value>ベンダーによる購入の詳細</value>
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>販売</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>引用</value>
+  </data>
+  <data name="Performa" xml:space="preserve">
+    <value>パフォーマ</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>注文</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="Show_Columns" xml:space="preserve">
+    <value>列を表示</value>
+  </data>
+  <data name="This_Week_To_Date" xml:space="preserve">
+    <value>今週のこれまでの出来事</value>
+  </data>
+  <data name="This_Month_to_Date" xml:space="preserve">
+    <value>今月の累計</value>
+  </data>
+  <data name="This_Fiscal_Quarter_To_Date" xml:space="preserve">
+    <value>今四半期累計</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Last_Month" xml:space="preserve">
+    <value>今四半期前年同期比</value>
+  </data>
+  <data name="This_Fiscal_Quarter_Year_To_Date" xml:space="preserve">
+    <value>今四半期累計</value>
+  </data>
+  <data name="Sales_by_Customer_Detail" xml:space="preserve">
+    <value>顧客別売上詳細</value>
+  </data>
+  <data name="Refre&amp;sh" xml:space="preserve">
+    <value>更新(&amp;S)</value>
+  </data>
+  <data name="Ex&amp;pend_Rows" xml:space="preserve">
+    <value>行を拡張(&amp;P)</value>
+  </data>
+  <data name="E&amp;xcel" xml:space="preserve">
+    <value>エクセル</value>
+  </data>
+  <data name="E-mai&amp;l" xml:space="preserve">
+    <value>メール(&amp;L)</value>
+  </data>
+  <data name="Prin&amp;t" xml:space="preserve">
+    <value>印刷</value>
+  </data>
+  <data name="Memori&amp;ze" xml:space="preserve">
+    <value>記憶(&amp;Z)</value>
+  </data>
+  <data name="Share_Template" xml:space="preserve">
+    <value>テンプレートを共有</value>
+  </data>
+  <data name="Comme&amp;nt_On_Report" xml:space="preserve">
+    <value>レポートへのコメント(&amp;N)</value>
+  </data>
+  <data name="Custo&amp;mize_Report" xml:space="preserve">
+    <value>レポートのカスタマイズ</value>
+  </data>
+  <data name="Accaurl" xml:space="preserve">
+    <value>アッカウル</value>
+  </data>
+  <data name="Report_Basis" xml:space="preserve">
+    <value>報告基準</value>
+  </data>
+  <data name="Sales_by_Item_Detail" xml:space="preserve">
+    <value>商品別売上詳細</value>
+  </data>
+  <data name="Refre_sh" xml:space="preserve">
+    <value>リフレッシュ</value>
+  </data>
+  <data name="Ex_pend_Rows" xml:space="preserve">
+    <value>保留行数</value>
+  </data>
+  <data name="E_xcel" xml:space="preserve">
+    <value>E_xcel</value>
+  </data>
+  <data name="E_mail" xml:space="preserve">
+    <value>メール(&amp;L)</value>
+  </data>
+  <data name="Prin_t" xml:space="preserve">
+    <value>プリント</value>
+  </data>
+  <data name="Memori_ze" xml:space="preserve">
+    <value>思い出ぜ</value>
+  </data>
+  <data name="Comme_nt_On_Report" xml:space="preserve">
+    <value>レポートに関するコメント</value>
+  </data>
+  <data name="Custo_mize_Report" xml:space="preserve">
+    <value>カスタマイズレポート</value>
+  </data>
+  <data name="Test_Comapnt_LLC_/" xml:space="preserve">
+    <value>テストカンパニーLLC /</value>
+  </data>
+  <data name="E-mail" xml:space="preserve">
+    <value>Eメール</value>
+  </data>
+  <data name="Sales_by_Rep_Detail" xml:space="preserve">
+    <value>担当者別売上詳細</value>
+  </data>
+  <data name="Accrual" xml:space="preserve">
+    <value>発生</value>
+  </data>
+  <data name="Sales_by_Rep_Summary" xml:space="preserve">
+    <value>担当者別売上概要</value>
+  </data>
+  <data name="AR_Aging_Details" xml:space="preserve">
+    <value>売掛金経過期間の詳細</value>
+  </data>
+  <data name="Income_By_Vendor_Detail" xml:space="preserve">
+    <value>ベンダー別収入詳細</value>
+  </data>
+  <data name="Income_By_Vendor_Summary" xml:space="preserve">
+    <value>ベンダー別収入概要</value>
+  </data>
+  <data name="Vendor_Aging_Details" xml:space="preserve">
+    <value>ベンダーのエイジング詳細</value>
+  </data>
+  <data name="Vendor_Aging_Summary" xml:space="preserve">
+    <value>ベンダーのエイジングサマリー</value>
+  </data>
+  <data name="Vendor_Balance_Summary" xml:space="preserve">
+    <value>ベンダー残高サマリー</value>
+  </data>
+  <data name="Save_&amp;&amp;_New" xml:space="preserve">
+    <value>保存 &amp;&amp; 新規</value>
+  </data>
+  <data name="Vendor_Category" xml:space="preserve">
+    <value>ベンダーカテゴリ</value>
+  </data>
+  <data name="Opening_Balance" xml:space="preserve">
+    <value>開始残高</value>
+  </data>
+  <data name="Contact_&amp;_Address_Data" xml:space="preserve">
+    <value>連絡先と住所データ</value>
+  </data>
+  <data name="Building_Name" xml:space="preserve">
+    <value>建物名</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>地域</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Webサイト</value>
+  </data>
+  <data name="Mobile_Or_Fax" xml:space="preserve">
+    <value>モバイルまたはファックス</value>
+  </data>
+  <data name="Work_Phone" xml:space="preserve">
+    <value>勤務先電話番号</value>
+  </data>
+  <data name="CC_Email" xml:space="preserve">
+    <value>CCメール</value>
+  </data>
+  <data name="Main_Phone" xml:space="preserve">
+    <value>メイン電話</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>市</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="Facility_Name" xml:space="preserve">
+    <value>施設名</value>
+  </data>
+  <data name="TRN" xml:space="preserve">
+    <value>TRN</value>
+  </data>
+  <data name="Account" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>lblエラー</value>
+  </data>
+  <data name="Customer_Balance_Details" xml:space="preserve">
+    <value>顧客残高詳細</value>
+  </data>
+  <data name="Run_Favorite_Reports" xml:space="preserve">
+    <value>お気に入りレポートを実行する</value>
+  </data>
+  <data name="View_Balance" xml:space="preserve">
+    <value>残高を見る</value>
+  </data>
+  <data name="Print_Checks" xml:space="preserve">
+    <value>小切手を印刷する</value>
+  </data>
+  <data name="Check_Register" xml:space="preserve">
+    <value>小切手帳</value>
+  </data>
+  <data name="Write_Checks" xml:space="preserve">
+    <value>小切手を書く</value>
+  </data>
+  <data name="Reconcile" xml:space="preserve">
+    <value>和解する</value>
+  </data>
+  <data name="Record_Deposits" xml:space="preserve">
+    <value>記録的な預金</value>
+  </data>
+  <data name="Home_Page" xml:space="preserve">
+    <value>ホームページ</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="Transaction" xml:space="preserve">
+    <value>取引</value>
+  </data>
+  <data name="Order_Checks" xml:space="preserve">
+    <value>注文チェック</value>
+  </data>
+  <data name="Items_&amp;_Services" xml:space="preserve">
+    <value>商品とサービス</value>
+  </data>
+  <data name="Inventory_Activities" xml:space="preserve">
+    <value>在庫活動</value>
+  </data>
+  <data name="Chart_of_accounts" xml:space="preserve">
+    <value>勘定科目表</value>
+  </data>
+  <data name="Purchase_Orders" xml:space="preserve">
+    <value>発注書</value>
+  </data>
+  <data name="Statements" xml:space="preserve">
+    <value>声明</value>
+  </data>
+  <data name="Statement_Charges" xml:space="preserve">
+    <value>明細書手数料</value>
+  </data>
+  <data name="Create_Sales_Receipts" xml:space="preserve">
+    <value>売上領収書を作成する</value>
+  </data>
+  <data name="Receive_Payment" xml:space="preserve">
+    <value>支払いを受け取る</value>
+  </data>
+  <data name="Create_Invoice" xml:space="preserve">
+    <value>請求書を作成する</value>
+  </data>
+  <data name="Pay_Bills" xml:space="preserve">
+    <value>請求書の支払い</value>
+  </data>
+  <data name="Enter_Bills" xml:space="preserve">
+    <value>請求書を入力する</value>
+  </data>
+  <data name="Manage_Sales_Tax" xml:space="preserve">
+    <value>売上税の管理</value>
+  </data>
+  <data name="Receive_Inventory" xml:space="preserve">
+    <value>在庫を受け取る</value>
+  </data>
+  <data name="Enter_Bills_Against_Inventory" xml:space="preserve">
+    <value>在庫に対する請求を入力する</value>
+  </data>
+  <data name="Insights" xml:space="preserve">
+    <value>洞察</value>
+  </data>
+  <data name="Vendor_Operations__▼" xml:space="preserve">
+    <value>ベンダーオペレーション ▼</value>
+  </data>
+  <data name="New_Vendor" xml:space="preserve">
+    <value>新しいベンダー</value>
+  </data>
+  <data name="Edit_Vendor" xml:space="preserve">
+    <value>ベンダーを編集</value>
+  </data>
+  <data name="Delete_Vendor" xml:space="preserve">
+    <value>ベンダーを削除</value>
+  </data>
+  <data name="New_Transactions___▼" xml:space="preserve">
+    <value>新規取引 ▼</value>
+  </data>
+  <data name="Print___▼" xml:space="preserve">
+    <value>印刷 ▼</value>
+  </data>
+  <data name="Excel___▼" xml:space="preserve">
+    <value>エクセル ▼</value>
+  </data>
+  <data name="Import_&amp;&amp;_Export" xml:space="preserve">
+    <value>インポートとエクスポート</value>
+  </data>
+  <data name="Word__▼" xml:space="preserve">
+    <value>単語 ▼</value>
+  </data>
+  <data name="Active_Vendor" xml:space="preserve">
+    <value>アクティブベンダー</value>
+  </data>
+  <data name="Inactive_Vendor" xml:space="preserve">
+    <value>非アクティブなベンダー</value>
+  </data>
+  <data name="Vendor_Snapshot" xml:space="preserve">
+    <value>ベンダースナップショット</value>
+  </data>
+  <data name="Open_Balance" xml:space="preserve">
+    <value>未払い残高</value>
+  </data>
+  <data name="QuickReport" xml:space="preserve">
+    <value>クイックレポート</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_CUSTOMER" xml:space="preserve">
+    <value>この顧客に関するレポート</value>
+  </data>
+  <data name="Vendor_Information" xml:space="preserve">
+    <value>ベンダー情報</value>
+  </data>
+  <data name="Transactions" xml:space="preserve">
+    <value>取引</value>
+  </data>
+  <data name="Cash_Invoice" xml:space="preserve">
+    <value>現金請求書</value>
+  </data>
+  <data name="Vendor_Center" xml:space="preserve">
+    <value>ベンダーセンター</value>
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>カテゴリ名</value>
+  </data>
+  <data name="Acitve" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="Facilty_Name" xml:space="preserve">
+    <value>施設名</value>
+  </data>
+  <data name="VAT_Configration" xml:space="preserve">
+    <value>VAT設定</value>
+  </data>
+  <data name="Due_Date" xml:space="preserve">
+    <value>期日</value>
+  </data>
+  <data name="Quarter_One_Due_Date" xml:space="preserve">
+    <value>第1四半期の締め切り日</value>
+  </data>
+  <data name="Quarter_Four_Due_Date" xml:space="preserve">
+    <value>第4四半期の締め切り日</value>
+  </data>
+  <data name="Quarter_Three_Due_Date" xml:space="preserve">
+    <value>第3四半期の締め切り日</value>
+  </data>
+  <data name="Quarter_Two_Due_Date" xml:space="preserve">
+    <value>第2四半期の締め切り日</value>
+  </data>
+  <data name="Quarter_One_End_Date" xml:space="preserve">
+    <value>第1四半期の終了日</value>
+  </data>
+  <data name="Quarter_Four_End_Date" xml:space="preserve">
+    <value>第4四半期の終了日</value>
+  </data>
+  <data name="Quarter_Three_End_Date" xml:space="preserve">
+    <value>第3四半期の終了日</value>
+  </data>
+  <data name="Quarter_Two_End_Date" xml:space="preserve">
+    <value>第2四半期終了日</value>
+  </data>
+  <data name="Start_Date" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="Quarter_One_Start_Date" xml:space="preserve">
+    <value>第1四半期の開始日</value>
+  </data>
+  <data name="Quarter_Four_Start_Date" xml:space="preserve">
+    <value>第4四半期の開始日</value>
+  </data>
+  <data name="Quarter_Three_Start_Date" xml:space="preserve">
+    <value>第3四半期の開始日</value>
+  </data>
+  <data name="Quarter_Two_Start_Date" xml:space="preserve">
+    <value>第2四半期の開始日</value>
+  </data>
+  <data name="Quarter_No_1" xml:space="preserve">
+    <value>第1四半期</value>
+  </data>
+  <data name="Quarter_No_2" xml:space="preserve">
+    <value>第2四半期</value>
+  </data>
+  <data name="Quarter_No_3" xml:space="preserve">
+    <value>第3四半期</value>
+  </data>
+  <data name="Quarter_No_4" xml:space="preserve">
+    <value>第4四半期</value>
+  </data>
+  <data name="TAX_Registration_No" xml:space="preserve">
+    <value>税務登録番号</value>
+  </data>
+  <data name="TRN_Issue_Date" xml:space="preserve">
+    <value>TRN発行日</value>
+  </data>
+  <data name="Corporate_TAX_Configration" xml:space="preserve">
+    <value>法人税設定</value>
+  </data>
+  <data name="Quarter" xml:space="preserve">
+    <value>四半期</value>
+  </data>
+  <data name="Yearly" xml:space="preserve">
+    <value>年間</value>
+  </data>
+  <data name="Corporate_TAX_No" xml:space="preserve">
+    <value>法人税番号</value>
+  </data>
+  <data name="General_Settings" xml:space="preserve">
+    <value>一般設定</value>
+  </data>
+  <data name="Users_And_Roles" xml:space="preserve">
+    <value>ユーザーとロール</value>
+  </data>
+  <data name="Employee_Default_Setting" xml:space="preserve">
+    <value>従業員のデフォルト設定</value>
+  </data>
+  <data name="Default_Account_Config" xml:space="preserve">
+    <value>デフォルトのアカウント設定</value>
+  </data>
+  <data name="The_email_address_is_essential_and_cannot_be_left_empty" xml:space="preserve">
+    <value>メールアドレスは必須であり、空欄のままにすることはできません。</value>
+  </data>
+  <data name="The_company_logo_has_been_updated" xml:space="preserve">
+    <value>会社のロゴが更新されました</value>
+  </data>
+  <data name="The_establishment_customer_number_is_essential_and_cannot_be_left_blank" xml:space="preserve">
+    <value>施設顧客番号は必須であり、空白のままにすることはできません。</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>アップデート</value>
+  </data>
+  <data name="Setting_-_Master" xml:space="preserve">
+    <value>設定 - マスター</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>輸入</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>輸出</value>
+  </data>
+  <data name="Starting_Code" xml:space="preserve">
+    <value>コードの開始</value>
+  </data>
+  <data name="Customized_File" xml:space="preserve">
+    <value>カスタマイズされたファイル</value>
+  </data>
+  <data name="Inventory_Export_&amp;_Import" xml:space="preserve">
+    <value>在庫のエクスポートとインポート</value>
+  </data>
+  <data name="General_Config" xml:space="preserve">
+    <value>一般設定</value>
+  </data>
+  <data name="Defult_Settings" xml:space="preserve">
+    <value>デフォルト設定</value>
+  </data>
+  <data name="Default_Tax_%" xml:space="preserve">
+    <value>デフォルトの税率</value>
+  </data>
+  <data name="Attend_Config" xml:space="preserve">
+    <value>参加構成</value>
+  </data>
+  <data name="Ex_:_08:00" xml:space="preserve">
+    <value>例：08:00</value>
+  </data>
+  <data name="Save_Records" xml:space="preserve">
+    <value>記録を保存する</value>
+  </data>
+  <data name="Deductions" xml:space="preserve">
+    <value>控除</value>
+  </data>
+  <data name="Delay_Time" xml:space="preserve">
+    <value>遅延時間</value>
+  </data>
+  <data name="Enter_Full-Day_Deductions" xml:space="preserve">
+    <value>終日控除を入力する</value>
+  </data>
+  <data name="Enter_Late_Arrival_or_Early_Leave_Deductions_(Minutes)" xml:space="preserve">
+    <value>遅刻または早退による控除（分）を入力してください</value>
+  </data>
+  <data name="Enter_Deduction_for_Missed_Hours" xml:space="preserve">
+    <value>欠勤時間の控除額を入力する</value>
+  </data>
+  <data name="Deductions_Configration" xml:space="preserve">
+    <value>控除の設定</value>
+  </data>
+  <data name="Petty_Cash_Account" xml:space="preserve">
+    <value>小口現金口座</value>
+  </data>
+  <data name="Fixed_Asset_Credit_Account" xml:space="preserve">
+    <value>固定資産貸方勘定</value>
+  </data>
+  <data name="Prepaid_Expense_Credit_Account" xml:space="preserve">
+    <value>前払費用クレジット口座</value>
+  </data>
+  <data name="Fixed_Asset_Debit_Account" xml:space="preserve">
+    <value>固定資産借方勘定</value>
+  </data>
+  <data name="Prepaid_Expense_Debit_Account" xml:space="preserve">
+    <value>前払費用借方口座</value>
+  </data>
+  <data name="PDC_Receivable_Hold" xml:space="preserve">
+    <value>PDC売掛金保留</value>
+  </data>
+  <data name="PDC_Payable_Hold" xml:space="preserve">
+    <value>PDC支払保留</value>
+  </data>
+  <data name="PDC_Receivable" xml:space="preserve">
+    <value>PDC受取手形</value>
+  </data>
+  <data name="PDC_Payable" xml:space="preserve">
+    <value>PDC支払手形</value>
+  </data>
+  <data name="PDC_Receivable_Return" xml:space="preserve">
+    <value>PDC売掛金返還</value>
+  </data>
+  <data name="PDC_Payable_Return" xml:space="preserve">
+    <value>PDC未払い返還</value>
+  </data>
+  <data name="Default_Account_For_Cash" xml:space="preserve">
+    <value>現金用デフォルト口座</value>
+  </data>
+  <data name="Opening_Balance_Equity" xml:space="preserve">
+    <value>期首残高資本</value>
+  </data>
+  <data name="Item_COGS" xml:space="preserve">
+    <value>アイテム_COGS</value>
+  </data>
+  <data name="Stock_Settlement" xml:space="preserve">
+    <value>株式決済</value>
+  </data>
+  <data name="Inventory_Damage_Account" xml:space="preserve">
+    <value>在庫損害勘定</value>
+  </data>
+  <data name="SalesReturn_Invoice" xml:space="preserve">
+    <value>売上返品請求書</value>
+  </data>
+  <data name="Sales_Invoice" xml:space="preserve">
+    <value>売上請求書</value>
+  </data>
+  <data name="Invoice_Payment_Cash_Method" xml:space="preserve">
+    <value>請求書現金支払い</value>
+  </data>
+  <data name="PurchaseReturn_Invoice" xml:space="preserve">
+    <value>購入返品請求書</value>
+  </data>
+  <data name="Purchase_Payment_Cash_Method" xml:space="preserve">
+    <value>現金での購入支払い方法</value>
+  </data>
+  <data name="Sales_Invoice_Revenue" xml:space="preserve">
+    <value>売上請求書収益</value>
+  </data>
+  <data name="End_of_Service_Credit_Account" xml:space="preserve">
+    <value>サービス終了クレジットアカウント</value>
+  </data>
+  <data name="Leave_Salary_Credit" xml:space="preserve">
+    <value>休暇給与クレジット</value>
+  </data>
+  <data name="Leave_Salary_Debit" xml:space="preserve">
+    <value>休暇給与の借方</value>
+  </data>
+  <data name="End_of_Service_Debit_Account" xml:space="preserve">
+    <value>サービス終了時のデビット口座</value>
+  </data>
+  <data name="Salaries" xml:space="preserve">
+    <value>給与</value>
+  </data>
+  <data name="Gratuit" xml:space="preserve">
+    <value>無料</value>
+  </data>
+  <data name="Acroal_Leave_Salary" xml:space="preserve">
+    <value>積立休暇給与</value>
+  </data>
+  <data name="Employee_Recivable" xml:space="preserve">
+    <value>従業員が受け取ることができる</value>
+  </data>
+  <data name="Accrued_Salaries" xml:space="preserve">
+    <value>未払給与</value>
+  </data>
+  <data name="Default_Account_For_Bank" xml:space="preserve">
+    <value>銀行のデフォルト口座</value>
+  </data>
+  <data name="Bank_&amp;_Others" xml:space="preserve">
+    <value>銀行・その他</value>
+  </data>
+  <data name="ChartOfAccount_Export_&amp;_Import" xml:space="preserve">
+    <value>ChartOfAccount のエクスポートとインポート</value>
+  </data>
+  <data name="User_Operations_▼" xml:space="preserve">
+    <value>ユーザー操作 ▼</value>
+  </data>
+  <data name="New_User" xml:space="preserve">
+    <value>新規ユーザー</value>
+  </data>
+  <data name="Edit_User" xml:space="preserve">
+    <value>ユーザーを編集</value>
+  </data>
+  <data name="Roles_Operations_▼" xml:space="preserve">
+    <value>役割 操作 ▼</value>
+  </data>
+  <data name="New_Role" xml:space="preserve">
+    <value>新しい役割</value>
+  </data>
+  <data name="Edit_Role" xml:space="preserve">
+    <value>役割を編集する</value>
+  </data>
+  <data name="Search_By_First_Name,_Last_Name,_User_Name" xml:space="preserve">
+    <value>名前、姓、ユーザー名で検索</value>
+  </data>
+  <data name="Active_User" xml:space="preserve">
+    <value>アクティブユーザー</value>
+  </data>
+  <data name="Inactive_User" xml:space="preserve">
+    <value>非アクティブユーザー</value>
+  </data>
+  <data name="Last_Name" xml:space="preserve">
+    <value>苗字</value>
+  </data>
+  <data name="First_Name" xml:space="preserve">
+    <value>ファーストネーム</value>
+  </data>
+  <data name="User_Information" xml:space="preserve">
+    <value>ユーザー情報</value>
+  </data>
+  <data name="User_-_Roles" xml:space="preserve">
+    <value>ユーザー - 役割</value>
+  </data>
+  <data name="User_Center" xml:space="preserve">
+    <value>ユーザーセンター</value>
+  </data>
+  <data name="User_Name" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="Confirm_Password" xml:space="preserve">
+    <value>パスワードを認証する</value>
+  </data>
+  <data name="Confirm_Your_Password" xml:space="preserve">
+    <value>パスワードを確認してください</value>
+  </data>
+  <data name="Enter_Password" xml:space="preserve">
+    <value>パスワードを入力してください</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>役割</value>
+  </data>
+  <data name="Role_Name" xml:space="preserve">
+    <value>役割名</value>
+  </data>
+  <data name="Old_Password" xml:space="preserve">
+    <value>以前のパスワード</value>
+  </data>
+  <data name="Add_New_User" xml:space="preserve">
+    <value>新しいユーザーを追加</value>
+  </data>
+  <data name="Delete_User" xml:space="preserve">
+    <value>ユーザーの削除</value>
+  </data>
+  <data name="Catch_Log_Report" xml:space="preserve">
+    <value>漁獲ログレポート</value>
+  </data>
+  <data name="REPORTS_FOR_THIS_User" xml:space="preserve">
+    <value>このユーザーのレポート</value>
+  </data>
+  <data name="User_Code" xml:space="preserve">
+    <value>ユーザーコード</value>
+  </data>
+  <data name="Restore_Company" xml:space="preserve">
+    <value>復元会社</value>
+  </data>
+  <data name="BackUp_Company" xml:space="preserve">
+    <value>バックアップ会社</value>
+  </data>
+  <data name="Back_Up_Company" xml:space="preserve">
+    <value>バックアップ会社</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="File_Access" xml:space="preserve">
+    <value>ファイルアクセス</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="Clear_Data" xml:space="preserve">
+    <value>データを消去</value>
+  </data>
+  <data name="Change_Current_Password" xml:space="preserve">
+    <value>現在のパスワードを変更する</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Setting_Access" xml:space="preserve">
+    <value>アクセス設定</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>リスト</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>従業員</value>
+  </data>
+  <data name="Purchases" xml:space="preserve">
+    <value>購入</value>
+  </data>
+  <data name="Report_Access" xml:space="preserve">
+    <value>レポートアクセス</value>
+  </data>
+  <data name="PDC" xml:space="preserve">
+    <value>PDC</value>
+  </data>
+  <data name="Cheques" xml:space="preserve">
+    <value>小切手</value>
+  </data>
+  <data name="Open_Bank_Card" xml:space="preserve">
+    <value>銀行カードを開く</value>
+  </data>
+  <data name="Bank_Center" xml:space="preserve">
+    <value>バンクセンター</value>
+  </data>
+  <data name="Banking_Access" xml:space="preserve">
+    <value>銀行アクセス</value>
+  </data>
+  <data name="Final_Settlement" xml:space="preserve">
+    <value>最終決済</value>
+  </data>
+  <data name="Loans" xml:space="preserve">
+    <value>ローン</value>
+  </data>
+  <data name="End_Of_Services" xml:space="preserve">
+    <value>サービス終了</value>
+  </data>
+  <data name="Leave_Salary" xml:space="preserve">
+    <value>休暇給与</value>
+  </data>
+  <data name="Salary_Sheet" xml:space="preserve">
+    <value>給与明細</value>
+  </data>
+  <data name="Human_Resource_Center" xml:space="preserve">
+    <value>人事センター</value>
+  </data>
+  <data name="H.R_Access" xml:space="preserve">
+    <value>人事アクセス</value>
+  </data>
+  <data name="Purchase_Return" xml:space="preserve">
+    <value>購入返品</value>
+  </data>
+  <data name="Purchase_Order" xml:space="preserve">
+    <value>注文書</value>
+  </data>
+  <data name="Debit_Note" xml:space="preserve">
+    <value>デビットノート</value>
+  </data>
+  <data name="Create_Purchase" xml:space="preserve">
+    <value>購入を作成</value>
+  </data>
+  <data name="Vendor_Access" xml:space="preserve">
+    <value>ベンダーアクセス</value>
+  </data>
+  <data name="Sales_Proforma" xml:space="preserve">
+    <value>売上見積書</value>
+  </data>
+  <data name="Sales_Return" xml:space="preserve">
+    <value>売上返品</value>
+  </data>
+  <data name="Sales_Order" xml:space="preserve">
+    <value>販売注文</value>
+  </data>
+  <data name="Credit_Note" xml:space="preserve">
+    <value>クレジットノート</value>
+  </data>
+  <data name="Customer_Access" xml:space="preserve">
+    <value>顧客アクセス</value>
+  </data>
+  <data name="Warehouse_Center" xml:space="preserve">
+    <value>倉庫センター</value>
+  </data>
+  <data name="Inventory_Center" xml:space="preserve">
+    <value>在庫センター</value>
+  </data>
+  <data name="Stock_Management" xml:space="preserve">
+    <value>在庫管理</value>
+  </data>
+  <data name="Inventory_Items" xml:space="preserve">
+    <value>在庫品目</value>
+  </data>
+  <data name="Inventory_Access" xml:space="preserve">
+    <value>在庫アクセス</value>
+  </data>
+  <data name="Petty_Cash" xml:space="preserve">
+    <value>小口現金</value>
+  </data>
+  <data name="Prepaid_Expense" xml:space="preserve">
+    <value>前払費用</value>
+  </data>
+  <data name="Vouchers" xml:space="preserve">
+    <value>バウチャー</value>
+  </data>
+  <data name="Fixed_Assets" xml:space="preserve">
+    <value>固定資産</value>
+  </data>
+  <data name="Chart_Of_Account" xml:space="preserve">
+    <value>勘定科目表</value>
+  </data>
+  <data name="Accountant_Access" xml:space="preserve">
+    <value>会計士アクセス</value>
+  </data>
+  <data name="Vendor_&amp;&amp;_Payable" xml:space="preserve">
+    <value>仕入先と支払先</value>
+  </data>
+  <data name="Customer_&amp;&amp;_Receivable" xml:space="preserve">
+    <value>顧客と売掛金</value>
+  </data>
+  <data name="Construction_Access" xml:space="preserve">
+    <value>建設アクセス</value>
+  </data>
+  <data name="Project_Planning" xml:space="preserve">
+    <value>プロジェクト計画</value>
+  </data>
+  <data name="Project_Estimate" xml:space="preserve">
+    <value>プロジェクト見積もり</value>
+  </data>
+  <data name="Project_Tender" xml:space="preserve">
+    <value>プロジェクト入札</value>
+  </data>
+  <data name="Project_Dashboard" xml:space="preserve">
+    <value>プロジェクトダッシュボード</value>
+  </data>
+  <data name="General_Information" xml:space="preserve">
+    <value>一般情報</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>ブラウズ</value>
+  </data>
+  <data name="Gmail" xml:space="preserve">
+    <value>Gメール</value>
+  </data>
+  <data name="Company_Configration" xml:space="preserve">
+    <value>会社構成</value>
+  </data>
+  <data name="TRN_No" xml:space="preserve">
+    <value>TRN番号</value>
+  </data>
+  <data name="Phone_1" xml:space="preserve">
+    <value>電話1</value>
+  </data>
+  <data name="Phone_2" xml:space="preserve">
+    <value>電話2</value>
+  </data>
+  <data name="New_SO" xml:space="preserve">
+    <value>新しいSO</value>
+  </data>
+  <data name="Edit_SO" xml:space="preserve">
+    <value>編集SO</value>
+  </data>
+  <data name="Sales_Orders_Center" xml:space="preserve">
+    <value>販売注文センター</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>復元する</value>
+  </data>
+  <data name="SalesReturn_Center" xml:space="preserve">
+    <value>セールスリターンセンター</value>
+  </data>
+  <data name="Return_Invoice" xml:space="preserve">
+    <value>返品請求書</value>
+  </data>
+  <data name="Print_the_Return_Invoice_after_Saved" xml:space="preserve">
+    <value>保存後に返品請求書を印刷する</value>
+  </data>
+  <data name="New_Quotation" xml:space="preserve">
+    <value>新しい引用</value>
+  </data>
+  <data name="Edit_Quotation" xml:space="preserve">
+    <value>引用を編集</value>
+  </data>
+  <data name="Sales_Quotation_Center" xml:space="preserve">
+    <value>営業見積センター</value>
+  </data>
+  <data name="New_Proforma" xml:space="preserve">
+    <value>新しいプロフォーマ</value>
+  </data>
+  <data name="Create_Qutation" xml:space="preserve">
+    <value>引用文を作成する</value>
+  </data>
+  <data name="Edit_Proforma" xml:space="preserve">
+    <value>プロフォーマを編集</value>
+  </data>
+  <data name="Sales_Performa_Center" xml:space="preserve">
+    <value>セールスパフォーマセンター</value>
+  </data>
+  <data name="Quotation_No" xml:space="preserve">
+    <value>見積番号</value>
+  </data>
+  <data name="Proforma_Invoice" xml:space="preserve">
+    <value>見積請求書</value>
+  </data>
+  <data name="Print_Performa_Report_After_Save" xml:space="preserve">
+    <value>保存後にPerformaレポートを印刷する</value>
+  </data>
+  <data name="Sale_Proforma_Invoice" xml:space="preserve">
+    <value>販売見積請求書</value>
+  </data>
+  <data name="Print_Tax_Invoice_After_Save" xml:space="preserve">
+    <value>保存後に請求書を印刷する</value>
+  </data>
+  <data name="Paid_&amp;_Unpaid" xml:space="preserve">
+    <value>有償・無償</value>
+  </data>
+  <data name="PAID" xml:space="preserve">
+    <value>有料</value>
+  </data>
+  <data name="UNPAID" xml:space="preserve">
+    <value>未払い</value>
+  </data>
+  <data name="Pending_Order" xml:space="preserve">
+    <value>保留中の注文</value>
+  </data>
+  <data name="Total_Pending" xml:space="preserve">
+    <value>合計保留中</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>配達</value>
+  </data>
+  <data name="Din_In" xml:space="preserve">
+    <value>店内飲食</value>
+  </data>
+  <data name="Take_Away" xml:space="preserve">
+    <value>取り除く</value>
+  </data>
+  <data name="Total_Amount" xml:space="preserve">
+    <value>合計金額</value>
+  </data>
+  <data name="Chart_Report" xml:space="preserve">
+    <value>チャートレポート</value>
+  </data>
+  <data name="Date_From" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="Date_To" xml:space="preserve">
+    <value>終了日</value>
+  </data>
+  <data name="Order_Type" xml:space="preserve">
+    <value>注文タイプ</value>
+  </data>
+  <data name="RMS_Home" xml:space="preserve">
+    <value>RMSホーム</value>
+  </data>
+  <data name="Header_Text" xml:space="preserve">
+    <value>ヘッダーテキスト</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="RMS" xml:space="preserve">
+    <value>RMS</value>
+  </data>
+  <data name="Search_Here" xml:space="preserve">
+    <value>ここで検索</value>
+  </data>
+  <data name="RMSamlpeView" xml:space="preserve">
+    <value>RMSamlpeView</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>ヘッダ</value>
+  </data>
+  <data name="RM" xml:space="preserve">
+    <value>RM</value>
+  </data>
+  <data name="RMSAddSample" xml:space="preserve">
+    <value>RMSAddSample</value>
+  </data>
+  <data name="Kitchen" xml:space="preserve">
+    <value>台所</value>
+  </data>
+  <data name="POS" xml:space="preserve">
+    <value>POS</value>
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>スタッフ</value>
+  </data>
+  <data name="Tables" xml:space="preserve">
+    <value>テーブル</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>カテゴリー</value>
+  </data>
+  <data name="Restaurant_Management_System" xml:space="preserve">
+    <value>レストラン管理システム</value>
+  </data>
+  <data name="Table_list" xml:space="preserve">
+    <value>テーブルリスト</value>
+  </data>
+  <data name="Staff_List" xml:space="preserve">
+    <value>スタッフリスト</value>
+  </data>
+  <data name="Products_List" xml:space="preserve">
+    <value>製品リスト</value>
+  </data>
+  <data name="RMSView" xml:space="preserve">
+    <value>RMSビュー</value>
+  </data>
+  <data name="Category_List" xml:space="preserve">
+    <value>カテゴリリスト</value>
+  </data>
+  <data name="Contact_and_Address_Info" xml:space="preserve">
+    <value>連絡先と住所情報</value>
+  </data>
+  <data name="CC_to_Email" xml:space="preserve">
+    <value>メールにCC</value>
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>都市名</value>
+  </data>
+  <data name="Enter_User_Name" xml:space="preserve">
+    <value>ユーザー名を入力してください</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Lists" xml:space="preserve">
+    <value>リスト</value>
+  </data>
+  <data name="Item_List" xml:space="preserve">
+    <value>アイテムリスト</value>
+  </data>
+  <data name="Item_Category_List" xml:space="preserve">
+    <value>商品カテゴリ一覧</value>
+  </data>
+  <data name="Item_Tax_Code_List" xml:space="preserve">
+    <value>品目税コード一覧</value>
+  </data>
+  <data name="Item_Unit_List" xml:space="preserve">
+    <value>アイテムユニットリスト</value>
+  </data>
+  <data name="Account_Center" xml:space="preserve">
+    <value>アカウントセンター</value>
+  </data>
+  <data name="Export_&amp;&amp;_Import" xml:space="preserve">
+    <value>エクスポートとインポート</value>
+  </data>
+  <data name="Fixed_Assets_List" xml:space="preserve">
+    <value>固定資産リスト</value>
+  </data>
+  <data name="Add_Fixed_Assets" xml:space="preserve">
+    <value>固定資産を追加する</value>
+  </data>
+  <data name="Voucher" xml:space="preserve">
+    <value>バウチャー</value>
+  </data>
+  <data name="Advance_Payment" xml:space="preserve">
+    <value>前払い</value>
+  </data>
+  <data name="General_Journal_Voucher" xml:space="preserve">
+    <value>一般ジャーナルバウチャー</value>
+  </data>
+  <data name="Prepaid_Expense_List" xml:space="preserve">
+    <value>前払費用リスト</value>
+  </data>
+  <data name="Add_Prepaid_Expense" xml:space="preserve">
+    <value>前払費用を追加</value>
+  </data>
+  <data name="Prepaid_Expense_Category" xml:space="preserve">
+    <value>前払費用カテゴリー</value>
+  </data>
+  <data name="Petty_Cash_List" xml:space="preserve">
+    <value>小口現金リスト</value>
+  </data>
+  <data name="Petty_Cash_Center" xml:space="preserve">
+    <value>小口現金センター</value>
+  </data>
+  <data name="Submission" xml:space="preserve">
+    <value>提出</value>
+  </data>
+  <data name="Company_Profile" xml:space="preserve">
+    <value>会社概要</value>
+  </data>
+  <data name="Company_Center" xml:space="preserve">
+    <value>カンパニーセンター</value>
+  </data>
+  <data name="Inventory_Doc" xml:space="preserve">
+    <value>在庫書類</value>
+  </data>
+  <data name="Add_Unit" xml:space="preserve">
+    <value>ユニットを追加</value>
+  </data>
+  <data name="Add_New_Item" xml:space="preserve">
+    <value>新しいアイテムを追加</value>
+  </data>
+  <data name="Receive_Voucher" xml:space="preserve">
+    <value>バウチャーを受け取る</value>
+  </data>
+  <data name="Construction" xml:space="preserve">
+    <value>工事</value>
+  </data>
+  <data name="Project_Setup" xml:space="preserve">
+    <value>プロジェクトのセットアップ</value>
+  </data>
+  <data name="Project_Center" xml:space="preserve">
+    <value>プロジェクトセンター</value>
+  </data>
+  <data name="New_Project" xml:space="preserve">
+    <value>新しいプロジェクト</value>
+  </data>
+  <data name="Tender_Center" xml:space="preserve">
+    <value>入札センター</value>
+  </data>
+  <data name="New_Tender" xml:space="preserve">
+    <value>新しい入札</value>
+  </data>
+  <data name="Site_Center" xml:space="preserve">
+    <value>サイトセンター</value>
+  </data>
+  <data name="New_Site" xml:space="preserve">
+    <value>新しいサイト</value>
+  </data>
+  <data name="Project_Work_Done" xml:space="preserve">
+    <value>プロジェクト作業完了</value>
+  </data>
+  <data name="Project_Management" xml:space="preserve">
+    <value>プロジェクト管理</value>
+  </data>
+  <data name="Project_Summary" xml:space="preserve">
+    <value>プロジェクト概要</value>
+  </data>
+  <data name="Project_Activity_Summary" xml:space="preserve">
+    <value>プロジェクト活動概要</value>
+  </data>
+  <data name="Project_Assign_Summary" xml:space="preserve">
+    <value>プロジェクト割り当ての概要</value>
+  </data>
+  <data name="Project_Resource_Summary" xml:space="preserve">
+    <value>プロジェクトリソースの概要</value>
+  </data>
+  <data name="Project_Dashboards_&amp;&amp;_Reports" xml:space="preserve">
+    <value>プロジェクトダッシュボードとレポート</value>
+  </data>
+  <data name="Project_Time_Line" xml:space="preserve">
+    <value>プロジェクトタイムライン</value>
+  </data>
+  <data name="GanttChart" xml:space="preserve">
+    <value>ガントチャート</value>
+  </data>
+  <data name="Income_By_Customer_Summary" xml:space="preserve">
+    <value>顧客別収入概要</value>
+  </data>
+  <data name="Expense_From_Vendor_Summary" xml:space="preserve">
+    <value>ベンダーからの費用概要</value>
+  </data>
+  <data name="Profit_&amp;&amp;_Loss" xml:space="preserve">
+    <value>利益と損失</value>
+  </data>
+  <data name="Customer_Income_Summary" xml:space="preserve">
+    <value>顧客収入概要</value>
+  </data>
+  <data name="Vendor_Summary" xml:space="preserve">
+    <value>ベンダー概要</value>
+  </data>
+  <data name="Vendor_Income_Summary" xml:space="preserve">
+    <value>ベンダー収入概要</value>
+  </data>
+  <data name="Purchase_By_Vendor_Summary" xml:space="preserve">
+    <value>ベンダー別購入概要</value>
+  </data>
+  <data name="Purchase_By_Item_Summary" xml:space="preserve">
+    <value>購入品目概要</value>
+  </data>
+  <data name="Employee_Balance_Summary" xml:space="preserve">
+    <value>従業員残高サマリー</value>
+  </data>
+  <data name="Trial_Balance" xml:space="preserve">
+    <value>試算表</value>
+  </data>
+  <data name="General_Ledger" xml:space="preserve">
+    <value>総勘定元帳</value>
+  </data>
+  <data name="VAT_Report" xml:space="preserve">
+    <value>VATレポート</value>
+  </data>
+  <data name="Fixed_Asset" xml:space="preserve">
+    <value>固定資産</value>
+  </data>
+  <data name="Vat_Category_Report" xml:space="preserve">
+    <value>VATカテゴリーレポート</value>
+  </data>
+  <data name="Item_Profit" xml:space="preserve">
+    <value>アイテム利益</value>
+  </data>
+  <data name="Item_Transaction" xml:space="preserve">
+    <value>アイテム取引</value>
+  </data>
+  <data name="Corporate_Tax" xml:space="preserve">
+    <value>法人税</value>
+  </data>
+  <data name="Theme_Color" xml:space="preserve">
+    <value>テーマカラー</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>ウィンドウ</value>
+  </data>
+  <data name="Cascade_All" xml:space="preserve">
+    <value>すべてカスケード</value>
+  </data>
+  <data name="Show_Side_By_Side" xml:space="preserve">
+    <value>並べて表示</value>
+  </data>
+  <data name="Close_All" xml:space="preserve">
+    <value>すべて閉じる</value>
+  </data>
+  <data name="Restaurant_System" xml:space="preserve">
+    <value>レストランシステム</value>
+  </data>
+  <data name="YAMY_ERP_SYSTEM" xml:space="preserve">
+    <value>YAMY ERPシステム</value>
+  </data>
+  <data name="My_Shortcuts" xml:space="preserve">
+    <value>私のショートカット</value>
+  </data>
+  <data name="Help_Disk" xml:space="preserve">
+    <value>ヘルプディスク</value>
+  </data>
+  <data name="Yamy_Technology" xml:space="preserve">
+    <value>ヤミーテクノロジー</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Search_Company_or_Help" xml:space="preserve">
+    <value>会社またはヘルプを検索</value>
+  </data>
+  <data name="Privacy_Policy" xml:space="preserve">
+    <value>プライバシーポリシー</value>
+  </data>
+  <data name="Sign_Out" xml:space="preserve">
+    <value>サインアウト</value>
+  </data>
+  <data name="Edit_Account" xml:space="preserve">
+    <value>アカウントを編集</value>
+  </data>
+  <data name="Change_Password" xml:space="preserve">
+    <value>パスワードを変更する</value>
+  </data>
+  <data name="Sales_By_Customer_Summary" xml:space="preserve">
+    <value>顧客別売上概要</value>
+  </data>
+  <data name="Sales_by_Item_Summary" xml:space="preserve">
+    <value>商品別売上概要</value>
+  </data>
+  <data name="New_Category" xml:space="preserve">
+    <value>新しいカテゴリー</value>
+  </data>
+  <data name="COGS" xml:space="preserve">
+    <value>売上原価</value>
+  </data>
+  <data name="Agv_COGS" xml:space="preserve">
+    <value>平均売上原価</value>
+  </data>
+  <data name="Net_Sales" xml:space="preserve">
+    <value>売上高</value>
+  </data>
+  <data name="Enter_Level_4_Name" xml:space="preserve">
+    <value>レベル4の名前を入力してください</value>
+  </data>
+  <data name="Enter_Level_3_Name" xml:space="preserve">
+    <value>レベル3の名前を入力してください</value>
+  </data>
+  <data name="Item_Card" xml:space="preserve">
+    <value>アイテムカード</value>
+  </data>
+  <data name="Stock_Method" xml:space="preserve">
+    <value>ストックメソッド</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="Create_New_Company" xml:space="preserve">
+    <value>新しい会社を作成する</value>
+  </data>
+  <data name="Phone_no" xml:space="preserve">
+    <value>電話番号</value>
+  </data>
+  <data name="RE-ENTER_THE_PASSWORD" xml:space="preserve">
+    <value>パスワードを再入力してください</value>
+  </data>
+  <data name="Employee_Informations" xml:space="preserve">
+    <value>従業員情報</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="PVC_NO" xml:space="preserve">
+    <value>PVC番号</value>
+  </data>
+  <data name="Description_of_work" xml:space="preserve">
+    <value>仕事の説明</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>長さ</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>幅</value>
+  </data>
+  <data name="Thick" xml:space="preserve">
+    <value>厚い</value>
+  </data>
+  <data name="Margin_%" xml:space="preserve">
+    <value>マージン %</value>
+  </data>
+  <data name="Margin_Amount" xml:space="preserve">
+    <value>証拠金額</value>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>アイテム名</value>
+  </data>
+  <data name="Sale_Price" xml:space="preserve">
+    <value>販売価格</value>
+  </data>
+  <data name="Voucher_No" xml:space="preserve">
+    <value>バウチャー番号</value>
+  </data>
+  <data name="As_Of" xml:space="preserve">
+    <value>時点</value>
+  </data>
+  <data name="Income_Account" xml:space="preserve">
+    <value>収益勘定</value>
+  </data>
+  <data name="Asset_Account" xml:space="preserve">
+    <value>資産勘定</value>
+  </data>
+  <data name="Preferred_Vendor" xml:space="preserve">
+    <value>優先ベンダー</value>
+  </data>
+  <data name="Warehouse_Code" xml:space="preserve">
+    <value>倉庫コード</value>
+  </data>
+  <data name="Warehouse_Name" xml:space="preserve">
+    <value>倉庫名</value>
+  </data>
+  <data name="Unit_Name" xml:space="preserve">
+    <value>ユニット名</value>
+  </data>
+  <data name="Edit_Category" xml:space="preserve">
+    <value>カテゴリを編集</value>
+  </data>
+  <data name="Tax_Name" xml:space="preserve">
+    <value>税名</value>
+  </data>
+  <data name="Rate_(%)" xml:space="preserve">
+    <value>レート （％）</value>
+  </data>
+  <data name="Level1_Code" xml:space="preserve">
+    <value>レベル1_コード</value>
+  </data>
+  <data name="Level1_Name" xml:space="preserve">
+    <value>レベル1の名前</value>
+  </data>
+  <data name="Level2_Code" xml:space="preserve">
+    <value>レベル2コード</value>
+  </data>
+  <data name="Level2_Name" xml:space="preserve">
+    <value>レベル2の名前</value>
+  </data>
+  <data name="Level3_Code" xml:space="preserve">
+    <value>レベル3コード</value>
+  </data>
+  <data name="Level3_Name" xml:space="preserve">
+    <value>レベル3の名前</value>
+  </data>
+  <data name="Level4_Code" xml:space="preserve">
+    <value>レベル4コード</value>
+  </data>
+  <data name="Level4_Name" xml:space="preserve">
+    <value>レベル4の名前</value>
+  </data>
+  <data name="New_Cost_Center" xml:space="preserve">
+    <value>新しいコストセンター</value>
+  </data>
+  <data name="Sub_Name" xml:space="preserve">
+    <value>サブ名</value>
+  </data>
+  <data name="A/C_NAME" xml:space="preserve">
+    <value>エアコン名</value>
+  </data>
+  <data name="A/C_Code" xml:space="preserve">
+    <value>エアコンコード</value>
+  </data>
+  <data name="Ref_Id" xml:space="preserve">
+    <value>参照ID</value>
+  </data>
+  <data name="Fixed_Assets_Category" xml:space="preserve">
+    <value>固定資産カテゴリー</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>日数</value>
+  </data>
+  <data name="Customer_Operations___▼" xml:space="preserve">
+    <value>カスタマーオペレーション ▼</value>
+  </data>
+  <data name="Employee_Operations__▼" xml:space="preserve">
+    <value>従業員の業務 ▼</value>
+  </data>
+  <data name="Fixed_Assets_Operations___▼" xml:space="preserve">
+    <value>固定資産運用 ▼</value>
+  </data>
+  <data name="Asset_Name" xml:space="preserve">
+    <value>資産名</value>
+  </data>
+  <data name="Supplier_Name" xml:space="preserve">
+    <value>サプライヤー名</value>
+  </data>
+  <data name="Purchase_Date" xml:space="preserve">
+    <value>購入日</value>
+  </data>
+  <data name="Depreciation_Value_(IN_%)" xml:space="preserve">
+    <value>減価償却額（IN％）</value>
+  </data>
+  <data name="Invoice_Number" xml:space="preserve">
+    <value>請求書番号</value>
+  </data>
+  <data name="Model_/_ENG_No" xml:space="preserve">
+    <value>モデル/ENG番号</value>
+  </data>
+  <data name="New_PV" xml:space="preserve">
+    <value>新しいPV</value>
+  </data>
+  <data name="Edit_PV" xml:space="preserve">
+    <value>PV編集</value>
+  </data>
+  <data name="Payment_Code" xml:space="preserve">
+    <value>支払いコード</value>
+  </data>
+  <data name="Debit_Account" xml:space="preserve">
+    <value>デビット口座</value>
+  </data>
+  <data name="Credit_Account" xml:space="preserve">
+    <value>クレジット口座</value>
+  </data>
+  <data name="Pay_To_-_Debit" xml:space="preserve">
+    <value>支払先 - デビット</value>
+  </data>
+  <data name="New_AP" xml:space="preserve">
+    <value>新しいAP</value>
+  </data>
+  <data name="Edit_AP" xml:space="preserve">
+    <value>APを編集</value>
+  </data>
+  <data name="Receipt_Code" xml:space="preserve">
+    <value>領収書コード</value>
+  </data>
+  <data name="Asset_Brand" xml:space="preserve">
+    <value>資産ブランド</value>
+  </data>
+  <data name="Depreciation_Life_(Years)" xml:space="preserve">
+    <value>減価償却期間（年）</value>
+  </data>
+  <data name="Journal_Code" xml:space="preserve">
+    <value>ジャーナルコード</value>
+  </data>
+  <data name="Debit_Amount" xml:space="preserve">
+    <value>借方金額</value>
+  </data>
+  <data name="Credit_Amount" xml:space="preserve">
+    <value>クレジット金額</value>
+  </data>
+  <data name="New_Prepaid_Expense" xml:space="preserve">
+    <value>新規前払費用</value>
+  </data>
+  <data name="Fees_Amount" xml:space="preserve">
+    <value>手数料金額</value>
+  </data>
+  <data name="Agreement_Amount" xml:space="preserve">
+    <value>合意金額</value>
+  </data>
+  <data name="Agreement_End_Date" xml:space="preserve">
+    <value>契約終了日</value>
+  </data>
+  <data name="Submission_Date" xml:space="preserve">
+    <value>提出日</value>
+  </data>
+  <data name="Total_With_VAT" xml:space="preserve">
+    <value>合計金額（VAT込み）</value>
+  </data>
+  <data name="WhatsApp_No" xml:space="preserve">
+    <value>WhatsApp番号</value>
+  </data>
+  <data name="Request_REF" xml:space="preserve">
+    <value>リクエストREF</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>衰退</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>承認する</value>
+  </data>
+  <data name="Performa_Invoice_NO." xml:space="preserve">
+    <value>Performa 請求書番号</value>
+  </data>
+  <data name="Quotation_No." xml:space="preserve">
+    <value>見積番号</value>
+  </data>
+  <data name="invoice_date" xml:space="preserve">
+    <value>請求書の日付</value>
+  </data>
+  <data name="SalesId" xml:space="preserve">
+    <value>販売ID</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>ネット</value>
+  </data>
+  <data name="Print_Quotation_After_Saved" xml:space="preserve">
+    <value>保存後に見積書を印刷</value>
+  </data>
+  <data name="New_Employee" xml:space="preserve">
+    <value>新入社員</value>
+  </data>
+  <data name="Edit_Employee" xml:space="preserve">
+    <value>従業員を編集</value>
+  </data>
+  <data name="_Word___▼" xml:space="preserve">
+    <value>単語 ▼</value>
+  </data>
+  <data name="V_-_No" xml:space="preserve">
+    <value>V - いいえ</value>
+  </data>
+  <data name="Paid_Amt" xml:space="preserve">
+    <value>支払額</value>
+  </data>
+  <data name="Select_The_Year" xml:space="preserve">
+    <value>年を選択</value>
+  </data>
+  <data name="Select_The_Month" xml:space="preserve">
+    <value>月を選択</value>
+  </data>
+  <data name="Legal_Document" xml:space="preserve">
+    <value>法的文書</value>
+  </data>
+  <data name="Basic_Info" xml:space="preserve">
+    <value>基本情報</value>
+  </data>
+  <data name="Department_Name" xml:space="preserve">
+    <value>部署名</value>
+  </data>
+  <data name="Salary_Info" xml:space="preserve">
+    <value>給与情報</value>
+  </data>
+  <data name="Bank_Info" xml:space="preserve">
+    <value>銀行情報</value>
+  </data>
+  <data name="Social_Status" xml:space="preserve">
+    <value>社会的地位</value>
+  </data>
+  <data name="Date_Of_Birth" xml:space="preserve">
+    <value>生年月日</value>
+  </data>
+  <data name="Relation" xml:space="preserve">
+    <value>関係</value>
+  </data>
+  <data name="Emirates_ID_Issue_Date" xml:space="preserve">
+    <value>エミレーツID発行日</value>
+  </data>
+  <data name="Emirates_ID_Expiry_Date" xml:space="preserve">
+    <value>エミレーツIDの有効期限</value>
+  </data>
+  <data name="Employee_Active" xml:space="preserve">
+    <value>従業員アクティブ</value>
+  </data>
+  <data name="Passport" xml:space="preserve">
+    <value>パスポート</value>
+  </data>
+  <data name="Residency" xml:space="preserve">
+    <value>居住地</value>
+  </data>
+  <data name="Passport_Number" xml:space="preserve">
+    <value>パスポート番号</value>
+  </data>
+  <data name="Country_Of_Issue" xml:space="preserve">
+    <value>発行国</value>
+  </data>
+  <data name="Residency_Issue_Date" xml:space="preserve">
+    <value>居住証明書発行日</value>
+  </data>
+  <data name="Residency_Expiry_Date" xml:space="preserve">
+    <value>居住期限日</value>
+  </data>
+  <data name="Work_Contract" xml:space="preserve">
+    <value>労働契約</value>
+  </data>
+  <data name="Contract_Issue_Date" xml:space="preserve">
+    <value>契約発行日</value>
+  </data>
+  <data name="Contract_Expiry_Date" xml:space="preserve">
+    <value>契約満了日</value>
+  </data>
+  <data name="Passport_Issue_Date" xml:space="preserve">
+    <value>パスポート発行日</value>
+  </data>
+  <data name="Passport_End_Date" xml:space="preserve">
+    <value>パスポートの有効期限</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>ユーザー</value>
+  </data>
+  <data name="REF" xml:space="preserve">
+    <value>参照</value>
+  </data>
+  <data name="TotalAdditions" xml:space="preserve">
+    <value>合計追加数</value>
+  </data>
+  <data name="Leave_Salary_Days" xml:space="preserve">
+    <value>給与日数休暇</value>
+  </data>
+  <data name="Leave_Salary_Amount" xml:space="preserve">
+    <value>休暇給与額</value>
+  </data>
+  <data name="L.S_Used_Days" xml:space="preserve">
+    <value>L.S使用日数</value>
+  </data>
+  <data name="L.S_REMAINING_DAYS" xml:space="preserve">
+    <value>L.S 残り日数</value>
+  </data>
+  <data name="L.S_RECEIVED_AMOUNT" xml:space="preserve">
+    <value>L.S受領金額</value>
+  </data>
+  <data name="L.S_REMAINING_AMOUNT" xml:space="preserve">
+    <value>L.S 残額</value>
+  </data>
+  <data name="leave_days" xml:space="preserve">
+    <value>休暇日数</value>
+  </data>
+  <data name="EOS_Remaining_Amount" xml:space="preserve">
+    <value>EOS残高</value>
+  </data>
+  <data name="EOS_Received_Amount" xml:space="preserve">
+    <value>EOS受領額</value>
+  </data>
+  <data name="EOS_Remaining_Days" xml:space="preserve">
+    <value>EOS残り日数</value>
+  </data>
+  <data name="End_Of_Service_Amount" xml:space="preserve">
+    <value>サービス終了金額</value>
+  </data>
+  <data name="End_Of_Service_Days" xml:space="preserve">
+    <value>サービス終了日</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>もっと</value>
+  </data>
+  <data name="Received_Amount" xml:space="preserve">
+    <value>受領金額</value>
+  </data>
+  <data name="Pay_Amount" xml:space="preserve">
+    <value>支払額</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Request_No" xml:space="preserve">
+    <value>リクエスト番号</value>
+  </data>
+  <data name="DateCommencement" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="DateLastWork" xml:space="preserve">
+    <value>最終勤務日</value>
+  </data>
+  <data name="TotalSalary" xml:space="preserve">
+    <value>総給与</value>
+  </data>
+  <data name="TotalDeductions" xml:space="preserve">
+    <value>合計控除額</value>
+  </data>
+  <data name="NetAccruals" xml:space="preserve">
+    <value>純発生額</value>
+  </data>
+  <data name="EMP_Code" xml:space="preserve">
+    <value>EMPコード</value>
+  </data>
+  <data name="Settlement_No" xml:space="preserve">
+    <value>決済番号</value>
+  </data>
+  <data name="Housing_Allowance" xml:space="preserve">
+    <value>住宅手当</value>
+  </data>
+  <data name="Date_of_Commencement" xml:space="preserve">
+    <value>開始日</value>
+  </data>
+  <data name="Date_of_Last_Working_Day" xml:space="preserve">
+    <value>最終勤務日</value>
+  </data>
+  <data name="Employee_Advances" xml:space="preserve">
+    <value>従業員の前払い</value>
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>支払い</value>
+  </data>
+  <data name="Net_accruals" xml:space="preserve">
+    <value>純発生額</value>
+  </data>
+  <data name="End_Of_Services_Allowance" xml:space="preserve">
+    <value>退職手当</value>
+  </data>
+  <data name="Leave_Salary_Allowance" xml:space="preserve">
+    <value>休暇手当</value>
+  </data>
+  <data name="Route_No" xml:space="preserve">
+    <value>ルート番号</value>
+  </data>
+  <data name="Swift" xml:space="preserve">
+    <value>迅速</value>
+  </data>
+  <data name="End_In" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="Start_From" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="Check_Book_Qty" xml:space="preserve">
+    <value>小切手帳数量</value>
+  </data>
+  <data name="TRF_Date" xml:space="preserve">
+    <value>TRF日付</value>
+  </data>
+  <data name="TRF_REF" xml:space="preserve">
+    <value>TRF REF</value>
+  </data>
+  <data name="REFID" xml:space="preserve">
+    <value>REFID</value>
+  </data>
+  <data name="Pass_Date" xml:space="preserve">
+    <value>保留日</value>
+  </data>
+  <data name="Return_Date" xml:space="preserve">
+    <value>帰国日</value>
+  </data>
+  <data name="Cancel_Date" xml:space="preserve">
+    <value>キャンセル日</value>
+  </data>
+  <data name="Hold_Date" xml:space="preserve">
+    <value>合格日</value>
+  </data>
+  <data name="Num" xml:space="preserve">
+    <value>番号</value>
+  </data>
+  <data name="transaction_id" xml:space="preserve">
+    <value>取引ID</value>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>メモ</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>現在</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>条項</value>
+  </data>
+  <data name="Aging" xml:space="preserve">
+    <value>エージング</value>
+  </data>
+  <data name="V_.No" xml:space="preserve">
+    <value>V.No</value>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="Gross_Margin" xml:space="preserve">
+    <value>粗利益</value>
+  </data>
+  <data name="AVG_COGS" xml:space="preserve">
+    <value>平均売上原価</value>
+  </data>
+  <data name="AVG_Price" xml:space="preserve">
+    <value>平均価格</value>
+  </data>
+  <data name="%_of_Sales" xml:space="preserve">
+    <value>売上高の割合</value>
+  </data>
+  <data name="General_Ledger_Summary" xml:space="preserve">
+    <value>総勘定元帳の概要</value>
+  </data>
+  <data name="Cost_Center_Summary" xml:space="preserve">
+    <value>コストセンター概要</value>
+  </data>
+  <data name="Vat_Amount" xml:space="preserve">
+    <value>付加価値税額</value>
+  </data>
+  <data name="Amount_Before_Vat" xml:space="preserve">
+    <value>消費税前金額</value>
+  </data>
+  <data name="Total_Price" xml:space="preserve">
+    <value>合計金額</value>
+  </data>
+  <data name="Depreciation_Life" xml:space="preserve">
+    <value>減価償却期間</value>
+  </data>
+  <data name="Tax_Description" xml:space="preserve">
+    <value>税金の説明</value>
+  </data>
+  <data name="BalanceQty" xml:space="preserve">
+    <value>残高数量</value>
+  </data>
+  <data name="Damage" xml:space="preserve">
+    <value>ダメージ</value>
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>売上返品</value>
+  </data>
+  <data name="PurchaseReturn" xml:space="preserve">
+    <value>購入返品</value>
+  </data>
+  <data name="OpeningQty" xml:space="preserve">
+    <value>開封数量</value>
+  </data>
+  <data name="SalesPrice" xml:space="preserve">
+    <value>販売価格</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>コスト価格</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>利益</value>
+  </data>
+  <data name="Sales_Amount" xml:space="preserve">
+    <value>売上高</value>
+  </data>
+  <data name="Cost_Amount" xml:space="preserve">
+    <value>費用額</value>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Customer_-_Sales" xml:space="preserve">
+    <value>顧客 - 営業</value>
+  </data>
+  <data name="Vendor_-_Purchase" xml:space="preserve">
+    <value>ベンダー - 購入</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>修正する</value>
+  </data>
+  <data name="Accountant__Access" xml:space="preserve">
+    <value>会計士アクセス</value>
+  </data>
+  <data name="Inventory__Access" xml:space="preserve">
+    <value>在庫アクセス</value>
+  </data>
+  <data name="Customer__Access" xml:space="preserve">
+    <value>顧客アクセス</value>
+  </data>
+  <data name="Vendor__Access" xml:space="preserve">
+    <value>ベンダーアクセス</value>
+  </data>
+  <data name="KOT" xml:space="preserve">
+    <value>KOT</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>テーブル</value>
+  </data>
+  <data name="Waiter" xml:space="preserve">
+    <value>ウェイター</value>
+  </data>
+  <data name="Bill_List" xml:space="preserve">
+    <value>請求書リスト</value>
+  </data>
+  <data name="Check_Out" xml:space="preserve">
+    <value>チェックアウト</value>
+  </data>
+  <data name="Waiter_Name" xml:space="preserve">
+    <value>ウェイター名</value>
+  </data>
+  <data name="Order_Time" xml:space="preserve">
+    <value>注文時間</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="Voucher_Type" xml:space="preserve">
+    <value>バウチャータイプ</value>
+  </data>
+  <data name="It_was_set_to_null" xml:space="preserve">
+    <value>それはヌルに設定されていました</value>
+  </data>
+  <data name="Search_By_Name" xml:space="preserve">
+    <value>名前で検索</value>
+  </data>
+  <data name="Search_By_First_Name" xml:space="preserve">
+    <value>名前で検索</value>
+  </data>
+  <data name="Item_Wise" xml:space="preserve">
+    <value>アイテム別</value>
+  </data>
+  <data name="Performa_Invoice" xml:space="preserve">
+    <value>パフォーマインボイス</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>から</value>
+  </data>
+  <data name="Audit_Trail_Report" xml:space="preserve">
+    <value>監査トレイルレポート</value>
+  </data>
+  <data name="Income_Expense_Statement" xml:space="preserve">
+    <value>収益と支出の明細書</value>
+  </data>
+  <data name="Subcontractor" xml:space="preserve">
+    <value>下請け業者</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Fixed_Asset_Item_List" xml:space="preserve">
+    <value>固定資産アイテムリスト</value>
+  </data>
+  <data name="Search_Item" xml:space="preserve">
+    <value>検索項目</value>
+  </data>
+  <data name="Petty_Cash_Log" xml:space="preserve">
+    <value>小口現金ログ</value>
+  </data>
+  <data name="Item_Id" xml:space="preserve">
+    <value>アイテムID</value>
+  </data>
+  <data name="Reminders" xml:space="preserve">
+    <value>リマインダー</value>
+  </data>
+  <data name="Add_Item_Tax_Codes" xml:space="preserve">
+    <value>アイテム税コードを追加する</value>
+  </data>
+  <data name="Item_Warehouse_Transfer" xml:space="preserve">
+    <value>アイテム倉庫転送</value>
+  </data>
+  <data name="Sales_Quotation" xml:space="preserve">
+    <value>見積書</value>
+  </data>
+  <data name="Subcontractor_Center" xml:space="preserve">
+    <value>下請け業者センター</value>
+  </data>
+  <data name="Timeline" xml:space="preserve">
+    <value>タイムライン</value>
+  </data>
+  <data name="Purchase_By_Subcontractor_Summary" xml:space="preserve">
+    <value>下請け業者による購入の概要</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>要約</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>詳細</value>
+  </data>
+  <data name="Warehouse_Summary" xml:space="preserve">
+    <value>倉庫の概要</value>
+  </data>
+  <data name="Cheque_Inquiry" xml:space="preserve">
+    <value>小切手のお問い合わせ</value>
+  </data>
+  <data name="Bank_Balance_Summary" xml:space="preserve">
+    <value>銀行残高の概要</value>
+  </data>
+  <data name="PDC_Outstanding" xml:space="preserve">
+    <value>PDC優秀</value>
+  </data>
+  <data name="PDC_Cleared_History" xml:space="preserve">
+    <value>PDCクリアされた履歴</value>
+  </data>
+  <data name="Returned_Cheques_Report" xml:space="preserve">
+    <value>返金小切手報告書</value>
+  </data>
+  <data name="Cheque_Linked_to_Payment/Receipt" xml:space="preserve">
+    <value>支払い/受領に関連する小切手</value>
+  </data>
+  <data name="Accounts_List" xml:space="preserve">
+    <value>アカウントリスト</value>
+  </data>
+  <data name="Bank_List" xml:space="preserve">
+    <value>銀行リスト</value>
+  </data>
+  <data name="Bank_Card_List" xml:space="preserve">
+    <value>銀行カードリスト</value>
+  </data>
+  <data name="Cheque_List" xml:space="preserve">
+    <value>小切手リスト</value>
+  </data>
+  <data name="City_List" xml:space="preserve">
+    <value>都市リスト</value>
+  </data>
+  <data name="Country_List" xml:space="preserve">
+    <value>国の一覧</value>
+  </data>
+  <data name="Cost_Center_List" xml:space="preserve">
+    <value>コストセンターリスト</value>
+  </data>
+  <data name="Customer_Category_List" xml:space="preserve">
+    <value>顧客カテゴリリスト</value>
+  </data>
+  <data name="Department_List" xml:space="preserve">
+    <value>部署リスト</value>
+  </data>
+  <data name="Fixed_Asset_List" xml:space="preserve">
+    <value>固定資産リスト</value>
+  </data>
+  <data name="Fixed_Asset_Category_List" xml:space="preserve">
+    <value>固定資産カテゴリリスト</value>
+  </data>
+  <data name="Item_Warehouse_List" xml:space="preserve">
+    <value>アイテム倉庫リスト</value>
+  </data>
+  <data name="Petty_Cash_Category_List" xml:space="preserve">
+    <value>小口現金カテゴリリスト</value>
+  </data>
+  <data name="Position_List" xml:space="preserve">
+    <value>ポジションリスト</value>
+  </data>
+  <data name="Prepaid_Expense_Category_List" xml:space="preserve">
+    <value>前払い費用カテゴリ一覧</value>
+  </data>
+  <data name="Vendor_Category_List" xml:space="preserve">
+    <value>ベンダーカテゴリリスト</value>
+  </data>
+  <data name="Account_Under" xml:space="preserve">
+    <value>アカウントの下</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>マネージャー</value>
+  </data>
+  <data name="From_Warehouse" xml:space="preserve">
+    <value>倉庫から</value>
+  </data>
+  <data name="To_Warehouse" xml:space="preserve">
+    <value>倉庫へ</value>
+  </data>
+  <data name="Subcontractors" xml:space="preserve">
+    <value>下請け業者</value>
+  </data>
+  <data name="Subcontractor_Operations__▼" xml:space="preserve">
+    <value>下請け業務 ▼</value>
+  </data>
+  <data name="New_Subcontractor" xml:space="preserve">
+    <value>新しい下請け業者</value>
+  </data>
+  <data name="Edit_Subcontractor" xml:space="preserve">
+    <value>下請け業者を編集する</value>
+  </data>
+  <data name="Delete_Subcontractor" xml:space="preserve">
+    <value>下請け業者を削除する</value>
+  </data>
+  <data name="Subcontractor_List" xml:space="preserve">
+    <value>下請け業者リスト</value>
+  </data>
+  <data name="Subcontractor_Information" xml:space="preserve">
+    <value>下請け業者情報</value>
+  </data>
+  <data name="User_Config" xml:space="preserve">
+    <value>ユーザー設定</value>
+  </data>
+  <data name="Subcontractor_Code" xml:space="preserve">
+    <value>下請け業者コード</value>
+  </data>
+  <data name="Subcontractor_Name" xml:space="preserve">
+    <value>下請け業者名</value>
+  </data>
+  <data name="Subcontractor_Category" xml:space="preserve">
+    <value>下請け業者のカテゴリ</value>
+  </data>
+</root>
